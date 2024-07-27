@@ -372,7 +372,7 @@ x_val, y_val = data[:,0], data[:,1]
 
 <div class="content-ad"></div>
 
-```python
+```js
 # 데이터에 노이즈 추가
 noisy_samples = []
 for i in range(0, len(x_val)):

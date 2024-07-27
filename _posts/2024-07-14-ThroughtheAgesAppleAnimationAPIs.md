@@ -175,7 +175,7 @@ Quartz는 현재는 Core Graphics로 더 일반적으로 알려져 있으며, Aq
 
 먼저, ATTAQuartzView.h 파일을 확인하겠습니다.
 
-```objc
+```js
 #import <Cocoa/Cocoa.h>
 
 @interface ATTAQuartzView : NSView
@@ -185,7 +185,7 @@ Quartz는 현재는 Core Graphics로 더 일반적으로 알려져 있으며, Aq
 
 다음으로, ATTAQuartzView.m 파일에 아래와 같이 그리기 메서드를 구현합니다.
 
-```objc
+```js
 #import "ATTAQuartzView.h"
 #import <CoreGraphics/CoreGraphics.h>
 
@@ -238,7 +238,7 @@ ATTAQuartzView.m 구현 파일을 업데이트하여...
 
 ...시간이 지남에 따라 직사각형의 변의 길이를 변화시키는 타이머를 설정할 수 있습니다:
 
-```objc
+```js
 @implementation ATTAQuartzView
 {
     NSTimer *_timer;
@@ -275,7 +275,7 @@ ATTAQuartzView.m 구현 파일을 업데이트하여...
 
 ...및 이 업데이트된 변의 길이를 기반으로 도형을 다시 그려주세요:
 
-```objc
+```js
 @implementation ATTAQuartzView
 
 //...
@@ -322,7 +322,7 @@ OpenGL의 부드러운 2D 애니메이션 기능과 빠른 GPU 렌더링은 세�
 
 지금, 간단한 Obj-C 헤더 파일인 ATTAOpenGLView.h를 만들 수 있습니다:
 
-```objc
+```js
 #import <Cocoa/Cocoa.h> 
 
 @interface ATTAOpenGLView : NSOpenGLView
@@ -334,7 +334,7 @@ OpenGL의 부드러운 2D 애니메이션 기능과 빠른 GPU 렌더링은 세�
 
 다음으로, 구현 파일인 ATTAOpenGLView.m을 작성합니다:
 
-```objc
+```js
 #include <OpenGL/gl.h>
 #import "ATTAOpenGLView.h"
 
@@ -371,7 +371,7 @@ drawAnObject()는 녹색 RGB 색상을 설정하고 삼각형의 꼭지점을 �
 
 마지막으로 화면에 보기를 표시하기 위해, 메인 뷰 컨트롤러의 뷰를 Quartz를 볼 때와 같이 ATTAOpenGLView의 새 인스턴스로 설정했습니다.
 
-```objective-c
+```js
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -489,13 +489,13 @@ Quartz(Quartz 는 모양을 만들고 OpenGL은 만든 모양을 애니메이션
 
 ViewController.m 파일의 맨 위에는 Core Animation을 import하는 것을 잊지 마세요. Mac과 iOS에서 Core Animation은 QuartzCore란 이름의 하나의 framework에 Core Image와 함께 번들로 제공됩니다.
 
-```objective-c
+```js
 #import <QuartzCore/QuartzCore.h>
 ```
 
 이제 모든 작업은 우리의 뷰 컨트롤러의 `viewDidLoad` 메서드에 들어갈 것입니다. 전에 언급했듯이, NSView는 Core Animation보다 훨씬 오래되었습니다. 그러므로, NSView를 레이어 백드로 만들기 위해 다음을 호출하여 옵트인해야 합니다.
 
-```objective-c
+```js
 [self.view setWantsLayer:YES];
 ```
 
@@ -507,7 +507,7 @@ ViewController.m 파일의 맨 위에는 Core Animation을 import하는 것을 �
 
 먼저, 원래 CALayer인 간단한 원을 그려봅시다.
 
-```objc
+```js
 // Circle 모양의 layer
 CAShapeLayer *circleLayer = [CAShapeLayer layer];
 circleLayer.frame = CGRectMake(self.view.bounds.size.width/2, self.view.bounds.size.height/2, 150, 150);
@@ -543,7 +543,7 @@ scaleAnimation.repeatCount = HUGE_VALF;
 
 그리고 다음으로 y축을 따라 회전하는 애니메이션을 추가했어요. 이전 스케일 애니메이션과 결합해서, 이것은 화면에서 당신 쪽으로 움직이는 원의 3D 효과를 줍니다. 마치 뒤집힌 동전처럼요.
 
-```objective-c
+```js
 // 회전 애니메이션
 CABasicAnimation *circleYRotation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.y"];
 circleYRotation.toValue = [NSNumber numberWithFloat:M_PI * 2.0];

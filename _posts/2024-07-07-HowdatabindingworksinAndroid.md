@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
 
 <div class="content-ad"></div>
 
-```kotlin
+```js
 class User : BaseObservable {
     @get:Bindable
     var name: String by Delegates.observable("John Doe") { _, _, _ ->

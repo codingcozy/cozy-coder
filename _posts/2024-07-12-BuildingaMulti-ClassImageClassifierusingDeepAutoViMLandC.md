@@ -78,13 +78,13 @@ To integrate with Python in a C# application, you can install Python.NET:
 
 <div class="content-ad"></div>
 
-```cs
+```js
 dotnet add package Python.Runtime
 ```
 
 C# 코드를로드하고 모델을 사용하는 방법:
 
-```cs
+```js
 using System;
 using Python.Runtime;
 

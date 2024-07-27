@@ -61,7 +61,7 @@ yarn add react-native-splash-screen
 
 다음은 AppDelegate.mm 파일로 이동하여 다음 코드를 업데이트하십시오. 코드 #import "RNSplashScreen"을 추가하고 기본적으로 [RNSplashScreen show]로 대기 화면을 표시하도록 설정하십시오.
 
-```objc
+```js
 #import "AppDelegate.h"
 #import "RNSplashScreen.h"
 
@@ -175,7 +175,7 @@ class MainActivity : ReactActivity() {
 
 ### 해결 방법 — 2023년 6월 23일, React Native 버전 “0.72.0”에서 스플래시 화면이 숨겨지지 않는 문제가 발생했습니다. 그래서 우리는 iOS에서 다음 코드를 작성했습니다. 그렇지 않으면 [RNSplashScreen show]; 만으로도 충분했을 것입니다.
 
-```obj-c
+```js
 BOOL ret = [super application:application didFinishLaunchingWithOptions:launchOptions];
 if (ret == YES)
 { 

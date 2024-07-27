@@ -92,7 +92,7 @@ Android devices can primarily run on four architectures — arm64-v8a, armeabi-v
 
 JNI에는 jclass, jobject, jfloat, jstring 등과 같이 C++에서 각각의 Java 기본 유형(class, Object, float 및 String)을 나타내는 클래스가 포함되어 있습니다. 예를 들어 C++에서 정의된 JNI 함수는 다음과 같습니다.
 
-```cpp
+```js
 // C++ 소스 파일
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_projects_ml_samplecppdemo_MainActivity_compute(

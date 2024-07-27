@@ -36,7 +36,7 @@ Node.js 애플리케이션을 위한 샘플 Dockerfile
 
 <div class="content-ad"></div>
 
-```Dockerfile
+```js
 FROM node:18-alpine
 RUN addgroup adx && adduser -S -G adx adx
 WORKDIR /usr/src/app/backend
