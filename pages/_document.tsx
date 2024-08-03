@@ -16,14 +16,14 @@ export default function Document() {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-TK5CQ2GCKX"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QR9L0EBP6T"></Script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'G-TK5CQ2GCKX');`,
+            gtag('config', 'G-QR9L0EBP6T');`,
           }}
         ></script>
         <Script
