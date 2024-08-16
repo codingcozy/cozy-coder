@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "MLOps Roadmap | How To Become MLOps Engineer in 2024"
 link: "https://medium.com/@deasadiqbal/mlops-roadmap-how-to-become-mlops-engineer-in-2024-76196b1dbdf6"
+isUpdated: true
 ---
+
+
+
 
 
 2024년에 MLOps 엔지니어가 되기 위한 포괄적인 MLOps 로드맵

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bee Magic Press Release"
 link: "https://medium.com/@nuvobloggo/bee-magic-press-release-e0896cc42a83"
+isUpdated: true
 ---
+
+
+
 
 
 그래서, 매달 블로그 포스트를 작성하려고 했는데, 다른 것들 중에서 비 매직에 대한 계획을 이야기하는 포스트를 작성하기로 했습니다. 이 포스트는 완전히 비 매직에 대해 이야기하는 것으로 끝났으므로... 이걸 “보도자료”라고 부르죠. 왜냐하면요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Think Like a Journalist"
 link: "https://medium.com/@mdepuydt/think-like-a-journalist-23e8a17e2e11"
+isUpdated: true
 ---
+
+
+
 
 
 # 우수한 엔지니어링 리더가 되기 위해 내가 배운 모든 것은 기자로서의 경험으로부터 얻은 것입니다.

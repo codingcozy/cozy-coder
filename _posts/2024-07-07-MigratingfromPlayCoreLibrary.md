@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Migrating from Play Core Library"
 link: "https://medium.com/proandroiddev/migrating-from-play-core-library-0b4afd3fca1a"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-07-MigratingfromPlayCoreLibrary_0.png)

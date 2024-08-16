@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Vision Transformer (ViT) Overview"
 link: "https://medium.com/@zakhtar2020/vision-transformer-vit-overview-1baa0d173ab5"
+isUpdated: true
 ---
+
+
+
 
 
 비전 변형(Vision Transformer, ViT)은 이미지 분류에 대한 새로운 접근 방식으로, 자연어 처리 작업에서 매우 성공적인 트랜스포머 아키텍처를 활용합니다. 구글 연구원들이 소개한 ViT는 이미지 데이터를 패치의 시퀀스로 취급하고 이러한 시퀀스에 트랜스포머 모델을 적용함으로써 이미지 처리 방법을 재정의합니다. 이 접근 방식은 이미지 분류 파이프라인을 간소화하고 최첨단 성능을 달성합니다. 이곳에서 ViT의 자세한 개요를 확인할 수 있습니다:

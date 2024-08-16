@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi Holdings: A Small Device with a Big Impact"
 link: "https://medium.com/@rahulmmulchandani/raspberry-pi-holdings-a-small-device-with-a-big-impact-fa68f88fbcc3"
+isUpdated: true
 ---
+
+
+
 
 
 

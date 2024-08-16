@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What Does it Take to Get into Data Engineering in 2024?"
 link: "https://medium.com/towards-data-science/what-does-it-take-to-get-into-data-engineering-in-2024-5efb9c41865b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-WhatDoesitTaketoGetintoDataEngineeringin2024_0.png" />

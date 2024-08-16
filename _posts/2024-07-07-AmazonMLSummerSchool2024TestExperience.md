@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Amazon ML Summer School 2024 Test Experience"
 link: "https://medium.com/@nishantkshirsagar135/amazon-ml-summer-school-2024-test-experience-7c1d05125a9a"
+isUpdated: true
 ---
+
+
+
 
 
 ✨**오늘 (2024년 06월 23일)**, 저는 Amazon ML Summer School 2024의 시험에 참석했습니다. 이 테스트는 세 가지 섹션으로 나뉘어졌어요:

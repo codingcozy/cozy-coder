@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 ESLint rules to enforce modern Angular features"
 link: "https://medium.com/javascript-everyday/5-eslint-rules-to-enforce-modern-angular-features-c3f6e66d7c9e"
+isUpdated: true
 ---
+
+
+
 
 
 

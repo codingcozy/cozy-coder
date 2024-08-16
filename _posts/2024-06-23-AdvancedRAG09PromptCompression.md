@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced RAG 09: Prompt Compression"
 link: "https://medium.com/ai-advances/advanced-rag-09-prompt-compression-95a589f7b554"
+isUpdated: true
 ---
+
+
+
 
 
 RAG 프로세스에서는 두 가지 문제가 발생할 수 있습니다:

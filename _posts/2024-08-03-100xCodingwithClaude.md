@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "100x Coding with Claude"
 link: "https://medium.com/@0xksure/100x-coding-with-claude-28cc413ca061"
+isUpdated: true
 ---
+
+
+
 
 
 요즘까지 개발자 친구로서 copilot과 같은 LLMs를 사용해왔는데, 대부분 실망했어요. 혹시 Claude가 이 상황을 바꿀 수 있을까요?

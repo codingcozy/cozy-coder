@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Electron JS: A Comprehensive Guide to Building Cross-Platform Desktop Apps"
 link: "https://medium.com/@chandantechie/electron-js-a-comprehensive-guide-to-building-cross-platform-desktop-apps-923b5f3d5030"
+isUpdated: true
 ---
+
+
+
 
 
 ```html

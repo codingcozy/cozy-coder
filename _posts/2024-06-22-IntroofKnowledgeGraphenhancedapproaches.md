@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intro of Knowledge Graph enhanced approaches"
 link: "https://medium.com/@henryhengluo/intro-of-knowledge-graph-enhanced-approaches-bbf88aa23102"
+isUpdated: true
 ---
+
+
+
 
 
 # 지식 그래프 백그라운드 리뷰

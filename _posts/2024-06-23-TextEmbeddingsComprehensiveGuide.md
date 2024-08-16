@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Text Embeddings: Comprehensive Guide"
 link: "https://medium.com/towards-data-science/text-embeddings-comprehensive-guide-afd97fce8fb5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 텍스트 임베딩의 진화, 시각화, 그리고 응용

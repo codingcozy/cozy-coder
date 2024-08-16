@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LinuxTools:Sed:4.0:Commands:Intro"
 link: "https://medium.com/@junkybirdbath/linuxtools-sed-4-0-commands-intro-2632c4f2181e"
+isUpdated: true
 ---
+
+
+
 
 
 이 노트 세트에서는 다양한 Sed 명령에 대해 논의를 시작하겠습니다. 그 명령들이 많기 때문에 명령에 대한 논의를 몇 개의 다른 게시물로 나눌 것입니다. 이 게시물에는 다음 내용이 포함됩니다:

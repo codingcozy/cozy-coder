@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Curious Case of LLMs: LLMs Can Code but Not Count"
 link: "https://medium.com/@gcentulani/the-curious-case-of-llms-llms-can-code-but-not-count-14513d9532e1"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-TheCuriousCaseofLLMsLLMsCanCodebutNotCount_0.png" />

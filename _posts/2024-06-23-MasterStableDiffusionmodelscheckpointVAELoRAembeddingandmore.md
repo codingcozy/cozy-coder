@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Master Stable Diffusion models: checkpoint, VAE, LoRA, embedding and more"
 link: "https://medium.com/design-bootcamp/master-stable-diffusion-models-checkpoint-vae-lora-embedding-and-more-94549b1534c3"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! "Checkpoint", "VAE", "LoRA" 및 "Embedding"과 같은 용어가 혼란스러웠나요? "Stable Diffusion"을 탐험하면서 "pruned" 또는 "pruned-emaonly"와 같은 이름의 여러 버전의 체크포인트를 본 적이 있을 수도 있습니다. 어떤 것을 선택해야 할지 궁금해지기도 하죠.

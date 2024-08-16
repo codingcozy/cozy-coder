@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Our human habit of anthropomorphizing everything"
 link: "https://medium.com/user-experience-design-1/our-human-habit-of-anthropomorphizing-everything-dd2d79488ea4"
+isUpdated: true
 ---
+
+
+
 
 
 

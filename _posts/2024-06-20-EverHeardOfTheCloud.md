@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ever Heard Of The Cloud?"
 link: "https://medium.com/@thecloudcrowd/ever-heard-of-the-cloud-736ab8389f7c"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요, 클라우드 열정가👋🏼💜

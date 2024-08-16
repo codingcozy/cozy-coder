@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Proxmox: Minecraft in an LXC"
 link: "https://medium.com/@rar1871/proxmox-minecraft-in-an-lxc-792419c93b16"
+isUpdated: true
 ---
+
+
+
 
 
 다시 안녕하세요 여러분! 혼자 방에서 마인크래프트를 하는 것에 지루해 하셨나요? 사기를 당하거나 품질이 낮은 온라인 호스트를 사용하지 않고 친구들과 함께 플레이하고 싶으신가요? 매달 전기 요금을 두 배로 올리는 서버가 있나요? 그렇다면 정말 좋아요! 이 기사는 여러분을 위해 준비되었습니다. Proxmox의 LXC에 Minecraft(구체적으로 PaperMC)를 설치하고, 어디에서나 액세스할 수 있도록 열어 보겠습니다!

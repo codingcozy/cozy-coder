@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "50 Two-word ChatGPT prompts that don’t suggest content but limit the Request + Style of Content (Part -2)"
 link: "https://medium.com/aimonks/50-two-word-chatgpt-prompts-that-dont-suggest-content-but-limit-the-request-style-of-content-3625ff22c795"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-50Two-wordChatGPTpromptsthatdontsuggestcontentbutlimittheRequestStyleofContentPart-2_0.png)

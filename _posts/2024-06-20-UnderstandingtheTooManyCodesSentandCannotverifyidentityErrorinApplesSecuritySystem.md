@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the “Too Many Codes Sent” and “Cannot verify identity” Error in Apple’s Security System"
 link: "https://medium.com/@arthuqa/understanding-the-too-many-codes-sent-and-cannot-verify-identity-error-in-apples-security-c86d2ed33e4f"
+isUpdated: true
 ---
+
+
+
 
 
 ![Understanding the Too Many Codes Sent and Cannot verify identity Error in Apple's Security System](/assets/img/2024-06-20-UnderstandingtheTooManyCodesSentandCannotverifyidentityErrorinApplesSecuritySystem_0.png)

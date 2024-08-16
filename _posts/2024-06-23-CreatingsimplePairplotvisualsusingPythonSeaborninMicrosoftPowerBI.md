@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating simple Pairplot visuals using Python Seaborn in Microsoft Power BI"
 link: "https://medium.com/@sumanthsistlas/creating-simple-pairplot-visuals-using-python-seaborn-in-microsoft-power-bi-ab9384726e88"
+isUpdated: true
 ---
+
+
+
 
 
 시본(Seaborn): 시본은 파이썬에서 통계 플로팅에 사용되는 라이브러리입니다. 시본은 맷플롯립을 기반으로 구축되어 있으며, 통계 플롯을 보다 매력적으로 만드는 멋진 시각화에 널리 사용됩니다. 시본에 대해 더 알고 싶으신가요?

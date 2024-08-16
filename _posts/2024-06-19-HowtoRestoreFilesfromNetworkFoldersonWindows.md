@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Restore Files from Network Folders on Windows"
 link: "https://medium.com/@kjavaman12/how-to-restore-files-from-network-folders-on-windows-907bf6a067bb"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-HowtoRestoreFilesfromNetworkFoldersonWindows_0.png" />

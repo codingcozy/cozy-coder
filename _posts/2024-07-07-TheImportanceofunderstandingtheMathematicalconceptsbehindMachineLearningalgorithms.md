@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Importance of understanding the Mathematical concepts behind Machine Learning algorithms"
 link: "https://medium.com/@daran29112k5/the-importance-of-understanding-the-mathematical-concepts-behind-machine-learning-algorithms-ed54cee7f4c6"
+isUpdated: true
 ---
+
+
+
 
 
 머신 러닝이 예술이라면, 수학과 통계는 캔버스와 페인트와 같습니다. 수학은 우리 주변의 세계를 이해하는 데 도움을 주었으며, 우주의 작동을 해석하고 파악하는 데 일정한 논리와 이성을 제공했습니다. 이제 우리는 컴퓨터에도 동일한 논리와 이성을 부여할 수 있는 능력을 가지고 있습니다. 컴퓨터 또한 수학에 기반하고 있으며, 이를 통해 지능을 갖게 되었습니다.

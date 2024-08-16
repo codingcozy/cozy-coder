@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Large Language Models (LLMs)"
 link: "https://medium.com/gitconnected/understanding-large-language-models-llms-b27a9c035d54"
+isUpdated: true
 ---
+
+
+
 
 
 ![UnderstandingLargeLanguageModelsLLMs_0](/assets/img/2024-06-19-UnderstandingLargeLanguageModelsLLMs_0.png)

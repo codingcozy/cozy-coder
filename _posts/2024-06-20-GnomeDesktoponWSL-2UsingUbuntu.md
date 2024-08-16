@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Gnome Desktop on WSL-2 Using Ubuntu"
 link: "https://medium.com/@avivarma1/gnome-desktop-on-wsl-2-using-ubuntu-db77635ed2aa"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-GnomeDesktoponWSL-2UsingUbuntu_0.png" />

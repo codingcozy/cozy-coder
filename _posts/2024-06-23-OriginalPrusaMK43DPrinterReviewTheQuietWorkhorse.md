@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Original Prusa MK4 3D Printer Review: The Quiet Workhorse"
 link: "https://medium.com/i-tried-that/prusa-mk4-early-look-be29e88b345f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-OriginalPrusaMK43DPrinterReviewTheQuietWorkhorse_0.png" />

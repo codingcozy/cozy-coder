@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Systems Engineers, Systems Administrators, and Site Reliability Engineers Can Advance Their Careers through Practical Experience with PowerShell Automation"
 link: "https://medium.com/@ddyagoda/how-systems-engineers-systems-administrators-and-site-reliability-engineers-can-advance-their-7b352a501bd4"
+isUpdated: true
 ---
+
+
+
 
 
 자동화는 반복적인 수동 작업을 제거하기 위해 어디서나 진행 중입니다. 나는 2009년에 컴퓨터 시스템과 네트워크 전공 학업을 시작했는데, 동시에 마이크로소프트가 윈도우 XP SP2 및 윈도우 서버 2003 SP1용 파워셸 첫 번째 버전으로 옵션 구성 요소로 출시한 '파워셸 2.0'을 발표했던 해였다. 그 전에는 리눅스 전문가들이 마이크로소프트 OS에 별 관심을 두지 않았는데, 왜냐하면 윈도우 OS는 아이콘만 누르도록 허용하고 자동화 기능이 거의 없었기 때문이다.

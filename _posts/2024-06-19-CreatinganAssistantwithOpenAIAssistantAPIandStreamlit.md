@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating an Assistant with OpenAI Assistant API and Streamlit"
 link: "https://medium.com/towards-data-science/creating-an-assistant-with-openai-assistant-api-and-streamlit-282d9be9f03e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 단계별 가이드

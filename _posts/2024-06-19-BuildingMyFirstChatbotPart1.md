@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building My First Chatbot — Part 1"
 link: "https://medium.com/@aleksmilanov/building-my-first-chatbot-part-1-b27534e98bae"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-19-BuildingMyFirstChatbotPart1_0.png](/assets/img/2024-06-19-BuildingMyFirstChatbotPart1_0.png)

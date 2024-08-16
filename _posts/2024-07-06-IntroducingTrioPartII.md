@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Trio | Part II"
 link: "https://medium.com/airbnb-engineering/introducing-trio-part-ii-fe836013a798"
+isUpdated: true
 ---
+
+
+
 
 
 ## 에어비앤비 Android 앱에서 컴포즈 기반 아키텍처를 만드는 방법, 매버릭과 함께하는 두 번째 이야기

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Knowledge You Need For Data Science"
 link: "https://medium.com/towards-data-science/sql-knowledge-you-need-for-data-science-5cf0c15515e4"
+isUpdated: true
 ---
+
+
+
 
 
 ![SQL Knowledge](/assets/img/2024-06-19-SQLKnowledgeYouNeedForDataScience_0.png)

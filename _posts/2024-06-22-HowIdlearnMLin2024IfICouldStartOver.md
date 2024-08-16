@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I’d learn ML in 2024 (If I Could Start Over)"
 link: "https://medium.com/@iamdgarcia/how-id-learn-ml-in-2024-if-i-could-start-over-105e10f60362"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-HowIdlearnMLin2024IfICouldStartOver_0.png" />

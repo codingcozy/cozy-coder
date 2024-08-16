@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Magic and Beauty Of Floral Arrangements"
 link: "https://medium.com/@calendulacraft/the-magic-and-beauty-of-floral-arrangements-7305dd318a75"
+isUpdated: true
 ---
+
+
+
 
 
 자연주의 예술가로서, 저의 작업 방식 중 하나는 자연의 풍부함을 공영에 활용하는 것입니다.

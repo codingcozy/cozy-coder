@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Five Levels of Chunking Strategies in RAG| Notes from Greg’s Video"
 link: "https://medium.com/@anuragmishra_27746/five-levels-of-chunking-strategies-in-rag-notes-from-gregs-video-7b735895694d"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

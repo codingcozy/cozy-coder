@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Get Started with SQLite3 in Python, Creating Tables and Fetching Rows"
 link: "https://medium.com/towards-data-science/get-started-with-sqlite3-in-python-creating-tables-fetching-rows-a52bdf41e52a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-GetStartedwithSQLite3inPythonCreatingTablesandFetchingRows_0.png" />

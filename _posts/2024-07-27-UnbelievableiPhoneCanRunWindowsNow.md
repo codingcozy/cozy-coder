@@ -1,5 +1,5 @@
 ---
-title: "믿을 수 없다 아이폰에서 윈도우를 실행하는 방법"
+title: "아이폰에서 윈도우를 실행시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-27-UnbelievableiPhoneCanRunWindowsNow_0.png"
 date: 2024-07-27 13:49
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unbelievable iPhone Can Run Windows Now"
 link: "https://medium.com/macoclock/unbelievable-iphone-can-run-windows-now-fd2f2e73a2fb"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-27-UnbelievableiPhoneCanRunWindowsNow_0.png" />

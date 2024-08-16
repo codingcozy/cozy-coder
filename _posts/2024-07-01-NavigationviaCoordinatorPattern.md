@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Navigation via Coordinator Pattern"
 link: "https://medium.com/wereprotein/navigation-via-coordinator-pattern-dd559541be90"
+isUpdated: true
 ---
+
+
+
 
 
 각 화면을 포함하는 앱은 사용자가 인터페이스를 탐색하고 다른 기능에 액세스할 수 있는 시스템이 필요합니다. 내장된 네비게이션 컨트롤러와 같은 도구를 통해 또는 사용자 정의 솔루션을 통해 이러한 네비게이션을 구현하는 것은 복잡할 수 있습니다. 잘 설계된 네비게이션 구조는 앱의 다른 부분이 독립적이고 유지보수가 쉽도록 보장하여 뷰 컨트롤러 간에 강하게 결합되지 않고 널리 퍼져 있는 종속성을 피합니다.

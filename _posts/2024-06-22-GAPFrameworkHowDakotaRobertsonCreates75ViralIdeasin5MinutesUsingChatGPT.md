@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GAP Framework: How Dakota Robertson Creates 75 Viral Ideas in 5 Minutes Using ChatGPT"
 link: "https://medium.com/better-marketing/gap-framework-how-dakota-robertson-creates-75-viral-ideas-in-5-minutes-using-chatgpt-0c5dbf69d83d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-GAPFrameworkHowDakotaRobertsonCreates75ViralIdeasin5MinutesUsingChatGPT_0.png" />

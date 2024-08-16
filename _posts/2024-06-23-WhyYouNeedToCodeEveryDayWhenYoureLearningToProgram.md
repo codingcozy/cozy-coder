@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Need To Code Every Day When You’re Learning To Program"
 link: "https://medium.com/better-programming/why-you-need-to-code-every-day-when-youre-learning-to-pro-a4d022e70459"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-23-WhyYouNeedToCodeEveryDayWhenYoureLearningToProgram_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "“I Think We Need Another Man in The House”"
 link: "https://medium.com/doctor-funny/i-think-we-need-another-man-in-the-house-2653c7ed8f70"
+isUpdated: true
 ---
+
+
+
 
 
 ## 내 인생에는 당신과 함께해야 할 저의 밉상이 있다는 것을 알았지만, 무엇인지는 아직 모르겠어요.

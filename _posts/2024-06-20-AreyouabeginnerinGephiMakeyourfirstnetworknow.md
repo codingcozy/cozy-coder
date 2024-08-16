@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are you a beginner in Gephi? Make your first network now!"
 link: "https://medium.com/@vespinozag/are-you-a-beginner-in-gephi-make-your-first-network-now-3768d35c733e"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 19일, 브로니카 에스피노자 박사

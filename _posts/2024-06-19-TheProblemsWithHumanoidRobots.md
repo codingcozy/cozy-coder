@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Problems With Humanoid Robots"
 link: "https://medium.com/@bp_64302/the-problems-with-humanoid-robots-9d8684d62008"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TheProblemsWithHumanoidRobots_0.png" />

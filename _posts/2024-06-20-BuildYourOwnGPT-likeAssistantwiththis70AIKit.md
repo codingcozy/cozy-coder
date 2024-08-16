@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build Your Own GPT-like Assistant with this $70 AI Kit"
 link: "https://medium.com/@johndilan/build-your-own-gpt-like-assistant-with-this-70-ai-kit-276963f458ac"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-BuildYourOwnGPT-likeAssistantwiththis70AIKit_0.png" />

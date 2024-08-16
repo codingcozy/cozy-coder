@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Consistently Get 48 App Ratings"
 link: "https://medium.com/entrepreneur-s-handbook/how-to-consistently-get-4-8-app-ratings-0f51af8cea91"
+isUpdated: true
 ---
+
+
+
 
 
 트위터에서 나를 팔로우해주세요!

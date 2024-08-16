@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tensor Trouble No More: Your Guide to TensorFlow’s Superpower"
 link: "https://medium.com/@ujjwalprakash02/tensor-trouble-no-more-your-guide-to-tensorflows-superpower-c5de2241c3d2"
+isUpdated: true
 ---
+
+
+
 
 
 ![텐서 트러블 노 모어: 텐서플로우 슈퍼파워를 위한 당신의 가이드](/assets/img/2024-06-22-TensorTroubleNoMoreYourGuidetoTensorFlowsSuperpower_0.png)

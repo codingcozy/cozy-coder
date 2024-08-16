@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing the Accuracy of RAG Applications With Knowledge Graphs"
 link: "https://medium.com/neo4j/enhancing-the-accuracy-of-rag-applications-with-knowledge-graphs-ad5e2ffab663"
+isUpdated: true
 ---
+
+
+
 
 
 ## 네오포스트 및 LangChain을 사용하여 RAG 애플리케이션에서 지식 그래프를 구축하고 정보를 검색하는 실용적 가이드

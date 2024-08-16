@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The History of Convolutional Neural Networks for Image Classification (1989 - Today)"
 link: "https://medium.com/towards-data-science/the-history-of-convolutional-neural-networks-for-image-classification-1989-today-5ea8a5c5fe20"
+isUpdated: true
 ---
+
+
+
 
 
 ## 딥 러닝과 컴퓨터 비전 분야에서 가장 큰 혁신들을 시각적으로 살펴보기

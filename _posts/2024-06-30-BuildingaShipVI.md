@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Ship — VI"
 link: "https://medium.com/@vynateya/building-a-ship-vi-fb59cbbff9f3"
+isUpdated: true
 ---
+
+
+
 
 
 우리가 선체를 건설하기로 한 모델은 CA Thayer입니다. 여기에서 선도도와 오프셋 표를 찾을 수 있습니다. 이 페이지에서 발표 자료를 찾을 수 있습니다. 2, 3, 4페이지의 슬라이드를 살펴보세요. 편한 포맷으로 다운로드하세요. 이 세 가지 자료는 선체를 건설하는 데 필요하지만, 나머지 자료도 유용할 수 있습니다(만약 전체 선박을 건설할 계획이 있다면). 이미지를 출력하고, 2와 3번 이미지를 가운데에서 합치세요(수직적인 간격 없이 - 아래 참조).

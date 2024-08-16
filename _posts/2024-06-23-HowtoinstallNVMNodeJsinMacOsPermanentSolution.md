@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to install NVM , Node Js in MacOs | Permanent Solution"
 link: "https://medium.com/@rohanbhatotiya/how-to-install-nvm-node-js-in-macos-permanent-solution-dc3b24616ecb"
+isUpdated: true
 ---
+
+
+
 
 
 참고: 생각 많이 하지 마세요, 그냥 복사해서 붙여 넣으세요.

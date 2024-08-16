@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Robots are performing Hindu rituals — some devotees fear they’ll replace worshippers"
 link: "https://medium.com/the-conversation/robots-are-performing-hindu-rituals-some-devotees-fear-theyll-replace-worshippers-790b8dc73f75"
+isUpdated: true
 ---
+
+
+
 
 
 ## AI 및 로봇 기술의 사용이 예배에 수행되는 흥미로운 질문을 던지고 있습니다.

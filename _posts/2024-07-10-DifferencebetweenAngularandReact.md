@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Difference between Angular and React"
 link: "https://medium.com/@frontendinterviewquestions/difference-between-angular-and-react-cf05cc764419"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-10-DifferencebetweenAngularandReact_0.png" />

@@ -3,12 +3,16 @@ title: "Traefik 역방향 프록시 만들기 쉽게 이해하기 - 궁극의 �
 description: ""
 coverImage: "/assets/img/2024-05-27-TraefikReverseProxyMadeEasyUltimateGuide_0.png"
 date: 2024-05-27 12:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TraefikReverseProxyMadeEasyUltimateGuide_0.png
 tag: Tech
 originalTitle: "Traefik Reverse Proxy Made Easy— Ultimate Guide"
 link: "https://medium.com/the-self-hoster/traefik-reverse-proxy-made-easy-ultimate-guide-211f0edc284c"
+isUpdated: true
 ---
+
+
+
 
 ![Traefik 설치하기 쉽게 만든 Reverse Proxy의 최종 가이드](/assets/img/2024-05-27-TraefikReverseProxyMadeEasyUltimateGuide_0.png)
 

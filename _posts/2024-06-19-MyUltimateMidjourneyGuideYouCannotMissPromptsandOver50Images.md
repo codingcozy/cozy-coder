@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Ultimate Midjourney Guide You Cannot Miss (+ Prompts and Over 50 Images)"
 link: "https://medium.com/generative-ai/my-ultimate-midjourney-guide-you-cannot-miss-prompts-and-over-50-images-6893aa44c2c0"
+isUpdated: true
 ---
+
+
+
 
 
 ## 초보자부터 고급자까지

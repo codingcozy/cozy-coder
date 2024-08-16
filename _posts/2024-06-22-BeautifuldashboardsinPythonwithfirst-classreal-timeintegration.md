@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Beautiful dashboards in Python with first-class real-time integration"
 link: "https://medium.com/@deephavendatalabs/beautiful-dashboards-in-python-with-first-class-real-time-integration-cd3a4d9ed807"
+isUpdated: true
 ---
+
+
+
 
 
 ## deephaven.ui

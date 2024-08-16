@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Passing Data in Routes in Angular: A Simple Guide"
 link: "https://medium.com/@paul-chesa/passing-data-in-routes-in-angular-a-simple-guide-e24b814e7076"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:920/1*oiByvR5dsoSmuPxYidV3sw.gif" />

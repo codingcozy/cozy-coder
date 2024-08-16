@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Math Behind Risk — Part 1"
 link: "https://medium.com/towards-data-science/the-math-behind-risk-part-1-35ed4e1f542d"
+isUpdated: true
 ---
+
+
+
 
 
 ## 세계 정복 게임에서 공격이 정말로 우위를 가지나요?

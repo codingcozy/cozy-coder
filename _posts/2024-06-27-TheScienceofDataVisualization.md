@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Science of Data Visualization"
 link: "https://medium.com/@igniobydigitate/the-science-of-data-visualization-5d8726c3403e"
+isUpdated: true
 ---
+
+
+
 
 
 로히트 카르나타크의 글

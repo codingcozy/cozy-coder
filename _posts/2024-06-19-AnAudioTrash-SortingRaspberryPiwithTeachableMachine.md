@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An Audio Trash-Sorting Raspberry Pi with Teachable Machine"
 link: "https://medium.com/geekculture/an-audio-trash-sorting-raspberry-pi-with-teachable-machine-5cd7f9f8867a"
+isUpdated: true
 ---
+
+
+
 
 
 

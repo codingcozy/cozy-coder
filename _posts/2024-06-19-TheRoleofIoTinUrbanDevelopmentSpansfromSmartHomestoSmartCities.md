@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Role of IoT in Urban Development Spans from Smart Homes to Smart Cities"
 link: "https://medium.com/@ieeewiesusl/the-role-of-iot-in-urban-development-spans-from-smart-homes-to-smart-cities-573bab6917b0"
+isUpdated: true
 ---
+
+
+
 
 
 

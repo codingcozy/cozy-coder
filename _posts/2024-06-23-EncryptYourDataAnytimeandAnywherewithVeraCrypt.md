@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Encrypt Your Data Anytime and Anywhere with VeraCrypt"
 link: "https://medium.com/@_olsi/encrypt-your-data-anytime-and-anywhere-with-veracrypt-430d37a38b63"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-EncryptYourDataAnytimeandAnywherewithVeraCrypt_0.png" />

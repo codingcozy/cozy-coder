@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Disruptions to Elevate Entity Embeddings"
 link: "https://medium.com/towards-data-science/data-disruptions-to-elevate-entity-embeddings-b1ddf86a3c95"
+isUpdated: true
 ---
+
+
+
 
 
 오늘은 신경망 모델의 entity embeddings의 일반화 능력을 향상시키는 확률적 정규화 방법에 대해 이야기해보겠어요. 훈련 중에 데이터 생성기를 사용하여 선택한 입력 값을 무작위로 데이터에 주입하여, 모델이 보지 못한 코드와의 처리 방법을 학습하도록 돕습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I use the new GPT-4o on my own files with Python!"
 link: "https://medium.com/@woyera/how-i-use-the-new-gpt-4o-on-my-own-files-9bb8de48fb06"
+isUpdated: true
 ---
+
+
+
 
 
 

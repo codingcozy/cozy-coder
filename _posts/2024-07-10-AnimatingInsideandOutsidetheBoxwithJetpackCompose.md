@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Animating Inside and Outside the Box with Jetpack Compose"
 link: "https://medium.com/proandroiddev/animating-inside-and-outside-the-box-with-jetpack-compose-a56eba1b6af6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 안드로이드에서 Compose를 활용한 창의적인 애니메이션 구축

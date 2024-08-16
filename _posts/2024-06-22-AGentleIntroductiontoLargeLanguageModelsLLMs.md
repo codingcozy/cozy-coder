@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Gentle Introduction to Large Language Models (LLMs)"
 link: "https://medium.com/@machine-mind-ml/a-gentle-introduction-to-large-language-models-llms-0be093d05866"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-AGentleIntroductiontoLargeLanguageModelsLLMs_0.png)

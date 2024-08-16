@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "This Is Why I Will Not Stop Writing"
 link: "https://medium.com/@miraokpala_81004/this-is-why-i-wont-stop-writing-67585d3a65fa"
+isUpdated: true
 ---
+
+
+
 
 
 과거 작품들을 훑어보면 낯선 사람처럼 느껴지기도 해요. 마치 박물관에서 유물을 뒤적이는 손님 같아요. 예전에 썼던 것들이 다시 유용하게 쓰일 때가 있어서 더욱 놀랍네요. 마치 필요성을 예견하고 미리 해결책을 준비한 것 같아요.

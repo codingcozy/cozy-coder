@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Tower Moment"
 link: "https://medium.com/@yadayinyadayang/my-tower-moment-908ab5256d21"
+isUpdated: true
 ---
+
+
+
 
 
 🌸 **나는 다시 회복하고 있어요.**

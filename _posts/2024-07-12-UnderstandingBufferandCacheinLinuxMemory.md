@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Buffer and Cache in Linux Memory"
 link: "https://medium.com/codex/understanding-buffer-and-cache-in-linux-memory-6da3a1460e1b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-12-UnderstandingBufferandCacheinLinuxMemory_0.png"/> 

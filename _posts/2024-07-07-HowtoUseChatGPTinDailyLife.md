@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use ChatGPT in Daily Life?"
 link: "https://medium.com/gitconnected/how-to-use-chatgpt-in-daily-life-4688f7afb930"
+isUpdated: true
 ---
+
+
+
 
 
 ## 시간과 돈을 절약하세요! ChatGPT 활용법

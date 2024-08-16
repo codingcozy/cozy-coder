@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Encode Constraints to the Output of Neural Networks"
 link: "https://medium.com/towards-data-science/how-to-encode-constraints-to-the-output-of-neural-networks-9bce302b9687"
+isUpdated: true
 ---
+
+
+
 
 
 ## 사용 가능한 접근 방식 요약

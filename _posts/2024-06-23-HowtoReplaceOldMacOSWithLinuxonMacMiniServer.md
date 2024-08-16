@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Replace Old MacOS With Linux on Mac Mini Server"
 link: "https://medium.com/by-devops-for-devops/how-to-replace-old-macos-with-linux-on-mac-mini-server-cc618d1052a8"
+isUpdated: true
 ---
+
+
+
 
 
 

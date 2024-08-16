@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Lock WhatsApp App on Windows PC and Mac"
 link: "https://medium.com/@jasonbnovak0/how-to-lock-whatsapp-app-on-windows-pc-and-mac-456f5a5a104f"
+isUpdated: true
 ---
+
+
+
 
 
 WhatsApp Android 및 WhatsApp iPhone에서는 화면 잠금 기능을 제공하며 WhatsApp Web도 마찬가지입니다. 그러나 Windows 또는 Mac용 WhatsApp에는 해당 기능이 없습니다. 컴퓨터에서이 앱을 잠그려면 어떻게 해야합니까? 이 기사에서는 Windows PC 및 Mac의 WhatsApp에 비밀번호를 설정하는 방법을 안내합니다.

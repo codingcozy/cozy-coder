@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Goodbye NymConnect, hello NymVPN"
 link: "https://medium.com/nymtech/goodbye-nymconnect-hello-nymvpn-914defc96201"
+isUpdated: true
 ---
+
+
+
 
 
 ## NymVPN 출시를 앞두고 NymConnect 앱 단계적 중단

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Latest Gemini features support in LangChain4j 0.32.0"
 link: "https://medium.com/google-cloud/latest-gemini-features-support-in-langchain4j-0-32-0-732791e4c34c"
+isUpdated: true
 ---
+
+
+
 
 
 어제 LangChain4j 0.32.0이 출시되었습니다! 이번 업데이트에는 제가 제출한 새로운 젬니 특징들을 지원하는 Pull Request가 포함되어 있습니다:

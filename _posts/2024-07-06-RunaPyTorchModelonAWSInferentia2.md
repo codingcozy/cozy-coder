@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Run a PyTorch Model on AWS Inferentia2"
 link: "https://medium.com/@tannermcrae/run-a-pytorch-model-on-aws-inferentia2-d629af3754e2"
+isUpdated: true
 ---
+
+
+
 
 
 **/assets/img/2024-07-06-RunaPyTorchModelonAWSInferentia2_0.png**

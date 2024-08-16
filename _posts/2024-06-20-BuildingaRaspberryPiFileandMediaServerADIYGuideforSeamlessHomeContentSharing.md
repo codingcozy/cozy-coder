@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Raspberry Pi File and Media Server: A DIY Guide for Seamless Home Content Sharing"
 link: "https://medium.com/@jayant.walvekar/building-a-raspberry-pi-file-and-media-server-a-diy-guide-for-seamless-home-content-sharing-edb9e275454c"
+isUpdated: true
 ---
+
+
+
 
 
 집 컴퓨터에 흩뿌려진 동영상과 사진들의 바다 속에서, 가족 간 콘텐츠 공유와 접근이 조금 꼬였죠. Windows, Linux, macOS, Android, 심지어 우리 TV와 호환되는 파일 및 미디어 서버 역할을 할 수 있는 중앙 허브가 필요했습니다.

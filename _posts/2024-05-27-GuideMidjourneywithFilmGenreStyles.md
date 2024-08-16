@@ -3,12 +3,16 @@ title: "영화 장르 스타일로 중간 과정을 안내해보세요"
 description: ""
 coverImage: "/assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_0.png"
 date: 2024-05-27 15:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-GuideMidjourneywithFilmGenreStyles_0.png
 tag: Tech
 originalTitle: "Guide Midjourney with Film Genre Styles"
 link: "https://medium.com/let-there-be-prompt/guide-midjourney-with-film-genre-styles-f0ab76d72e74"
+isUpdated: true
 ---
+
+
+
 
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Challenges and Solutions in Data Mesh — Part 3"
 link: "https://medium.com/towards-data-science/challenges-and-solutions-in-data-mesh-part-3-dacb917f3c91"
+isUpdated: true
 ---
+
+
+
 
 
 '연합된 계산 기반 거버넌스'는 안전하고 신뢰할 수 있으며 상호 운용 가능한 데이터 메시를 보장합니다. 상호 운용성으로부터 추가 가치는 종종 "전체가 부분의 합보다 더 크다"는 구절로 요약됩니다. HTTP와 같은 표준 프로토콜, 효율적인 데이터 전송 메커니즘, 그리고 구성 요소의 포괄적인 버전 관리와 같은 기술적 측면을 설정하는 것이 상호 운용성을 활성화하는 데 중요하다면, 여기서 우리의 초점은 전체적인 데이터 일관성과 호환성 유지에 있을 것입니다.

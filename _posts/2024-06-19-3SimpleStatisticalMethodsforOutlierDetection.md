@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3 Simple Statistical Methods for Outlier Detection"
 link: "https://medium.com/towards-data-science/3-simple-statistical-methods-for-outlier-detection-db762e86cd9d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-3SimpleStatisticalMethodsforOutlierDetection_0.png" />

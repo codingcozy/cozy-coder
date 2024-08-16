@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What is the difference between PLA and PLA+ filament?"
 link: "https://medium.com/@esun3d/what-is-the-difference-between-pla-and-pla-filament-d312aea90f8b"
+isUpdated: true
 ---
+
+
+
 
 
 PLA (Polylactic Acid) 및 PLA+ (PLA 플러스)은 부가 제조 분야에서 일반적으로 사용되는 3D 프린터 필라멘트 유형입니다. 비슷한 점을 공유하지만 두 제품 사이에는 몇 가지 주요 차이가 있습니다.

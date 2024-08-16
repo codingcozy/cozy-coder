@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Chart Wars — Stacked Bar Chart vs. Heatmap"
 link: "https://medium.com/towards-data-science/chart-wars-stacked-bar-chart-vs-heatmap-959423de6fee"
+isUpdated: true
 ---
+
+
+
 
 
 ## 빠른 성공 데이터 과학

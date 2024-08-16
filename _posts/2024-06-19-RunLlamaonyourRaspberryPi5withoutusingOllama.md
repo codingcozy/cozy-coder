@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Run Llama on your Raspberry Pi 5 without using Ollama"
 link: "https://medium.com/@wesselbraakman/run-llama-on-your-raspberry-pi-5-without-using-ollama-7ebc128ff34e"
+isUpdated: true
 ---
+
+
+
 
 
 그래서 저는 작년 12월에 Raspberry Pi 5 8GB를 구입한 이후로 계속해서 시도해보고 있어요. 그전에 LLM을 설치하는 많은 안내서를 찾았지만 문제에 부딪히며 쉽게 해결할 수 없었어요. 이는 LLM을 회수/구축/양자화해야 하는 원본 컴퓨터와 제 RPi5에 필요한 모든 것을 설치하지 못했기 때문에 발생한 문제의 일부입니다.

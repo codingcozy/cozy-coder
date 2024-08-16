@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Age Grading, Percentiles, and Z-Scores: Three Ways to Compare Race Results"
 link: "https://medium.com/runners-life/age-grading-percentiles-and-z-scores-three-ways-to-compare-race-results-ba8ebb88d47e"
+isUpdated: true
 ---
+
+
+
 
 
 

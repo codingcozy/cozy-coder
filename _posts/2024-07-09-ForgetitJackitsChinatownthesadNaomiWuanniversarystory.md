@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "„Forget it Jack, it’s Chinatown” — the sad Naomi Wu’ anniversary story"
 link: "https://medium.com/@sxe3dp/forget-it-jack-its-chinatown-the-sad-naomi-wu-anniversary-story-73b861b58fe5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 3D 프린팅 역사

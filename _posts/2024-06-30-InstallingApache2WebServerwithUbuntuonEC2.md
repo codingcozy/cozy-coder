@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Installing Apache 2 Web Server with Ubuntu on EC2"
 link: "https://medium.com/@brettidykes/installing-apache-2-web-server-with-ubuntu-on-ec2-80e18964943d"
+isUpdated: true
 ---
+
+
+
 
 
 # 시나리오:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Buffer of Thoughts (BoT) — Reasoning with Large Language Models"
 link: "https://medium.com/towards-data-science/understanding-buffer-of-thoughts-bot-reasoning-with-large-language-models-391919d2f76f"
+isUpdated: true
 ---
+
+
+
 
 
 ![사진1](/assets/img/2024-06-19-UnderstandingBufferofThoughtsBoTReasoningwithLargeLanguageModels_0.png)

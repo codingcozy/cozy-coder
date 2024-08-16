@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Power of Documents with Structure-Aware AI"
 link: "https://medium.com/the-modern-scientist/unlocking-the-power-of-documents-with-structure-aware-ai-f2938e7e6f3a"
+isUpdated: true
 ---
+
+
+
 
 
 기업 조직은 매일 스캔된 양식, 이메일, 법적 계약, 의료 기록, 재무 보고서 등을 포함한 방대한 양의 비구조적 비즈니스 문서를 처리합니다. 이러한 텍스트 중심의 입력에서 잠재적으로 활용 가능한 데이터의 80% 이상이 손대지 않은 채 머물고 있다고 추정됩니다.

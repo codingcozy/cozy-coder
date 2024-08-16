@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apples iOS 18 FINALLY Supports RCS, but the Green Bubble Stigma Is Here to Stay"
 link: "https://medium.com/@michaelswengel/apples-ios-18-finally-supports-rcs-but-the-green-bubble-stigma-is-here-to-stay-753cda4e4be1"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-24-ApplesiOS18FINALLYSupportsRCSbuttheGreenBubbleStigmaIsHeretoStay_0.png" />

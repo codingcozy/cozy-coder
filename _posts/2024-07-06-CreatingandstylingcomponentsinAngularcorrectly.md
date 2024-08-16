@@ -3,12 +3,16 @@ title: "Angular에서 컴포넌트를 제대로 생성하고 스타일링하는 
 description: ""
 coverImage: "/assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png"
 date: 2024-07-06 11:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png
 tag: Tech
 originalTitle: "Creating and styling components in Angular correctly"
 link: "https://medium.com/stackademic/creating-and-styling-components-in-angular-correctly-52c93b062759"
+isUpdated: true
 ---
+
+
+
 
 ![](/assets/img/2024-07-06-CreatingandstylingcomponentsinAngularcorrectly_0.png)
 

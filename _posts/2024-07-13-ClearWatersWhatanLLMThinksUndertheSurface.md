@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Clear Waters: What an LLM Thinks Under the Surface"
 link: "https://medium.com/gitconnected/clear-waters-what-an-llm-thinks-under-the-surface-9b21206e31dc"
+isUpdated: true
 ---
+
+
+
 
 
 ## |해석성|XAI|

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Reducing BigQuery Costs by 100–200x with dbt Incremental Models"
 link: "https://medium.com/stackademic/reducing-bigquery-costs-by-100-200x-with-dbt-incremental-models-c4375b945b69"
+isUpdated: true
 ---
+
+
+
 
 
 템퍼스(Temporus)에서 제 팀이 다루는 많은 모델은 크지만 "빅 데이터" 수준은 아닙니다. 보통 우리의 테이블은 수억 행 정도를 갖고 있으며, 가끔 10억 행을 넘기기도 하지만 성능에 대해 걱정할 만큼 자주 발생하지는 않습니다. 그러나 최근에 쿼리 중 하나가 2시간 후에 타임 아웃되었고, 한 테이블이 각 실행에 거의 9,000 슬롯 시간을 사용하고 있다는 것을 깨달았습니다.

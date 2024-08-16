@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Julian Assange’s Case Matters for Journalists Worldwide"
 link: "https://medium.com/@georgejziogas/why-julian-assanges-case-matters-for-journalists-worldwide-0e343fb19d7a"
+isUpdated: true
 ---
+
+
+
 
 
 ![Why Julian Assange's Case Matters for Journalists Worldwide](/assets/img/2024-05-27-WhyJulianAssangesCaseMattersforJournalistsWorldwide_0.png)

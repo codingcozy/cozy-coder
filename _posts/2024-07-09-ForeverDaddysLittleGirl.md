@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Forever Daddy’s Little Girl"
 link: "https://medium.com/@wordsofheart/forever-daddys-little-girl-931ea4613041"
+isUpdated: true
 ---
+
+
+
 
 
 기억이 생생하게 남아있어요. 하늘이 너무 파랗고, 해가 너무 밝게 비쳐왔어요. 그날은 완벽한 일 시작처럼 느껴졌고, 낙관적이었죠.

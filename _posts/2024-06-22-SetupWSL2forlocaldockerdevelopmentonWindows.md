@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Setup WSL2 for local docker development on Windows"
 link: "https://medium.com/@sociable_flamingo_goose_694/setup-wsl-for-local-docker-development-on-windows-f0767e0a72d4"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 혹시 업무 중에 도커가 필요하고 관리해야 하는 상황이신가요?

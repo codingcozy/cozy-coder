@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Spent $96k To Become a Data Scientist. Here Are 5 Crucial Lessons All Beginners Must Know"
 link: "https://medium.com/towards-data-science/i-spent-96k-to-become-a-data-scientist-heres-5-crucial-lessons-all-beginners-must-know-7a13ef389285"
+isUpdated: true
 ---
+
+
+
 
 
 저는 비즈니스 배경을 가지고 있어 데이터 과학에 대해 전혀 알지 못했기 때문에 많은 돈을 썼어요.

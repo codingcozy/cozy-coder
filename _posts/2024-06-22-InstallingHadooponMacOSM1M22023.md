@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Installing Hadoop on MacOS (M1 M2) : 2023"
 link: "https://medium.com/@MinatoNamikaze02/installing-hadoop-on-macos-m1-m2-2023-d963abeab38e"
+isUpdated: true
 ---
+
+
+
 
 
 이와 유사한 기사가 몇 개 있지만, 저는 여러 중요한 정보가 누락된 기사를 시도해봐서 이를 작성하게 되었습니다. 설치 과정에서 겪은 모든 문제를 다루었습니다.

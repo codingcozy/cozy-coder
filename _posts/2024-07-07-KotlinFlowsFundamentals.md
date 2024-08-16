@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kotlin Flows — Fundamentals"
 link: "https://medium.com/@anitaa_1990/kotlin-flows-fundamentals-7d9b984f12bb"
+isUpdated: true
 ---
+
+
+
 
 
 지난 주에는 Kotlin 코루틴에 대해 더 알아보았어요. 이전 글에서는 CoroutineContext, CoroutineScope, Coroutine Builder 등과 같은 코루틴의 기본 사항에 초점을 맞췄었죠. 약속했던 대로, 오늘의 주제는 Flows입니다.

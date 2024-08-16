@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — Support Vector Machines (Classifier)"
 link: "https://medium.com/@thommaskevin/tinyml-support-vector-machines-classifier-c391b54f3ab8"
+isUpdated: true
 ---
+
+
+
 
 
 수학적 기초부터 엣지 구현까지

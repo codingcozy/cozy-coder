@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Web Server with NodeMCU ESP8266 and LM35 Temperature Sensor"
 link: "https://medium.com/@bernard.adhitya/building-a-web-server-with-nodemcu-esp8266-and-lm35-temperature-sensor-d4db54bf6113"
+isUpdated: true
 ---
+
+
+
 
 
 환경 데이터를 간단한 웹 인터페이스를 통해 모니터링할 수 있는 능력은 굉장히 유용할 수 있습니다. 이 기사에서는 저가 참여한 프로젝트에 대해 소개하려고 합니다. NodeMCU ESP8266 모듈과 LM35 온도 센서를 사용하여 온도를 표시하는 웹 서버를 만들었습니다. 이 프로젝트는 IoT 원칙의 실용적인 응용뿐만 아니라 센서, 마이크로컨트롤러 및 웹 기술을 통합하는 쉬움을 보여줍니다.

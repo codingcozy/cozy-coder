@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Practice Anything with ChatGPT"
 link: "https://medium.com/@jordan_gibbs/practice-anything-with-chatgpt-42ca177c2c14"
+isUpdated: true
 ---
+
+
+
 
 
 ![Practice with ChatGPT](/assets/img/2024-07-13-PracticeAnythingwithChatGPT_0.png)

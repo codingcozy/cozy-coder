@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Resiliency is more than just technology"
 link: "https://medium.com/slalom-business/resiliency-is-more-than-just-technology-2477c3f936ad"
+isUpdated: true
 ---
+
+
+
 
 
 ## Change Healthcare 랜섬웨어 공격에서 배운 점

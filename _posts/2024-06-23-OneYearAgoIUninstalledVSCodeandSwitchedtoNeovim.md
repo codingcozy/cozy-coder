@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "One Year Ago, I Uninstalled VS Code and Switched to Neovim"
 link: "https://medium.com/@pthapa1/one-year-ago-i-made-a-monumental-change-uninstalled-vs-code-and-switched-to-neovim-3e8d078c87ad"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: Enter The Signals Era"
 link: "https://medium.com/@mrkrsticmilos/angular-enter-the-signals-era-357b5c8d871f"
+isUpdated: true
 ---
+
+
+
 
 
 Angular 이 선보인 기능 중 몇 가지를 소개해 드리겠습니다.

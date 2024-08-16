@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Field Guide to CoAP — Part 1"
 link: "https://medium.com/@jonathanberi/a-field-guide-to-coap-part-1-75576d3c768b"
+isUpdated: true
 ---
+
+
+
 
 
 IoT를 시작할 때 알았더라면 좋았을 제한된 응용 프로그램 프로토콜(CoAP)과 관련된 모든 것

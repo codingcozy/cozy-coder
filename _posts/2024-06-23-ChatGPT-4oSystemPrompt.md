@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT-4o System Prompt"
 link: "https://medium.com/@kyle-stahl/chatgpt-4o-system-prompt-2dca8ac9a9f6"
+isUpdated: true
 ---
+
+
+
 
 
 ChatGPT이 시스템 프롬프트를 실수로 출력해 버렸어. 다른 분들도 궁금해할 것 같아 공유하려고 해.

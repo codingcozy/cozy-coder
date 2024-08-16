@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple Intelligence, or simply pragmatism?"
 link: "https://medium.com/enrique-dans/apple-intelligence-or-simply-pragmatism-2c287a454874"
+isUpdated: true
 ---
+
+
+
 
 
 ![ScreenShot](/assets/img/2024-06-19-AppleIntelligenceorsimplypragmatism_0.png)

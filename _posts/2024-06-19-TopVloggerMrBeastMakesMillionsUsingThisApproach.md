@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top Vlogger MrBeast Makes Millions Using This Approach"
 link: "https://medium.com/the-happy-blogger/top-vlogger-mrbeast-makes-millions-using-this-approach-b17547adcbc5"
+isUpdated: true
 ---
+
+
+
 
 
 마케팅 전략은 그의 팬들을 늘리는 데 도움이 됩니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "There Is No “Batterygate”, Just Poorly Educated Apple Users"
 link: "https://medium.com/bricksnbrackets/there-is-no-batterygate-just-poorly-educated-apple-users-85acf788e51d"
+isUpdated: true
 ---
+
+
+
 
 
 오, 전문가들이 모든 것을 #SomethingGate로 불러서 추가 돈을 버거나 좋아요를 더 받으려고 하는 모습을 정말 싫어하죠. 애플이 실수를 저지르기도 하지만, 그때면 참 부끄러운 일이죠. #BendGate는 확실히 기억해야 할 사건 중 하나입니다. 하지만 iPhone 6이 사람들의 후면 주머니에 넣으면서 아이폰이 바나나폰으로 변한다는 이야기가 퍼지기 시작하면서, 누구든지 어떤 상황을 #AppleGate로 불러내려 할 정도로 모든 사람들이 비극적인 눈으로 살펴봅니다. 가장 최근의 #BatteryGate가 그 중 하나라고 생각해요.

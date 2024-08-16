@@ -3,12 +3,16 @@ title: "기존의 GPT-4보다 뛰어난 성능을 자랑하는 스탠포드 대�
 description: ""
 coverImage: "/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png"
 date: 2024-05-27 14:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png
 tag: Tech
 originalTitle: "Better Than GPT-4, the Stanford team’s large model that can be run on mobile phones became popular, with over 2k downloads overnight"
 link: "https://medium.com/gitconnected/better-than-gpt-4-the-stanford-teams-large-model-that-can-be-run-on-mobile-phones-became-popular-bc958501ec01"
+isUpdated: true
 ---
+
+
+
 
 
 ![Octopus v2](/assets/img/2024-05-27-BetterThanGPT-4theStanfordteamslargemodelthatcanberunonmobilephonesbecamepopularwithover2kdownloadsovernight_0.png)

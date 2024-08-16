@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top-Tier Windows , Doors: 5 Fast Facts For Finding The Best Windows or Doors , How To Make Sure They’re Installed Properly"
 link: "https://medium.com/@jim.garner78/top-tier-windows-doors-5-fast-facts-for-finding-the-best-windows-or-doors-how-to-make-sure-5e8bbc393d0d"
+isUpdated: true
 ---
+
+
+
 
 
 얼마 전에 아내가 문자를 보내와서 창문이 얼었다고 했어요.

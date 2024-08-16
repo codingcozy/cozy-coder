@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Crontab in Linux: Beginner’s Guide to Schedule the Deletion of Outdated Files"
 link: "https://medium.com/devops-dev/crontab-in-linux-beginners-guide-to-schedule-the-deletion-of-outdated-files-e45543f364c0"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-19-CrontabinLinuxBeginnersGuidetoScheduletheDeletionofOutdatedFiles_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Generating 100,000 AI Cat Images Taught Me About Our Creative Edge"
 link: "https://medium.com/design-bootcamp/how-generating-100-000-ai-cat-images-taught-me-about-our-creative-edge-355f55c06a5d"
+isUpdated: true
 ---
+
+
+
 
 
 작년 초부터 AI가 창의력을 가지고 있는지에 대한 의문을 품어왔어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Video annotator: a framework for efficiently building video classifiers using vision-language models and active learning"
 link: "https://medium.com/netflix-techblog/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4"
+isUpdated: true
 ---
+
+
+
 
 
 아미르 지아이, 아니시 바르타카비, 켈리 그리그스, 유진 로크, 이본 주크스, 알렉스 알론소, 비 이엔가르, 안나 풀리도

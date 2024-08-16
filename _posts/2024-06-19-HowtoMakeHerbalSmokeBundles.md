@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Make Herbal Smoke Bundles"
 link: "https://medium.com/the-diy-diaries/how-to-make-herbal-smoke-bundles-c44564b2f1d9"
+isUpdated: true
 ---
+
+
+
 
 
 ## DIY

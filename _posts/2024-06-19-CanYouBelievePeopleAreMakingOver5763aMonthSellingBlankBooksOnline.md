@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can You Believe People Are Making Over $5763 a Month Selling Blank Books Online?"
 link: "https://medium.com/@nimsy/can-you-believe-people-are-making-over-5763-a-month-selling-blank-books-online-d17b933ccb81"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이 간단한 전략들로 함께 참여하는 방법을 배워보세요

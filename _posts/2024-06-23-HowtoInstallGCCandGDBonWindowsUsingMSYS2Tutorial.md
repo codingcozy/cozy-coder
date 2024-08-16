@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install GCC and GDB on Windows Using MSYS2 — Tutorial"
 link: "https://medium.com/@sajidifti/how-to-install-gcc-and-gdb-on-windows-using-msys2-tutorial-0fceb7e66454"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtoInstallGCCandGDBonWindowsUsingMSYS2Tutorial_0.png" />

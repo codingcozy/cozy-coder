@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Do People Hate Nickelback So Much? A Statistical Analysis"
 link: "https://medium.com/fan-fare/why-do-people-hate-nickelback-so-much-a-statistical-analysis-6f05170b17b5"
+isUpdated: true
 ---
+
+
+
 
 
 이 글은 Stat Significant이라는 매주 발행되는 자료 중심의 뉴스레터에 원래 게재되었습니다.

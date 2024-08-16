@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "In-Depth Understanding of XSS Attacks in the Web"
 link: "https://medium.com/the-first-digit/in-depth-understanding-of-xss-attacks-in-the-web-a3aa91e1080a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-In-DepthUnderstandingofXSSAttacksintheWeb_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI and Robotics: Implications for Society and a Multi-Trillion Dollar Business Opportunity"
 link: "https://medium.com/@foresightbureau/ai-and-robotics-implications-for-society-and-a-multi-trillion-dollar-business-opportunity-721b509cfb32"
+isUpdated: true
 ---
+
+
+
 
 
 # 테크 엘리트: AI 및 점점 벌어지는 부의 격차

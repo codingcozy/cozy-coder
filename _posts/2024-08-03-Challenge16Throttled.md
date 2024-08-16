@@ -1,5 +1,5 @@
 ---
-title: "챌린지 16 Throttled 구현하는 방법"
+title: "Throttle 직접 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-Challenge16Throttled_0.png"
 date: 2024-08-03 20:14
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Challenge 16 Throttled"
 link: "https://medium.com/@danielepolencic/challenge-16-throttled-93133f8fd0ad"
+isUpdated: true
 ---
+
+
+
 
 
 쿠버네티스에서 CPU 제한은 항상 명확하지 않을 수 있으며 지연 증가로 이어질 수 있습니다.

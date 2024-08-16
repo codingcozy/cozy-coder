@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Open-source IC cells as 3D prints. A rough how-to guide."
 link: "https://medium.com/@thorstenknoll/open-source-ic-cells-as-3d-prints-a-rough-how-to-guide-90a8bc8b3b57"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-Open-sourceICcellsas3DprintsAroughhow-toguide_0.png)

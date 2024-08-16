@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can You Mount a Ring Camera With Command Strips or Double Sided Tape?"
 link: "https://medium.com/@crayborn40/can-you-mount-a-ring-camera-with-command-strips-or-double-sided-tape-b40c68670b9b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-CanYouMountaRingCameraWithCommandStripsorDoubleSidedTape_0.png" />

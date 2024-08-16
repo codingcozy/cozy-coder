@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Numerai Crypto: The Future of Cryptocurrency Market Prediction"
 link: "https://medium.com/numerai/introducing-numerai-crypto-the-future-of-cryptocurrency-market-prediction-1ed23356e913"
+isUpdated: true
 ---
+
+
+
 
 
 Numerai는 분산화되고 대중화된 예측 시장의 선두 주자로 손꼽혀 왔습니다. 2017년에는 이더리움의 가치가 단지 12달러였던 시점에서 우리의 토큰 Numeraire(NMR)를 출시했습니다. 전 세계에서 수천 명의 가장 우수한 데이터 과학자들을 모아 매일 우리 플랫폼에 1300만 달러 가치 이상의 NMR을 걸고 협업하고 있습니다. 매일 수천 개의 머신 러닝 모델을 실행하여 매년 100억 건 이상의 세계 주식 예측을 생성합니다. 우리는 앙상블에 대한 모델 기여를 평가하는 고급 지표인 MMC를 만들어 독특한 신호 성능을 확인할 수 있도록 했습니다.

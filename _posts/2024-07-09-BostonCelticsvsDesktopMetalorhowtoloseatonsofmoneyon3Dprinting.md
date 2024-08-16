@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Boston Celtics vs. Desktop Metal, or how to lose a tons of money on 3D printing"
 link: "https://medium.com/@sxe3dp/boston-celtics-vs-desktop-metal-or-how-to-lose-a-tons-of-money-on-3d-printing-f6d5f56b64ae"
+isUpdated: true
 ---
+
+
+
 
 
 ## 3DP 전투 일지

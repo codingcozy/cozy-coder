@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "“ISO IEC 20546 and the Future of Big Data in AI: Implications for Industry 4.0”"
 link: "https://medium.com/@mukherjee.amitav/iso-iec-20546-and-the-future-of-big-data-in-ai-implications-for-industry-4-0-0f2fa94c5faf"
+isUpdated: true
 ---
+
+
+
 
 
 디지턉 시대에 있어서 데이터는 종종 새로운 석유로 불리곤 합니다. 그러나 날인 데이터는 정제되어야만 진정으로 가치 있는 것이 되죠. 이 때 등장하는 것이 대용량 데이터 분석입니다. 이 분야는 현대 AI 및 기계 학습 응용 프로그램의 중추가 되었습니다. 기업들이 방대한 양의 데이터를 관리하고 활용하는 문제에 직면하면서, 국제표준화기구(ISO)와 국제전기기술위원회(IEC)가 ISO/IEC 20546: 정보 기술 - 대용량 데이터 - 개요 및 용어를 통해 나섰습니다. 이 표준은 또 다른 기술 문서가 아니라, 대용량 데이터 시대를 위한 ‘로제타 스톤’ 역할을 하며, AI의 발전에 있어 중요한 공통 언어와 프레임워크를 제공합니다.

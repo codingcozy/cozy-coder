@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Scaling Law Of Language Models"
 link: "https://medium.com/towards-data-science/scaling-law-of-language-models-5759de7f830c"
+isUpdated: true
 ---
+
+
+
 
 
 ![ScalingLawOfLanguageModels_0](/assets/img/2024-07-12-ScalingLawOfLanguageModels_0.png)

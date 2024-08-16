@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Impair Defenses [T1562.012]: Detect Linux Audit Logs Tampering (Part 2)"
 link: "https://medium.com/detect-fyi/impair-defenses-t1562-012-detect-linux-audit-logs-tampering-part-2-3379e5749f10"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-ImpairDefensesT1562012DetectLinuxAuditLogsTamperingPart2_0.png)

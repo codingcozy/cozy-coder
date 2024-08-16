@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "KISS, The Only Software Design Principle You Need"
 link: "https://medium.com/gitconnected/kiss-the-only-software-design-principle-you-need-ae61b11cd7c6"
+isUpdated: true
 ---
+
+
+
 
 
 당신은 미리 예상하는 테이블태그 변경이 필요했나요? 좋아요, 아래와 같이 변경해 볼게요.

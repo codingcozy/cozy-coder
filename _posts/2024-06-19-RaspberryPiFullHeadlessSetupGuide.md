@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi Full Headless Setup Guide"
 link: "https://medium.com/@imthedanger/raspberry-pi-full-headless-setup-guide-6e3c9ebed710"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분! 며칠 전에 처음으로 라즈베리 파이 4를 구입했고, 설정하는 방법을 여러분과 나누고 싶어서 기쁩니다. 함께 따라와서 오류가 발생하면 언제든지 연락해 주세요.

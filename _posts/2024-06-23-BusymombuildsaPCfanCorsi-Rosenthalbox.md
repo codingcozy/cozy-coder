@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Busy mom builds a PC fan Corsi-Rosenthal box"
 link: "https://medium.com/its-airborne/busy-mom-builds-a-pc-fan-corsi-rosenthal-box-c64a56bae528"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-BusymombuildsaPCfanCorsi-Rosenthalbox_0.png" />

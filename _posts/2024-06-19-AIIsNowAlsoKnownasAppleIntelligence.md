@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Is Now Also Known as Apple Intelligence"
 link: "https://medium.com/the-daily-cuppa-grande/ai-is-now-also-known-as-apple-intelligence-1fdcee417e4a"
+isUpdated: true
 ---
+
+
+
 
 
 당신의 iPhone 또는 Mac이 디바이스일 뿐만 아니라 정말로 당신을 이해하는 스마트 동반자가 되는 세상을 상상해 보세요.

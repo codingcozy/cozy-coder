@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A HUGE Amplification of the Schumann Resonance, and How it Affects Your Mind and Body"
 link: "https://medium.com/@bigdreamsstudios/a-huge-amplification-of-the-schumann-resonance-and-how-it-affects-your-mind-and-body-afcd44ac3bd5"
+isUpdated: true
 ---
+
+
+
 
 
 

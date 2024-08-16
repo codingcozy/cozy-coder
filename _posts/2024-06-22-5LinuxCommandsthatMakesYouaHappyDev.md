@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Linux Commands that Makes You a Happy Dev"
 link: "https://medium.com/@lordmoma/5-linux-commands-that-makes-you-a-happy-dev-eb587bb33186"
+isUpdated: true
 ---
+
+
+
 
 
 ![Linux Commands](/assets/img/2024-06-22-5LinuxCommandsthatMakesYouaHappyDev_0.png)

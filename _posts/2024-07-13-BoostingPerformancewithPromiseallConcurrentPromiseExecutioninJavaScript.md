@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting Performance with Promise.all: Concurrent Promise Execution in JavaScript"
 link: "https://medium.com/@louistrinh/boosting-performance-with-promise-all-concurrent-promise-execution-in-javascript-b4bb6a95999e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-13-BoostingPerformancewithPromiseallConcurrentPromiseExecutioninJavaScript_0.png" />

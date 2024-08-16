@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using HomeBrew to Install Java JDK11 on MacOS (2021)"
 link: "https://medium.com/@kirebyte/using-homebrew-to-install-java-jdk11-on-macos-2021-4a90aa276f1c"
+isUpdated: true
 ---
+
+
+
 
 
 제목이 정확히 같은 게시물이 있지만 조금 오래됐기 때문에 최신 솔루션을 구글링하는 사람들을 위해 약간 수정된 버전을 게시하고 싶습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Large Language Model Works (LLMs: Zero-to-Hero)"
 link: "https://medium.com/@waylandzhang/how-large-language-model-works-llms-zero-to-hero-d2a8c1ac0e1e"
+isUpdated: true
 ---
+
+
+
 
 
 제 ‘제로 투 히어로’ 시리즈의 두 번째 기사입니다. 이 기사에서는 대형 언어 모델 (LLM)이 작동하는 방식을 쉽게 설명해 드릴 예정입니다.

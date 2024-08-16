@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Browser comparison finale : Chromium based browsers"
 link: "https://medium.com/@mihirgrand/browser-comparison-finale-chromium-based-browsers-2b6063e74165"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-BrowsercomparisonfinaleChromiumbasedbrowsers_0.png)

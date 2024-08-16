@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI in Home Automation: Smart Homes of the Future"
 link: "https://medium.com/@mohsinali73a/ai-in-home-automation-smart-homes-of-the-future-5f49c9215dac"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-AIinHomeAutomationSmartHomesoftheFuture_0.png" />

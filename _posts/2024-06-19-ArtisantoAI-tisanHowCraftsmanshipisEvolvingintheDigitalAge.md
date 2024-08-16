@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Artisan to AI-tisan: How Craftsmanship is Evolving in the Digital Age"
 link: "https://medium.com/design-bootcamp/artisan-to-ai-tisan-how-craftsmanship-is-evolving-in-the-digital-age-a3288937f489"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 (AI)과 3D 프린팅은 전통적인 장인 정신에 신선한 변화를 가져오고 있어요. 이러한 새로운 기술들은 속도와 정밀성을 향상시키는 것뿐만 아니라 예술가들이 창의력을 다양한 방법으로 탐험할 수 있는 날개를 달아줘요.

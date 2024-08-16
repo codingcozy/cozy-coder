@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tiny Time Mixers (TTM): A Powerful Zero-Shot Forecasting Model by IBM"
 link: "https://medium.com/towards-data-science/tiny-time-mixers-ttm-a-powerful-zero-shot-forecasting-model-by-ibm-576b0e0af583"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-TinyTimeMixersTTMAPowerfulZero-ShotForecastingModelbyIBM_0.png)

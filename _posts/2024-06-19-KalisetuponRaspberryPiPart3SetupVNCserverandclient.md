@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kali setup on Raspberry Pi: Part 3, Setup VNC server and client"
 link: "https://medium.com/@VarshaChahal/kali-setup-on-raspberry-pi-part-3-setup-vnc-server-and-client-18a3f55776de"
+isUpdated: true
 ---
+
+
+
 
 
 x11vnc 서버와 RealVNC 뷰어 클라이언트를 사용했어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Transformer Models for Proteins From Scratch"
 link: "https://medium.com/towards-data-science/building-transformer-models-for-proteins-from-scratch-60884eab5cc8"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

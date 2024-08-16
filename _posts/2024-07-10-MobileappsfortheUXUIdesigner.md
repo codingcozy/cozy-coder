@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mobile apps for the UX UI designer"
 link: "https://medium.com/@revendgroup/mobile-apps-for-the-ux-ui-designer-7be680e6293c"
+isUpdated: true
 ---
+
+
+
 
 
 Vitaliy Luchka, Revend Group의 UX/UI 디자이너가 'UX/UI 디자이너를 위한 모바일 애플리케이션' 주제로 발표를 진행했습니다. 이 기사에서는 발표 중 얻은 주요 통찰과 지식을 공유하고자 합니다.

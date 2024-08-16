@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ray Infrastructure at Pinterest"
 link: "https://medium.com/pinterest-engineering/ray-infrastructure-at-pinterest-0248efe4fd52"
+isUpdated: true
 ---
+
+
+
 
 
 | 이름 | 직급 |  

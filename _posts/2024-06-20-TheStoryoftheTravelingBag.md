@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Story of the Traveling Bag"
 link: "https://medium.com/share-your-creativity/the-story-of-the-traveling-bag-6a4a5c6d4c43"
+isUpdated: true
 ---
+
+
+
 
 
 ## 예술 | 창의력 | 공예 | 바느질

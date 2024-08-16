@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Do I Build a Quantum Computer in My House?"
 link: "https://medium.com/qiskit/how-do-i-build-a-quantum-computer-in-my-house-1c7e9dc0c242"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-HowDoIBuildaQuantumComputerinMyHouse_0.png" />

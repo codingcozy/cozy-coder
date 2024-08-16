@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Compose Multiplatform (Android , iOS): Banner Carousel Widgets 🎠"
 link: "https://medium.com/@meytataliti/compose-multiplatform-android-ios-banner-carousel-widgets-b3fb3b0b2d4f"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 지금부터 간단하게 알려드릴게요. 이미 많이들 알고 계실 수도 있지만, 그래도 함께 공유해보겠어요~

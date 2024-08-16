@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Never Let Your Python HTTP Server Die: Step-by-Step Guide to Auto-Start on Boot and Crash Recovery"
 link: "https://medium.com/@ponnala/never-let-your-python-http-server-die-step-by-step-guide-to-auto-start-on-boot-and-crash-recovery-1f7b0f94401e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-09-NeverLetYourPythonHTTPServerDieStep-by-StepGuidetoAuto-StartonBootandCrashRecovery_0.png" />

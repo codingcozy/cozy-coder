@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The All-Nighter Chronicles: Final Year Project Edition"
 link: "https://medium.com/@nidhinambalika/the-all-nighter-chronicles-final-year-project-edition-1b452ebaff15"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-19-TheAll-NighterChroniclesFinalYearProjectEdition_0.png)

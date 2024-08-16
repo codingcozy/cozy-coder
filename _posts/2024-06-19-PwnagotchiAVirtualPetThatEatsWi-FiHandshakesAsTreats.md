@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Pwnagotchi: A Virtual Pet That Eats Wi-Fi Handshakes As Treats"
 link: "https://medium.com/radio-hackers/pwnagotchi-a-virtual-pet-that-eats-wi-fi-handshakes-as-treats-93b741630aa6"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-19-PwnagotchiAVirtualPetThatEatsWi-FiHandshakesAsTreats_0.png)

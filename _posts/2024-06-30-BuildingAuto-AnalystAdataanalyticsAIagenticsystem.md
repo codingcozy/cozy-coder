@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building “Auto-Analyst” — A data analytics AI agentic system"
 link: "https://medium.com/firebird-technologies/building-auto-analyst-a-data-analytics-ai-agentic-system-3ac2573dcaf0"
+isUpdated: true
 ---
+
+
+
 
 
 ## AI ‘Auto-Analyst’를 만드는 기술 가이드

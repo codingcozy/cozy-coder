@@ -1,5 +1,5 @@
 ---
-title: "iOS에서 Swift 59로 게이지 뷰 그리는 방법"
+title: "iOS에서 Swift 59로 게이지 뷰 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-DrawingaGaugeViewwithSwift59oniOS_0.png"
 date: 2024-08-03 19:56
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Drawing a Gauge View with Swift 59 on iOS"
 link: "https://medium.com/@egzonpllana/drawing-a-gauge-view-with-swift-5-9-on-ios-6480e382e366"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

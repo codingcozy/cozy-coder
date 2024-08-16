@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Power of Temporary Tables in SQL"
 link: "https://medium.com/@sqlfundamentals/exploring-the-power-of-temporary-tables-in-sql-707254435566"
+isUpdated: true
 ---
+
+
+
 
 
 SQL은 가장 인기 있는 관계형 데이터베이스 관리 시스템 중 하나로, 데이터 조작 및 분석을 향상시키는 다양한 기능을 제공합니다. 임시 테이블 사용이 그 중 하나입니다.

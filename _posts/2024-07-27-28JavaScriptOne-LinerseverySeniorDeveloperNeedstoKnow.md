@@ -1,5 +1,5 @@
 ---
-title: "시니어 개발자가 꼭 알아야 할 28개의 JavaScript 원라이너"
+title: "시니어 개발자가 꼭 알아야 할 28개의 JavaScript 한 줄 짜리 코드"
 description: ""
 coverImage: "/assets/img/2024-07-27-28JavaScriptOne-LinerseverySeniorDeveloperNeedstoKnow_0.png"
 date: 2024-07-27 14:04
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "28 JavaScript One-Liners every Senior Developer Needs to Know"
 link: "https://medium.com/@matemarschalko/28-javascript-one-liners-every-senior-developer-needs-to-know-e74bdedc3b3b"
+isUpdated: true
 ---
+
+
+
 
 
 

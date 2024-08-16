@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Accessing and Syncing Your Immich Library from Anywhere with Tailscale"
 link: "https://medium.com/@lennart.dde/accessing-and-syncing-your-immich-library-from-anywhere-with-tailscale-84c5d5c23a11"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-AccessingandSyncingYourImmichLibraryfromAnywherewithTailscale_0.png" />

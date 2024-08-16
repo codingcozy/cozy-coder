@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LLaMa 3 is Here. Will It Be The Winning Animal in The Generative AI Zoo."
 link: "https://medium.com/gitconnected/llama-3-is-here-will-it-be-the-winning-animal-in-the-generative-ai-zoo-9e94af73588f"
+isUpdated: true
 ---
+
+
+
 
 
 ## |META LLAMA 3|LLM|GENERATIVE AI|

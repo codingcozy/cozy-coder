@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Model Drift Introduction and Concepts"
 link: "https://medium.com/towards-data-science/model-drift-introduction-and-concepts-e32c5305da2a"
+isUpdated: true
 ---
+
+
+
 
 
 그 카드 그림을 Markdown 형식으로 변경해주세요.

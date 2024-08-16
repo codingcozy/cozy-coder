@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Superfast Matrix-Multiplication-Free LLMs Are Finally Here"
 link: "https://medium.com/gitconnected/superfast-matrix-multiplication-free-llms-are-finally-here-cac5b78a4fa7"
+isUpdated: true
 ---
+
+
+
 
 
 최근 ArXiv에 게시된 연구 논문에 따르면, 우리가 오늘날 알고 있는 LLMs에 대한 대규모 변경이 제안되었습니다.

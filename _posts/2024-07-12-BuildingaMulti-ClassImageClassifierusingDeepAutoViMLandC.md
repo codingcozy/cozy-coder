@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Multi-Class Image Classifier using Deep AutoViML and C#"
 link: "https://medium.com/@codezone/building-a-multi-class-image-classifier-using-deep-autoviml-and-c-62882d5df057"
+isUpdated: true
 ---
+
+
+
 
 
 기계 학습의 세계에서 효과적인 이미지 분류기를 구축하는 것은 흥미롭고 동시에 도전적일 수 있습니다. Deep AutoViML (Automated Variational Model Learning)은 딥 러닝 모델 구축 및 튜닝 프로세스를 간단화하는 데 도움이 되는 도구입니다. 본 문서에서는 Deep AutoViML을 활용하여 C#에서 다중 클래스 이미지 분류기를 만드는 단계를 안내해 드리겠습니다.

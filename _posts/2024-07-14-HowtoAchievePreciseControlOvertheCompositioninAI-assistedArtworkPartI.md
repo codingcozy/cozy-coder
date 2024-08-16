@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Achieve Precise Control Over the Composition in AI-assisted Artwork? —🔥Part I"
 link: "https://medium.com/@gloriaart/how-to-achieve-precise-control-over-the-composition-in-ai-assisted-artwork-huopart-i-bc06ef143fc3"
+isUpdated: true
 ---
+
+
+
 
 
 ## 대칭 구도

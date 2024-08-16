@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A History of AI (Part 4)"
 link: "https://medium.com/on-technology/a-history-of-ai-part-4-a68590f1ecd2"
+isUpdated: true
 ---
+
+
+
 
 
 ## 인공지능 연구 논문

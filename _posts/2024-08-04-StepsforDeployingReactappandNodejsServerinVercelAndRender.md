@@ -1,5 +1,5 @@
 ---
-title: "React 앱과 Nodejs 서버를 Vercel 및 Render에 배포하는 단계"
+title: "React 앱과 Nodejs 서버를 Vercel에 배포하는 방법 정리"
 description: ""
 coverImage: "/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_0.png"
 date: 2024-08-04 18:46
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Steps for Deploying React app and Nodejs Server in Vercel And Render"
 link: "https://medium.com/@kmahesh18001/steps-for-deploying-react-app-and-nodejs-server-in-vercel-and-render-494737535b5a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-04-StepsforDeployingReactappandNodejsServerinVercelAndRender_0.png" />

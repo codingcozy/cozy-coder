@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting the Most Secure Authentication API in Node.js: Best Practices"
 link: "https://medium.com/@sameemabbas/crafting-the-most-secure-authentication-api-in-node-js-best-practices-1db8ac5cbf69"
+isUpdated: true
 ---
+
+
+
 
 
 "마크다운 형식으로 테이블 태그를 변경해주세요."

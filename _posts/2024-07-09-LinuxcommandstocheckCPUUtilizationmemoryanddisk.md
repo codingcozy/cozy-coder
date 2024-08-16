@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux commands to check CPU Utilization ,memory and disk."
 link: "https://medium.com/@The_Anshuman/linux-commands-to-check-cpu-utilization-memory-and-disk-c9daf8a53be8"
+isUpdated: true
 ---
+
+
+
 
 
 리눅스에서 CPU 사용률과 메모리를 확인하는 명령어를 알아야 합니다. 그래서 이번에는 이에 대해 이야기해볼게요.

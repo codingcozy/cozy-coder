@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Contemplation in Blue: how to design large 3D sculptures with AI"
 link: "https://medium.com/user-experience-design-1/contemplation-in-blue-how-to-design-large-3d-sculptures-with-ai-92e50a923c3a"
+isUpdated: true
 ---
+
+
+
 
 
 몇 달 전에 AI를 사용하여 3D 프린터용 개체를 만드는 방법에 대한 미디엄 기사를 작성했어요. 사용한 프린터의 제약으로 인해, 그 프로젝트에서 내가 인쇄한 가장 큰 조각은 7인치 높이였어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An easy Raspberry Pi weather station using DHT11 + Python + QuestDB (with source code)"
 link: "https://medium.com/gitconnected/an-easy-raspberry-pi-weather-station-using-dht11-python-questdb-with-source-code-65e78e63047a"
+isUpdated: true
 ---
+
+
+
 
 
 가끔은 예전 프로젝트로 돌아가서 업데이트하고 다시 생각해보는 것도 재미있어요. 몇 년 전에 라즈베리 파이, 파이썬, 포테이너, 프로메테우스 및 그라파나를 사용하여 간단한 온도 및 습도 모니터를 만들었어요. 전체 프로젝트와 자습서는 여기에서 확인할 수 있어요. 이 서비스 스택은 RPi 3B(1GB RAM만 있는)에 호스팅되었고, 해당 서비스들이 이 목적을 위해 많은 리소스를 사용하고 있었는데, 그 이후로 이 디자인을 개선하고 싶어했어요.

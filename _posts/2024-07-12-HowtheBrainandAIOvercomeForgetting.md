@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How the Brain and AI Overcome Forgetting"
 link: "https://medium.com/towards-data-science/how-the-brain-and-ai-overcome-forgetting-de1fa6de00af"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해 주세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Interview Question , Answer — Linux-1"
 link: "https://medium.com/@ibrahims/interview-question-answer-linux-1-5af0ad4edf57"
+isUpdated: true
 ---
+
+
+
 
 
 ❓리눅스 부팅 프로세스는 무엇인가요?

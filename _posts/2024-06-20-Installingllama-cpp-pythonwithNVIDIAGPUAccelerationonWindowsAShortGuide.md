@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Installing llama-cpp-python with NVIDIA GPU Acceleration on Windows: A Short Guide"
 link: "https://medium.com/@piyushbatra1999/installing-llama-cpp-python-with-nvidia-gpu-acceleration-on-windows-a-short-guide-0dfac475002d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-Installingllama-cpp-pythonwithNVIDIAGPUAccelerationonWindowsAShortGuide_0.png" />

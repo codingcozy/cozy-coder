@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Everything you need to know about MapReduce"
 link: "https://medium.com/data-engineer-things/everything-you-need-to-know-about-mapreduce-aff1c664f3b5"
+isUpdated: true
 ---
+
+
+
 
 
 ## Google에서 제공하는 'MapReduce: 대규모 클러스터에서 간소화된 데이터 처리' 논문의 모든 주요 통찰

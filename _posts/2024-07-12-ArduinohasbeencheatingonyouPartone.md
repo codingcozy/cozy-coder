@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Arduino has been cheating on you. Part one"
 link: "https://medium.com/@carlosaldea/arduino-has-been-cheating-on-you-ecab5ed5cd22"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-12-ArduinohasbeencheatingonyouPartone_0.png" />

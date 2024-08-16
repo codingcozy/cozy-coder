@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Northstar Conference | Snowflake"
 link: "https://medium.com/@monish.krishnan.icdi/northstar-conference-snowflake-cb0f27fdfaa8"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분, 저는 최근에 하이데라바드에서 Snowflake (Snowflake AI Research)가 주최한 인도 최초의 노스타 컨퍼런스에 참석했습니다. 최근 Snowflake를 탐험하기 시작했고, 손에 잡히는 경험을 얻고 사람들과 네트워킹할 수 있는 좋은 기회라고 생각했습니다. 그리고 실제로 그랬어요 :)

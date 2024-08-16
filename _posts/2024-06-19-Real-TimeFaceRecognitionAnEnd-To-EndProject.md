@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Real-Time Face Recognition: An End-To-End Project"
 link: "https://medium.com/towards-data-science/real-time-face-recognition-an-end-to-end-project-b738bb0f7348"
+isUpdated: true
 ---
+
+
+
 
 
 단계별로 배우세요! PiCam을 사용하여 실시간으로 얼굴을 인식하는 방법을 배워보세요.

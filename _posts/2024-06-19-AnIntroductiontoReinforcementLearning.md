@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An Introduction to Reinforcement Learning"
 link: "https://medium.com/towards-data-science/an-introduction-to-reinforcement-learning-995737d3f1d"
+isUpdated: true
 ---
+
+
+
 
 
 ## 강화 학습의 기초에 대한 심층 탐구, 모델 기반 및 모델 없는 방법 포함

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Wheel Odometry Model for Differential Drive Robotics"
 link: "https://medium.com/@nahmed3536/wheel-odometry-model-for-differential-drive-robotics-91b85a012299"
+isUpdated: true
 ---
+
+
+
 
 
 휠 오도메트리란 바퀴의 움직임과 위치를 추정하는 것을 의미합니다. 이는 회전 엔코더(즉, 바퀴의 모터에 부착되어 회전을 측정하는 센서)를 사용하여 이루어집니다. 바퀴로봇이나 자율 주행 차량의 위치 추정에 유용한 기술입니다.

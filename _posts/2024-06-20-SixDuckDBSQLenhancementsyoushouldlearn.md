@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Six DuckDB SQL enhancements you should learn."
 link: "https://medium.com/gitconnected/six-duckdb-sql-enhancements-you-should-learn-6a229b3c2d3e"
+isUpdated: true
 ---
+
+
+
 
 
 

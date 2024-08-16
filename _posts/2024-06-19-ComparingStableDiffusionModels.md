@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Comparing Stable Diffusion Models"
 link: "https://medium.com/@promptingpixels/comparing-stable-diffusion-models-2c1dc9919ab7"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 저희의 오픈소스 텍스트-이미지 모델 'Stable Diffusion'은 Stability AI에서 출시되었고, 생성적 AI 분야를 혁신했습니다.

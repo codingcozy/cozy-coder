@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apache Kafka + Vector Database + LLM = Real-Time GenAI"
 link: "https://medium.com/@kai-waehner/apache-kafka-vector-database-llm-real-time-genai-4b5b6e687d85"
+isUpdated: true
 ---
+
+
+
 
 
 **GenAI(Generative AI)**는 고급 AI 사례와 혁신을 가능하게 하지만 기업 아키텍처가 어떻게 변화하는지를 바꿉니다. **Large Language Models (LLM)**, 벡터 데이터베이스, Retrial Augmentation Generation (RAG)은 새로운 데이터 통합 패턴과 데이터 엔지니어링 Best Practice를 필요로 합니다. **Apache Kafka**와 **Apache Flink**를 활용한 데이터 스트리밍은 대규모 실시간 데이터의 수집과 정제에 핵심적인 역할을 합니다. 이를 통해 다양한 데이터베이스와 분석 플랫폼을 연결하고 독립적인 비즈니스 부서와 데이터 제품을 분리하는데 도움을 줍니다. 이 블로그 게시물은 이벤트 스트리밍과 전통적인 요청-응답 API 및 데이터베이스 사이의 가능한 아키텍처, 예시, 그리고 trade-offs에 대해 탐구합니다.

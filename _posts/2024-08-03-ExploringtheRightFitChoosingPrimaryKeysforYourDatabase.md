@@ -1,5 +1,5 @@
 ---
-title: "데이터베이스 기본 키 선택 최적의 설계를 위한 가이드"
+title: "데이터베이스 기본 키 선택을 위한 설계 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_0.png"
 date: 2024-08-03 20:26
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Right Fit Choosing Primary Keys for Your Database"
 link: "https://medium.com/towards-data-science/exploring-the-right-fit-choosing-primary-keys-for-your-database-64f5754f1515"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-03-ExploringtheRightFitChoosingPrimaryKeysforYourDatabase_0.png" />

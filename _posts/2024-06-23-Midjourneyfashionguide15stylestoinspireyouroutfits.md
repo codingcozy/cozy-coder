@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Midjourney fashion guide 15 styles to inspire your outfits"
 link: "https://medium.com/design-bootcamp/midjourney-fashion-guide-15-styles-to-inspire-your-outfits-33b45d37b0c8"
+isUpdated: true
 ---
+
+
+
 
 
 중간 여정 옷장을 현대적인 패션 스타일로 변신하실 준비 되셨나요?

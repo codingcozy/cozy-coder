@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying AI: The Myth of the Black Box"
 link: "https://medium.com/@tristwolff/demystifying-ai-the-myth-of-the-black-box-0e44fc657e2a"
+isUpdated: true
 ---
+
+
+
 
 
 이미지를 Markdown 형식으로 바꿔볼까요?

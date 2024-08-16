@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Studio all keyboard shortcuts you should know for fast programming 🚀"
 link: "https://medium.com/@niranjanky14/android-studio-all-keyboard-shortcuts-you-should-know-for-fast-programming-0dcda08918bd"
+isUpdated: true
 ---
+
+
+
 
 
 # 🚀안드로이드 스튜디오 단축키가 필요한 이유?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Kawaii Fire Logo: From Digital Art to 3D Printed Awesomeness using Midjourney"
 link: "https://medium.com/@sfjr90/creating-a-kawaii-fire-logo-from-digital-art-to-3d-printed-awesomeness-using-midjourney-83bb78c2e2ab"
+isUpdated: true
 ---
+
+
+
 
 
 디지털 아트를 현실 세계 물건으로 만들어 본 적이 있나요? 손에 쥐고 감상하며 때로는 던져볼 수도 있는 그런 물건? 제가 정확히 그렇게 했어요. 이 기사는 제가 Midjourney 프롬프트를 기반으로 3D 프린트된 물건을 만드는 과정을 담은 것이에요: kawaii fire 로고, 단순한 미니멀리즘, 네거티브 스페이스 벡터 - v 5.1

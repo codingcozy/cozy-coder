@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Windows Updates with Ansible: A Comprehensive Guide"
 link: "https://medium.com/@krishnendubhowmick/mastering-windows-updates-with-ansible-a-comprehensive-guide-6272bc13d58b"
+isUpdated: true
 ---
+
+
+
 
 
 윈도우 시스템에서 업데이트를 관리하는 것은 여러 대의 서버가 있는 환경에서 특히 어려울 수 있습니다. 일반적으로 윈도우 업데이트는 GUI를 통해 관리되어왔는데, 이는 시간이 많이 소요되고 오류가 발생하기 쉽습니다. 그러나 Ansible을 사용하면 전체 프로세스를 자동화하여 최소한의 노력으로 시스템이 최신 상태를 유지할 수 있습니다. 이 블로그에서는 Ansible을 사용하여 윈도우 업데이트를 설정하고 관리하는 과정을 안내해 드리겠습니다.

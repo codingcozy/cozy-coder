@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Productionizing Generative AI Applications"
 link: "https://medium.com/towards-artificial-intelligence/productionizing-generative-ai-applications-3fe310d95e9b"
+isUpdated: true
 ---
+
+
+
 
 
 지난 일년 동안 고객을 대상으로 한 GenAI 애플리케이션을 구축하고 확장해 왔어. 이 블로그 글에서는 Large Language Model (LLM) GenAI 애플리케이션의 속도, 안전성, 그리고 신뢰성을 향상시킬 수 있는 다섯 가지 실용적인 팁과 코드 예제를 모았어.

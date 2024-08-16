@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "T5: Text-to-Text Transformers (Part One)"
 link: "https://medium.com/towards-data-science/t5-text-to-text-transformers-part-one-6b655f27c79a"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-14-T5Text-to-TextTransformersPartOne_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Asked Google Gemini To Come Up With Business Ideas Not Found Elsewhere; I Got Blown Away"
 link: "https://medium.com/swlh/i-asked-google-gemini-to-come-up-with-business-ideas-not-found-elsewhere-i-got-blown-away-2d8aa9a5f125"
+isUpdated: true
 ---
+
+
+
 
 
 ![Tarot Image](/assets/img/2024-07-13-IAskedGoogleGeminiToComeUpWithBusinessIdeasNotFoundElsewhereIGotBlownAway_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Let’s build a Gallery App: Understanding GridView in Flutter."
 link: "https://medium.com/flutter-simplified/lets-build-a-gallery-app-understanding-gridview-in-flutter-48c9681ee439"
+isUpdated: true
 ---
+
+
+
 
 
 이미지:

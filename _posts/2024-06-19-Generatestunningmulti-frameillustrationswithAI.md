@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Generate stunning multi-frame illustrations with AI"
 link: "https://medium.com/design-bootcamp/generate-stunning-multi-frame-illustrations-with-ai-a59a66954c4c"
+isUpdated: true
 ---
+
+
+
 
 
 이전 게시물에서는 DALL-E(ChatGPT)를 사용하여 멀티 프레임 이미지에서 캐릭터 일관성을 어떻게 달성하는지 설명했습니다.

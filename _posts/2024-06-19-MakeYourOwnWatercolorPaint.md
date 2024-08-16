@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Make Your Own Watercolor Paint"
 link: "https://medium.com/the-diy-diaries/make-your-own-watercolor-paint-26b185f55d90"
+isUpdated: true
 ---
+
+
+
 
 
 ## DIY / ART

@@ -3,12 +3,16 @@ title: "인도 투데이 구독 2년간 무료로 이용하기 "
 description: ""
 coverImage: "/assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_0.png"
 date: 2024-05-27 15:35
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowIHackedIndiaTodaySubscriptionfor2years_0.png
 tag: Tech
 originalTitle: "How I Hacked India Today Subscription for 2 years 😅🥳🤑"
 link: "https://medium.com/@anudeep-vysyaraju/how-i-hacked-india-today-subscription-for-2-years-4e49701fa7c8"
+isUpdated: true
 ---
+
+
+
 
 블로그에 들어가기 전에...
 

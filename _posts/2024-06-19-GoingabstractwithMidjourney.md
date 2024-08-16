@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Going abstract with Midjourney"
 link: "https://medium.com/let-there-be-prompt/going-abstract-with-midjourney-20dd74a691e7"
+isUpdated: true
 ---
+
+
+
 
 
 Midjourney의 새로운 개인화 기능을 더 철저히 테스트하고, 그 과정에서 조금은 추상 미술로 놀았어요.

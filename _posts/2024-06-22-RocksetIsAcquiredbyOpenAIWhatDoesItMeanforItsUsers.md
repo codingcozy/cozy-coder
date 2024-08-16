@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Rockset Is Acquired by OpenAI. What Does It Mean for Its Users?"
 link: "https://medium.com/@starrocks/rockset-is-acquired-by-openai-what-does-it-mean-for-its-users-3fa9561979d2"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 21일, OpenAI가 데이터 색인 및 쿼리 기능으로 유명한 실시간 분석 데이터베이스인 Rockset을 인수했다고 발표했습니다. 이 인수는 Rockset 사용자들에게 중요한 변화를 알립니다. 사용자들은 이 플랫폼을 이탈해야 하는 제한된 시간을 가지고 있으며 다음 단계에 대해 궁금해하고 있습니다. 본 문서는 Rockset 사용자들이 이 전환을 안내하며, OpenAI가 왜 이러한 결정을 내렸는지, 즉각적으로 필요한 조치는 무엇인지, 그리고 Rockset 사용자들과 실시간 분석 요구 사항을 위한 이상적인 대안으로 어떤 솔루션이 적합한지에 대해 통찰을 제공할 것입니다.

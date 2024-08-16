@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Critical Thinking: The Unseen Threat Outpacing AI"
 link: "https://medium.com/follower-booster-hub/critical-thinking-the-unseen-threat-outpacing-ai-6be4374ed8b7"
+isUpdated: true
 ---
+
+
+
 
 
 ## 뉴스

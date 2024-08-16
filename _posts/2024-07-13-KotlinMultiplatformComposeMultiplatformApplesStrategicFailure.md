@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kotlin Multiplatform, Compose Multiplatform: Apple’s Strategic Failure"
 link: "https://medium.com/better-programming/kmp-cm-apples-strategic-failure-cb758c24f824"
+isUpdated: true
 ---
+
+
+
 
 
 ![Kotlin Multiplatform](/assets/img/2024-07-13-KotlinMultiplatformComposeMultiplatformApplesStrategicFailure_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Silo: Setting up Redis for mem-db — Day 6"
 link: "https://medium.com/@javascriptBard/silo-setting-up-redis-for-mem-db-day-6-fa0d6453fd8c"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-07-SiloSettingupRedisformem-dbDay6_0.png)

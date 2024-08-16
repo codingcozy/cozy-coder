@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "JIGFINITY: All-in-One Gridfinity Magnet Baseplate Bin Jig"
 link: "https://medium.com/@robosquiggles/jigfinity-all-in-one-gridfinity-magnet-baseplate-bin-jig-f25ed1b9f9ad"
+isUpdated: true
 ---
+
+
+
 
 
 ## 3D 프린팅 열광가 여러분 환영합니다! 새로운 바구니와 베이스플레이트를 접착하는 간단한 방법!

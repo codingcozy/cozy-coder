@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Terminal Commands Assistant Integrated with GPT — QIAI (Quick Assistant)"
 link: "https://medium.com/@rifafaruqi/terminal-commands-assistant-integrated-with-gpt-qiai-quick-assistant-fb249a686fb8"
+isUpdated: true
 ---
+
+
+
 
 
 프로젝트를 진행할 때 종종 터미널에서 명령어를 잊어버리는 경우가 있습니다. 예를 들어 패키지를 설치하는 방법, 옵션을 사용하는 방법 또는 grep 명령어를 사용하여 출력을 필터링하는 방법 등을 잊어버릴 수 있습니다.

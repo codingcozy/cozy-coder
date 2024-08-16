@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Data-Informed Design can help you navigate these turbulent times"
 link: "https://medium.com/user-experience-design-1/how-data-informed-design-can-help-you-navigate-these-turbulent-times-164a4e188a8b"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-19-HowData-InformedDesigncanhelpyounavigatetheseturbulenttimes_0.png)

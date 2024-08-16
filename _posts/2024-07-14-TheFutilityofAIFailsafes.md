@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Futility of AI Failsafes"
 link: "https://medium.com/gitconnected/the-futility-of-ai-failsafes-bb1d09014746"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-14-TheFutilityofAIFailsafes_0.png)

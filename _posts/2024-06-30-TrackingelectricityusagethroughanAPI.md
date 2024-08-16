@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tracking electricity usage through an API"
 link: "https://medium.com/@jack_57343/tracking-electricity-usage-via-an-api-d5a8b8d458fd"
+isUpdated: true
 ---
+
+
+
 
 
 TL;DR: 코드로 건너뛰려면 여기를 클릭하세요.

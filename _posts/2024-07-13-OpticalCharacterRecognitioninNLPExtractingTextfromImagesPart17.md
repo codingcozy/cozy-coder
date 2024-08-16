@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optical Character Recognition in NLP: Extracting Text from Images (Part 17)"
 link: "https://medium.com/generative-ai/optical-character-recognition-in-nlp-extracting-text-from-images-part-17-07b818a49bdc"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-13-OpticalCharacterRecognitioninNLPExtractingTextfromImagesPart17_0.png)

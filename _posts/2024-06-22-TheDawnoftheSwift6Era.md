@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Dawn of the Swift 6 Era"
 link: "https://medium.com/@threehappyer/the-dawn-of-the-swift-6-era-530e5f6523cc"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-22-TheDawnoftheSwift6Era_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Prompt Engineering Best Practices: Iterative Prompt Development"
 link: "https://medium.com/towards-artificial-intelligence/prompt-engineering-best-practices-iterative-prompt-development-22759b309919"
+isUpdated: true
 ---
+
+
+
 
 
 대형 언어 모델을 사용하여 애플리케이션을 개발할 때, 첫 번째 시도에서 최종 애플리케이션에 사용할 프롬프트를 만들기 어려울 수 있습니다.

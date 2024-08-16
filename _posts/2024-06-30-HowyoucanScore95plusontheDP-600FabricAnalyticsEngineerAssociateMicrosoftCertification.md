@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How you can Score 95% plus on the DP-600 Fabric Analytics Engineer Associate Microsoft Certification"
 link: "https://medium.com/the-data-therapy/how-you-can-score-95-plus-on-the-dp-600-fabric-analytics-engineer-associate-microsoft-aee004ffd6fc"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-06-30-HowyoucanScore95plusontheDP-600FabricAnalyticsEngineerAssociateMicrosoftCertification_0.png" />`

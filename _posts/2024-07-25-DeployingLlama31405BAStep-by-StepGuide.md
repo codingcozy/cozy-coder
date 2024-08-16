@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Llama 31 405B A Step-by-Step Guide"
 link: "https://medium.com/@isaiah_bjork/deploying-llama-3-1-405b-a-step-by-step-guide-9b1b852f3dc9"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-25-DeployingLlama31405BAStep-by-StepGuide_0.png" />

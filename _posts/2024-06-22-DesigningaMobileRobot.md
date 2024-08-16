@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Designing a Mobile Robot"
 link: "https://medium.com/@johanschwind/designing-a-mobile-robot-f83665138248"
+isUpdated: true
 ---
+
+
+
 
 
 제 세 부작으로 시작되는 이 모바일 로봇에 관한 첫 번째 기사에서는 Cerus의 하드웨어 디자인을 살펴보고 실용적인 접근 방법과 유용한 자원을 공유할 것입니다.

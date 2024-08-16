@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Designing Dashboard for Smart Home Energy App"
 link: "https://medium.com/@batulbohra041/designing-dashboard-for-smart-home-energy-app-8a25d6835717"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-DesigningDashboardforSmartHomeEnergyApp_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "NGINX: Installing Proxy Manager in LXC — V2, Debian"
 link: "https://medium.com/@rar1871/nginx-installing-proxy-manager-in-lxc-v2-debian-d4d4c98109b1"
+isUpdated: true
 ---
+
+
+
 
 
 이 문서는 아래 링크에서 확인할 수 있는 이전 버전의 업데이트입니다. 작년에는 이전 가이드에서 사용했던 설치 스크립트가 Debian 및 Ubuntu를 지원하도록 업데이트되었습니다. Alpine Linux를 사용하려면 이전 가이드를 따르세요:

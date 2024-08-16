@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How data binding works in Android"
 link: "https://medium.com/@sandeepkella23/how-data-binding-works-in-android-7e9bbdb47a0d"
+isUpdated: true
 ---
+
+
+
 
 
 ![HowdatabindingworksinAndroid_0.png](/assets/img/2024-07-07-HowdatabindingworksinAndroid_0.png)

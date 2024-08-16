@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPhone 15 vs. Pixel 8 Pro"
 link: "https://medium.com/macoclock/iphone-15-vs-pixel-8-pro-28abd2590bbd"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-iPhone15vsPixel8Pro_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Positional encoding in transformers: a Visual and Intuitive guide"
 link: "https://medium.com/@gunjassingh/positional-encoding-in-transformers-a-visual-and-intuitive-guide-0761e655cea7"
+isUpdated: true
 ---
+
+
+
 
 
 이 글에서는 Transformer 모델의 변형적인 힘을 탐구할 것이며, 특히 위치 인코딩을 통해 그 힘을 조명할 것입니다. GPT, DALL-E, SORA와 같은 혁신적인 AI 모델의 기술인 트랜스포머는 기계가 인간과 유사한 텍스트와 이미지를 이해하고 생성하는 방법을 혁신적으로 바꾸었습니다. 이러한 모델의 핵심에는 "Attention is All You Need"라는 선행 논문에서 소개된 위치 인코딩 개념이 있습니다. 이 방법은 순환 구조 없이 데이터의 순서를 유지하는 데 중요한 역할을 합니다. 우리는 왜 저자들이 사인 함수 위치 인코딩을 선택했는지 그리고 이 선택 뒤에 있는 수학적 프레임워크와 직관적 이유를 자세히 알아볼 것입니다.

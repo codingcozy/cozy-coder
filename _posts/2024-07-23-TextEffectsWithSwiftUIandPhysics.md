@@ -1,5 +1,5 @@
 ---
-title: "SwiftUI와 물리 효과로 만드는 텍스트 애니메이션 방법"
+title: "SwiftUI에서 텍스트 애니메이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-TextEffectsWithSwiftUIandPhysics_0.png"
 date: 2024-07-23 11:26
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TextEffects With SwiftUI and Physics"
 link: "https://medium.com/better-programming/texteffects-with-swiftui-and-physics-2bcd1f1efad5"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*y1JaOSszoa3ZpKLOQSCPXw.gif" />

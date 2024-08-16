@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Joys and Frustrations of a Neglectful Gardener"
 link: "https://medium.com/gardening-birding-and-outdoor-adventure/joys-and-frustrations-of-a-neglectful-gardener-aad0fcffe7ae"
+isUpdated: true
 ---
+
+
+
 
 
 노력을 하지 않아도 삶은 언제나 길을 찾아냅니다.

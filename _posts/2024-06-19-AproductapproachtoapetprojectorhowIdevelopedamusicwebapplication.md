@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A product approach to a pet project, or how I developed a music web application"
 link: "https://medium.com/@iamandreyburov/a-product-approach-to-a-pet-project-or-how-i-developed-a-music-web-application-2565cc64d8d6"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-AproductapproachtoapetprojectorhowIdevelopedamusicwebapplication_0.png" />

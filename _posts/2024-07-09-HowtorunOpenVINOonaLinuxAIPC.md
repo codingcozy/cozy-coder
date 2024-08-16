@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to run OpenVINO™ on a Linux AI PC"
 link: "https://medium.com/openvino-toolkit/how-to-run-openvino-on-a-linux-ai-pc-52083ce14a98"
+isUpdated: true
 ---
+
+
+
 
 
 ## CPU, GPU 및 NPU의 혜택

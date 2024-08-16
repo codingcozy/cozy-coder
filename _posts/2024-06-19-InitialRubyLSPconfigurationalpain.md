@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Initial Ruby LSP configurational pain"
 link: "https://medium.com/@luka.barczak/initial-ruby-lsp-configurational-pain-7d58bba2b995"
+isUpdated: true
 ---
+
+
+
 
 
 이 글은 Windows 10에서 Ruby LSP VS Code 확장 프로그램을 설정하는 방법에 대한 빠른 안내입니다.

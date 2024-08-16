@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Data Analysis Project — Smart Phones Data Analysis."
 link: "https://medium.com/towards-artificial-intelligence/a-data-analysis-project-smart-phones-data-analysis-381ed9be26ff"
+isUpdated: true
 ---
+
+
+
 
 
 ## SQL 및 SSMS를 사용하여 스마트폰 데이터의 통찰력 추출

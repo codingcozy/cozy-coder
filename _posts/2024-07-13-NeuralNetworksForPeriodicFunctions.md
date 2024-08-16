@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Neural Networks For Periodic Functions"
 link: "https://medium.com/towards-data-science/neural-networks-for-periodic-functions-648cfc940437"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해주세요.

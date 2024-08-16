@@ -1,5 +1,5 @@
 ---
-title: "새로운 JavaScript 기능 탐험 Records와 Tuples 사용 방법"
+title: "JavaScript에서 Records와 Tuples 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-30-ExploringtheNewJavaScriptFeatureRecordsandTuples_0.png"
 date: 2024-07-30 17:26
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the New JavaScript Feature Records and Tuples"
 link: "https://medium.com/javascript-in-plain-english/exploring-the-new-javascript-feature-records-and-tuples-8345e1e968dd"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-30-ExploringtheNewJavaScriptFeatureRecordsandTuples_0.png](/assets/img/2024-07-30-ExploringtheNewJavaScriptFeatureRecordsandTuples_0.png)

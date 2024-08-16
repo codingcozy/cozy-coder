@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mobile Deployment Pipelines for 0"
 link: "https://medium.com/gitconnected/mobile-deployment-pipelines-for-0-f0ec86b2269d"
+isUpdated: true
 ---
+
+
+
 
 
 

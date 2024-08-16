@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Setting up PostgreSQL and pgAdmin 4 with Docker"
 link: "https://medium.com/@marvinjungre/get-postgresql-and-pgadmin-4-up-and-running-with-docker-4a8d81048aea"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-SettingupPostgreSQLandpgAdmin4withDocker_0.png" />

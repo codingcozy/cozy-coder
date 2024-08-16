@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Weird Ethics of AI-Generated Vocals"
 link: "https://medium.com/the-generator/the-weird-ethics-of-ai-generated-vocals-bd54a827ebcc"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TheWeirdEthicsofAI-GeneratedVocals_0.png" />

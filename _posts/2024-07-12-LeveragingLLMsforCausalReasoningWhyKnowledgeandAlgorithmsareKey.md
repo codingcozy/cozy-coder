@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging LLMs for Causal Reasoning: Why Knowledge and Algorithms are Key"
 link: "https://medium.com/gopenai/leveraging-llms-for-causal-reasoning-why-knowledge-and-algorithms-are-key-d1928b7051c7"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 이 기사의 텍스트를 개선하여 문법, 흐름, 가독성을 향상했습니다.

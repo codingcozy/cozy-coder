@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Time Series Regression and Cross-Validation: A Tidy Approach"
 link: "https://medium.com/towards-data-science/time-series-regression-and-cross-validation-a-tidy-approach-8bc31d5a31f2"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-19-TimeSeriesRegressionandCross-ValidationATidyApproach_0.png)

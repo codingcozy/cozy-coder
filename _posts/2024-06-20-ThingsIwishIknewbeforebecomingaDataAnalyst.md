@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Things I wish I knew before becoming a Data Analyst"
 link: "https://medium.com/@asma.sithi/things-i-wish-i-knew-before-becoming-a-data-analyst-9dc92d0a3fdc"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 분석가들을 위한 조언입니다. 제가 경험했던 것보다 더 잘 준비할 수 있도록 아래에 나열했어요.

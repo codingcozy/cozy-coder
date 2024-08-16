@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Multi-Head RAG: Optimizing Complex Query Retrieval"
 link: "https://medium.com/ai-advances/multi-head-rag-optimizing-complex-query-retrieval-68fdf173a1e1"
+isUpdated: true
 ---
+
+
+
 
 
 # 새로운 방식으로 다중 측면 정보 검색 도전 해결하기

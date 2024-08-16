@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering OOP and SOLID Principles in Kotlin: Comprehensive Guide with Real-World Examples"
 link: "https://medium.com/@jaidwivedi20/mastering-oop-and-solid-principles-in-kotlin-comprehensive-guide-with-real-world-examples-6e5d25b14161"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요, 타로 친구들🔮! 

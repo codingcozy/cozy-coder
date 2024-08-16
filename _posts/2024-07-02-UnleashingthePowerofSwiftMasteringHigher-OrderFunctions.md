@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing the Power of Swift: Mastering Higher-Order Functions"
 link: "https://medium.com/@ragul.m_19701/unleashing-the-power-of-swift-mastering-higher-order-functions-fb8bb10dcf3e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 높은차 함수란 무엇인가?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows Active Directory 101: A Beginner’s Guide and Home Lab Setup"
 link: "https://medium.com/@yogeshrathod0769/windows-active-directory-101-a-beginners-guide-and-home-lab-setup-422480157314"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-27-WindowsActiveDirectory101ABeginnersGuideandHomeLabSetup_0.png)

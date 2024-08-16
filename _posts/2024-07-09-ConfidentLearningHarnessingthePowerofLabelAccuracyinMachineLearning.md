@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Confident Learning: Harnessing the Power of Label Accuracy in Machine Learning"
 link: "https://medium.com/dev-genius/confident-learning-harnessing-the-power-of-label-accuracy-in-machine-learning-39961e51bbfe"
+isUpdated: true
 ---
+
+
+
 
 
 # Abstract

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Multi-Extruder Designs in OpenSCAD for 3D Printing"
 link: "https://medium.com/@nextjeff/creating-multi-extruder-designs-in-openscad-for-3d-printing-6c43a002ef64"
+isUpdated: true
 ---
+
+
+
 
 
 작년부터 OpenSCAD를 사용하여 흥미로운 기하학적 패턴을 디자인하고 Prusa MK4 프린터를 사용하여 직물에 출력해 왔어요.

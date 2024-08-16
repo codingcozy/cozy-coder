@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhanced Detection of Hateful Memes Using Multimodal Learning"
 link: "https://medium.com/@abhishekbose550/enhanced-detection-of-hateful-memes-using-multimodal-learning-70c3a1dab74a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소개

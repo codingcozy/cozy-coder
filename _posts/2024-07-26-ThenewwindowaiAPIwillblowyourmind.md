@@ -1,5 +1,5 @@
 ---
-title: "새로운 windowai API 소개 당신을 놀라게 할 기능들"
+title: "2024년 새로운 window ai API 기능 소개 및 정리"
 description: ""
 coverImage: "/assets/img/2024-07-26-ThenewwindowaiAPIwillblowyourmind_0.png"
 date: 2024-07-26 11:52
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The new windowai API will blow your mind"
 link: "https://medium.com/javascript-in-plain-english/the-new-window-ai-api-will-blow-your-mind-3eb8b4704ca0"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-26-ThenewwindowaiAPIwillblowyourmind_0.png" />

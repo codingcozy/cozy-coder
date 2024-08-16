@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding L1 and L2 regularization with analytical and probabilistic views"
 link: "https://medium.com/intuition/understanding-l1-and-l2-regularization-with-analytical-and-probabilistic-views-8386285210fc"
+isUpdated: true
 ---
+
+
+
 
 
 ## 기계 학습과 수학

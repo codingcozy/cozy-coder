@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi Cluster with Kubernetes and Airflow: Configuring Ansible"
 link: "https://medium.com/@robronayne/raspberry-pi-cluster-with-kubernetes-and-airflow-configuring-ansible-a713476d9b87"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-RaspberryPiClusterwithKubernetesandAirflowConfiguringAnsible_0.png" />

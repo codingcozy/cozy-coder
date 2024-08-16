@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Definitive Guide to LLM Writing Styles"
 link: "https://medium.com/pythoneers/the-definitive-guide-to-llm-writing-styles-7b5a634e3c93"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 4월 10일에 업데이트된 내용: 의사 소통 스타일 및 언어 등록 범주에 대한 누락된 예시를 작성하여 형식을 개선하고 삽입 문단 2개를 제거했습니다.

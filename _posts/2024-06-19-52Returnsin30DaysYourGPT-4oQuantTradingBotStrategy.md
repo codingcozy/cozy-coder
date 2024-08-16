@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "52% Returns in 30 Days: Your GPT-4o Quant Trading Bot Strategy"
 link: "https://medium.com/limitless-investor/52-returns-in-30-days-your-gpt-4o-quant-trading-bot-strategy-2eb98e9f360b"
+isUpdated: true
 ---
+
+
+
 
 
 양자 거래는 수익을 창출할 수 있지만, 오랫동안 많은 자원, 코딩 및 수학 기술을 가진 거래자들이나 대규모 기관들만이 수행할 수 있는 것으로 여겨졌습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learning from Failures: My Biggest AI Project Mistakes and Takeaways"
 link: "https://medium.com/@april.st.scott/learning-from-failures-my-biggest-ai-project-mistakes-and-takeaways-59eb92c4d4df"
+isUpdated: true
 ---
+
+
+
 
 
 ![Learning from Failures](/assets/img/2024-06-19-LearningfromFailuresMyBiggestAIProjectMistakesandTakeaways_0.png)

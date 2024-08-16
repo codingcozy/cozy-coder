@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Potential of 3D Scanning in Open Source Hydroponics"
 link: "https://medium.com/@mahesh.kommareddi/the-potential-of-3d-scanning-in-open-source-hydroponics-7e81db6b333a"
+isUpdated: true
 ---
+
+
+
 
 
 지속가능성과 혁신이 중요시되는 시대에는, 3D 스캐닝과 오픈 소스 수경재배의 융합이 식품 생산 혁명을 이끌고 있습니다. 세계가 인구 증가로 식량 공급 문제와 환경 영향 최소화를 해결하려는 도전과 맞서는 가운데, 이 첨단 접근 방식은 지역 사회와 개인 모두에게 혁신적인 해결책을 제공합니다.

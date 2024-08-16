@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install Windows 10 and 11"
 link: "https://medium.com/@info_5679/how-to-install-windows-10-and-11-313dfc494238"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-HowtoInstallWindows10and11_0.png)

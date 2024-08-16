@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Applications of Statistics in Data Science"
 link: "https://medium.com/@parpolkarashish/applications-of-statistics-in-data-science-aaf831a46578"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-08-ApplicationsofStatisticsinDataScience_0.png)

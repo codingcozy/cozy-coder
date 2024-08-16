@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What Everyone Gets Wrong about the Transformative Power of AI"
 link: "https://medium.com/@markaherschberg/what-everyone-gets-wrong-about-the-transformative-power-of-ai-7960272920e1"
+isUpdated: true
 ---
+
+
+
 
 
 ## AI가 사회를 변화시킬 것이지만, 지금까지의 변화는 예상과는 다를 수 있음을 사회는 보여주고 있습니다. 그 변화가 제어되지 않으면 지불해야 할 비용이 과도할 수도 있습니다.

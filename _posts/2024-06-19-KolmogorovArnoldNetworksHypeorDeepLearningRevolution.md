@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kolmogorov–Arnold Networks: Hype or Deep Learning Revolution?"
 link: "https://medium.com/@machine-learning-made-simple/understanding-kolmogorov-arnold-networks-possible-successors-to-mlps-4f2a912e69df"
+isUpdated: true
 ---
+
+
+
 
 
 ## 더 좋은 해석 가능성, 작은 네트워크 크기 및 학습 가능한 활성화 함수가 MLPs를 무너뜨리게 될까요?

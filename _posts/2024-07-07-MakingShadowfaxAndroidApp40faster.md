@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Making Shadowfax Android App 40% faster"
 link: "https://medium.com/shadowfax-newsroom/making-shadowfax-android-app-40-faster-995cd36b6e5e"
+isUpdated: true
 ---
+
+
+
 
 
 **이미지 첨부**

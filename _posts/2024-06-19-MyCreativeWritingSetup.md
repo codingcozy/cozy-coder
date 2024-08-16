@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Creative Writing Setup"
 link: "https://medium.com/macoclock/my-creative-writing-setup-8691c3a65b3f"
+isUpdated: true
 ---
+
+
+
 
 
 

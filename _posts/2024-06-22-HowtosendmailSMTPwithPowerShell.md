@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to send mail SMTP with PowerShell"
 link: "https://medium.com/@devopslite/how-to-send-mail-smtp-with-powershell-b0eba44a59eb"
+isUpdated: true
 ---
+
+
+
 
 
 파워셸로 이메일을 SMTP로 보내는 방법은 어떻게 해야 하나요? 오랜 시간 리눅스 사용자인 저에게 윈도우로 돌아오는 것은 새로운 경험이죠.

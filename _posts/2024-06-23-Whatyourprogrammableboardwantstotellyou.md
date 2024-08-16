@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What your programmable board wants to tell you 🙄?"
 link: "https://medium.com/@prathamsrivastava35/what-your-programmable-board-wants-to-tell-you-0689b35b1909"
+isUpdated: true
 ---
+
+
+
 
 
 ## 안녕하세요! 제 이름은 프라탐이고, 나는 주변에서 권장하는 공학의 길을 걷고 있는 학부생이에요. 어린 시절, 제 무한한 호기심은 어른들을 재미있게 만들기도 했고 가끔 짜증나게도 했어요. '테스트 주제'로써 가장 주된 전자 장난감을 돌아보면, 그것들이 전기의 신비한 세계에 대한 제 흥미를 자극했다는 것을 깨달았어요. 제 블로그를 통해 세계적으로 사람들과 연결하고, 제 이야기를 공유하고, 그들의 이야기를 듣고 싶어해요.

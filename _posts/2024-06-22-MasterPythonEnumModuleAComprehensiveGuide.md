@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Master Python Enum Module: A Comprehensive Guide"
 link: "https://medium.com/python-in-plain-english/master-python-enum-module-a-comprehensive-guide-22f1fad08687"
+isUpdated: true
 ---
+
+
+
 
 
 ## 파이썬의 Enum 모듈로 코드를 향상시키세요

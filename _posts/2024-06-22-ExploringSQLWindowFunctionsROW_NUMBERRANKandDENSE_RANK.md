@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring SQL Window Functions: ROW_NUMBER, RANK, and DENSE_RANK"
 link: "https://medium.com/@sqlfundamentals/exploring-sql-window-functions-row-number-rank-and-dense-rank-4a4a67432e0e"
+isUpdated: true
 ---
+
+
+
 
 
 SQL 세계에서 윈도우 함수는 현재 행과 관련된 테이블 행 집합을 대상으로 계산을 수행할 수 있는 강력한 도구입니다. 이 글에서는 세 가지 필수 SQL 윈도우 함수인 ROW_NUMBER, RANK 및 DENSE_RANK에 대해 알아볼 것입니다. 이러한 함수를 사용하면 결과 세트 내에서 행에 고유한 번호나 순위를 할당하여 데이터에서 가치 있는 통찰을 추출하기가 쉬워집니다.

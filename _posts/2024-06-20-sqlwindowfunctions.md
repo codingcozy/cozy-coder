@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "sql window functions ?"
 link: "https://medium.com/@aspinfo/sql-window-functions-897eafdf3eff"
+isUpdated: true
 ---
+
+
+
 
 
 

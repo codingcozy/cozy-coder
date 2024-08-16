@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Detectors are Just as Broken as You Expect"
 link: "https://medium.com/young-coder/ai-detectors-are-just-as-broken-as-you-expect-511883db7636"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-02-AIDetectorsareJustasBrokenasYouExpect_0.png)

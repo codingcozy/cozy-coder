@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Multi-Agent Systems   LangGraph"
 link: "https://medium.com/@minekayaa/multi-agent-systems-langgraph-63c1abb3e242"
+isUpdated: true
 ---
+
+
+
 
 
 응, 맞아, Smiths가 여기 있어! 내 이전 게시물이 꽤 오래되었네. 처음 보는 사람이라면, 안녕. 이 게시물에서는 LangGraph에 대해 이야기하고, LangSmith에 대해서도 조금 언급하고 싶어. 최근에 우리는 에이전트 감독자를 구현하기 시작했어; 이것은 다중 에이전트 시스템을 구현하는 방법이야.

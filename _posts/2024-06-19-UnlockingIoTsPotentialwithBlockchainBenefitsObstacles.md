@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking IoT’s Potential with Blockchain: Benefits , Obstacles"
 link: "https://medium.com/daniel-parente/unlocking-iots-potential-with-blockchain-benefits-obstacles-b094c58d2593"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-UnlockingIoTsPotentialwithBlockchainBenefitsObstacles_0.png)

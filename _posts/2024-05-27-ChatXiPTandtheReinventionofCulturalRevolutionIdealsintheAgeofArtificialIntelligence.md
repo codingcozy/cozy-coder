@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "“Chat Xi PT” and the Reinvention of Cultural Revolution Ideals in the Age of Artificial Intelligence"
 link: "https://medium.com/ai-advances/chat-xi-pt-and-the-reinvention-of-cultural-revolution-ideals-in-the-age-of-artificial-617425e970a3"
+isUpdated: true
 ---
+
+
+
 
 
 ## 의견 | 인공 지능 & 중국

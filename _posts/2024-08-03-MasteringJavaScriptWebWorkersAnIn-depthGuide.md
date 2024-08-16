@@ -1,5 +1,5 @@
 ---
-title: " 자바스크립트 웹 워커 완벽 마스터 심층 가이드"
+title: "자바스크립트 웹 워커 개념 정리"
 description: ""
 coverImage: "/assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_0.png"
 date: 2024-08-03 18:34
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: " Mastering JavaScript Web Workers An In-depth Guide"
 link: "https://medium.com/stackademic/javascript-web-workers-lightning-fast-performance-unleashed-2163f05dcf34"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-08-03-MasteringJavaScriptWebWorkersAnIn-depthGuide_0.png)

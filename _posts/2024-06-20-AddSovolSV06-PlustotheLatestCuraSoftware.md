@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Add Sovol SV06-Plus to the Latest Cura Software"
 link: "https://medium.com/@drjonesy/add-sovol-sv06-plus-to-the-latest-cura-software-88f44dd4d415"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-AddSovolSV06-PlustotheLatestCuraSoftware_0.png" />

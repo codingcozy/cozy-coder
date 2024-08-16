@@ -3,12 +3,16 @@ title: "SOFTS 시리즈-코어 퓨전을 활용한 효율적인 다변수 시계
 description: ""
 coverImage: "/assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_0.png"
 date: 2024-05-27 14:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-SOFTSEfficientMultivariateTimeSeriesForecastingwithSeries-CoreFusion_0.png
 tag: Tech
 originalTitle: "SOFTS: Efficient Multivariate Time Series Forecasting with Series-Core Fusion"
 link: "https://medium.com/towards-artificial-intelligence/softs-efficient-multivariate-time-series-forecasting-with-series-core-fusion-0ac40d2adcd2"
+isUpdated: true
 ---
+
+
+
 
 ## 새로운 MLP 기반 모델인 SOFTS는 혁신적인 STar Aggregate-Dispatch (STAD) 모듈을 활용하여 계산 복잡성을 이차 방정식에서 선형으로 줄여 놀라운 효율성과 확장성으로 다변량 시계열 예측에서 최첨단 성능을 달성합니다.
 

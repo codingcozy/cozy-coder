@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPhone 15 Pro Max — shooting ProRes log is not easy…but SO worth it!"
 link: "https://medium.com/macoclock/iphone-15-pro-max-shooting-prores-log-is-not-easy-but-so-worth-it-fbfa1647b8d0"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-13-iPhone15ProMaxshootingProReslogisnoteasybutSOworthit_0.png)

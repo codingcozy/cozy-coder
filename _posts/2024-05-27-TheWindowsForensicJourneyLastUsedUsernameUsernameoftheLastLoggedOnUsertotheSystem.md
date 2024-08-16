@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Windows Forensic Journey — “LastUsedUsername” (Username of the Last Logged On User to the System)"
 link: "https://medium.com/@boutnaru/the-windows-forensic-journey-lastusedusername-username-of-the-last-logged-on-user-to-the-04941181a448"
+isUpdated: true
 ---
+
+
+
 
 
 "LastUsedUsername"은 레지스트리에서 값 이름으로, 시스템에 마지막으로 로그인한 사용자의 사용자 이름을 저장합니다. 레지스트리 내에서의 전체 위치는 "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"입니다. 이 정보가 시스템 전체에 대해 전역적이므로 HKLM 하이브의 일부입니다 — 아래 스크린샷에 표시된 것처럼.

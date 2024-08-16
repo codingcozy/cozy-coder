@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "FreeCAD Modifying STL files"
 link: "https://medium.com/@robofoundry/freecad-modifying-stl-files-35730ab38dee"
+isUpdated: true
 ---
+
+
+
 
 
 저는 프로젝트를 위해 약간의 변화를 주려고 사용 가능한 STL 파일 중 일부를 수정해야 했던 일 중 하나였어요. FreeCAD를 처음 사용할 때 어떻게 해야 하는지에 대해 조사를 좀 해야 했어요. 이 주제에 대한 정말 좋은 유튜브 영상들이 있지만, 빠른 단계를 제시하는 자료를 찾을 수 없었죠. 이렇게 문서를 제공해 봄으로써 누군가에게 도움이 될 수 있기를 바라요.

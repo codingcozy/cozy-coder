@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Training Simplified: The Essential Mathematics Explained"
 link: "https://medium.com/towards-data-science/ai-training-simplified-the-essential-mathematics-explained-3a94ebeb4a3e"
+isUpdated: true
 ---
+
+
+
 
 
 **이미지**

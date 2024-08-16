@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux Regular Expression"
 link: "https://medium.com/@adnanturgayaydin/linux-regular-expression-0158f7491905"
+isUpdated: true
 ---
+
+
+
 
 
 아래는 마크다운 형식으로 표로 변환해보겠습니다.

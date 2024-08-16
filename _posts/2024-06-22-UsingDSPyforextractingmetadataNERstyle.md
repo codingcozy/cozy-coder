@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using DSPy for extracting metadata NER style"
 link: "https://medium.com/gopenai/using-dspy-for-extracting-metadata-ner-style-44e3f4d55fe5"
+isUpdated: true
 ---
+
+
+
 
 
 DSPy는 프로그래밍을 장려하는 "선언적" 방식을 통해 LLMs를 가르치는 것을 선호하여 커뮤니티에서 빠르게 큰 관심을 얻었습니다. 이 글에서는 DSPy를 사용하여 Named Entity Recognition (NER) 또는 구조화된 데이터 추출을 얼마나 쉽게 할 수 있는지 살펴보겠습니다. 이를 통해 자신감을 가지고 기능을 활용할 수 있습니다.

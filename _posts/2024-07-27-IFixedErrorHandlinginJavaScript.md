@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트에서 에러 처리 문제 해결하는 방법"
+title: "자바스크립트에서 에러 처리를 제대로 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-27-IFixedErrorHandlinginJavaScript_0.png"
 date: 2024-07-27 14:04
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Fixed Error Handling in JavaScript"
 link: "https://medium.com/gitconnected/i-fixed-error-handling-in-javascript-4e3c1a28a292"
+isUpdated: true
 ---
+
+
+
 
 
 

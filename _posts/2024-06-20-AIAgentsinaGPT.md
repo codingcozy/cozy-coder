@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Agents in a GPT?"
 link: "https://medium.com/@addison-best/ai-agents-in-a-gpt-34fe5158ecc6"
+isUpdated: true
 ---
+
+
+
 
 
 ## GPT에 AI 에이전트를 내장하는 방법

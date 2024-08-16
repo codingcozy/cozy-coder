@@ -3,12 +3,16 @@ title: "NahamCon CTF 2024 리뷰"
 description: ""
 coverImage: "/assets/img/2024-05-27-NahamConCTF2024Write-Up_0.png"
 date: 2024-05-27 15:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-NahamConCTF2024Write-Up_0.png
 tag: Tech
 originalTitle: "NahamCon CTF 2024 Write-Up"
 link: "https://medium.com/@ELJoOker/nahamcon-ctf-2024-write-ups-3e24354dc2c6"
+isUpdated: true
 ---
+
+
+
 
 ## 다시 한번 여러분 안녕하세요! 이 글은 나는 NahamCon CTF 대회에서 해결한 일부 Reverse Engineering 및 Forensics 도전 과제들을 위한 것이다.
 

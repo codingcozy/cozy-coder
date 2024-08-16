@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Data Classes in Kotlin for Android Development"
 link: "https://medium.com/@hiteshdhamshaniya-wvmagic/exploring-data-classes-in-kotlin-for-android-development-c28833238eca"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 티 원 주니어 테러 카드 전문가에 오신 것을 환영합니다!

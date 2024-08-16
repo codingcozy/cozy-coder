@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Use Cases are Fundamentally Different"
 link: "https://medium.com/towards-data-science/ai-use-cases-are-fundamentally-different-3946f089c68e"
+isUpdated: true
 ---
+
+
+
 
 
 AI를 통합하는 성공은 적절한 AI 사용 사례를 선택하는 데 크게 의존합니다. 이것은 알고리즘, 데이터 및 엔지니어링에 집중하기 전 제품 중심의 기술 전문가들에게 제시되는 관점입니다.

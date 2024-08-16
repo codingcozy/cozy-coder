@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding SSO (Single Sign On) in Node.js"
 link: "https://medium.com/@patilchetan2110/understanding-sso-single-sign-on-in-node-js-7596ac73b9db"
+isUpdated: true
 ---
+
+
+
 
 
 현대 웹 애플리케이션에서 Single Sign-On (SSO)은 사용자 인증을 간편하게 하고 보안을 개선하는 중요한 구성 요소입니다. 이 블로그 포스트에서는 OAuth 2.0 및 OpenID Connect와 같은 인기있는 인증 프로토콜을 활용하여 Node.js 애플리케이션에 SSO를 구현하는 방법에 대해 살펴보겠습니다.

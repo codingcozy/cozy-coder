@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "26. How to calibrate Z offset using OctoPrint?"
 link: "https://medium.com/@hellosimplexdesigns/26-how-to-calibrate-z-offset-using-octoprint-e7b03630a0ff"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-26HowtocalibrateZoffsetusingOctoPrint_0.png" />

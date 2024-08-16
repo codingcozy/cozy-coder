@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Open Source Pulse Oximeter"
 link: "https://medium.com/@nandasiddhardha/open-source-pulse-oximeter-90c0e3b89628"
+isUpdated: true
 ---
+
+
+
 
 
 이 프로젝트에서 사용된 항목

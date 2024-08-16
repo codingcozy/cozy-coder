@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "WWDC 2024, What’s new in SwiftUI"
 link: "https://medium.com/@serhankhan/wwdc-2024-whats-new-in-swiftui-5f2d49380472"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이 특별한 기사에서는 SwiftUI 및 애플의 새로운 발표에 초점을 맞출 것입니다.

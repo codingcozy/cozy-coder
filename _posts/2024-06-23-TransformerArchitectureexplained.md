@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Transformer Architecture explained"
 link: "https://medium.com/@amanatulla1606/transformer-architecture-explained-2c49e2257b4c"
+isUpdated: true
 ---
+
+
+
 
 
 Transfomers은 최근에 많은 소음을 일으키고 있는 머신 러닝의 새로운 개발입니다. 그들은 맥락을 잘 추적하는 데 놀라울 정도로 뛰어납니다. 그래서 그들이 쓰는 텍스트가 이치에 맞는 것입니다. 이 장에서는 변압기의 아키텍처와 작동 방식에 대해 알아볼 것입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Things I Wish the Pandas Library Could Do"
 link: "https://medium.com/datadriveninvestor/5-things-i-wish-the-pandas-library-could-do-ddbf9b5039a1"
+isUpdated: true
 ---
+
+
+
 
 
 아래는 해당 기사에 대한 코드를 찾을 수 있습니다.

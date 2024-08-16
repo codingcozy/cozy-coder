@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Explained: Ranking Analytics"
 link: "https://medium.com/towards-data-science/sql-explained-ranking-analytics-d545fc4c4a5c"
+isUpdated: true
 ---
+
+
+
 
 
 인기 있는 RDBMS 관리 시스템 중 하나인 Oracle, SQL Server, Postgres 등에 경험이 있다면, 분석 또는 윈도잉 함수로 불리는 함수를 어느 정도 접해봤을 것입니다.

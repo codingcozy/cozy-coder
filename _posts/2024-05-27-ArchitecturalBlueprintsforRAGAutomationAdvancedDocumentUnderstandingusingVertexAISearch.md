@@ -3,12 +3,16 @@ title: "RAG 자동화를 위한 건축 설계도 Vertex AI 검색을 활용한 �
 description: ""
 coverImage: "/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png"
 date: 2024-05-27 15:10
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png
 tag: Tech
 originalTitle: "Architectural Blueprints for RAG Automation: Advanced Document Understanding using Vertex AI Search"
 link: "https://medium.com/google-cloud/architectural-blueprints-for-rag-automation-advanced-document-understanding-using-vertex-ai-search-537ee9376847"
+isUpdated: true
 ---
+
+
+
 
 <img src="/assets/img/2024-05-27-ArchitecturalBlueprintsforRAGAutomationAdvancedDocumentUnderstandingusingVertexAISearch_0.png" />
 

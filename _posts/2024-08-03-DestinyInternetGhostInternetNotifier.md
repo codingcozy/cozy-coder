@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Destiny Internet Ghost  Internet Notifier"
 link: "https://medium.com/@diyfactory/destiny-internet-ghost-internet-notifier-49f0cf1a9049"
+isUpdated: true
 ---
+
+
+
 
 
 # Destiny Internet Ghost — 인터넷 알림 프로그램

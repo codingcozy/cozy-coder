@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Word2Vec, GloVe, and FastText, Explained"
 link: "https://medium.com/towards-data-science/word2vec-glove-and-fasttext-explained-215a5cd4c06f"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-14-Word2VecGloVeandFastTextExplained_0.png)

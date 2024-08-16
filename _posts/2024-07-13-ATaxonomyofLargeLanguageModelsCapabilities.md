@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Taxonomy of Large Language Models Capabilities"
 link: "https://medium.com/generative-ai/a-taxonomy-of-large-language-models-capabilities-b019d3d582b2"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-ATaxonomyofLargeLanguageModelsCapabilities_0.png)

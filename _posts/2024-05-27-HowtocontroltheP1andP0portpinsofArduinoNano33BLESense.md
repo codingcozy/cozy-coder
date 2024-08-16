@@ -3,12 +3,16 @@ title: "아두이노 나노 33 BLE Sense의 P1 및 P0 포트 핀을 제어하는
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtocontroltheP1andP0portpinsofArduinoNano33BLESense_0.png"
 date: 2024-05-27 13:42
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowtocontroltheP1andP0portpinsofArduinoNano33BLESense_0.png
 tag: Tech
 originalTitle: "How to control the P1 and P0 port pins of Arduino Nano 33 BLE Sense"
 link: "https://medium.com/@samueladesola/how-to-control-the-p1-and-p0-port-pins-of-arduino-nano-33-ble-sense-86d0b7002b97"
+isUpdated: true
 ---
+
+
+
 
 안녕하세요! 이 간단한 안내서에 오신 것을 환영합니다. 바로 시작해 봅시다. 기존의 아두이노 보드인 UNO, 나노 등은 핀 번호매기기를 기준으로 배치되어 있습니다. 디지털 및 아날로그 핀을 쉽게 다룰 수 있으며 아두이노 스케치에서 GPIO 핀을 쉽게 다룰 수 있어요. 매핑(mapping)이나 핀 가용성에 대해 걱정할 필요가 없습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: "VS Code를 프로처럼 사용하는 방법"
+title: "VS Code를 더 잘 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-04-UseVSCodeLikeaPro_0.png"
 date: 2024-08-04 18:37
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Use VS Code Like a Pro"
 link: "https://medium.com/javascript-in-plain-english/use-vs-code-like-a-pro-53973daa534f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-04-UseVSCodeLikeaPro_0.png" />

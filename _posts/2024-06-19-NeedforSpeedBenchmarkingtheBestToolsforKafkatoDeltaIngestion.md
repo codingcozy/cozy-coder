@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Need for Speed: Benchmarking the Best Tools for Kafka to Delta Ingestion"
 link: "https://medium.com/@canadiandataguy/need-for-speed-benchmarking-the-best-tools-for-kafka-to-delta-ingestion-e1969121ed2e"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Don’t Let Technology Push YOUR Buttons"
 link: "https://medium.com/bouncin-and-behavin-blogs/dont-let-technology-push-your-buttons-1c1f325e985c"
+isUpdated: true
 ---
+
+
+
 
 
 ## 테크놀로지 중독과 정신 건강

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 AI and ML Breakthroughs Enhancing the Technology"
 link: "https://medium.com/@nazowaheed8/top-5-ai-and-ml-breakthroughs-enhancing-the-technology-41a51a8fccc2"
+isUpdated: true
 ---
+
+
+
 
 
 자율주행 테슬라만큼 원활한 삶을 만들어주는 인공지능(AI)과 기계학습(ML) 속으로 달려가 볼까요? 이 두뇌 과학자들은 그저 트렌디한 용어가 아니에요. 일하는 방식을 혁신하고 의료에 이르기까지 기술과의 상호작용을 변화시키고 있죠. 이 천재들은 멋진 알고리즘에 그치지 않아요. 문제 해결의 전문가입니다.

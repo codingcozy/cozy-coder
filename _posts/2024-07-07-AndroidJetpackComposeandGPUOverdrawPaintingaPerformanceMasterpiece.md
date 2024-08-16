@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Jetpack Compose and GPU Overdraw: Painting a Performance Masterpiece !"
 link: "https://medium.com/@hadawalepranav/reducing-gpu-overdraw-in-android-jetpack-compose-5d0920a81958"
+isUpdated: true
 ---
+
+
+
 
 
 ### 소개

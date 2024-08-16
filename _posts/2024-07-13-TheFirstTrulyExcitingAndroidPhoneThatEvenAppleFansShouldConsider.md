@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The First Truly Exciting Android Phone That Even Apple Fans Should Consider"
 link: "https://medium.com/@attilavago/the-first-truly-exciting-android-phone-that-even-apple-fans-should-consider-9ef205d678ae"
+isUpdated: true
 ---
+
+
+
 
 
 Foldables나 폴더형 휴대전화는 잊어버리세요. 플라스틱 화면을 접거나 중간에 주름이 생기는 것을 좋아한다면 멋지겠죠. 그러나 한국에 계신다면, 이들이 요즘 사람들이 소유하는 전화 중 거의 유일한 종류인 것 같습니다. 넷플릭스에 따르면요. 이들이 얼마나 "혁신적"으로 보일지 모르지만, 저처럼 애플 팬임에도 불구하고, 다른 것에 흥분했어요. 그것은 다른 표준 스마트폰들처럼 보이고 작동하지만, 믿을 수 없을 정도로 다른 폰입니다. 지난 10년 동안 애플 비전 프로를 제외하고 다른 기술에 흥분된 적이 없었는데, 제 마음을 설레게 한 첫 번째 안드로이드 폰은 바로 Fairphone 5입니다.

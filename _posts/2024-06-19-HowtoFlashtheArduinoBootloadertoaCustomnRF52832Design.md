@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Flash the Arduino Bootloader to a Custom nRF52832 Design"
 link: "https://medium.com/@pietrowicz-eric/how-to-flash-the-arduino-bootloader-to-a-custom-nrf52832-design-7e730fcb9adb"
+isUpdated: true
 ---
+
+
+
 
 
 

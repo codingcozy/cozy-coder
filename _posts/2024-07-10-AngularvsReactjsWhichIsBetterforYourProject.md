@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular vs React.js: Which Is Better for Your Project?"
 link: "https://medium.com/@vlad.koval/angular-vs-react-js-which-is-better-for-your-project-cf66bb108b72"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-10-AngularvsReactjsWhichIsBetterforYourProject_0.png)

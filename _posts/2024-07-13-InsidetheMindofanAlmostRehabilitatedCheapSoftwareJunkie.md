@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Inside the Mind of an Almost Rehabilitated Cheap Software Junkie"
 link: "https://medium.com/alysynknowsnet/inside-the-mind-of-an-almost-rehabilitated-cheap-software-junkie-7ab1dff7d2ce"
+isUpdated: true
 ---
+
+
+
 
 
 2022년 11월 01일

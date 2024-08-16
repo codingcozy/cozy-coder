@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Essential Role of Exit Codes in Bash Scripting"
 link: "https://medium.com/devops-dev/the-essential-role-of-exit-codes-in-bash-scripting-ca87b03340b2"
+isUpdated: true
 ---
+
+
+
 
 
 ## 파트 4: if 문과 함께 종료 코드 사용하기, 종료 코드를 강제로 조작하기.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Predicting Market Bubbles with the LPPLS Model"
 link: "https://medium.com/@bullishbantersociety/predicting-market-bubbles-with-the-lppls-model-20fd0e5fdec3"
+isUpdated: true
 ---
+
+
+
 
 
 ![Predicting Market Bubbles with the LPPLS Model](/assets/img/2024-07-09-PredictingMarketBubbleswiththeLPPLSModel_0.png)

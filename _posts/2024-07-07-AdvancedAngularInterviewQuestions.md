@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Angular Interview Questions"
 link: "https://medium.com/@tusharghosh09006/advanced-angular-interview-questions-d1573f1b350b"
+isUpdated: true
 ---
+
+
+
 
 
 

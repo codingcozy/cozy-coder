@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hyper-Relational Graphs: The Key to More Intelligent RAG Systems"
 link: "https://medium.com/@alcarazanthony1/hyper-relational-graphs-the-key-to-more-intelligent-rag-systems-08d4e64f8f28"
+isUpdated: true
 ---
+
+
+
 
 
 다음은 여러 문서 간의 정보를 원활하게 연결하여 복잡한 질문에 답변할 수 있는 인공 지능 시스템을 상상해 보세요. 이는 인간 전문가처럼 작동합니다.

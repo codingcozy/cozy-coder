@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "MLOps — Data Validation with PyTest"
 link: "https://medium.com/towards-data-science/mlops-data-validation-with-pytest-749641874871"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-MLOpsDataValidationwithPyTest_0.png" />

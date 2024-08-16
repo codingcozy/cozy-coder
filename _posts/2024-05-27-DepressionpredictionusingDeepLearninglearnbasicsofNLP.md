@@ -3,12 +3,16 @@ title: "딥 러닝을 이용한 우울증 예측 NLP 기초 배우기"
 description: ""
 coverImage: "/assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_0.png"
 date: 2024-05-27 14:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-DepressionpredictionusingDeepLearninglearnbasicsofNLP_0.png
 tag: Tech
 originalTitle: "Depression prediction using Deep Learning (learn basics of NLP)"
 link: "https://medium.com/@omid3jafari/depression-prediction-using-deep-learning-learn-basics-of-nlp-5c05c97d01a9"
+isUpdated: true
 ---
+
+
+
 
 <table>
   <tr>

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Pros and Cons of Resin 3D Printing vs Filament Printing"
 link: "https://medium.com/@killergrafix/the-pros-and-cons-of-resin-3d-printing-vs-filament-printing-314cea6ef89d"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-TheProsandConsofResin3DPrintingvsFilamentPrinting_0.png)

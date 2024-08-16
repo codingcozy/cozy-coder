@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optical Audio Port and Cables — Pros and Cons"
 link: "https://medium.com/@tcaflisch/optical-audio-port-and-cables-pros-and-cons-8132d4b61992"
+isUpdated: true
 ---
+
+
+
 
 
 2023년 8월 22일

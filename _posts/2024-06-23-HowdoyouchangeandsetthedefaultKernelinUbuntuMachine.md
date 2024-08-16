@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How do you change and set the default Kernel in Ubuntu Machine?"
 link: "https://medium.com/@mnzel/how-do-you-change-and-set-the-default-kernel-in-ubuntu-machine-7ad1107e1b6f"
+isUpdated: true
 ---
+
+
+
 
 
 우분투 머신의 기본 커널을 변경하고 다른 커널로 전환해야하는 상황에 처해본 적이 있나요?

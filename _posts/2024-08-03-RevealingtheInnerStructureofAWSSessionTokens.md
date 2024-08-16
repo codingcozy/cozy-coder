@@ -1,5 +1,5 @@
 ---
-title: "AWS 세션 토큰의 내부 구조를 밝히는 방법"
+title: "AWS 세션 토큰의 내부 구조를 확인하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-RevealingtheInnerStructureofAWSSessionTokens_0.png"
 date: 2024-08-03 20:07
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Revealing the Inner Structure of AWS Session Tokens"
 link: "https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tokens-a6c76469cba7"
+isUpdated: true
 ---
+
+
+
 
 
 요약: AWS 세션 토큰에 대한 세계 최초의 역공학 분석입니다. 우리의 연구 이전에는 이러한 토큰이 완전한 블랙박스였습니다. 오늘, 우리는 코드와 도구를 공유하여 AWS 세션 토큰을 프로그래밍적으로 분석하고 수정할 수 있도록 만들어 더 투명한 상자로 만들고 있습니다. 이 코드를 사용하여 AWS 세션 토큰의 내용을 깊이 들여다보고 AWS 암호화 및 인증 프로토콜에 대한 알려지지 않은 사실을 드러내며 마지막으로 위조 공격에 대한 그들의 저항성을 시험했습니다 (스포일러 경고: 의외로 좋은 결과!)

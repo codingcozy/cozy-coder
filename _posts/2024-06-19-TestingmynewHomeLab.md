@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Testing my new HomeLab"
 link: "https://medium.com/@josejgp/testing-my-new-homelab-427e433f1ca9"
+isUpdated: true
 ---
+
+
+
 
 
 

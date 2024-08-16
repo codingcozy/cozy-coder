@@ -3,12 +3,16 @@ title: "DBT 증분 전략과 동등성"
 description: ""
 coverImage: "/assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png"
 date: 2024-05-27 12:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png
 tag: Tech
 originalTitle: "DBT Incremental Strategy and Idempotency"
 link: "https://medium.com/finatext/dbt-incremental-strategy-and-idempotency-877993f48448"
+isUpdated: true
 ---
+
+
+
 
 
 ![Screenshot](/assets/img/2024-05-27-DBTIncrementalStrategyandIdempotency_0.png)

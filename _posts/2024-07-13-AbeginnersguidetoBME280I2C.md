@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A beginner’s guide to BME280 I2C"
 link: "https://medium.com/gitconnected/a-beginners-guide-to-bme280-i2c-00bd4c6bcaad"
+isUpdated: true
 ---
+
+
+
 
 
 # 여기서 무엇을 할 것인가요?

@@ -3,12 +3,16 @@ title: "맥북 MacOS 키보드 단추로 스플릿 화면 창을 화면 왼쪽 �
 description: ""
 coverImage: "/assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_0.png"
 date: 2024-05-27 12:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MacbookMacOSKeyboardShortcutsforSplitScreenTileWindowstoLeftorRightofScreen_0.png
 tag: Tech
 originalTitle: "Macbook   MacOS Keyboard Shortcuts for Split Screen (Tile Windows to Left or Right of Screen)"
 link: "https://medium.com/@brightskylogic/macbook-macos-keyboard-shortcuts-for-split-screen-tile-windows-left-and-right-d5ebb6342d37"
+isUpdated: true
 ---
+
+
+
 
 Windows 운영 체제는 창을 분할 화면으로 이동하는 단축키를 Windows 키 + 왼쪽/오른쪽 화살표를 사용하여 수행할 수 있습니다. MacOS에서는 어떤 창의 전체 화면(녹색) 버튼 위에 마우스 포인터를 가져다 놓고 옵션을 선택하여 이 작업을 수행할 수 있습니다.
 

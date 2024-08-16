@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular v18 — Introducing @let: A New Way to Declare Variables and do Logic in Templates 🔥🚀"
 link: "https://medium.com/@giorgio.galassi/angular-v18-introducing-let-a-new-way-to-declare-variables-and-do-logic-in-templates-8b3f4d196b23"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-10-Angularv18IntroducingletANewWaytoDeclareVariablesanddoLogicinTemplates_0.png" />

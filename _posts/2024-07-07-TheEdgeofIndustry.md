@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Edge of Industry"
 link: "https://medium.com/@john.st.martinez/the-edge-of-industry-eab054a8b5b5"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-07-TheEdgeofIndustry_0.png)

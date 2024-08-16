@@ -1,5 +1,5 @@
 ---
-title: "React에서 인덱스를 Key로 사용하지 말아야 하는 이유 내부 동작을 이해하고 계신가요"
+title: "React에서 인덱스를 Key로 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-04-WhynottouseindexforReactKeysDoyoureallygetwhatshappeningunderthehood_0.png"
 date: 2024-08-04 18:43
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why not to use index for React Keys Do you really get whats happening under the hood"
 link: "https://medium.com/@deshwaljaivardhan/why-not-to-use-index-for-react-keys%EF%B8%8F-do-you-really-get-whats-happening-under-the-hood-3d9da500192c"
+isUpdated: true
 ---
+
+
+
 
 
 

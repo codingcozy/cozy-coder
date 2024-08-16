@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Case Study : Uber’s Machine Learning Platform “Michelangelo”"
 link: "https://medium.com/@pranjalkhadka/case-study-ubers-machine-learning-platform-michelangelo-b650afa1fe01"
+isUpdated: true
 ---
+
+
+
 
 
 Michelangelo은 Uber 내부 ML-as-a-service 플랫폼으로, 기업의 요구를 충족하기 위해 AI를 확장하고 머신 러닝을 민주화하는 서비스입니다. 데이터 관리, 모델 학습, 평가, 배포, 예측 및 모니터링 기능을 하며 전통적인 머신 러닝 모델부터 딥 러닝까지 다양한 모델을 다룰 수 있습니다. Michelangelo은 오랫동안 Uber에서 사용 중이며 여러 Uber 데이터 센터에 배포되어 있습니다. 이 기사에서는 Michelangelo의 개발 동기와 아키텍처에 대해 자세히 살펴보겠습니다.

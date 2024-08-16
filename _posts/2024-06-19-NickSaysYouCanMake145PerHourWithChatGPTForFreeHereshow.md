@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Nick Says You Can Make $145 Per Hour With ChatGPT For Free. Here’s how."
 link: "https://medium.com/aimonks/nick-says-you-can-make-145-per-hour-with-chatgpt-for-free-heres-how-cef2cb424cc0"
+isUpdated: true
 ---
+
+
+
 
 
 ## 정말 해볼 가치가 있는 방법인가요?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mechanical Engineering: Top 50 Verified Online Courses for Skill Enhancement"
 link: "https://medium.com/@rizwanquadri95/mechanical-engineering-a-curated-collection-of-free-verified-courses-6d140b3bf332"
+isUpdated: true
 ---
+
+
+
 
 
 온라인 교육을 통해 집에서 편안하게 필요한 기술을 습득할 수 있다는 것이 매우 흥미로운 점입니다. 세계 어디에서든 이점을 누릴 수 있어요.

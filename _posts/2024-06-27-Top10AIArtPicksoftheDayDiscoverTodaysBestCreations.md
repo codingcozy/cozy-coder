@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 AI Art Picks of the Day: Discover Today’s Best Creations"
 link: "https://medium.com/@mericreativAI/top-10-ai-art-picks-of-the-day-discover-todays-best-creations-789d6ab94c12"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 오늘 Midjourney에서 발견한 멋진 AI 이미지 중 일부를 공유하고 싶어요. 각 이미지는 여러분이 직접 실험해 볼 수 있는 다양한 예술적 개념과 아이디어를 보여줍니다. 아래에 이미지와 해당 프롬프트를 첨부했으니 시도해 보세요. AI 이미지 생성에 처음이신 분들은 Midjourney를 사용하는 방법을 배우고 싶다면, 회원가입 없이 Medium에서 제 무료 가이드를 읽어보세요.

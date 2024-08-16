@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Loading 3D Shapes from OBJ Files in Python: A Guide to the load_shape_from_obj Method"
 link: "https://medium.com/@harunijaz/the-code-above-is-a-python-function-that-reads-and-loads-data-from-a-obj-e6f6e5c3dfb9"
+isUpdated: true
 ---
+
+
+
 
 
 아래는 .obj 파일에서 데이터를 읽어 딕셔너리에 로드하는 Python 함수 코드입니다. .obj 파일은 3D 모델의 형태에 대한 정보를 저장하는 3D 모델 파일 형식으로, 3D 모델의 꼭지점과 면과 같은 정보를 저장합니다. 이 함수는 file_path라는 매개변수를 하나 가져오는데, 이는 .obj 파일의 경로입니다.

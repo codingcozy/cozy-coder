@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mounting Google Drive on Raspberry Pi"
 link: "https://medium.com/@artur.klauser/mounting-google-drive-on-raspberry-pi-dd15193d8138"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-MountingGoogleDriveonRaspberryPi_0.png" />

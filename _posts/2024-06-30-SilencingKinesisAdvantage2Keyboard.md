@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Silencing Kinesis Advantage 2 Keyboard"
 link: "https://medium.com/@canartuc/silencing-kinesis-advantage-2-keyboard-e69b0d03a32a"
+isUpdated: true
 ---
+
+
+
 
 
 ![키네시스 어드밴티지 2 키보드](/assets/img/2024-06-30-SilencingKinesisAdvantage2Keyboard_0.png)

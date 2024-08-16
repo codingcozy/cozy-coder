@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Self Hosted Kubernetes Stack on Debian12 and monitoring with kube-prometheus-stack"
 link: "https://medium.com/@safewebbox/creating-a-self-hosted-kubernetes-stack-on-debian12-and-monitoring-with-kube-prometheus-stack-9fac44126d2a"
+isUpdated: true
 ---
+
+
+
 
 
 아래는 가정에서 Debian12 서버에서 Proxmox에 세 개 노드 Kubernetes 클러스터를 구축하는 지침입니다.

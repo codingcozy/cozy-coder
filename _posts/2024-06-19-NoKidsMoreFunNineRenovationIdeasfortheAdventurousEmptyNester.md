@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "No Kids, More Fun: Nine Renovation Ideas for the Adventurous Empty Nester"
 link: "https://medium.com/muddyum/no-kids-more-fun-nine-renovation-ideas-for-the-adventurous-empty-nester-f36a96184da9"
+isUpdated: true
 ---
+
+
+
 
 
 ## 러그랫이 도망가면 방을 개조하라

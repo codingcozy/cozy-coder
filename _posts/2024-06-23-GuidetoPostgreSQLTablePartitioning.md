@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guide to PostgreSQL Table Partitioning"
 link: "https://medium.com/@rasiksuhail/guide-to-postgresql-table-partitioning-c0814b0fbd9b"
+isUpdated: true
 ---
+
+
+
 
 
 

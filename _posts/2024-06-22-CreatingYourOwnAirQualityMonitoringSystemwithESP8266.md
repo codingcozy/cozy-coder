@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Your Own Air Quality Monitoring System with ESP8266"
 link: "https://medium.com/@manuel.kienlein/creating-your-own-air-quality-monitoring-system-with-esp8266-3c75fe4b828a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-CreatingYourOwnAirQualityMonitoringSystemwithESP8266_0.png" />

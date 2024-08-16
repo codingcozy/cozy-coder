@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Brick-Breaking Game Using Proteus and Arduino IDE"
 link: "https://medium.com/stackademic/creating-a-brick-breaking-game-using-proteus-and-arduino-ide-d343b975c767"
+isUpdated: true
 ---
+
+
+
 
 
 본문에서 프로테우스와 아두이노 IDE를 사용하여 벽돌 깨기 게임을 만들어 보겠습니다. 필요한 절차를 단계별로 공유할 예정이에요. 시뮬레이션에서의 게임 모습은 다음과 같을 거에요.

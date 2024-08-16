@@ -3,12 +3,16 @@ title: "따뜻한 기후에서 온 러너들이 더 더운 봄 마라톤에서 �
 description: ""
 coverImage: "/assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png"
 date: 2024-05-27 12:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png
 tag: Tech
 originalTitle: "Do Runners From Warm Climates Do Better in Hot, Spring Marathons?"
 link: "https://medium.com/runners-life/do-runners-from-warm-climates-do-better-in-hot-spring-marathons-3ce4f764258f"
+isUpdated: true
 ---
+
+
+
 
 ![DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons](/assets/img/2024-05-27-DoRunnersFromWarmClimatesDoBetterinHotSpringMarathons_0.png)
 

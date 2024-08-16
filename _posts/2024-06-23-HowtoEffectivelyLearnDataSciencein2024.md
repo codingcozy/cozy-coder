@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Effectively Learn Data Science in 2024"
 link: "https://medium.com/illumination/how-to-effectively-learn-data-science-in-2024-b3f508db4f67"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 과학 직업 준비를 위한 자기 학습 안내서

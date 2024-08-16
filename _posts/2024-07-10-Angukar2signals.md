@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angukar 2 : signals"
 link: "https://medium.com/@ireneamedji/angukar-2-signals-7dbfae5ddd1b"
+isUpdated: true
 ---
+
+
+
 
 
 😪 네, 알아요. 마지막 게시물 이후에는 매주 일요일마다 올려서 앵귈러 학습을 더 진행해야 할 텐데 하지 못했어요. 그 이유는요? 집에서 인터넷 연결이 안 되고, 면허를 인증하기 위해 해야 할 학교 프로젝트가 너무 많았고, 몸이 지치면서 너무나도 피곤했으며... 그리고 너무 많은 디레스지가 있었어요.

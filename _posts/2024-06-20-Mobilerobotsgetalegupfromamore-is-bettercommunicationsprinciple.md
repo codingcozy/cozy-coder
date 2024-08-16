@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mobile robots get a leg up from a more-is-better communications principle"
 link: "https://medium.com/the-conversation/mobile-robots-get-a-leg-up-from-a-more-is-better-communications-principle-544204976445"
+isUpdated: true
 ---
+
+
+
 
 
 ## 한 연구에서 발견된바 미끄럼 방지 장치를 가지고 있는 것보다 지면 주변 상황에 대한 감각이 뛰어날 때 모바일 로봇에 더 도움이 된다고 해요.

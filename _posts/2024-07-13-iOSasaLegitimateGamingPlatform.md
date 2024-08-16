@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iOS as a Legitimate Gaming Platform"
 link: "https://medium.com/macoclock/ios-as-a-legitimate-gaming-platform-45ed036d8013"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-iOSasaLegitimateGamingPlatform_0.png)

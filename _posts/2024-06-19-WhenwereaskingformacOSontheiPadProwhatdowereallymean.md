@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "When we’re asking for macOS on the iPad Pro, what do we really mean?"
 link: "https://medium.com/turn-on-press-play/when-were-asking-for-macos-on-the-ipad-pro-what-do-we-really-mean-7db5870216bd"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-WhenwereaskingformacOSontheiPadProwhatdowereallymean_0.png" />

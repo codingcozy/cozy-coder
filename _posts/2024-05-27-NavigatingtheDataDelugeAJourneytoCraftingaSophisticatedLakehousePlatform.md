@@ -3,12 +3,16 @@ title: "데이터 폭풍 속을 해마하는 여정 정교한 레이크하우스
 description: ""
 coverImage: "/assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png"
 date: 2024-05-27 12:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png
 tag: Tech
 originalTitle: "Navigating the Data Deluge: A Journey to Crafting a Sophisticated Lakehouse Platform"
 link: "https://medium.com/@menis_77397/navigating-the-data-deluge-a-journey-to-crafting-a-sophisticated-lakehouse-platform-7a1d7a147149"
+isUpdated: true
 ---
+
+
+
 
 ![이미지](/assets/img/2024-05-27-NavigatingtheDataDelugeAJourneytoCraftingaSophisticatedLakehousePlatform_0.png)
 

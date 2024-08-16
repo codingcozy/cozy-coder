@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple , MacBook Pro saved me — 1st rule be VERY careful"
 link: "https://medium.com/macoclock/apple-macbook-pro-saved-me-1st-rule-be-very-careful-ebef26c5c4ed"
+isUpdated: true
 ---
+
+
+
 
 
 **이미지:** ![맥북 프로 이미지](/assets/img/2024-07-13-AppleMacBookProsavedme1strulebeVERYcareful_0.png)

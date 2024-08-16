@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Sharing real-time WebSocket data across multiple browser windows"
 link: "https://medium.com/itnext/sharing-real-time-websocket-data-across-multiple-browser-windows-4e0538dd7563"
+isUpdated: true
 ---
+
+
+
 
 
 # 멀티 스크린 앱이나 여러 창에서 병행하여 실행되는 앱을 만들 때, 모든 연결된 참가자가 동일한 데이터를 공유할 때 트래픽을 많이 절약할 수 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3D Printing 101: My 18-Month Journey as a Beginner"
 link: "https://medium.com/illumination/3d-printing-101-my-18-month-journey-as-a-beginner-11b1d0e4abbc"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-3DPrinting101My18-MonthJourneyasaBeginner_0.png" />

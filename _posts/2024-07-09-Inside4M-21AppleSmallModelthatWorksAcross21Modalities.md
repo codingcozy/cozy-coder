@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Inside 4M-21: Apple Small Model that Works Across 21 Modalities"
 link: "https://medium.com/towards-artificial-intelligence/inside-4m-21-apple-small-model-that-works-across-21-modalities-2416ab96a39e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 새로운 모델은 애플의 장치 내 AI 전략의 기반이 될 수 있습니다.

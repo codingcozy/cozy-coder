@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DIY Microsoft Teams Room Console"
 link: "https://medium.com/@thorstenjanssen/diy-microsoft-teams-room-console-e53ee259526e"
+isUpdated: true
 ---
+
+
+
 
 
 옛날 얘기지만... 약 2년 전, 저는 Crestron Teams Room 장치를 만져봤어요. 그리고 그것이 '그냥' 일부 주변 기기가 붙은 Intel NUC라는 사실에 놀랐죠. 그래서 우리가 실제로 인텔 NUC를 손에 쥐고 난 후(사실 유행병 기간중에 우리의 모든 NUC를 노트북으로 교체했죠), '나는 그 Microsoft Teams Room 콘솔을 처음부터 다시 만들 수 있을까?' 라는 생각이 들었어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Running models with Ollama step-by-step"
 link: "https://medium.com/@gabrielrodewald/running-models-with-ollama-step-by-step-60b6f6125807"
+isUpdated: true
 ---
+
+
+
 
 
 LLM을 빠르게 테스트할 수 있는 방법을 찾고 계신가요? 전체 인프라를 설정할 필요 없이 테스트할 수 있는 방법이 있다면 정말 훌륭하죠. 이 짧은 기사에서 우리가 할 일이 바로 그거에요.

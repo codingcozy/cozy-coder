@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Swift-iOS Interview Questions-Part 8"
 link: "https://medium.com/swift-interview-preparations/swift-ios-interview-questions-part-8-124723f72c08"
+isUpdated: true
 ---
+
+
+
 
 
 스위프트, iOS, Xcode에 관한 인터뷰 질문

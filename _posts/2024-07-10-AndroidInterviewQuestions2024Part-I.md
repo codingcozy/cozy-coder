@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Interview Questions: 2024 Part-I"
 link: "https://medium.com/@vikasacsoni9211/quest-for-android-excellence-interview-edition-2024-part-i-11d5c517e9f6"
+isUpdated: true
 ---
+
+
+
 
 
 ![Android Interview Questions 2024 Part-I](/assets/img/2024-07-10-AndroidInterviewQuestions2024Part-I_0.png)

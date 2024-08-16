@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are Movie Titles Getting Longer? A Statistical Analysis"
 link: "https://medium.com/fan-fare/are-movie-titles-getting-longer-a-statistical-analysis-5d1e49a1340a"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-AreMovieTitlesGettingLongerAStatisticalAnalysis_0.png)

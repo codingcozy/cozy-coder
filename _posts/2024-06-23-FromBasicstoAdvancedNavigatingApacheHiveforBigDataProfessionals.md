@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Basics to Advanced: Navigating Apache Hive for Big Data Professionals"
 link: "https://medium.com/@arpitamishra11596/from-basics-to-advanced-navigating-apache-hive-for-big-data-professionals-92f2f67fa3f7"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-23-FromBasicstoAdvancedNavigatingApacheHiveforBigDataProfessionals_0.png)

@@ -3,12 +3,16 @@ title: "텍스트를 움직여 발견한 시의 이야기"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_0.png"
 date: 2024-05-27 13:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TheStoryofaPoemIFoundbyMovingTextAround_0.png
 tag: Tech
 originalTitle: "The Story of a Poem I Found by Moving Text Around"
 link: "https://medium.com/the-diy-diaries/the-story-of-a-poem-i-found-by-moving-text-around-930bdc7532d6"
+isUpdated: true
 ---
+
+
+
 
 ## 창의성
 

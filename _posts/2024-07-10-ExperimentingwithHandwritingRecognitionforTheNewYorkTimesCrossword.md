@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Experimenting with Handwriting Recognition for The New York Times Crossword"
 link: "https://medium.com/timesopen/experimenting-with-handwriting-recognition-for-new-york-times-crossword-a78e08fec08f"
+isUpdated: true
 ---
+
+
+
 
 
 ### 손글씨 인식 실험: 뉴욕 타임스 크로스워드

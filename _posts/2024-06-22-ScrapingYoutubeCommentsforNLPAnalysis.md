@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Scraping Youtube Comments for NLP Analysis"
 link: "https://medium.com/@ashwinsingaram579/scraping-youtube-comments-for-nlp-20a7d25331cc"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-22-ScrapingYoutubeCommentsforNLPAnalysis_0.png)

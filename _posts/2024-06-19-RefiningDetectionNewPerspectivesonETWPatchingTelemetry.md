@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Refining Detection: New Perspectives on ETW Patching Telemetry"
 link: "https://medium.com/@jsecurity101/refining-detection-new-perspectives-on-etw-patching-telemetry-e6c94e55a9ad"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

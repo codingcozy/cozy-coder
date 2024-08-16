@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Basic Linux Shell Scripting for DevOps Engineers (Day4)"
 link: "https://medium.com/@araizbinsaqib/day-4-task-basic-linux-shell-scripting-for-devops-engineers-c5b867bc8960"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분!

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Say Goodbye to Downtime: Upgrade PostgreSQL 14 to 16 Effortlessly with pg_upgrade"
 link: "https://medium.com/@malymohsem/say-goodbye-to-downtime-upgrade-postgresql-14-to-16-effortlessly-with-pg-upgrade-42ef4dbf8524"
+isUpdated: true
 ---
+
+
+
 
 
 # 목차

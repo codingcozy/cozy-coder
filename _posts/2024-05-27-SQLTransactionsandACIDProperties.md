@@ -3,12 +3,16 @@ title: "SQL 트랜잭션 및 ACID 속성"
 description: ""
 coverImage: "/assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png"
 date: 2024-05-27 13:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png
 tag: Tech
 originalTitle: "SQL Transactions and ACID Properties"
 link: "https://medium.com/gitconnected/sql-transactions-and-acid-properties-bb5b670538f8"
+isUpdated: true
 ---
+
+
+
 
 ![image](/assets/img/2024-05-27-SQLTransactionsandACIDProperties_0.png)
 

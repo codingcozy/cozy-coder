@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Trial and Error: My Sticker Journey"
 link: "https://medium.com/the-diy-diaries/trial-and-error-my-sticker-journey-37d7aac92e56"
+isUpdated: true
 ---
+
+
+
 
 
 ## DIY

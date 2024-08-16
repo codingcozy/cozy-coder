@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Practical Guide to Measuring Customer Satisfaction Using Social Media"
 link: "https://medium.com/venturehq/a-practical-guide-to-measuring-customer-satisfaction-using-social-media-66697e4ebf8e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 비즈니스 인텔리전스

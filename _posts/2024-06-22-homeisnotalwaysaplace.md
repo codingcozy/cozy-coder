@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "home is not always a place"
 link: "https://medium.com/@andengxzs_/home-is-not-always-a-place-8472b6b1920c"
+isUpdated: true
 ---
+
+
+
 
 
 

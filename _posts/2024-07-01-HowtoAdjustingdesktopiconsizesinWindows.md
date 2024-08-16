@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Adjusting desktop icon sizes in Windows"
 link: "https://medium.com/@kjavaman12/how-to-adjusting-desktop-icon-sizes-in-windows-681166d2471c"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-01-HowtoAdjustingdesktopiconsizesinWindows_0.png)

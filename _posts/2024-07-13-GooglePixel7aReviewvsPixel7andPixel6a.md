@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Google Pixel 7a Review — vs Pixel 7 and Pixel 6a!"
 link: "https://medium.com/@markellisreviews/google-pixel-7a-review-vs-pixel-7-and-pixel-6a-ab3a656a2c77"
+isUpdated: true
 ---
+
+
+
 
 
 이번 시기를 즐기세요. 이제 대형 기술 기업들이 무엇을 준비하고 있는지를 마침내 공개하는 때입니다.

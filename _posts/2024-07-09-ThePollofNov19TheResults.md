@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Poll of Nov’19: The Results!"
 link: "https://medium.com/@iamf/nov-poll-results-13bd129fdd6b"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 친근한 분들. 결과가 나왔어요! 인도 부가 제조 포럼에서 한 FFF 서비스 설문 조사의 분석 전체가 여기 있습니다. IAMF에 대해 더 알고 싶거나 함께하고 싶다면 www.iamf.in을 방문해 주세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Turn Your Android into a Mobile Hacking Platform (Root , Rootless)"
 link: "https://medium.com/the-first-digit/turn-your-android-into-a-mobile-hacking-platform-root-rootless-5ead1ccdbe90"
+isUpdated: true
 ---
+
+
+
 
 
 Markdown 포맷으로 변경해주세요.

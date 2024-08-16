@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enriching Language Models with Knowledge Graphs for Powerful Question Answering"
 link: "https://medium.com/ai-in-plain-english/enriching-language-models-with-knowledge-graphs-for-powerful-question-answering-3c08b3b8020f"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 이 글의 문법, 흐름 및 가독성을 강화하는 데 사용되었습니다.

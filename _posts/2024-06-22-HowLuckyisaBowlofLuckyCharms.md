@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Lucky is a Bowl of Lucky Charms?"
 link: "https://medium.com/towards-data-science/how-lucky-is-a-bowl-of-lucky-charms-9040fe2cc560"
+isUpdated: true
 ---
+
+
+
 
 
 tl;dr 버전: 학생 팀이 럭키참스 시리얼 그릇이 박스 전체에 걸쳐 동일하게 "운이 좋은지"를 결정하기 위한 실험을 디자인하고 수행하는 데 도움을 주었습니다. 결과는 별로다. 우리는 한 그릇당 약 2.7개 정도의 전체 참을 추가함에 따라 감소한다고 추정합니다. 첫 번째 그릇부터 마지막 그릇까지의 참은 50% 이상 줄어드는 것과 일치합니다. 시리얼의 무게도 역할을 하는 것으로 나타나며, 그릇을 일정하게 유지할 때 당 1g의 시리얼마다 평균적으로 0.5개 더 많은 참이 있는 것으로 추정됩니다. 그릇과 무게 사이의 상호 작용은 통계적으로 유의하지 않습니다.

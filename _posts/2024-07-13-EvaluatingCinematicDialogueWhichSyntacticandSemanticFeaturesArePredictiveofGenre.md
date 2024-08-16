@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Evaluating Cinematic Dialogue — Which Syntactic and Semantic Features Are Predictive of Genre?"
 link: "https://medium.com/towards-data-science/evaluating-cinematic-dialogue-which-syntactic-and-semantic-features-are-predictive-of-genre-2c69a71af6e2"
+isUpdated: true
 ---
+
+
+
 
 
 ## 자연어 처리

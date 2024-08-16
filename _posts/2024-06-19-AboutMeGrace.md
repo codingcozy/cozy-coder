@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "About Me — Grace"
 link: "https://medium.com/about-me-stories/about-me-grace-c9d9fb1d93ce"
+isUpdated: true
 ---
+
+
+
 
 
 ![Grace's profile picture](/assets/img/2024-06-19-AboutMeGrace_0.png)

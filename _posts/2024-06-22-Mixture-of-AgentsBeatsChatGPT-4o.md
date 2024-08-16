@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mixture-of-Agents Beats ChatGPT-4o"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/mixture-of-agents-beats-chatgpt-4o-6470a74f1525"
+isUpdated: true
 ---
+
+
+
 
 
 만약 지금까지 저를 따라와 주셨다면, 제가 얼마나 오랜 추론 모델에 열정적인지 알아채셨을 것입니다. 저는 — 학계도 동의하는 바와 같이 — 이러한 모델이 추론 능력 측면에서 AI의 다음 육지일 것이라고 믿습니다.

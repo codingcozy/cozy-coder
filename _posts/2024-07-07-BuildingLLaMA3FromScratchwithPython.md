@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building LLaMA 3 From Scratch with Python"
 link: "https://medium.com/gitconnected/building-llama-3-from-scratch-with-python-e0cf4dbbc306"
+isUpdated: true
 ---
+
+
+
 
 
 LLaMA 3은 Mistral 이후 가장 유망한 오픈 소스 모델 중 하나로 다양한 작업을 해결합니다. 이전에 LLM을 LLaMA 아키텍처를 사용하여 2.3백만 개가 넘는 매개변수로 처음부터 만드는 방법에 대한 블로그를 Medium에 작성했습니다. 이제 LLaMA-3이 출시되었으므로 조금 더 간단하게 재현하겠습니다.

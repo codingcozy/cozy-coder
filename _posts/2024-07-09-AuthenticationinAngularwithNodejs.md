@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Authentication in Angular with Node.js"
 link: "https://medium.com/@meetspatel92/authentication-in-angular-with-node-js-8d97fb90a3d4"
+isUpdated: true
 ---
+
+
+
 
 
 이 글에서는 백엔드로 Node.js를 사용하여 Angular 애플리케이션에서 인증(가입 및 로그인)을 구현하는 과정을 안내할 것입니다. 또한 인증 가드를 사용하여 특정 경로를 보호하는 프라이빗 라우팅 설정 방법도 다룰 것입니다. 이 튜토리얼에는 데이터 플로우 다이어그램(DFD) 및 UML 다이어그램이 포함되어 아키텍처를 설명할 것입니다.

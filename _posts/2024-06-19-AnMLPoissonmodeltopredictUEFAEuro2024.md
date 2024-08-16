@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An ML — Poisson model to predict UEFA Euro 2024"
 link: "https://medium.com/ai-mind-labs/a-machine-learning-poisson-model-to-predict-uefa-euro-2024-d7b22bacc06e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-AnMLPoissonmodeltopredictUEFAEuro2024_0.png" />

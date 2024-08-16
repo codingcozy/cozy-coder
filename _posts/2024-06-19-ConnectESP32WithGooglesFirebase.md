@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Connect ESP32 With Google’s Firebase"
 link: "https://medium.com/@zalamayank2005/connect-esp32-with-googles-firebase-efb98b7b8eaa"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이 기사에서📜는 ESP32를 Google Firebase에 가장 빠르게⚡ 연결하는 방법을 보여드리겠습니다. 기대되시나요? 🤩

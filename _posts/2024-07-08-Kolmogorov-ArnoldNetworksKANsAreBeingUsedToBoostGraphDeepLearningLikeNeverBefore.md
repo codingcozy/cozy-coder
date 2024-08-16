@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kolmogorov-Arnold Networks (KANs) Are Being Used To Boost Graph Deep Learning Like Never Before"
 link: "https://medium.com/gitconnected/kolmogorov-arnold-networks-kans-are-being-used-to-boost-graph-deep-learning-like-never-before-2d39fec7dfc3"
+isUpdated: true
 ---
+
+
+
 
 
 *KANs*는 2024년 4월에 발표된 이후 많은 관심을 받고 있어요.

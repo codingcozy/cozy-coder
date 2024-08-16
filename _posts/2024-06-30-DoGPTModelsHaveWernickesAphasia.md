@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Do GPT Models Have Wernicke’s Aphasia?"
 link: "https://medium.com/ai-advances/do-gpt-models-have-wernickes-aphasia-e9f1efbdb99b"
+isUpdated: true
 ---
+
+
+
 
 
 ## 신경과학, 창조적 AI 및 윤리

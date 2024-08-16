@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guiding an LLM’s Response to Create Structured Output"
 link: "https://medium.com/towards-data-science/guiding-an-llms-response-to-create-structured-output-5dde0d3e426b"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png](/assets/img/2024-06-23-GuidinganLLMsResponsetoCreateStructuredOutput_0.png)

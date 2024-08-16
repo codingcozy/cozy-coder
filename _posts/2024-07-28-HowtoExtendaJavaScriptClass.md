@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트 클래스 확장하는 방법"
+title: "자바스크립트 클래스 extend 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-28-HowtoExtendaJavaScriptClass_0.png"
 date: 2024-07-28 14:06
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Extend a JavaScript Class"
 link: "https://medium.com/@hohanga/how-to-extend-a-javascript-class-dc4aa14434c0"
+isUpdated: true
 ---
+
+
+
 
 
 가끔은 JavaScript 클래스를 확장하고 싶을 때가 있습니다.

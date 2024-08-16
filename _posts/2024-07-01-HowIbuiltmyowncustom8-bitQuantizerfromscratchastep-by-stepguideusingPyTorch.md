@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I built my own custom 8-bit Quantizer from scratch: a step-by-step guide using PyTorch"
 link: "https://medium.com/towards-artificial-intelligence/how-i-built-my-own-custom-8-bit-quantizer-from-scratch-a-step-by-step-guide-using-pytorch-a913cd12e85d"
+isUpdated: true
 ---
+
+
+
 
 
 8-bit 커스텀 양자화기를 PyTorch와 quantize facebook/opt-350m을 사용해 처음부터 만드는 단계별 접근법을 소개해 드릴게요. 

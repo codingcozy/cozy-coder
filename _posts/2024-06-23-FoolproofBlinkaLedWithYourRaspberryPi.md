@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Foolproof: Blink a Led With Your Raspberry Pi"
 link: "https://medium.com/nerd-for-tech/blink-led-with-raspberry-pi-foolproof-7f2584fd552a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 스텝별 가이드

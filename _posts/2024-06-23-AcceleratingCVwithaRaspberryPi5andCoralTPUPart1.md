@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Accelerating CV with a Raspberry Pi 5 and Coral TPU: Part 1"
 link: "https://medium.com/@tstom3/accelerating-cv-with-a-raspberry-pi-5-and-coral-tpu-part-1-66fe816fc65f"
+isUpdated: true
 ---
+
+
+
 
 
 Raspberry Pi 5은 PCIe 인터페이스를 갖추고 있어 주변 장치에 고속 하드웨어 연결이 가능합니다. 이는 이제 Google의 Coral TPU를 Pi에 연결하고 초고속 컴퓨터 비전을 얻는 것이 가능하다는 것을 의미합니다. 이 튜토리얼에서는 TPU를 구성하고 TPU에 MobileNet을 배포하여 224x224 크기의 이미지에 대한 추론 속도를 2.5밀리초(!)로 얻는 과정을 안내해 드리겠습니다.

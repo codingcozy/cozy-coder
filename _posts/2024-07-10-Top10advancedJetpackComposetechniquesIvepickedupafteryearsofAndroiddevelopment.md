@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 advanced Jetpack Compose techniques 🦊I've picked up after years of Android development."
 link: "https://medium.com/@niranjanky14/top-10-advanced-jetpack-compose-techniques-ive-picked-up-after-years-of-android-development-7b9081a8e762"
+isUpdated: true
 ---
+
+
+
 
 
 🔮안녕하세요! 오늘은 'State Hoisting'에 대해 이야기해볼게요.

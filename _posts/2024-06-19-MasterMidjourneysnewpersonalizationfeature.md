@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Master Midjourney’s new personalization feature"
 link: "https://medium.com/design-bootcamp/master-midjourneys-new-personalization-feature-a45d4aa72e54"
+isUpdated: true
 ---
+
+
+
 
 
 # 매개변수 명령어: --p

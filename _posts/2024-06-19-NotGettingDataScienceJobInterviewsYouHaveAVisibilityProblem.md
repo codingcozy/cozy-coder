@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Not Getting Data Science Job Interviews? You Have A Visibility Problem"
 link: "https://medium.com/pipeline-a-data-engineering-resource/not-getting-data-science-job-interviews-you-have-a-visibility-problem-1e1b67a74555"
+isUpdated: true
 ---
+
+
+
 
 
 취업중이신가요? 무료 5페이지 프로젝트 아이디어 안내서를 활용하여 개인 프로젝트를 개발하여 경쟁력을 확보하세요.

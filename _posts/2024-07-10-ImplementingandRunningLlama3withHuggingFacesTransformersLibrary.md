@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing and Running Llama 3 with Hugging Face’s Transformers Library"
 link: "https://medium.com/@manuelescobar-dev/implementing-and-running-llama-3-with-hugging-faces-transformers-library-40e9754d8c80"
+isUpdated: true
 ---
+
+
+
 
 
 ## Llama 3을 Hugging Face Transformers와 함께 실행하는 단계별 가이드

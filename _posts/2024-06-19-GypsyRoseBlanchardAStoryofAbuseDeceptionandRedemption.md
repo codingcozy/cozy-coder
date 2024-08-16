@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Gypsy Rose Blanchard: A Story of Abuse, Deception, and Redemption"
 link: "https://medium.com/@delviquinn/gypsy-rose-blanchard-a-story-of-abuse-deception-and-redemption-5947b7ab1c82"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-GypsyRoseBlanchardAStoryofAbuseDeceptionandRedemption_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What if we never had a chance?"
 link: "https://medium.com/@sxe3dp/what-if-we-never-had-a-chance-02a07cbee811"
+isUpdated: true
 ---
+
+
+
 
 
 ## PTS3D: 3D 프린팅 스트레스 장애

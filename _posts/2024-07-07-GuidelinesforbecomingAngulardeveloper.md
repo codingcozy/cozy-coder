@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guidelines for becoming Angular developer"
 link: "https://medium.com/@patrik.horva90/guidelines-for-becoming-angular-developer-628e3fea1f4c"
+isUpdated: true
 ---
+
+
+
 
 
 만약 Angular 개발자가 되고 싶다면, 이 글을 읽어보세요!

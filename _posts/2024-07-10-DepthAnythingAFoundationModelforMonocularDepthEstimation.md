@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Depth Anything —A Foundation Model for Monocular Depth Estimation"
 link: "https://medium.com/towards-data-science/depth-anything-a-foundation-model-for-monocular-depth-estimation-8a7920b5c9cc"
+isUpdated: true
 ---
+
+
+
 
 
 ## 🚀SASCHA’S PAPER CLUB

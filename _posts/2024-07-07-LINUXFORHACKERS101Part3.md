@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LINUX FOR HACKERS 101 Part 3"
 link: "https://medium.com/@agapehearts/linux-for-hackers-101-part-3-42b9988311f8"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-07-LINUXFORHACKERS101Part3_0.png)

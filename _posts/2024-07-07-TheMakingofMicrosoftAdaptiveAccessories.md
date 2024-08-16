@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Making of Microsoft Adaptive Accessories"
 link: "https://medium.com/microsoft-design/the-making-of-microsoft-adaptive-accessories-3f4251259637"
+isUpdated: true
 ---
+
+
+
 
 
 미래에 모든 사람이 접근할 수 있도록 보조 장치를 디자인하는 방법

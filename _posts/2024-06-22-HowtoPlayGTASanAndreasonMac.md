@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Play GTA San Andreas on Mac"
 link: "https://medium.com/@kukucourses/how-to-play-gta-san-andreas-on-mac-c8ec35b3500e"
+isUpdated: true
 ---
+
+
+
 
 
 ## GTA San Andreas를 맥에서 하는 방법을 안내해 드리겠습니다

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "When Michelangelo Met Minecraft: The Hilarious World of 3D Printed Sculpture"
 link: "https://medium.com/@sciencestyled/when-michelangelo-met-minecraft-the-hilarious-world-of-3d-printed-sculpture-ea7fd90d2613"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-05-27-WhenMichelangeloMetMinecraftTheHilariousWorldof3DPrintedSculpture_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GenAI With Python: Give Your AI a Personality and Speak with ”Her”"
 link: "https://medium.com/towards-artificial-intelligence/genai-with-python-give-your-ai-a-personality-and-speak-with-her-5d3958d36a63"
+isUpdated: true
 ---
+
+
+
 
 
 ![Link Name](https://miro.medium.com/v2/resize:fit:1400/1*BAkXlbE_qXSKeKpyyxiPTQ.gif)

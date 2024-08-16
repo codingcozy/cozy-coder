@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying PDF Parsing 03: OCR-Free Small Model-Based Method"
 link: "https://medium.com/ai-advances/demystifying-pdf-parsing-03-ocr-free-small-model-based-method-c71310988129"
+isUpdated: true
 ---
+
+
+
 
 
 PDF 파일을 다른 형식으로 변환하는 것은 도전적일 수 있습니다. 종종 AI 애플리케이션에서 접근할 수 없는 형식에 상당한 정보를 잠그기 때문입니다. 만약 PDF 파일이나 해당 이미지를 기계가 읽을 수 있는 구조화된 또는 반구조화된 형식으로 변환할 수 있다면, 이 문제를 상당히 완화할 수 있을 것입니다. 이는 인공지능 애플리케이션의 지식 베이스를 크게 향상시킬 수도 있습니다.

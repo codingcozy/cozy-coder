@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unmasking the Undead: Understanding and Eliminating Zombie Processes in Linux"
 link: "https://medium.com/it-security-in-plain-english/unmasking-the-undead-understanding-and-eliminating-zombie-processes-in-linux-6ce70fc6e009"
+isUpdated: true
 ---
+
+
+
 
 
 ![링크 텍스트](/assets/img/2024-06-19-UnmaskingtheUndeadUnderstandingandEliminatingZombieProcessesinLinux_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Two-Way Binding Between Parent and Child Components in Angular"
 link: "https://medium.com/@arunima-anand/implementing-two-way-binding-between-parent-and-child-components-in-angular-31bc4d9d8a5b"
+isUpdated: true
 ---
+
+
+
 
 
 ## Angular을 사용하여 사용자 지정 속성에 양방향 바인딩하는 방법

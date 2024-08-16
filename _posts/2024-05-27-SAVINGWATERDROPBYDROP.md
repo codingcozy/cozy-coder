@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SAVING WATER DROP BY DROP"
 link: "https://medium.com/@rgblack/saving-water-drop-by-drop-ab3ec048246c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-SAVINGWATERDROPBYDROP_0.png" />

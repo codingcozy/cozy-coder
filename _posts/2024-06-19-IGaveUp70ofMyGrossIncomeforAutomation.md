@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Gave Up 70% of My Gross Income for Automation"
 link: "https://medium.com/mr-plan-publication/i-gave-up-70-of-my-gross-income-for-automation-56201446a729"
+isUpdated: true
 ---
+
+
+
 
 
 그리고 나는 또 다시 그렇게 할 것이다!

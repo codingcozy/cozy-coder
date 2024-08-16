@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A hard look at clouds, home servers and network storages"
 link: "https://medium.com/@raduzaharia/a-hard-look-at-clouds-home-servers-and-network-storages-731e9823db4b"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-02-Ahardlookatcloudshomeserversandnetworkstorages_0.png)

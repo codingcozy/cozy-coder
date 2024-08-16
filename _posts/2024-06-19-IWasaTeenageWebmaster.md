@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Was a Teenage Webmaster"
 link: "https://medium.com/@mikegrindle/i-was-a-teenage-webmaster-d5619bf3323b"
+isUpdated: true
 ---
+
+
+
 
 
 ![img](/assets/img/2024-06-19-IWasaTeenageWebmaster_0.png)

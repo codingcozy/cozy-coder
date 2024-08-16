@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Deep Dive into Fine-Tuning"
 link: "https://medium.com/towards-data-science/stepping-out-of-the-comfort-zone-through-domain-adaptation-a-deep-dive-into-dynamic-prompting-4860c6d16224"
+isUpdated: true
 ---
+
+
+
 
 
 ## "컴포트 존"을 벗어나는 것 - LLM에 대한 도메인 적응 접근 방식에 대한 심층 탐구 3/3

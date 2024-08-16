@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Nvidia: ad astra?"
 link: "https://medium.com/enrique-dans/nvidia-ad-astra-c655cdd1be1f"
+isUpdated: true
 ---
+
+
+
 
 
 ![Nvidiaadastra_0](/assets/img/2024-06-22-Nvidiaadastra_0.png)

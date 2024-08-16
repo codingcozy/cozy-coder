@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Asked ChatGPT for 45 Keywords for Donald Trump"
 link: "https://medium.com/deans-list/i-asked-chatgpt-for-45-keywords-for-donald-trump-f98b18d4fb2c"
+isUpdated: true
 ---
+
+
+
 
 
 ## 정치, 챗지피티 트럼프

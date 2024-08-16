@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "14 ways I’ve used ChatGPT to make life easier and reduce stress"
 link: "https://medium.com/@iamalexmathers/14-ways-ive-used-chatgpt-to-make-life-easier-and-reduce-stress-c57b9dfd1315"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-14waysIveusedChatGPTtomakelifeeasierandreducestress_0.png)

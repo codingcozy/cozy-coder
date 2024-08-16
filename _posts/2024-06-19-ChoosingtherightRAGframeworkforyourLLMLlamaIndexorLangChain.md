@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Choosing the right RAG framework for your LLM: LlamaIndex or LangChain"
 link: "https://medium.com/generative-ai/choosing-the-right-rag-framework-for-your-llm-llamaindex-or-langchain-a89b9ffd7e41"
+isUpdated: true
 ---
+
+
+
 
 
 이미지(`<img>`) 태그를 Markdown 형식으로 변경하겠습니다.

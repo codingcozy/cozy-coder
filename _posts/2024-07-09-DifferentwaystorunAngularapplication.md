@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Different ways to run Angular application"
 link: "https://medium.com/@balramchavan/different-ways-to-run-angular-application-4f5626308542"
+isUpdated: true
 ---
+
+
+
 
 
 일단 응용 프로그램이 컴파일되면 출력 로그에 응용 프로그램을 시작할 URL이 표시됩니다. 'ng serve' 명령을 사용하여 대부분의 사용자가 응용 프로그램을 시작합니다.

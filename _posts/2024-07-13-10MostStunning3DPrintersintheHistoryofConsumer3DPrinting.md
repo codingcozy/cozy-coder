@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 Most Stunning 3D Printers in the History of Consumer 3D Printing"
 link: "https://medium.com/@3dprintingjournal/10-most-stunning-3d-printers-in-the-history-of-consumer-3d-printing-da0268025712"
+isUpdated: true
 ---
+
+
+
 
 
 ## 3D 프린팅의 역사

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ESP32 Web Server with BME280"
 link: "https://medium.com/@raflyhendrakusuma/esp32-web-server-with-bme280-ac98a4bda18a"
+isUpdated: true
 ---
+
+
+
 
 
 이 튜토리얼에서는 ESP32를 사용하여 BME280 센서 모듈의 측정 값을 표시하기 위한 웹 서버를 만드는 방법을 배울 것입니다. BME280 센서는 온도, 습도 및 기압을 측정하여 소형 기상 관측소를 구축하고 이러한 측정 값을 웹 서버를 통해 실시간으로 모니터링할 수 있게 합니다.

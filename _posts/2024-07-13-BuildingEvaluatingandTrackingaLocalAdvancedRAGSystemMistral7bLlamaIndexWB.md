@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building, Evaluating and Tracking a Local Advanced RAG System | Mistral 7b + LlamaIndex + W,B"
 link: "https://medium.com/towards-data-science/building-evaluating-and-tracking-a-local-advanced-rag-system-mistral-7b-llamaindex-w-b-5c9c69059f92"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-13-BuildingEvaluatingandTrackingaLocalAdvancedRAGSystemMistral7bLlamaIndexWB_0.png)

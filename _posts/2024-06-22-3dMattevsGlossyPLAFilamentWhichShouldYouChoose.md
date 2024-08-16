@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3dMatte vs. Glossy PLA Filament: Which Should You Choose?"
 link: "https://medium.com/@huminlian/matte-vs-glossy-pla-filament-which-should-you-choose-a1056fbc14c6"
+isUpdated: true
 ---
+
+
+
 
 
 폴리락틱산(PLA) 필라멘트를 사용한 3D 프린팅은 프로토타입, 취미 프로젝트 등을 위한 선명하고 세밀한 출력물을 만들어냅니다. PLA는 광택과 무광 타입 두 가지로 나누어집니다. 무광과 일반 PLA의 차이점은 무엇이며, 다음 3D 프린팅 프로젝트에 어떤 것을 선택해야 할까요?

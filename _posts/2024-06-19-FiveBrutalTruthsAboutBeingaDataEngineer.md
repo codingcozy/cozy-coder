@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Five Brutal Truths About Being a Data Engineer"
 link: "https://medium.com/@lgsoliveira/five-brutal-truths-about-being-a-data-engineer-e2455925e21d"
+isUpdated: true
 ---
+
+
+
 
 
 

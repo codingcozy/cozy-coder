@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Revealing the Secrets of Google’s Magic Eraser!"
 link: "https://medium.com/gitconnected/revealing-the-secrets-of-googles-magic-eraser-fb232c83723b"
+isUpdated: true
 ---
+
+
+
 
 
 작년에 구글은 '매직 이레이서'를 모든 Google One 사용자에게 제공하기 시작했습니다 (이전에는 Pixel 폰에서만 사용 가능했습니다). 매직 이레이서를 사용하면 사진에서 원하지 않는 부분을 쉽게 제거할 수 있습니다. 주변 환경을 기반으로 적합한 객체로 공간을 채우는 AI를 사용하여 전체 이미지가 더 자연스럽게 보이게 됩니다!

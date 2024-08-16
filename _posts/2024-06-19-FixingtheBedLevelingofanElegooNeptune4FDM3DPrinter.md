@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fixing the Bed Leveling of an Elegoo Neptune 4 FDM 3D Printer"
 link: "https://medium.com/the-unpopular-opinions-of-a-senior-developer/fixing-the-bed-leveling-of-an-elegoo-neptune-4-fdm-3d-printer-cd48b38ab2ff"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-FixingtheBedLevelingofanElegooNeptune4FDM3DPrinter_0.png" />

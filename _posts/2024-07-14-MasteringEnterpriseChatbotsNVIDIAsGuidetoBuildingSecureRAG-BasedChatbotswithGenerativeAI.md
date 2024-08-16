@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Enterprise Chatbots: NVIDIA’s Guide to Building Secure RAG-Based Chatbots with Generative AI"
 link: "https://medium.com/syncedreview/mastering-enterprise-chatbots-nvidias-guide-to-building-secure-rag-based-chatbots-with-af325052d805"
+isUpdated: true
 ---
+
+
+
 
 
 엔터프라이즈 챗봇은 생성 AI로 구동되며 직원 생산성을 향상시키는 유망한 도구로 빠르게 부상하고 있습니다. 이러한 챗봇을 구축하는 데 필요한 주요 기술 구성 요소에는 Retrieval Augmented Generation (RAG), Large Language Models (LLMs), 그리고 Langchain과 Llamaindex와 같은 조율 프레임워크가 포함됩니다. 그러나 성공적인 엔터프라이즈 챗봇을 만드는 것은 주로 RAG 파이프라인에 대한 정교한 엔지니어링이 필요하기 때문에 중요한 도전을 제기합니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Have Used ChatGPT To Craft The Perfect Midjourney Prompt — Here’s How This Turned Out"
 link: "https://medium.com/generative-ai/i-have-used-chatgpt-to-craft-the-perfect-midjourney-prompt-heres-how-this-turned-out-510bb8904af7"
+isUpdated: true
 ---
+
+
+
 
 
 ## 완벽한 프롬프트 만들기

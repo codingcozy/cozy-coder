@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can We Use Z-Scores to Compare Running Performances Between Age Groups?"
 link: "https://medium.com/runners-life/can-we-use-z-scores-to-compare-running-performances-between-age-groups-cd06268583d7"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-22-CanWeUseZ-ScorestoCompareRunningPerformancesBetweenAgeGroups_0.png)

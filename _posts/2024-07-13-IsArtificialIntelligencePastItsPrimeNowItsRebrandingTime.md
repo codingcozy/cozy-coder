@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is ‘Artificial Intelligence’ Past Its Prime? Now It’s Rebranding Time"
 link: "https://medium.com/humanai/is-artificial-intelligence-past-its-prime-now-it-s-rebranding-time-5a1a39fcf6af"
+isUpdated: true
 ---
+
+
+
 
 
 최근 몇 년간 '인공 지능' (AI)이라는 용어는 실제 컴퓨터 과학자보다는 마케팅 전문가, 비관론자 및 유니콘 억만장자에 더 매력적인 오래된, 논란이 많은 마케팅 용어로 변해왔습니다.

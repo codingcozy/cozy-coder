@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "2,000 Imports Organizing My Apps SwiftPM Modules"
 link: "https://medium.com/better-programming/2-000-imports-organizing-my-apps-swiftpm-modules-f7c68c22ebd2"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-22-2000ImportsOrganizingMyAppsSwiftPMModules_0.png" />

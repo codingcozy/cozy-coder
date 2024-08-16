@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An Introduction to Deep Learning for Sequential Data"
 link: "https://medium.com/towards-data-science/an-introduction-to-deep-learning-for-sequential-data-ac966b9b9b67"
+isUpdated: true
 ---
+
+
+
 
 
 ![Sequential data](/assets/img/2024-07-14-AnIntroductiontoDeepLearningforSequentialData_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use Crochet As a Tool for Introspection"
 link: "https://medium.com/the-diy-diaries/how-to-use-crochet-as-a-tool-for-introspection-f87526b2e927"
+isUpdated: true
 ---
+
+
+
 
 
 ## DIY

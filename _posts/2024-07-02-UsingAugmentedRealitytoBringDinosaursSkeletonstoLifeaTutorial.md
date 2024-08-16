@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Augmented Reality to Bring Dinosaurs Skeletons to Life — a Tutorial"
 link: "https://medium.com/better-programming/using-augmented-reality-to-bring-dinosaurs-skeletons-to-life-a-tutorial-db57c85e51d3"
+isUpdated: true
 ---
+
+
+
 
 
 ![AR-powered museum](/assets/img/2024-07-02-UsingAugmentedRealitytoBringDinosaursSkeletonstoLifeaTutorial_0.png)

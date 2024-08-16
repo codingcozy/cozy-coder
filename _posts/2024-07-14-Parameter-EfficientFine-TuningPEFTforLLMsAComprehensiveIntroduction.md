@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Parameter-Efficient Fine-Tuning (PEFT) for LLMs: A Comprehensive Introduction"
 link: "https://medium.com/towards-data-science/parameter-efficient-fine-tuning-peft-for-llms-a-comprehensive-introduction-e52d03117f95"
+isUpdated: true
 ---
+
+
+
 
 
 대형 언어 모델 (LLMs)은 이름대로 상당히 큽니다. 이러한 모델은 일반적으로 70억 개의 매개변수를 갖습니다. 70억 개의 매개변수를 완전한 정밀도로 불러오려면 280기가바이트의 GPU 메모리가 필요합니다! 해당 모델을 학습하기 위해서는 수백만 혹은 수십억 개의 문서에 걸쳐 수십억 개의 토큰을 업데이트해야 합니다. 이러한 매개변수를 업데이트하기 위해서는 상당한 계산이 필요합니다. 이러한 모델들의 자가지도 학습 비용은 회사들에게 최대 1억 달러까지 소요될 수 있습니다.

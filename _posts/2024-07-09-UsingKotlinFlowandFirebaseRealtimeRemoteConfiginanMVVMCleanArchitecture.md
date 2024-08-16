@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Kotlin Flow and Firebase Realtime Remote Config in an MVVM Clean Architecture"
 link: "https://medium.com/@jaafoura.kais/using-kotlin-flow-and-firebase-realtime-remote-config-in-an-mvvm-clean-architecture-e9934f4b76ba"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

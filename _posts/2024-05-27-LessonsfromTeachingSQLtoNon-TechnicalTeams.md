@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons from Teaching SQL to Non-Technical Teams"
 link: "https://medium.com/towards-data-science/lessons-from-teaching-sql-to-non-technical-teams-7bd8fc9f8289"
+isUpdated: true
 ---
+
+
+
 
 
 ## 조정된 방식에서 더 맞춤화된 방식으로 — 그리고 먼 거리에서의 코칭이 미래라고 생각하는 이유

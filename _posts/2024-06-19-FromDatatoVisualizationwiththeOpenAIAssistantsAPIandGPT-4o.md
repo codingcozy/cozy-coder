@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Data to Visualization with the OpenAI Assistants API and GPT-4o"
 link: "https://medium.com/towards-data-science/from-data-to-visualization-with-the-openai-assistants-api-and-gpt-4o-69af0cac5118"
+isUpdated: true
 ---
+
+
+
 
 
 GPT-4의 능력이 계속해서 확장되면서, OpenAI의 기술을 기반으로 한 도구들은 개발자들에게 점차적으로 강력한 자산으로 발전하고 있습니다.

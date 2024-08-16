@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Lab-Grown Meat and 3D-Printed Food: Innovations Transforming Our Diet"
 link: "https://medium.com/@keplers-team/lab-grown-meat-and-3d-printed-food-innovations-transforming-our-diet-2894f17ad9e7"
+isUpdated: true
 ---
+
+
+
 
 
 ## 생각해보세요. 여러분의 스테이크가 실험실에서 자란다고 상상해 보세요. 정확한 영양 소비 요구에 맞게 맞춤 설정되며, 생일 케이크는 3D 프린터로 출력됩니다. 이것은 공상이 아니라, 흥미로운 혁신 덕분에 음식의 미래로의 일감을 엿보는 것입니다.

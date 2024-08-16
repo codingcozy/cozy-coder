@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "1763 Meets 1968: How Bayes Illumed the Detailed Balance in Chapman and Kolmogorov’s Equation"
 link: "https://medium.com/cantors-paradise/1763-meets-1968-how-bayes-illumed-the-detailed-balance-in-chapman-and-kolmogorovs-equation-40e71077f034"
+isUpdated: true
 ---
+
+
+
 
 
 ## 베이즈 이론과 확률론

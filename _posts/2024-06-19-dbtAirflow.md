@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "dbt + Airflow = ❤"
 link: "https://medium.com/plum-fintech/dbt-airflow-50b2c93f91cc"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-19-dbtAirflow_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: " The Truth About Nodejs Typescript Support"
 link: "https://medium.com/@tomaszs2/the-truth-about-node-js-typescript-support-8602f690ee69"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-30-TheTruthAboutNodejsTypescriptSupport_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Changing the GPU is changing the behaviour of your LLM."
 link: "https://medium.com/@anis.zakari/changing-the-gpu-is-changing-the-behaviour-of-your-llm-0e6dd8dfaaae"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-ChangingtheGPUischangingthebehaviourofyourLLM_0.png" />

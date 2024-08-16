@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying RAGAS: A Deep Dive into Evaluating Retrieval-Augmented Generation Pipelines (Part 1: Introduction)"
 link: "https://medium.com/@bishalbose294/demystifying-ragas-a-deep-dive-into-evaluating-retrieval-augmented-generation-pipelines-part-1-f8a6f28927c6"
+isUpdated: true
 ---
+
+
+
 
 
 # 기계의 부상... 약간의 도움과 함께

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Erasing Clouds from Satellite Imagery Using GANs (Generative Adversarial Networks)"
 link: "https://medium.com/towards-data-science/erasing-clouds-from-satellite-imagery-using-gans-generative-adversarial-networks-2d7f8467ef2e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 파이썬으로부터 GAN(Generative Adversarial Networks) 만들어 보기

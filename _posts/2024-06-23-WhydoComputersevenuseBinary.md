@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why do Computers even use Binary?"
 link: "https://medium.com/towards-data-science/why-do-computers-even-use-binary-27e6d99f691d"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개적인 쓰레기

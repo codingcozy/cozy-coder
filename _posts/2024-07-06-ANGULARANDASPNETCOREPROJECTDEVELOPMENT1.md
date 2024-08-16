@@ -3,12 +3,16 @@ title: "앵귤러Angular와 ASPNET Core 프로젝트 개발 첫걸음부터"
 description: ""
 coverImage: "/assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png"
 date: 2024-07-06 11:04
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png
 tag: Tech
 originalTitle: "ANGULAR AND ASP.NET CORE PROJECT DEVELOPMENT 1"
 link: "https://medium.com/@ahmetbilgic81/angular-and-asp-net-core-project-development-1-44cbf3911708"
+isUpdated: true
 ---
+
+
+
 
 ![](/assets/img/2024-07-06-ANGULARANDASPNETCOREPROJECTDEVELOPMENT1_0.png)
 

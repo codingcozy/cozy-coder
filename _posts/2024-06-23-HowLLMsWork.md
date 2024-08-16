@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How LLMs Work"
 link: "https://medium.com/@chitrakumarsai/how-llms-work-0ddfdb0d21e0"
+isUpdated: true
 ---
+
+
+
 
 
 

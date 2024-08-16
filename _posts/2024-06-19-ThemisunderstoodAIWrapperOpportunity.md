@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The misunderstood AI Wrapper Opportunity"
 link: "https://medium.com/@alvaro_72265/the-misunderstood-ai-wrapper-opportunity-afabb3c74f31"
+isUpdated: true
 ---
+
+
+
 
 
 

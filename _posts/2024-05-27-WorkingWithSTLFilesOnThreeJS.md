@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Working With .STL Files On Three.JS"
 link: "https://medium.com/@atakandonmez/working-with-stl-files-on-three-js-faf94988493b"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-05-27-WorkingWithSTLFilesOnThreeJS_0.png)

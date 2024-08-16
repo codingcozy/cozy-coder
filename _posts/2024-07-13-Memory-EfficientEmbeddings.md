@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Memory-Efficient Embeddings"
 link: "https://medium.com/towards-data-science/memory-efficient-embeddings-d637cba7f006"
+isUpdated: true
 ---
+
+
+
 
 
 ![Memory-EfficientEmbeddings_0](/assets/img/2024-07-13-Memory-EfficientEmbeddings_0.png)

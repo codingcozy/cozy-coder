@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Meta Takes On AI’s Elephant in the Room"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/meta-takes-on-ais-elephant-in-the-room-4e2511265afd"
+isUpdated: true
 ---
+
+
+
 
 
 미래에 AI가 직면할 거대한 위협은 에너지 제약입니다. 현재 수준에서는 세계의 에너지 그리드가 예상된 AI 제품 수요를 충족시키기 어려울 것으로 예상됩니다.

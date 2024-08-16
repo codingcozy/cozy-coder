@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Web Application Firewall(WAF) to Protect Our Network Services"
 link: "https://medium.com/codex/using-web-application-firewall-waf-to-protect-our-network-services-91368086e626"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-09-UsingWebApplicationFirewallWAFtoProtectOurNetworkServices_0.png" />

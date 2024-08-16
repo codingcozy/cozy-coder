@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Small is Beautiful: The Rise of Small Language Models for Efficiency and Specialization of GenAI Apps"
 link: "https://medium.com/ai-in-plain-english/small-is-beautiful-the-rise-of-small-language-models-for-efficiency-and-specialization-of-genai-67fa1794f58a"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 소프트웨어가 이 기사의 텍스트를 문법, 흐름, 가독성 면에서 개선하기 위해 사용되었습니다.

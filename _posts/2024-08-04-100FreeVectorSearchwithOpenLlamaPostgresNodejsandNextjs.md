@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "100 Free Vector Search with OpenLlama, Postgres, Nodejs and Nextjs"
 link: "https://medium.com/javascript-in-plain-english/100-free-vector-search-with-openllama-postgres-nodejs-and-nextjs-e496856766f7"
+isUpdated: true
 ---
+
+
+
 
 
 요즘 벡터 검색을 시도해보고 싶은데 OpenAI나 Huggingface를 사용하기 싫고, 벡터 데이터베이스 회사에 돈을 지불하고 싶지 않다니까! 그럼 내가 돕겠어. 무료로 여러분의 기계에서 벡터 검색을 시작해볼까요?

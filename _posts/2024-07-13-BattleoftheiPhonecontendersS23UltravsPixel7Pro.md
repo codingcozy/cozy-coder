@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Battle of the iPhone contenders: S23 Ultra vs Pixel 7 Pro"
 link: "https://medium.com/macoclock/battle-of-the-iphone-contenders-s23-ultra-vs-pixel-7-pro-8927e5dd684e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Link to the image](/assets/img/2024-07-13-BattleoftheiPhonecontendersS23UltravsPixel7Pro_0.png)

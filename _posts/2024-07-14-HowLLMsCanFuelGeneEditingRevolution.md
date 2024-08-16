@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How LLMs Can Fuel Gene Editing Revolution"
 link: "https://medium.com/towards-data-science/how-llms-can-fuel-gene-editing-revolution-1b15663f697c"
+isUpdated: true
 ---
+
+
+
 
 
 ## |인공지능| LLM| 유전자 편집| 의학 AI|

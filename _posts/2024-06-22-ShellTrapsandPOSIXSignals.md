@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Shell Traps and POSIX Signals"
 link: "https://medium.com/@benweidig/shell-traps-and-posix-signals-e2b453c04db6"
+isUpdated: true
 ---
+
+
+
 
 
 

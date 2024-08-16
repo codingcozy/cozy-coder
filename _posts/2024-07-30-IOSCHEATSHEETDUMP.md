@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "IOS CHEAT SHEET DUMP"
 link: "https://medium.com/programming1/ios-cheat-sheet-dump-ade3e5b160dc"
+isUpdated: true
 ---
+
+
+
 
 
 # 포괄적인 iOS 개발 치트시트

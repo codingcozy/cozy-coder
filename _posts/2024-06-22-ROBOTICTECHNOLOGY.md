@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ROBOTIC TECHNOLOGY ?"
 link: "https://medium.com/@mirzazafeer54/robotic-technology-917b7ea7b952"
+isUpdated: true
 ---
+
+
+
 
 
 ![로봇 기술](/assets/img/2024-06-22-ROBOTICTECHNOLOGY_0.png)

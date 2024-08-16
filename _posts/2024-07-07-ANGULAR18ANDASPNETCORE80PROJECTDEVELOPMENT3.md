@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ANGULAR 18 AND ASP.NET CORE 8.0 PROJECT DEVELOPMENT 3"
 link: "https://medium.com/@ahmetbilgic81/angular-18-and-asp-net-core-8-0-project-development-3-d9aa15a4c3d5"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0](/assets/img/2024-07-07-ANGULAR18ANDASPNETCORE80PROJECTDEVELOPMENT3_0.png)

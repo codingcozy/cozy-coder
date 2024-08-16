@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple is my 1st choice"
 link: "https://medium.com/macoclock/apple-is-my-1st-choice-74c4e45a9c2f"
+isUpdated: true
 ---
+
+
+
 
 
 

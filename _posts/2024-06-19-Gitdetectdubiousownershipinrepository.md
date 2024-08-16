@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Git detect dubious ownership in repository"
 link: "https://medium.com/@thecodinganalyst/git-detect-dubious-ownership-in-repository-e7f33037a8f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-Gitdetectdubiousownershipinrepository_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Alternative way to run Windows VM on Linux (Docker)"
 link: "https://medium.com/@elnurbda/alternative-way-to-run-windows-vm-on-linux-docker-6d9828b3586c"
+isUpdated: true
 ---
+
+
+
 
 
 리눅스 사용자로서 주로 윈도우용 소프트웨어를 실행하거나 다양한 윈도우 전용 애플리케이션을 테스트해야 하는 경우가 많이 있어요.

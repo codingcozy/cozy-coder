@@ -1,5 +1,5 @@
 ---
-title: "소프트웨어 개발에 필수적인 실습 방법 5가지"
+title: "프론트엔드 웹 개발에 필요한 실습 방법 5가지"
 description: ""
 coverImage: "/assets/img/2024-07-23-PracticeMakesPerfectinSoftwareDevelopment_0.png"
 date: 2024-07-23 21:46
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Practice Makes Perfect in Software Development"
 link: "https://medium.com/@tsecretdeveloper/practice-makes-perfect-in-software-development-dad688bd1a25"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-07-23-PracticeMakesPerfectinSoftwareDevelopment_0.png" />`

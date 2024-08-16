@@ -3,12 +3,16 @@ title: "신경망 기본 이론과 구조 유형"
 description: ""
 coverImage: "/assets/img/2024-06-20-NeuralNetworksBasicTheoryandArchitectureTypes_0.png"
 date: 2024-06-20 19:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-20-NeuralNetworksBasicTheoryandArchitectureTypes_0.png
 tag: Tech
 originalTitle: "Neural Networks: Basic Theory and Architecture Types"
 link: "https://medium.com/towards-artificial-intelligence/neural-networks-basic-theory-and-architecture-types-38d9f53e1e1c"
+isUpdated: true
 ---
+
+
+
 
 이 이야기에서는 신경망의 이론적 기초와 이로부터 파생된 기술, 그리고 PyTorch를 사용한 구현의 가장 중요한 측면을 높은 수준에서 리뷰하고 설명해보려고 합니다. 가능한 간단한 언어를 사용하여 설명하겠습니다. 또한 다른 문서에서 문서화한 사용 사례 예시를 소개할 예정입니다.
 

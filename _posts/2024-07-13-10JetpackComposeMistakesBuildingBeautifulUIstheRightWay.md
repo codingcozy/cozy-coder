@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 Jetpack Compose Mistakes🤥: Building Beautiful UIs the Right Way"
 link: "https://medium.com/@niranjanky14/10-jetpack-compose-mistakes-building-beautiful-uis-the-right-way-464844a1381d"
+isUpdated: true
 ---
+
+
+
 
 
 **아래는 Compose 개발을 더 부드럽고 효율적으로 만들기 위해 피해야 할 10가지 흔한 함정이 있습니다:**

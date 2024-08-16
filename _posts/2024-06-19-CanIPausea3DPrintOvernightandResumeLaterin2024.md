@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can I Pause a 3D Print Overnight and Resume Later? in 2024"
 link: "https://medium.com/@printerventure/can-i-pause-a-3d-print-overnight-and-resume-later-in-2024-0cfd7bdc7e96"
+isUpdated: true
 ---
+
+
+
 
 
 

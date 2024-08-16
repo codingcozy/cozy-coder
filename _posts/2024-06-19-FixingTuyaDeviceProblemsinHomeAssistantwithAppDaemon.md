@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fixing Tuya Device Problems in Home Assistant with AppDaemon"
 link: "https://medium.com/@vmannoor/fixing-tuya-device-problems-in-home-assistant-with-appdaemon-5798c2d41b3a"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-19-FixingTuyaDeviceProblemsinHomeAssistantwithAppDaemon_0.png](/assets/img/2024-06-19-FixingTuyaDeviceProblemsinHomeAssistantwithAppDaemon_0.png)

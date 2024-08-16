@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Data Swamps to Data Mastery: Embracing the Lakehouse Revolution with Apache Iceberg"
 link: "https://medium.com/deutsche-telekom-gurgaon/from-data-swamps-to-data-mastery-embracing-the-lakehouse-revolution-with-apache-iceberg-a26feffc70e6"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-FromDataSwampstoDataMasteryEmbracingtheLakehouseRevolutionwithApacheIceberg_0.png" />

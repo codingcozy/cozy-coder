@@ -3,12 +3,16 @@ title: "ESP8266 JSON 데이터 다루기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png"
 date: 2024-05-27 13:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png
 tag: Tech
 originalTitle: "ESP8266: Handling data in JSON"
 link: "https://medium.com/@punnyarthabanerjee/esp8266-handling-data-in-json-7c6f62c9062e"
+isUpdated: true
 ---
+
+
+
 
 
 ![ESP8266 handling data in JSON](/assets/img/2024-05-27-ESP8266HandlingdatainJSON_0.png)

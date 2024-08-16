@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GPT-4o — My #1 SECRET Productivity Tip"
 link: "https://medium.com/@andrew_best/gpt-4o-my-1-secret-productivity-tip-654fefcc2c5b"
+isUpdated: true
 ---
+
+
+
 
 
 이 ChatGPT 팁을 거의 공유하고 싶지 않을 정도로 좋아요. 🤫

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to add another EBS Volume to a Linux instance - EC2 Mastery"
 link: "https://medium.com/@galazkaryan/how-to-add-another-ebs-volume-to-a-linux-instance-ec2-mastery-6b8e20a7ea6e"
+isUpdated: true
 ---
+
+
+
 
 
 AWS의 핵심은 EC2에 있습니다. 클라우드 서비스 제공업체를 사용하기 시작할 때 대부분 처음 배우는 서비스 중 하나입니다. 이를 염두에 둔다면, 배울 것이 많고 현재 사용 중인 use case에 다른 서비스를 통합하는 다양한 방법이 있습니다.

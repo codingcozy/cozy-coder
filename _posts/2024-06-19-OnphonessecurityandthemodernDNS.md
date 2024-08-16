@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "On phones, security, and the modern DNS"
 link: "https://medium.com/@raduzaharia/on-phones-security-and-the-modern-dns-5fd0887d4e86"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-OnphonessecurityandthemodernDNS_0.png)  

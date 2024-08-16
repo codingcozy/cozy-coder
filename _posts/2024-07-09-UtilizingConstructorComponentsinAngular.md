@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Utilizing Constructor Components in Angular"
 link: "https://medium.com/@bobrovice/utilizing-constructor-components-in-angular-2289cd950051"
+isUpdated: true
 ---
+
+
+
 
 
 

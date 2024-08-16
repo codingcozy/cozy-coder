@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Differences Between Stream Processing Engines and Streaming Databases"
 link: "https://medium.com/illumination/differences-between-stream-processing-engines-and-streaming-databases-f062af042da9"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-DifferencesBetweenStreamProcessingEnginesandStreamingDatabases_0.png" />

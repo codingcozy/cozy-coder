@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Dependency Injection Demystified"
 link: "https://medium.com/@jacobmartinbartlett/dependency-injection-for-async-tests-17d796cbd315"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사는 원래 독립적인 것이었지만, 지금은 전체 유닛 테스트 마스터 클래스인 ‘Swift에서의 Async Unit Testing’의 일부로 포장되었습니다.

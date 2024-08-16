@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "If Developers Tested, a Global Meltdown Might Have Been Averted"
 link: "https://medium.com/@tsecretdeveloper/if-developers-tested-a-global-meltdown-might-have-been-averted-d9cbbfa40cc4"
+isUpdated: true
 ---
+
+
+
 
 
 

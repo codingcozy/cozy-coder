@@ -1,5 +1,5 @@
 ---
-title: "JavaScript에서 변수와 타입 완벽 이해하기"
+title: "JavaScript에서 변수와 타입 제대로 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-04-UnderstandingVariablesandTypesinJavaScript_0.png"
 date: 2024-08-04 18:36
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Variables and Types in JavaScript"
 link: "https://medium.com/@eaglehead/understanding-variables-and-types-in-javascript-04b0b0aaa5ce"
+isUpdated: true
 ---
+
+
+
 
 
 ## 원시 및 참조 유형 소개

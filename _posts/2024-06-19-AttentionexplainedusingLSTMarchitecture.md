@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Attention explained using LSTM architecture"
 link: "https://medium.com/@shreya.verma.ananya/attention-explained-using-lstm-architecture-afbd83c90e2d"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-AttentionexplainedusingLSTMarchitecture_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Classwords — My Favorite Convention for Naming Database Columns"
 link: "https://medium.com/towards-data-science/classwords-my-favorite-convention-for-naming-database-columns-81cf3093c5a7"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-ClasswordsMyFavoriteConventionforNamingDatabaseColumns_0.png)

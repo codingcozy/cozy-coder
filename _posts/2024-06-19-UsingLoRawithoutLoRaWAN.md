@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using LoRa without LoRaWAN"
 link: "https://medium.com/@prajzler/using-lora-without-lorawan-48dfeefed4d2"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-UsingLoRawithoutLoRaWAN_0.png" />

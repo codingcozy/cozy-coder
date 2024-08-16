@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install SonarQube with PostgresSQL on macOS"
 link: "https://medium.com/@adhiksubash/install-sonarqube-with-postgressql-on-macos-06e88dd6ecb5"
+isUpdated: true
 ---
+
+
+
 
 
 이 가이드에서는 macOS에서 SonarQube를 PostgreSQL과 함께 설치하고 구성하는 단계를 안내해 드리겠습니다. SonarQube는 코드 품질을 지속적으로 검사하는 인기 있는 도구이며 PostgreSQL은 강력한 오픈 소스 객체 관계형 데이터베이스 시스템입니다.

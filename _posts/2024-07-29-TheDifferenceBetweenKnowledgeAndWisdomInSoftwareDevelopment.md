@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Difference Between Knowledge And Wisdom In Software Development"
 link: "https://medium.com/itnext/the-difference-between-knowledge-and-wisdom-in-software-development-2df326dccc7b"
+isUpdated: true
 ---
+
+
+
 
 
 

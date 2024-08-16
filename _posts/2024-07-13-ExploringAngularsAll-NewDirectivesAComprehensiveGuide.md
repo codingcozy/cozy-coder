@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Angular’s All-New Directives: A Comprehensive Guide"
 link: "https://medium.com/@abhigyana/exploring-angulars-all-new-directives-a-comprehensive-guide-da98a6b2d88d"
+isUpdated: true
 ---
+
+
+
 
 
 인기 있는 프론트엔드 웹 프레임워크 인 Angular는 계속해서 발전하며 각 릴리스마다 새로운 기능과 개선 사항을 소개하고 있어요. 최근 업데이트에서 강화된 주요 영역 중 하나는 새로운 지시문(directives)을 소개한 것입니다. 이러한 지시문들은 DOM을 더 강력하고 유연하게 조작하고 Angular 애플리케이션의 기능을 향상시키는 더 강력하고 유연한 방법을 제공하여 개발자들의 업무를 더욱 쉽게 만들고 있어요. 이 게시물에서는 Angular에서 가장 최근에 도입된 일부 지시문들을 살펴보고, 이를 활용하여 더 효율적이고 동적인 웹 애플리케이션을 만드는 방법을 탐색해 볼 거에요.

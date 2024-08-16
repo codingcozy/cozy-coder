@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Your AWS DeepRacer Performance with Gradient Descent Algorithm and Personalized Waypoints"
 link: "https://medium.com/@yangkewenvigorous/enhancing-your-aws-deepracer-performance-with-gradient-descent-algorithm-and-personalized-waypoints-2e5db6ceab63"
+isUpdated: true
 ---
+
+
+
 
 
 # AWS DeepRacer에 대해

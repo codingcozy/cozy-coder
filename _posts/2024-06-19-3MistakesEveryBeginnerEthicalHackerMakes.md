@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3 Mistakes Every Beginner Ethical Hacker Makes"
 link: "https://medium.com/bugbountywriteup/3-mistakes-every-beginner-ethical-hacker-makes-f86fa5ee96c9"
+isUpdated: true
 ---
+
+
+
 
 
 "윤리적 해킹 경력을 시작하면서 피해야 할 세 가지 일반적인 함정을 피하는 방법

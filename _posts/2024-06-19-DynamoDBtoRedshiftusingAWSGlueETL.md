@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DynamoDB to Redshift using AWS Glue ETL"
 link: "https://medium.com/@taniabanerjee92/dynamodb-to-redshift-using-aws-glue-etl-e17bc845b176"
+isUpdated: true
 ---
+
+
+
 
 
 AWS Glue ETL을 사용하여 DynamoDB에서 Redshift로의 파이프라인을 구축하는 과정은 여러 단계로 이루어져 있습니다. 아래에 이를 설정하는 자세한 가이드가 있어요:

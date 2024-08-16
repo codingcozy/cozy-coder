@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Python Projects with SQL: Strategies for Effective Query Management"
 link: "https://medium.com/@romina.elena.mendez/python-projects-with-sql-strategies-for-effective-query-management-f79d696b2c66"
+isUpdated: true
 ---
+
+
+
 
 
 프로젝트에서 데이터베이스와 상호 작용하는 프로그래밍을 할 때, 쿼리를 어떻게 조직화하고 재사용할지 고민하는 일이 종종 있어요. 이럴 때 몇몇 개발자는 쿼리를 보다 동적으로 만들기 위해 문자열을 연결하는 함수를 만들기도 하고, 다른 사람들은 이 쿼리를 정의하는 변수를 만들기를 선호하기도 해요. 일부 더 고급 개발자들은 쿼리를 정의할 때 SQLAlchemy 객체 선언을 사용하기도 하는데, 이 방법은 배우는 곡선이 있어서 더 복잡한 쿼리를 다룰 때 개발 프로세스를 어렵게 만들 수 있어요.

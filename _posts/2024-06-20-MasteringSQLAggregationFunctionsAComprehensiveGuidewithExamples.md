@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering SQL Aggregation Functions: A Comprehensive Guide with Examples"
 link: "https://medium.com/@sqlfundamentals/mastering-sql-aggregation-functions-a-comprehensive-guide-with-examples-8d186160f7ee"
+isUpdated: true
 ---
+
+
+
 
 
 집계 함수는 데이터를 요약하고 분석할 때 SQL에서 중요한 역할을 합니다. 이들은 우리에게 통계 메트릭을 계산하고 데이터 그룹에 대한 계산을 수행하며 의미 있는 통찰을 얻을 수 있도록 해줍니다.

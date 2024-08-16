@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — Gaussian Mixture Model"
 link: "https://medium.com/@thommaskevin/tinyml-gaussian-mixture-model-9730693fb8a4"
+isUpdated: true
 ---
+
+
+
 
 
 수학적 기초부터 엣지 구현까지

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "FreeRTOS — Simple semaphore implementation using event group"
 link: "https://medium.com/@sergio.arrighi/freertos-simple-semaphore-implementation-using-event-group-ac54e3bb5686"
+isUpdated: true
 ---
+
+
+
 
 
 

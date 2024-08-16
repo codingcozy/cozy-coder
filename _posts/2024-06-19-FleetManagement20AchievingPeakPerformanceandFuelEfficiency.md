@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fleet Management 2.0: Achieving Peak Performance and Fuel Efficiency"
 link: "https://medium.com/@jvilleres3/fleet-management-2-0-achieving-peak-performance-and-fuel-efficiency-613a2fc2ade7"
+isUpdated: true
 ---
+
+
+
 
 
 운전자 훈련부터 원격 기술: 비용 절감과 가용성 향상에 대한 포괄적 접근

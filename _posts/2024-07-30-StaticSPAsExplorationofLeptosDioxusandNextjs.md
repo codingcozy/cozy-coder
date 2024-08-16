@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Static SPAs Exploration of Leptos, Dioxus, and Nextjs"
 link: "https://medium.com/@codethoughts/static-spas-exploration-of-leptos-dioxus-and-next-js-da2f00ae8f61"
+isUpdated: true
 ---
+
+
+
 
 
 내가 좋아하는 프론트엔드 배포 방법 중 하나는 모든 경로를 정적으로 미리 생성한 다음 각 경로가 상호 작용에 필요로 하는 종속성을 로드하도록 하는 것입니다.

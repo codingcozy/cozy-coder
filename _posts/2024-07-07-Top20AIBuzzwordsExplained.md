@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top 20 AI Buzzwords Explained"
 link: "https://medium.com/stackademic/top-20-ai-buzzwords-in-2024-0a43c75ee660"
+isUpdated: true
 ---
+
+
+
 
 
 친구들, 인공지능은 우리 일상의 한 부분이 되어버렸어요. 새로운 인공지능 제품이 나올 때마다 우리 삶에 새로운 변화가 찾아오고 있죠. 현재 거의 모든 회사가 인공지능을 도입하려는 계획을 가지고 있거나 이미 활발하게 사용하고 있거나, 기존의 규칙 기반 엔진을 인공지능이 가능한 기술로 재탄생시키고 있는 단계일 수도 있어요.

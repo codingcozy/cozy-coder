@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Midjourney on Discord: A Step-by-Step Guide for Beginners"
 link: "https://medium.com/@mericreativAI/getting-started-with-midjourney-on-discord-a-step-by-step-guide-for-beginners-e6a3e91048ce"
+isUpdated: true
 ---
+
+
+
 
 
 ## Midjourney는 텍스트 프롬프트에서 AI가 생성한 이미지를 생성하는 흥미로운 도구이지만, Discord와 AI 이미지 생성에 처음 접하는 경우 과정이 다소 어렵게 느껴질 수 있습니다. 이 안내서는 Discord 설정부터 Midjourney를 사용하여 첫 AI 이미지를 생성하는 단계까지 안내해 드립니다.

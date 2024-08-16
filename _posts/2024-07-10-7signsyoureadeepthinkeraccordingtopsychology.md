@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "7 signs you’re a deep thinker, according to psychology"
 link: "https://medium.com/beginners-club/7-signs-youre-a-deep-thinker-according-to-psychology-6ce6c3c09a73"
+isUpdated: true
 ---
+
+
+
 
 
 Being deeply philosophical isn't about being quiet or reserved; it's about the way you digest and make sense of the world around you. 

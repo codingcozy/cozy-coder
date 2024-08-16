@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Large Language Models work"
 link: "https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f"
+isUpdated: true
 ---
+
+
+
 
 
 대규모 언어 모델(Large Language Models, LLMs) 덕분에 인공지능이 이제 거의 모든 이의 관심을 사로 잡았습니다. 아마도 가장 유명한 LLM인 ChatGPT는 자연 언어가 최근의 인공지능의 폭발적인 발전을 모두에게 접근 가능하게 만든 자연스러운 인터페이스이기 때문에 즉각적으로 인기를 얻었습니다. 그럼에도 불구하고, LLM의 작동 방식은 데이터 과학자나 다른 AI 관련 직군에 속하지 않는 한 여전히 잘 알려지지 않은 부분이 있습니다. 본 글에서는 이를 바꿔보려고 합니다.

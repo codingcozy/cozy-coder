@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Got My First €€€€ Bounty"
 link: "https://medium.com/@machiavellli/how-i-got-my-first-bounty-65ad8a1763de"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요!

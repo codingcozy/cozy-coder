@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Pixel 8 Just DESTROYED One of the Main Reasons to Buy an iPhone"
 link: "https://medium.com/@michaelswengel/the-pixel-8-just-destroyed-one-of-the-main-reasons-to-buy-an-iphone-9946586cc41b"
+isUpdated: true
 ---
+
+
+
 
 
 안드로이드에 대해서 정말 좋아해요. 기능적으로 iOS를 능가하는 부분이 많아요. (그리고 저는 아이폰 유저이기에 이렇게 말하는데요.) 하지만 지금까지 아이폰을 선택하는 *주요* 이유가 있었어요: 연간 소프트웨어 업데이트. 애플 폰은 비싼 가격이지만, 적어도 $1000 이상의 아이폰을 사면 적어도 5~7년 동안 주요 OS 버전 업데이트를 받을 수 있다는 걸 알아요. 

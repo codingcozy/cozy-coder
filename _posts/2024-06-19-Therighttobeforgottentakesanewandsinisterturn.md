@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The “right to be forgotten” takes a new and sinister turn"
 link: "https://medium.com/enrique-dans/the-right-to-be-forgotten-takes-a-new-and-sinister-turn-8b5c296c054d"
+isUpdated: true
 ---
+
+
+
 
 
 

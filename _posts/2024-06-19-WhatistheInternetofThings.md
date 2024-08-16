@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What is the Internet of Things?"
 link: "https://medium.com/@ieeewiesusl/what-is-the-internet-of-things-9aefe344e3d7"
+isUpdated: true
 ---
+
+
+
 
 
 

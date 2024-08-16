@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced RAG: Implementing Advanced Techniques to Enhance Retrieval-Augmented Generation Systems"
 link: "https://medium.com/@ndemir/advanced-rag-implementing-advanced-techniques-to-enhance-retrieval-augmented-generation-systems-0e07301e46f4"
+isUpdated: true
 ---
+
+
+
 
 
 이제 RAG (Retrieval Augmented Generation) 기술이 LLMs와 상호 작용 중에 사실로 잘 알려져 있는 것 같아요. 최근에 제가 쓴 하나의 기사에서는 코드 예제와 함께 단계별로 RAG 파이프라인을 구축했습니다. 이 기사에서 우리는 이 이니셔티브를 한 단계 더 나아가서 고급 RAG 파이프라인을 구현해볼 거에요.

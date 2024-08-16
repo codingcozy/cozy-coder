@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TimesFM: Google’s Foundation Model For Time-Series Forecasting"
 link: "https://medium.com/towards-data-science/timesfm-googles-foundation-model-for-time-series-forecasting-593a332dd08d"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-12-TimesFMGooglesFoundationModelForTime-SeriesForecasting_0.png)

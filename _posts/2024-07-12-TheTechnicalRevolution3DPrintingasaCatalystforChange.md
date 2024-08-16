@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Technical Revolution: 3D Printing as a Catalyst for Change"
 link: "https://medium.com/@elurlayen.uyrukhlur/the-technical-revolution-3d-printing-as-a-catalyst-for-change-be7bf7cd8e07"
+isUpdated: true
 ---
+
+
+
 
 
 3D 프린팅의 등장은 제조 업계의 역사에서 중요한 이정표로, 섬유 산업을 혁신화한 산업 자동화와 유사한 의미를 가지고 있습니다. 본 섹션에서는 기술적인 발전과 과거와 현재의 유사성을 살펴보며, 3D 프린팅이 제조업의 미래를 형성하는 방법을 강조하고 있습니다.

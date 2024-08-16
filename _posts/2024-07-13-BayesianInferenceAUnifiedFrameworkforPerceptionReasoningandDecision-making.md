@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bayesian Inference: A Unified Framework for Perception, Reasoning, and Decision-making"
 link: "https://medium.com/towards-data-science/bayesian-inference-a-unified-framework-for-perception-reasoning-and-decision-making-bb9c47448f8f"
+isUpdated: true
 ---
+
+
+
 
 
 ![Bayesian Inference](/assets/img/2024-07-13-BayesianInferenceAUnifiedFrameworkforPerceptionReasoningandDecision-making_0.png)

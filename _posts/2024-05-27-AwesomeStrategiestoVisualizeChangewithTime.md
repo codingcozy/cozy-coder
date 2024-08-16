@@ -3,12 +3,16 @@ title: "시간에 따른 변화를 시각화하는 멋진 전략들"
 description: ""
 coverImage: "/assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_0.png"
 date: 2024-05-27 12:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-AwesomeStrategiestoVisualizeChangewithTime_0.png
 tag: Tech
 originalTitle: "Awesome Strategies to Visualize Change with Time"
 link: "https://medium.com/@yuanbo.faith/awesome-strategies-to-visualize-change-with-time-f8a7fa8362f2"
+isUpdated: true
 ---
+
+
+
 
 이 기사는 두 시점을 대조하는 효과적인 전략을 시각화하는 방법을 요약하고, 영감을 주는 그래픽 예시(소스 코드 링크 포함)로 설명합니다.
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Customer Segmentation Report with SQL and Power BI"
 link: "https://medium.com/@siriboekofiduodu/customer-segmentation-report-with-sql-and-power-bi-92fef2acfd44"
+isUpdated: true
 ---
+
+
+
 
 
 이 프로젝트에서는 RFM(Recency, Frequency, Monetary) 개념을 사용하여 판매 데이터 세트를 분석할 것입니다. 저의 목표는 고객을 세분화하여 최상위 구매자와 무시되고 있을 수 있는 고객 및 그들을 유지하기 위해 타겟 광고 노력이 더 필요한 사람들을 식별하는 것입니다.

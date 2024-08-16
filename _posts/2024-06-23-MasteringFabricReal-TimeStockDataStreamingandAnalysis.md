@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Fabric: Real-Time Stock Data Streaming and Analysis"
 link: "https://medium.com/@dataninsight/mastering-fabric-real-time-stock-data-streaming-and-analysis-ad72d23d011a"
+isUpdated: true
 ---
+
+
+
 
 
 

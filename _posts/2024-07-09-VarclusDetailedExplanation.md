@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Varclus Detailed Explanation"
 link: "https://medium.com/@venkatsaib/varclus-detailed-explanation-22d7d3c866e5"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분,

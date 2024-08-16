@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Virtual to Reality: How Synthetic Data Will Train Smarter Robots for Industrial Applications"
 link: "https://medium.com/@nvidiaomniverse/from-virtual-to-reality-how-synthetic-data-will-train-smarter-robots-for-industrial-applications-0c4b744d4ae0"
+isUpdated: true
 ---
+
+
+
 
 
 ## OpenUSD를 활용한 합성 데이터 생성이 산업용 AI 로봇에 대한 새로운 기회를 열고 있습니다

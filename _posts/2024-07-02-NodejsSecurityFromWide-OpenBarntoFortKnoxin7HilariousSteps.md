@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Node.js Security: From Wide-Open Barn to Fort Knox in 7 Hilarious Steps"
 link: "https://medium.com/stackademic/node-js-security-from-wide-open-barn-to-fort-knox-in-7-hilarious-steps-d51e67d29489"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-02-NodejsSecurityFromWide-OpenBarntoFortKnoxin7HilariousSteps_0.png" />

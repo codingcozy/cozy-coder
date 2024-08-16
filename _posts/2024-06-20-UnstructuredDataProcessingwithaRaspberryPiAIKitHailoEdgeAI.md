@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unstructured Data Processing with a Raspberry Pi AI Kit — Hailo Edge AI"
 link: "https://medium.com/@tspann/unstructured-data-processing-with-a-raspberry-pi-ai-kit-c959dd7fff47"
+isUpdated: true
 ---
+
+
+
 
 
 비구조화된 데이터 처리, Raspberry Pi 5, Raspberry Pi AI-Kit, Milvus, Zilliz, 데이터, 이미지, 컴퓨터 비전, 딥 러닝, 파이썬

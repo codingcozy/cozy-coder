@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Setting Up SQL Server with Docker on MacOS — A Step-by-Step Guide"
 link: "https://medium.com/@ugurelsevket/setting-up-sql-server-with-docker-on-macos-a-step-by-step-guide-8742c725a63e"
+isUpdated: true
 ---
+
+
+
 
 
 # 단계 1: Docker와 Azure Data Studio 다운로드하기

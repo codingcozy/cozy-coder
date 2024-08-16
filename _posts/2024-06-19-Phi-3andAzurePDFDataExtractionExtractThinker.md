@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Phi-3 and Azure: PDF Data Extraction | ExtractThinker"
 link: "https://medium.com/towards-artificial-intelligence/phi-3-and-azure-pdf-data-extraction-extractthinker-cb490a095adb"
+isUpdated: true
 ---
+
+
+
 
 
 PDF 및 이미지에서 구조화된 데이터를 추출하는 것은 어려울 수 있지만, 광학 문자 인식 (OCR)과 언어 모델 (LLMs)을 결합하면 강력한 솔루션을 제공할 수 있습니다. Azure 생태계 내에서 문서 지능 서비스를 활용하면 문서를 분석할 때 좋은 선택이 될 것입니다.

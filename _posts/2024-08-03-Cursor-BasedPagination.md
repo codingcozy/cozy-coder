@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 14에서 Cursor-Based Pagination 구현하는 방법"
+title: "Nextjs 14에서 커서기반 Pagination 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-Cursor-BasedPagination_0.png"
 date: 2024-08-03 20:37
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Cursor-Based Pagination"
 link: "https://medium.com/@chidanandan/cursor-based-pagination-601b64d1a415"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What’s New with Matter v1.3?"
 link: "https://medium.com/@tcaflisch/whats-new-with-matter-v1-3-960bc3f51da6"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 10일

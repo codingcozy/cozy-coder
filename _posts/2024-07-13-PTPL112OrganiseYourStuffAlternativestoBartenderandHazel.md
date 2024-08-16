@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "PTPL 112: Organise Your Stuff— Alternatives to Bartender and Hazel"
 link: "https://medium.com/produclivity/ptpl-112-organise-your-stuff-alternatives-to-bartender-and-hazel-424b94f57af6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 일반 텍스트; 종이, 적게 — 생산성 다이제스트

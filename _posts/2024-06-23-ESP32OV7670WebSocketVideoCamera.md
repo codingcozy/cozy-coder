@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ESP32+OV7670 — WebSocket Video Camera"
 link: "https://medium.com/@mudassar.tamboli/esp32-ov7670-websocket-video-camera-26c35aedcc64"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

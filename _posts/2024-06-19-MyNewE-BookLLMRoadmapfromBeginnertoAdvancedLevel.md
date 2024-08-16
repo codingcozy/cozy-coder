@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My New E-Book: LLM Roadmap from Beginner to Advanced Level"
 link: "https://medium.com/@yousefhosni/my-new-e-book-llm-roadmap-from-beginner-to-advanced-level-289d0f61ac3b"
+isUpdated: true
 ---
+
+
+
 
 
 제가 새 이북인 LLM 로드맵을 초보부터 고급 수준까지 출간했다는 것을 기쁜 마음으로 알려드립니다. 이 이북은 LLMs를 숙달하는 여정을 시작하기 위해 필요한 모든 자원을 제공할 것입니다.

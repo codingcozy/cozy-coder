@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Simple ROS2 Object Avoidance Robot using Python"
 link: "https://medium.com/@kabilankb2003/building-a-simple-ros2-object-avoidance-robot-using-python-962f5b8485d7"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-BuildingaSimpleROS2ObjectAvoidanceRobotusingPython_0.png" />

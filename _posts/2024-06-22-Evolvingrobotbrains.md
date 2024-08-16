@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Evolving robot brains"
 link: "https://medium.com/@alex2august/evolving-robot-brains-37b3f14812d9"
+isUpdated: true
 ---
+
+
+
 
 
 제 학사 학위 논문 이후에 오랜만이네요. 그때 했던 것들을 함께 공유해보려고 합니다.

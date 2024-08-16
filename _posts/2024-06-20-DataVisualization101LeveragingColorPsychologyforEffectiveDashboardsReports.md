@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Visualization 101: Leveraging Color Psychology for Effective Dashboards , Reports"
 link: "https://medium.com/microsoft-power-bi/data-visualization-101-leveraging-color-psychology-for-effective-dashboards-reports-31c019155367"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이 기사에서는 색상 심리학과 데이터 시각화에서의 적용을 탐구합니다.

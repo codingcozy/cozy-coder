@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intersting story"
 link: "https://medium.com/@Samahh/intersting-story-3329fadecef3"
+isUpdated: true
 ---
+
+
+
 
 
 유명한 갱단이 몇몇 착한 사람들의 동행과 설교 덕분에 강도와 절도를 멈췄어요... 하지만 일이 있는 가난과 빈곤 때문에 그의 집에 빈곤이 들어왔고, 그래서 어느 날 큰 신전으로 갔는데 천장에 매달려 있는 매우 귀중한 샹들리에를 몰래 떼어내 들고 돌아왔어요. 이미 신전에 앉아 있는 이웃들은 그를 매우 공격적이고 전쟁을 좋아하는 사람으로 알고 있어서 아무 말도 못했고 저항하지도 못했어요... 갱단은 그 샹들리에를 좋은 가격에 팔았어요.

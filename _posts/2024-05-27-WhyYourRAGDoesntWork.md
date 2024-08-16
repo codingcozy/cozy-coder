@@ -3,12 +3,16 @@ title: "왜 RAG가 작동하지 않는지"
 description: ""
 coverImage: "/assets/img/2024-05-27-WhyYourRAGDoesntWork_0.png"
 date: 2024-05-27 14:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-WhyYourRAGDoesntWork_0.png
 tag: Tech
 originalTitle: "Why Your RAG Doesn’t Work"
 link: "https://medium.com/@cdg2718/why-your-rag-doesnt-work-9755726dd1e9"
+isUpdated: true
 ---
+
+
+
 
 ## RAG은 아직 유망한 기술이지만, 오늘은 조금 힘든 상황이에요.
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Question-Answer Kaggle Competition using Sentence Transformer"
 link: "https://medium.com/@gowthamaddluri/why-and-how-do-we-use-rag-with-llms-871f07f29f18"
+isUpdated: true
 ---
+
+
+
 
 
 이 대회는 DataTalks.Club 코스의 Q&A 비디오에서 얻은 독특한 데이터셋을 활용하여 참가자들에게 질문과 정확한 답변을 맞추도록 도전합니다.

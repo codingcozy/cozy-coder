@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Delving into Wildfires"
 link: "https://medium.com/ai-advances/delving-into-wildfires-327a05c397ac"
+isUpdated: true
 ---
+
+
+
 
 
 # 머신 러닝 및 데이터로부터의 통찰

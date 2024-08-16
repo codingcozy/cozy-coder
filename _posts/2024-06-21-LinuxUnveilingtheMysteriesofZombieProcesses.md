@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux — Unveiling the Mysteries of Zombie Processes"
 link: "https://medium.com/@tonylixu/linux-unveiling-the-mysteries-of-zombie-processes-d4ea68605e64"
+isUpdated: true
 ---
+
+
+
 
 
 

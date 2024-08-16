@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hunting for Origin IP: A Beginner’s Guide"
 link: "https://medium.com/@pruthu.raut/hunting-for-origin-ip-a-beginners-guide-70235f3dd415"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요,

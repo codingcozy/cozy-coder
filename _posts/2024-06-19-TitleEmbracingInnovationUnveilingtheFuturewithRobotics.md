@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Title: Embracing Innovation: Unveiling the Future with Robotics"
 link: "https://medium.com/@mallouliacademy/title-embracing-innovation-unveiling-the-future-with-robotics-a85c671cb13e"
+isUpdated: true
 ---
+
+
+
 
 
 로봇이 인간과 함께 일상 업무를 보조하며 혁신적인 발견을 하며 놀라운 기회를 창출하는 세계를 상상해보세요. 이것은 과학 소설이 아니라, 로봇 기술을 주도하는 기술의 미래입니다.

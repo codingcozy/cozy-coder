@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why are language models everywhere?"
 link: "https://medium.com/towards-data-science/why-are-language-models-everywhere-36d9961dd9e1"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해보세요.

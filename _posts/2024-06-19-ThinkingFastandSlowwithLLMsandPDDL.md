@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Thinking, Fast and Slow, with LLMs and PDDL"
 link: "https://medium.com/towards-data-science/thinking-fast-and-slow-with-llms-and-pddl-111699f9907e"
+isUpdated: true
 ---
+
+
+
 
 
 "ChatGPT가 실수를 할 수 있다는 사실을 확인해 주세요." 이제 프롬프트 바로 아래에 적혀 있고, ChatGPT가 날짜부터 전체 참조까지 아무 것이나 단정적으로 만들어 내는 것에 대해 익숙해졌습니다. 하지만 기본적인 추론에 대해서는 어떨까요? 인공지능(AI) 연구 초기에 나온 간단한 탑 재배치 작업을 살펴본다면, 대형 언어 모델(Large Language Models, LLM)이 어떻게 한계에 도달하는지 보여주고, 이에 대처하기 위해 계획 도메인 정의 언어(Planning Domain Definition Language, PDDL)와 상징적 해결사들을 소개하겠습니다. LLM은 본질적으로 확률적이므로, 이러한 도구가 미래의 AI 에이전트의 내장될 가능성이 높습니다. 이는 상식적인 지식과 날카로운 추론을 결합할 것입니다. 이 글에서 최대한 많은 정보를 얻으려면, VS Code의 PDDL 확장 프로그램과 planutils 플래너 인터페이스를 사용하여 직접 PDDL 환경을 설정하고 예제를 따라해 보세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The power of beauty in communicating complex ideas"
 link: "https://medium.com/user-experience-design-1/the-power-of-beauty-in-communicating-complex-ideas-774a6a7b843a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 과학이나 혁신을 전달할 때 미를 추구할 수 있을까요?

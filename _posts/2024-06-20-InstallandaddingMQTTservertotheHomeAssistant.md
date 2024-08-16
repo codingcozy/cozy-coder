@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install and adding MQTT server to the Home Assistant"
 link: "https://medium.com/@che-adrian/install-and-adding-mqtt-server-to-the-home-assistant-7272454fdc59"
+isUpdated: true
 ---
+
+
+
 
 
 만약 홈 어시스턴트 인스턴스가 있으면 Mosquitto가 유용할 수 있습니다. Mosquitto를 사용하면 이 프로토콜을 지원하는 여러 IoT 장치를 연결할 수 있습니다. 예를 들어, OSS 펌웨어를 실행할 수 있는 Tasmota, ESPHome, OpenBeken 등이 있습니다.

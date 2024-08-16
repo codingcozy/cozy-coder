@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Rise and Fall of Movie Musicals. A Statistical Analysis"
 link: "https://medium.com/fan-fare/the-rise-and-fall-of-movie-musicals-a-statistical-analysis-795107279b73"
+isUpdated: true
 ---
+
+
+
 
 
 ![TheRiseandFallofMovieMusicalsAStatisticalAnalysis](/assets/img/2024-07-14-TheRiseandFallofMovieMusicalsAStatisticalAnalysis_0.png)

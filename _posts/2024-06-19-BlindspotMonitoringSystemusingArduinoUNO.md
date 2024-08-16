@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Blindspot Monitoring System using Arduino UNO."
 link: "https://medium.com/geekculture/blindspot-monitoring-system-using-arduino-uno-a5a8dd074280"
+isUpdated: true
 ---
+
+
+
 
 
 

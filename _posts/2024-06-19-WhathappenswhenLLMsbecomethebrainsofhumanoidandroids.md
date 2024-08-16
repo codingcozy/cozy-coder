@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What happens when LLMs become the brains of humanoid androids?"
 link: "https://medium.com/@paul.k.pallaghy/what-happens-when-llms-become-the-brain-of-humanoid-androids-f3ce80bba93c"
+isUpdated: true
 ---
+
+
+
 
 
 물론, 이게 정확히 일어나고 있어요.

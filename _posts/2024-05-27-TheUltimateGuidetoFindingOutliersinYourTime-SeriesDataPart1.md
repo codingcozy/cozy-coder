@@ -3,12 +3,16 @@ title: "시계열 데이터에서 이상치를 찾는 궁극의 안내서 파트
 description: ""
 coverImage: "/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png"
 date: 2024-05-27 14:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png
 tag: Tech
 originalTitle: "The Ultimate Guide to Finding Outliers in Your Time-Series Data (Part 1)"
 link: "https://medium.com/towards-data-science/the-ultimate-guide-to-finding-outliers-in-your-time-series-data-part-1-1bf81e09ade4"
+isUpdated: true
 ---
+
+
+
 
 
 ![Outliers](/assets/img/2024-05-27-TheUltimateGuidetoFindingOutliersinYourTime-SeriesDataPart1_0.png)

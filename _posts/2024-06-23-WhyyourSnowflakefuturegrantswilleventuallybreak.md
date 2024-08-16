@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why your Snowflake future grants will eventually break"
 link: "https://medium.com/@duran9987/why-your-snowflake-future-grants-will-eventually-break-0d74299ffe69"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-WhyyourSnowflakefuturegrantswilleventuallybreak_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to install multiple Python on your Mac"
 link: "https://medium.com/@robiokidenis/how-to-install-multiple-python-on-your-mac-d20713740a2d"
+isUpdated: true
 ---
+
+
+
 
 
 ![그림](/assets/img/2024-06-19-HowtoinstallmultiplePythononyourMac_0.png)  

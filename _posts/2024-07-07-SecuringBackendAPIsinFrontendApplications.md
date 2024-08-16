@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Securing Backend APIs in Frontend Applications"
 link: "https://medium.com/@cvinothkumar/securing-backend-apis-in-frontend-applications-5194b6250cb6"
+isUpdated: true
 ---
+
+
+
 
 
 웹 개발의 세계는 프론트엔드 애플리케이션과 백엔드 API 간의 원활한 상호 작용에 기반을 두고 있습니다. 매력적인 사용자 인터페이스가 최전방을 장식하는 동안, 강력한 API는 뒷면에서 마법을 연출합니다. 그러나 위대한 힘에는 큰 책임이 따르며, 백엔드 API를 보호하는 것이 중요합니다.

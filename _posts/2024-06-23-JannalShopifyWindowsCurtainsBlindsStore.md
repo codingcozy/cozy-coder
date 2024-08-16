@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Jannal — Shopify Windows, Curtains , Blinds Store"
 link: "https://medium.com/@logosmith99/jannal-shopify-windows-curtains-blinds-store-8eeb679b7bbc"
+isUpdated: true
 ---
+
+
+
 
 
 🔍 Jannal — Shopify 창문, 커튼 및 블라인드 스토어를 확인해보세요! 📁 Shopify CMS 템플릿 라이브러리를 살펴보고 🆓 무료 다운로드를 받아보세요. 함께 제작을 시작해봐요! 🚀

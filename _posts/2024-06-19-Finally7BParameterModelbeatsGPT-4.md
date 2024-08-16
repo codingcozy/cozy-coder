@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Finally! 7B Parameter Model beats GPT-4!"
 link: "https://medium.com/@boredgeeksociety/finally-7b-parameter-model-beats-gpt-4-732cb0f3321d"
+isUpdated: true
 ---
+
+
+
 
 
 우리는 작고 매우 효율적인 모델의 시대로 접어들고 있어요!

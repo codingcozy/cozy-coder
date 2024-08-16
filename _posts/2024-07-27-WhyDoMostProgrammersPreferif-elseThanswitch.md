@@ -1,5 +1,5 @@
 ---
-title: "대부분의 개발자들이 if-else 문을 switch 문보다 선호하는 이유는"
+title: "개발자들이 switch 문보다 if-else 문을 좋아하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-WhyDoMostProgrammersPreferif-elseThanswitch_0.png"
 date: 2024-07-27 14:05
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Do Most Programmers Prefer if-else Than switch"
 link: "https://medium.com/frontend-canteen/why-do-most-programmers-prefer-if-else-than-switch-718f397af4ec"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-27-WhyDoMostProgrammersPreferif-elseThanswitch_0.png" />

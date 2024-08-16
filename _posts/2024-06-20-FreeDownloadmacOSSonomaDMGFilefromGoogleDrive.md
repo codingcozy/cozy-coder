@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Free Download macOS Sonoma DMG File from Google Drive"
 link: "https://medium.com/@williamhartz/free-download-macos-sonoma-dmg-file-from-google-drive-85d0814e6590"
+isUpdated: true
 ---
+
+
+
 
 
 macOS 부팅 가능 USB를 만드는 두 가지 방법이 있습니다. 하나는 애플에서 제공하는 macOS 설치 앱을 사용하는 것인데, 이 앱은 맥 앱 스토어에서 다운로드할 수 있습니다. 주로 작동하는 맥이 있을 때 가장 이상적인 해결책입니다.

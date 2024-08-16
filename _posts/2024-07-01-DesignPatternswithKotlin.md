@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Design Patterns with Kotlin"
 link: "https://medium.com/@narendranathchatterjee/design-patterns-with-kotlin-15bbbaf3f699"
+isUpdated: true
 ---
+
+
+
 
 
 # Part 1: 싱글턴 패턴 Kotlin에서

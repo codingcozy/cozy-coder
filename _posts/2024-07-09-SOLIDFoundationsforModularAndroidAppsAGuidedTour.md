@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SOLID Foundations for Modular Android Apps: A Guided Tour"
 link: "https://medium.com/@vikassuriyal/solid-foundations-for-modular-android-apps-a-guided-tour-a03cd9462d00"
+isUpdated: true
 ---
+
+
+
 
 
 ![SOLID principles](/assets/img/2024-07-09-SOLIDFoundationsforModularAndroidAppsAGuidedTour_0.png)

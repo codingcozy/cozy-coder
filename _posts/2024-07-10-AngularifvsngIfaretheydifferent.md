@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular @if vs ngIf, are they different?"
 link: "https://medium.com/@fixitblog/solved-angular-if-vs-ngif-are-they-different-5d4f4081c875"
+isUpdated: true
 ---
+
+
+
 
 
 새 @if를 사용하는 것과 전통적인 ngIf 지시문을 사용하는 것 중 어떤 것이 더 유익한가요?

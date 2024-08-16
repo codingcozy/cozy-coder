@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "llm: The Ultimate Swiss Army Knife of Unix Linux Toolbox"
 link: "https://medium.com/@kinshuksarabhai/llm-the-ultimate-swiss-army-knife-of-unix-linux-toolbox-be05ba14a4b7"
+isUpdated: true
 ---
+
+
+
 
 
 ## 멋진 도구로 명령줄 작업을 더욱 효율적으로!

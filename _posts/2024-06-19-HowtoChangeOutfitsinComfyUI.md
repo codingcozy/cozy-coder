@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Change Outfits in ComfyUI"
 link: "https://medium.com/@promptingpixels/how-to-change-outfits-in-comfyui-7d20eaeccdc0"
+isUpdated: true
 ---
+
+
+
 
 
 일반적으로 ComfyUI나 Automatic1111에서 옷을 바꾸는 과정은 캐릭터 포즈를 유지하면서 원하는 스타일을 적용하는 데 조금의 프롬프트 엔지니어링이나 LoRA가 필요한 귀찮은 인페인팅과 제어넷을 필요로 합니다.

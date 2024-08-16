@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Forecasting Stock Using Deep Reinforcement Learning"
 link: "https://medium.com/@mrconnor/forecasting-stock-using-deep-reinforcement-learning-939eda179b27"
+isUpdated: true
 ---
+
+
+
 
 
 깊은 강화 학습은 딥 러닝의 능력과 강화 학습의 강점을 결합합니다. 딥 러닝은 raw 데이터로부터 복잡한 표현을 학습하는 데 뛰어나며, 강화 학습은 에이전트가 시행착오를 통해 주어진 환경에서 최적의 조치를 학습할 수 있게 합니다. DRL을 통해 연구자와 투자자들은 역사적 데이터를 분석하고 복잡한 시장 역학을 이해하여 주식 매수, 매도 또는 보유에 대한 판단을 내릴 수 있는 모델을 개발할 수 있습니다.

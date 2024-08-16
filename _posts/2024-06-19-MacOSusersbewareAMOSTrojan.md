@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "MacOS users beware! AMOS Trojan"
 link: "https://medium.com/xaviemirmon/macos-users-beware-amos-trojan-2f03c0848b1f"
+isUpdated: true
 ---
+
+
+
 
 
 며칠 전, 전에 경험한 일이 있었어요 — MacOS에서 트로이 목마에 감염된 적이 있었는데, 정말 좋지 않았어요...

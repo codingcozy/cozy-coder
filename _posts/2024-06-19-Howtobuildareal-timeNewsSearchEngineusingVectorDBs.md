@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to build a real-time News Search Engine using Vector DBs"
 link: "https://medium.com/decodingml/how-to-build-a-real-time-news-search-engine-using-serverless-upstash-kafka-and-vector-db-6ba393e55024"
+isUpdated: true
 ---
+
+
+
 
 
 아파치 카프카, 바이트왁스, 그리고 업스태시 벡터 데이터베이스를 활용한 라이브 뉴스 집계 스트리밍 파이프라인 구현을 위한 실용적인 안내서입니다.

@@ -3,12 +3,16 @@ title: "Kubernetes 컨테이너와 사라진 SIGTERM 신호들"
 description: ""
 coverImage: "/assets/img/2024-07-02-KubernetescontainersandthelostSIGTERMsignals_0.png"
 date: 2024-07-02 22:35
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-KubernetescontainersandthelostSIGTERMsignals_0.png
 tag: Tech
 originalTitle: "Kubernetes: containers, and the “lost” SIGTERM signals"
 link: "https://medium.com/itnext/kubernetes-containers-and-the-lost-sigterm-signals-40007f35759a"
+isUpdated: true
 ---
+
+
+
 
 <table> 태그를 Markdown 형식으로 변경해 주세요.
 

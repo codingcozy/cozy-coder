@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Future Programming: Node.js vs. Python FastAPI"
 link: "https://medium.com/@moinuict/future-programming-node-js-vs-python-fastapi-f2dc46f8c97c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-FutureProgrammingNodejsvsPythonFastAPI_0.png" />

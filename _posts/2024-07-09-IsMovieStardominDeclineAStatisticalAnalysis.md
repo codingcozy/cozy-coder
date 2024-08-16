@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is Movie Stardom in Decline? A Statistical Analysis"
 link: "https://medium.com/fan-fare/is-movie-stardom-in-decline-a-statistical-analysis-69df36c8932e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-09-IsMovieStardominDeclineAStatisticalAnalysis_0.png)

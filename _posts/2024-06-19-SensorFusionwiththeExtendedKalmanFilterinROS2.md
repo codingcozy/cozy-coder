@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Sensor Fusion with the Extended Kalman Filter in ROS 2"
 link: "https://medium.com/@kidargueta/sensor-fusion-with-the-extended-kalman-filter-in-ros-2-d33dbab1829d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Sensor Fusion with the Extended Kalman Filter in ROS2](/assets/img/2024-06-19-SensorFusionwiththeExtendedKalmanFilterinROS2_0.png)

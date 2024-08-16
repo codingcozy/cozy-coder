@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Being broken by the people that also healed you."
 link: "https://medium.com/@maryjouybaltazar/being-broken-by-the-people-that-also-healed-you-0e5978b74c17"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-23-Beingbrokenbythepeoplethatalsohealedyou_0.png)

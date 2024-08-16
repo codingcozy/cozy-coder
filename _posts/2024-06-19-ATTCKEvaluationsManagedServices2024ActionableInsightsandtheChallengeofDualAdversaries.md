@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ATT,CK® Evaluations Managed Services (2024): Actionable Insights and the Challenge of Dual Adversaries"
 link: "https://medium.com/mitre-engenuity/att-ck-evaluations-managed-services-2024-actionable-insights-and-the-challenge-of-dual-93fd8506d271"
+isUpdated: true
 ---
+
+
+
 
 
 Written By Lex Crumpton and Amy L. Robertson

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Video Analytics: Counting, Speed, Distance Estimation with Graph Visualization , YoloV10 Architecture"
 link: "https://medium.com/@VK_Venkatkumar/video-analytics-counting-speed-distance-estimation-with-graph-visualization-yolov10-da1c24f7f245"
+isUpdated: true
 ---
+
+
+
 
 
 디지털 이미지나 비디오로부터 컴퓨터가 고수준의 이해를 얻는 데 관여하는 컴퓨터 비전은 상호 교차하는 과학 분야입니다. 공학적 관점에서는 인간 시각 시스템이 수행할 수 있는 작업을 이해하고 자동화하려고 합니다.

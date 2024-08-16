@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Where is my money???"
 link: "https://medium.com/@sxe3dp/where-is-my-money-74804f5e9cd1"
+isUpdated: true
 ---
+
+
+
 
 
 ## PTS3D: 3D 프린팅 스트레스 장애

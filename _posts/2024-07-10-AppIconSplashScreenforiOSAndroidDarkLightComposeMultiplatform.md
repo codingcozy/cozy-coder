@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "App Icon , Splash Screen for iOS Android (Dark Light) — Compose Multiplatform"
 link: "https://medium.com/@stevdza-san/app-icon-splash-screen-for-ios-android-dark-light-compose-multiplatform-382e9c647d24"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 

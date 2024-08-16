@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Offline First Applications with Angular"
 link: "https://medium.com/@md.mollaie/offline-first-applications-with-angular-845bedaef51c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-OfflineFirstApplicationswithAngular_0.png" />

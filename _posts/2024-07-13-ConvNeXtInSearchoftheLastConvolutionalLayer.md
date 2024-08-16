@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ConvNeXt: In Search of the Last Convolutional Layer"
 link: "https://medium.com/gitconnected/convnext-in-search-of-the-last-convolutional-layer-da801d9f123b"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 링크를 Markdown 형식으로 변경해주세요:

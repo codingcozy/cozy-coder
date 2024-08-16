@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A memorial to my unfinished project"
 link: "https://medium.com/the-diy-diaries/a-memorial-to-my-unfinished-project-and-everything-else-ive-ever-thrown-away-cdca3e445e64"
+isUpdated: true
 ---
+
+
+
 
 
 # 모든 것 그리고 내가 버린 모든 것)

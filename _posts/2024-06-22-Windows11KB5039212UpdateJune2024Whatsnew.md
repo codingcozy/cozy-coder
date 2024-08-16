@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows 11 KB5039212 Update | June 2024, What’s new"
 link: "https://medium.com/@windows101tricks/windows-11-kb5039212-update-june-2024-whats-new-ffcfad5adc2e"
+isUpdated: true
 ---
+
+
+
 
 
 마이크로소프트가 Windows 11용 KB5039212를 발표했어요. 2024년 6월 패치 화요일 업데이트입니다. 이제 알아야 할 모든 것이 여기 있어요!

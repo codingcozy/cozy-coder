@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Repurposing an old iMac with Ubuntu"
 link: "https://medium.com/@esantana_io/repurposing-an-old-imac-with-ubuntu-650d97a138c5"
+isUpdated: true
 ---
+
+
+
 
 
 

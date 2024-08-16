@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Complete Guide to Android Rooting: Everything You Need to Know"
 link: "https://medium.com/@MeenoTeK/complete-guide-to-android-rooting-everything-you-need-to-know-4719cd8b20b2"
+isUpdated: true
 ---
+
+
+
 
 
 만약 당신이 그냥 일반 스마트폰 사용자라면, 놀라운 소식이 기다리고 있어요! 당신의 폰이 생각하는 것 이상의 일들을 할 수 있다는 걸 상상해봐요. 홈 화면을 사용자 정의하고, 광고를 차단하며, 앱을 완전히 백업하는 것도 가능해요. 이 모든 마법은 폰을 "루팅(root)"할 때 일어나요; 우리는 여러분에게 어떻게 할 지 안내해 드릴 거예요. 이제 당신의 스마트폰이 할 수 있는 멋진 일들을 탐험할 준비를 하세요!

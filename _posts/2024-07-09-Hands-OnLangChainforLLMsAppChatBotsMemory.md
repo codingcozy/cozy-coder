@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hands-On LangChain for LLMs App: ChatBots Memory"
 link: "https://medium.com/towards-artificial-intelligence/hands-on-langchain-for-llms-app-chatbots-memory-9394030e5a9e"
+isUpdated: true
 ---
+
+
+
 
 
 언어 모델과 대화하는 경우, 기존의 메모리가 없다는 점은 자연스럽고 연결된 대화를 만드는 데 중요한 장애물이 될 수 있습니다. 사용자는 연속성과 문맥 유지를 기대하며, 이는 기존의 모델에서 부족한 부분입니다. 이 제한은 계속되는 대화가 사용자 참여와 만족도에 중요한 요소인 응용 프로그램에서 특히 두드러집니다.

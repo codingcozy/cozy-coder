@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Developing a Task Management Microservice with Node.js"
 link: "https://medium.com/@sameemabbas/developing-a-task-management-microservice-with-node-js-f51bfdc24626"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-07-DevelopingaTaskManagementMicroservicewithNodejs_0.png)

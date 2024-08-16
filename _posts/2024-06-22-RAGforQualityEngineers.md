@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "RAG for Quality Engineers"
 link: "https://medium.com/slalom-build/rag-for-quality-engineers-c5f0828292b1"
+isUpdated: true
 ---
+
+
+
 
 
 ## RAG 만들기는 쉽지만, 품질 있는 RAG 만들기는 어려워요

@@ -3,12 +3,16 @@ title: "가입 없이 이용할 수 있는 최고의 가정 보안 카메라들"
 description: ""
 coverImage: "/assets/img/2024-05-27-BestHomeSecurityCamerasWithoutaSubscription_0.png"
 date: 2024-05-27 13:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-BestHomeSecurityCamerasWithoutaSubscription_0.png
 tag: Tech
 originalTitle: "Best Home Security Cameras Without a Subscription"
 link: "https://medium.com/@ybest/best-home-security-cameras-without-a-subscription-cce8dda288c0"
+isUpdated: true
 ---
+
+
+
 
 아래의 Markdown 형식의 표로 변경해보세요.
 

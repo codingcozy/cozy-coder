@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows Local Persistence Techniques | TryHackMe"
 link: "https://medium.com/@jamesjarviscyber/windows-local-persistence-techniques-tryhackme-43a946ff6720"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-WindowsLocalPersistenceTechniquesTryHackMe_0.png" />

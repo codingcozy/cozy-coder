@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How LLMs Think"
 link: "https://medium.com/towards-data-science/how-llms-think-d8754a79017d"
+isUpdated: true
 ---
+
+
+
 
 
 ## 리서치 페이퍼 요약: "Scaling Monosemanticity: Claude 3 Sonnet에서 해석 가능한 기능 추출"

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "11 iOS 16 Customisation Tricks to Completely Transform Your iPhone"
 link: "https://medium.com/macoclock/11-ios-16-customisation-tricks-to-completely-transform-your-iphone-84027d59b85e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-23-11iOS16CustomisationTrickstoCompletelyTransformYouriPhone_0.png)

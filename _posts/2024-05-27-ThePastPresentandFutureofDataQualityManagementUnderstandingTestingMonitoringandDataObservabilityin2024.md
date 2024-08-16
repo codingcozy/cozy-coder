@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Past, Present, and Future of Data Quality Management: Understanding Testing, Monitoring, and Data Observability in 2024"
 link: "https://medium.com/towards-data-science/the-past-present-and-future-of-data-quality-management-understanding-testing-monitoring-and-efd1350457eb"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 환경이 진화하고 있으며, 데이터 품질 관리도 함께 발전해야 합니다. 다음은 AI 시대에 데이터 품질 관리가 향하는 방향과 세 가지 일반적인 접근 방식에 대한 정보입니다.

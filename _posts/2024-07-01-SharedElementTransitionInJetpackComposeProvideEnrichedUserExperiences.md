@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Shared Element Transition In Jetpack Compose: Provide Enriched User Experiences"
 link: "https://medium.com/proandroiddev/shared-element-transition-in-jetpack-compose-provide-enriched-user-experiences-163d4e435869"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*XWziJJSgLGdw4aWm9vDCHA.gif)

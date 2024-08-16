@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "NEWS Article Summarization with Pretrained SimpleT5 Transformer"
 link: "https://medium.com/dev-genius/news-article-summarization-with-pretrained-simplet5-transformer-84acebfae774"
+isUpdated: true
 ---
+
+
+
 
 
 오늘날의 빠른 세상에서는 뉴스 기사가 넘쳐나고, 그 모든 것을 읽기에는 압도적일 수 있습니다. 이 블로그 포스트에서는 최첨단 모델의 능력을 활용하여 전체 기사의 간결하고 유익한 요약을 생성하는 방법을 안내해 드릴 것입니다. 소중한 시간을 희생하지 않으면서도 잘 알고 있는 상태를 유지하는 것이 더 쉬워집니다. T5 모델로 시작해 봅시다!!

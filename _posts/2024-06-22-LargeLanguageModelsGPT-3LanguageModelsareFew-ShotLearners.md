@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Large Language Models, GPT-3: Language Models are Few-Shot Learners"
 link: "https://medium.com/towards-data-science/large-language-models-gpt-3-language-models-are-few-shot-learners-6e1261a1b466"
+isUpdated: true
 ---
+
+
+
 
 
 ## 메타러닌 학습 프레임워크 내에서 대규모에서 타이타닉 규모로 GPT를 효율적으로 확장하는 방법

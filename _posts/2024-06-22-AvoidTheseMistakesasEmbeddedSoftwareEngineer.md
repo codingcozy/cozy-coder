@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Avoid These Mistakes as Embedded Software Engineer"
 link: "https://medium.com/@mimayuresh/avoid-these-mistakes-as-embedded-software-engineers-00d28bb9d53b"
+isUpdated: true
 ---
+
+
+
 
 
 내가 임베디드 소프트웨어 엔지니어로 일하면서 첫걸음에 몇 가지 실수를 했는데, 그것들이 나를 속박했었어요. 나는 이 실수들을 공유하여 엔지니어링 학생들이 같은 함정을 피할 수 있도록 도와주고 싶어요. 🚫⚠️

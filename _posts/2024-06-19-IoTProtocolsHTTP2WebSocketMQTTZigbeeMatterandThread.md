@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "IoT Protocols | HTTP 2, WebSocket, MQTT, Zigbee, Matter, and Thread."
 link: "https://medium.com/code-factory-berlin/iot-protocols-http-2-websocket-mqtt-zigbee-matter-and-thread-bf93eef3fb0c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-IoTProtocolsHTTP2WebSocketMQTTZigbeeMatterandThread_0.png" />

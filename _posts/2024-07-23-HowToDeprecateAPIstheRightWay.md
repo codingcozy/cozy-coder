@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How To Deprecate APIs the Right Way"
 link: "https://medium.com/better-programming/how-to-deprecate-apis-the-right-way-371c1cbf1723"
+isUpdated: true
 ---
+
+
+
 
 
 

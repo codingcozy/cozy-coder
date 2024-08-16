@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The onBackPressed Is Now Deprecated in Android 13 and Might Need Major Changes in Existing Apps"
 link: "https://medium.com/mobile-app-development-publication/migrate-to-android-13-predictive-back-soon-before-its-too-late-e1e1723f392"
+isUpdated: true
 ---
+
+
+
 
 
 ## 안드로이드 개발 배우기

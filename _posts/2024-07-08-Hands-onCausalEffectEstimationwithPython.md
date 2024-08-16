@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hands-on Causal Effect Estimation with Python"
 link: "https://medium.com/causality-in-data-science/hands-on-causal-effect-estimation-with-python-aac40ca2cae0"
+isUpdated: true
 ---
+
+
+
 
 
 ![Hands-onCausalEffectEstimationwithPython](/assets/img/2024-07-08-Hands-onCausalEffectEstimationwithPython_0.png)

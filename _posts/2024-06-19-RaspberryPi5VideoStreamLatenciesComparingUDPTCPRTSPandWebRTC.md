@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi 5 Video Stream Latencies: Comparing UDP, TCP, RTSP, and WebRTC"
 link: "https://medium.com/@gektor650/comparing-video-stream-latencies-raspberry-pi-5-camera-v3-a8d5dad2f67b"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이 5를 위한 최적의 라이브 스트리밍 옵션을 발견해보세요. 비디오 라이브 스트림 지연 시간을 테스트하고 목록 중에서 최고를 선택하겠습니다.

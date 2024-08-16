@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple’s Future Plans: Phasing Out the iPhone Plus Model"
 link: "https://medium.com/@manuel-wereb/apples-future-plans-phasing-out-the-iphone-plus-model-a67a7b8395bd"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 4월, Apple이 다가오는 iPhone 17 Plus의 화면 크기를 줄일 것이라는 소문이 등장했습니다. 최근 보도에 따르면, 크기가 더 큰 베이스 모델 iPhone은 2025년에 완전히 중단될 예정이며, 따라서 iPhone 16 Plus가 이 모델의 최종 버전이 될 것입니다. 새로운 대체품이 다른 이름으로 소개될 예정입니다.

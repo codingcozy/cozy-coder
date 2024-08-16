@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Smart Homes Are Shaping Real Estate"
 link: "https://medium.com/@marketing.samdani/how-smart-homes-are-shaping-real-estate-83c17b31bd6c"
+isUpdated: true
 ---
+
+
+
 
 
 ![How Smart Homes Are Shaping Real Estate](/assets/img/2024-06-19-HowSmartHomesAreShapingRealEstate_0.png)

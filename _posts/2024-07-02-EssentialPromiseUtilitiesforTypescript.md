@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Essential Promise Utilities for Typescript"
 link: "https://medium.com/itnext/essential-promise-utilities-for-javascript-9234cd9d3fdb"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-02-EssentialPromiseUtilitiesforTypescript_0](/assets/img/2024-07-02-EssentialPromiseUtilitiesforTypescript_0.png)

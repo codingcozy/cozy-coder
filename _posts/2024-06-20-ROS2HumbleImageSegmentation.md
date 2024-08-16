@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ROS2 Humble Image Segmentation"
 link: "https://medium.com/@kabilankb2003/ros2-humble-image-segmentation-ef3f7734aa75"
+isUpdated: true
 ---
+
+
+
 
 
 

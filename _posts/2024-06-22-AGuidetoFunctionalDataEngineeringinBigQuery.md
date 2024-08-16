@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Guide to Functional Data Engineering in BigQuery"
 link: "https://medium.com/decode-data/a-guide-to-functional-data-engineering-in-bigquery-9c0065d76749"
+isUpdated: true
 ---
+
+
+
 
 
 

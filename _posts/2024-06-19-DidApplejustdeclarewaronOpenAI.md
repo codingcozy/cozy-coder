@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Did Apple just declare war on OpenAI?"
 link: "https://medium.com/chris-messina/did-apple-just-declare-war-on-openai-3ae02deb8b3a"
+isUpdated: true
 ---
+
+
+
 
 
 애플의 역사는 핵심 경쟁사를 생태계에 통합한 뒤 결국 그들을 앞질러서나 제거하는 양상을 보여줍니다.

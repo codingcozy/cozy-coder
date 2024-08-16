@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Multi-page financial dashboard with Python and Streamlit: Build it from scratch."
 link: "https://medium.com/python-in-plain-english/multi-page-financial-dashboard-with-python-and-streamlit-build-it-from-scratch-feb92cd7e676"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-Multi-pagefinancialdashboardwithPythonandStreamlitBuilditfromscratch_0.png" />

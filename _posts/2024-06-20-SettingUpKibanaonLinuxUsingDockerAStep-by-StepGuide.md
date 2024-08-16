@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Setting Up Kibana on Linux Using Docker: A Step-by-Step Guide"
 link: "https://medium.com/@rahulbpawar123/setting-up-kibana-on-linux-using-docker-a-step-by-step-guide-8b499e43975a"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-SettingUpKibanaonLinuxUsingDockerAStep-by-StepGuide_0.png)

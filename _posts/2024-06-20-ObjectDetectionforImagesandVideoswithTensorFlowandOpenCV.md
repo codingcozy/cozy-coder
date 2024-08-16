@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Object Detection for Images and Videos with TensorFlow and OpenCV"
 link: "https://medium.com/gopenai/object-detection-for-images-and-videos-with-tensorflow-and-opencv-c74d97eb0211"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-20-ObjectDetectionforImagesandVideoswithTensorFlowandOpenCV_0.png)

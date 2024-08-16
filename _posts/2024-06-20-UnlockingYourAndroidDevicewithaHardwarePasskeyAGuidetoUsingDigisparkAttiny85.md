@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking Your Android Device with a Hardware Passkey: A Guide to Using Digispark Attiny85"
 link: "https://medium.com/@kamiy2j/unlocking-your-android-device-with-a-hardware-passkey-a-guide-to-using-digispark-attiny85-ca9f8e16d40a"
+isUpdated: true
 ---
+
+
+
 
 
 우리 모두 한 번쯤은 그 순간을 겪어봤죠—핸드폰 잠금 상태에서 핀 코드를 기억하지 못하는 그 순간. 무수히 입력했지만 이제 손가락이 주저하는 그 순간. 근육 기억에 의지하지만 그것조차 실망스러운 것 같아요. 이런 순간들이 우리에게 이 중요한 보안 코드를 잊어버리기 쉬운지 상기시켜 줍니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Motorola Razr 40 Two Weeks In 2024 Review — I’ve Changed My Mind On Flip Phones"
 link: "https://medium.com/@groundedtech/motorola-razr-40-two-weeks-in-2024-review-ive-changed-my-mind-on-flip-phones-045006b26c2d"
+isUpdated: true
 ---
+
+
+
 
 
 2023년 5월에 오포 파인드 N2 플립을 구입했어요. 이것은 제 첫 번째 플립 폰이었고, 시도해보고 싶었던 제품이었죠. 이미 삼성 갤럭시 폴드 4와 같은 완전한 크기의 폴더블 기기를 사용해봤는데 매우 만족스러웠기 때문에 플립 폰을 다음에 사용해보고 싶었어요. 파인드 N2 플립은 제가 원하고 필요로 하는 것과 잘 맞는 것 같았죠. 그러나 카메라도 훌륭했지만, 실제로는 매우 나쁜 경험이었고, 플립 폴더블 폰은 나에게 어울리지 않다고 확신할 정도였어요. 전화에 대해 그토록 실망했기 때문에 심지어 리뷰를 작성하지 않았네요.

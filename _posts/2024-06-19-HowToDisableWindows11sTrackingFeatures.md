@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How To Disable Windows 11’s Tracking Features"
 link: "https://medium.com/@endasheridan/how-to-disable-windows-11s-tracking-features-7ffa7de82aa1"
+isUpdated: true
 ---
+
+
+
 
 
 Windows 11에서 개인 정보 보호 보장: 단계별 안내서

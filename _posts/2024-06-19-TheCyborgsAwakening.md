@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Cyborg’s Awakening"
 link: "https://medium.com/@chotinaakwali/the-cyborgs-awakening-ed4a2332b1f9"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TheCyborgsAwakening_0.png" />

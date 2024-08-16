@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Do People Like Horror Films? A Statistical Analysis"
 link: "https://medium.com/fan-fare/why-do-people-like-horror-films-a-statistical-analysis-746c2bd925fe"
+isUpdated: true
 ---
+
+
+
 
 
 ![Why Do People Like Horror Films](/assets/img/2024-07-13-WhyDoPeopleLikeHorrorFilmsAStatisticalAnalysis_0.png)

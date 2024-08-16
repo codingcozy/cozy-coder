@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Research paper review: Why do tree based models still outperform deep learning on tabular data?"
 link: "https://medium.com/@tracyrenee61/research-paper-review-why-do-tree-based-models-still-outperform-deep-learning-on-tabular-data-3bb9e9ff0846"
+isUpdated: true
 ---
+
+
+
 
 
 ![Research Paper Review](/assets/img/2024-07-07-ResearchpaperreviewWhydotreebasedmodelsstilloutperformdeeplearningontabulardata_0.png)

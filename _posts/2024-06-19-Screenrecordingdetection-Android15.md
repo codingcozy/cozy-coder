@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Screen recording detection-Android 15"
 link: "https://medium.com/@navczydev/screen-recording-detection-android-15-26ee709b66b4"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-Screenrecordingdetection-Android15_0.png)

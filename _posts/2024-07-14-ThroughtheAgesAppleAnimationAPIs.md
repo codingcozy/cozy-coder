@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Through the Ages: Apple Animation APIs"
 link: "https://medium.com/better-programming/through-the-ages-apple-animation-apis-2ab5925f546b"
+isUpdated: true
 ---
+
+
+
 
 
 최근 존 시라쿠사의 전설적인 맥 OS X 리뷰를 우연히 처음 접했어요.

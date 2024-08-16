@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Quantum Computing on Arduino"
 link: "https://medium.com/@dakk/quantum-computing-on-arduino-0c67eab4fdfc"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1000/0*fA_-0zuJ81UEVDTs.gif)

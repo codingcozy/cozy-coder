@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Your Data Pipelines Will Fail On These 10 Days Every Year (And What To Do About It)"
 link: "https://medium.com/pipeline-a-data-engineering-resource/why-your-data-pipelines-will-fail-on-these-10-days-every-year-and-what-to-do-about-it-406a202e9053"
+isUpdated: true
 ---
+
+
+
 
 
 취업 준비 중이세요? 무료 5페이지 프로젝트 기획 안내서를 활용하여 개인 프로젝트를 개발하여 경쟁력을 확보하세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bringing Freddy to Life: 3d Printing a Wearable Freddy Fazbear Head"
 link: "https://medium.com/@zeph456/bringing-freddy-to-life-3d-printing-a-wearable-freddy-fazbear-head-4b036137128e"
+isUpdated: true
 ---
+
+
+
 
 
 

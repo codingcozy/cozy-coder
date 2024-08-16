@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "6 Ways to Run LLMs Locally"
 link: "https://medium.com/@semaphoreci/6-ways-to-run-llms-locally-fa25be0797e5"
+isUpdated: true
 ---
+
+
+
 
 
 상용 AI 및 대규모 언어 모델(LLM)은 한 가지 큰 단점이 있습니다: 개인 정보 보호 문제! 민감하거나 자사 데이터를 다룰 때 이러한 도구를 활용할 수 없습니다.

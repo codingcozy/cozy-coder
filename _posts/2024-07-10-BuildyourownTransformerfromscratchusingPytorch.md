@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build your own Transformer from scratch using Pytorch"
 link: "https://medium.com/towards-data-science/build-your-own-transformer-from-scratch-using-pytorch-84c850470dcb"
+isUpdated: true
 ---
+
+
+
 
 
 ## 파이토치를 사용하여 단계별로 Transformer 모델 구축하기

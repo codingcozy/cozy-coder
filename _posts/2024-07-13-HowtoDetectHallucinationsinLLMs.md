@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Detect Hallucinations in LLMs"
 link: "https://medium.com/towards-data-science/real-time-llm-hallucination-detection-9a68bb292698"
+isUpdated: true
 ---
+
+
+
 
 
 아니요, 이블린 하트웰(Evelyn Hartwell)은 여러 개의 가짜 신분을 사용하는 사기꾼이 아니며 여러 직업으로 속이고 삼중 삶을 살고 있는 것도 아닙니다. 사실, 그녀는 아예 존재하지 않지만, 대신 모델인데, 알지 못한다는 대신 사실을 지어내기 시작합니다. 우리는 LLM 환각과 달래야 합니다.

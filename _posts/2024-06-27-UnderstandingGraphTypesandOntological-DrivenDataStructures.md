@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Graph Types and Ontological-Driven Data Structures"
 link: "https://medium.com/@joehoeller/understanding-graph-types-and-ontological-driven-data-structures-185eb176c3c3"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 멋진 분들, 링크드인에서 그래프와 인공지능에 대한 일반적인 오해가 돌고 있다는 것을 알게 되어 몇 가지 통찰을 공유하는 것이 도움이 될 것 같아요. 이 정보가 유익하게 느껴지고 복잡한 AI 시스템을 효과적으로 구축하는 데 도움이 되기를 바라며 이해에 도움이 될 것입니다. 여러분과 함께 이에 대한 관련하여 활발한 토론를 기대하고 있어요 — 제 링크드인 페이지에서 만나요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Dependency Injection: Migrating from Hilt to Koin"
 link: "https://medium.com/gitconnected/android-dependency-injection-migrating-from-hilt-to-koin-cd2e2a103b9c"
+isUpdated: true
 ---
+
+
+
 
 
 최근에 안드로이드 프로젝트에서 의존성 주입(Dependency Injection, DI) 도구를 변경하기로 결정했습니다. Dagger의 Hilt에서 더 간결한 Koin 라이브러리로 옮겨가는 것이 아이디어입니다. 이 변경을 결정한 이유는 개인 프로젝트를 KMM 애플리케이션으로 지속적으로 전환하는 작업을 더 잘 지원하는 라이브러리를 사용하고자 했기 때문입니다. Koin은 KMM을 바로 지원하므로 iOS에 대한 대체 솔루션을 찾을 필요가 없습니다.

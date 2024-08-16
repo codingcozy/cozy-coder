@@ -3,12 +3,16 @@ title: "윈도우에서 UEFI 프로그래밍을 위한 히치하이커 안내서
 description: ""
 coverImage: "/assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_0.png"
 date: 2024-05-27 12:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-AhitchhikersguidetoUEFIprogramminginWindows_0.png
 tag: Tech
 originalTitle: "A hitchhiker’s guide to UEFI programming in Windows"
 link: "https://medium.com/d-classified/a-hitchhikers-guide-to-uefi-programming-in-windows-7449994a0486"
+isUpdated: true
 ---
+
+
+
 
 ## 왕밍재는 Secure Boot가 활성화된 실제 시스템에 개발한 UEFI 프로그램의 전체 과정을 설명합니다. 그의 안내로 엔지니어들은 UEFI 환경의 다양한 요소를 이해하고 UEFI 프로그램의 실행과 배포에 미치는 영향을 파악할 수 있습니다. 민재는 다양한 실용적 고려 사항을 포함하여 독자들이 다양한 배포 옵션을 평가하는 데 도움을 줍니다.
 

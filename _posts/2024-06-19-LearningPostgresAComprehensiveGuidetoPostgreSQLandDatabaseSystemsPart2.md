@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learning Postgres: A Comprehensive Guide to PostgreSQL and Database Systems (Part 2)"
 link: "https://medium.com/@tomas-svojanovsky/learning-postgres-a-comprehensive-guide-to-postgresql-and-database-systems-part-2-dc7e63510385"
+isUpdated: true
 ---
+
+
+
 
 
 ![그림을 표시할 수 없습니다](/assets/img/2024-06-19-LearningPostgresAComprehensiveGuidetoPostgreSQLandDatabaseSystemsPart2_0.png)

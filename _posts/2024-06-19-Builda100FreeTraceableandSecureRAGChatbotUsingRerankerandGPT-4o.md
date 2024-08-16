@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build a 100% Free, Traceable, and Secure RAG Chatbot Using Reranker and GPT-4o"
 link: "https://medium.com/@Stan_DS/build-a-100-free-hallucination-free-secure-rag-chatbot-using-reranker-and-gpt4o-96c2eea24f95"
+isUpdated: true
 ---
+
+
+
 
 
 홍태, 징 왕, 징 주, 그리고 루차오 제이.

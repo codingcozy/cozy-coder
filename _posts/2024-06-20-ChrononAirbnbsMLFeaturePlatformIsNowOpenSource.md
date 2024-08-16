@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Chronon, Airbnb’s ML Feature Platform, Is Now Open Source"
 link: "https://medium.com/airbnb-engineering/chronon-airbnbs-ml-feature-platform-is-now-open-source-d9c4dba859e8"
+isUpdated: true
 ---
+
+
+
 
 
 테이블 태그를 Markdown 형식으로 변경해주세요.

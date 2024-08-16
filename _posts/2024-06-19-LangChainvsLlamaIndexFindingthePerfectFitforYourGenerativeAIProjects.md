@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LangChain vs. LlamaIndex: Finding the Perfect Fit for Your Generative AI Projects"
 link: "https://medium.com/@aminajavaid30/langchain-vs-llamaindex-finding-the-perfect-fit-for-your-generative-ai-projects-497518a15067"
+isUpdated: true
 ---
+
+
+
 
 
 LangChain과 LlamaIndex는 최신 대형 언어 모델 (LLM) 애플리케이션을 구축하는 데 요즘 널리 사용되는 Python 프레임워크입니다. LangChain은 데이터와 LLM 간의 다리 역할을 합니다. 마찬가지로 LlamaIndex도 데이터를 대형 언어 모델에 연결하는 방법으로 LangChain과는 다른 방식으로 작동합니다. 이러한 프레임워크는 프로토타입부터 제품 생산까지 생성형 인공 지능 애플리케이션을 구축하는 데 필요한 도구를 제공합니다.

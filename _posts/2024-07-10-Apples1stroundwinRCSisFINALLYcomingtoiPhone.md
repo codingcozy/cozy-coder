@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple’s 1st round win — RCS is FINALLY coming to iPhone"
 link: "https://medium.com/macoclock/apples-1st-round-win-rcs-is-finally-coming-to-iphone-0a7804381e12"
+isUpdated: true
 ---
+
+
+
 
 
 한 주는 기술 분야에서 굉장히 긴 시간입니다 — 이번 주도 예외는 아닙니다 — Apple이 헤드라인에서 멀리 떨어지는 일은 거의 없는데요.

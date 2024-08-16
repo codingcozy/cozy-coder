@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Component-based Approach. Implementing Screens with the Decompose Library"
 link: "https://medium.com/itnext/component-based-approach-implementing-screens-with-the-decompose-library-19c41d8ed087"
+isUpdated: true
 ---
+
+
+
 
 
 ![Decompose Library](/assets/img/2024-07-10-Component-basedApproachImplementingScreenswiththeDecomposeLibrary_0.png)

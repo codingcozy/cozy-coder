@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT Huge Update: Real-Time Interactive Analysis of Excel! Someone Reveals the New Model Behind It!"
 link: "https://medium.com/ai-in-plain-english/chatgpt-huge-update-real-time-interactive-analysis-of-excel-3b6c9146b814"
+isUpdated: true
 ---
+
+
+
 
 
 GPT-4o가 출시된 지 며칠 만에, OpenAI가 ChatGPT 내에서 실시간 대화형 데이터 분석을 가능케 하는 또 다른 혁신적인 기능을 발표했습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Could not find an NgModule. Use the skip-import option to skip importing in NgModule"
 link: "https://medium.com/@fixitblog/solved-could-not-find-an-ngmodule-use-the-skip-import-option-to-skip-importing-in-ngmodule-bde455791dcd"
+isUpdated: true
 ---
+
+
+
 
 
 이 게시물 제목에 있는 오류를 해결하려고 할 때 CLI를 사용하여 새 컴포넌트를 생성하는 경우 ng g c my-component --project=my-project(컴포넌트가 생성되지 않음) 오류가 발생합니다.

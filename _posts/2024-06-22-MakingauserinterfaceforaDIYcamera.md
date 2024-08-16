@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Making a user interface for a DIY camera"
 link: "https://medium.com/@jdc-cunningham/making-a-user-interface-for-a-diy-camera-9c1bde515836"
+isUpdated: true
 ---
+
+
+
 
 
 면허 : 이 문서는 라즈베리 파이 관련 하드웨어, 파이썬 프로그래밍 언어 및 SPI 기반 디스플레이를 위한 것입니다. 이는 무작위 주제/생각들에 대한 머리 속 내용입니다.

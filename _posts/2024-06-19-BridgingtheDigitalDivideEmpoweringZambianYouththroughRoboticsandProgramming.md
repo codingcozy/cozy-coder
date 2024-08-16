@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bridging the Digital Divide: Empowering Zambian Youth through Robotics and Programming"
 link: "https://medium.com/@plastalbotbuilders/bridging-the-digital-divide-empowering-zambian-youth-through-robotics-and-programming-1dbc543b414e"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-BridgingtheDigitalDivideEmpoweringZambianYouththroughRoboticsandProgramming_0.png)

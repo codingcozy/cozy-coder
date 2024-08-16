@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Paradox of Apple Simplicity"
 link: "https://medium.com/@jbkendrick_50942/the-paradox-of-apple-simplicity-7db7020be28f"
+isUpdated: true
 ---
+
+
+
 
 
 

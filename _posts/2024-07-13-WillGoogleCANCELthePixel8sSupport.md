@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Will Google CANCEL the Pixel 8’s Support?"
 link: "https://medium.com/@michaelswengel/will-google-cancel-the-pixel-8s-support-21a5f230fd85"
+isUpdated: true
 ---
+
+
+
 
 
 ![Will Google CANCEL the Pixel 8's Support](/assets/img/2024-07-13-WillGoogleCANCELthePixel8sSupport_0.png)

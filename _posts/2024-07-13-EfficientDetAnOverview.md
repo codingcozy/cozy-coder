@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "EfficientDet: An Overview"
 link: "https://medium.com/@zakhtar2020/efficientdet-an-overview-c51b65ed7fcb"
+isUpdated: true
 ---
+
+
+
 
 
 ![EfficientDet](/assets/img/2024-07-13-EfficientDetAnOverview_0.png)

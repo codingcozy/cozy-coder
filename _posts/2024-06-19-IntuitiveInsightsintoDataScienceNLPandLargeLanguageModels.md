@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intuitive Insights into Data Science, NLP, and Large Language Models"
 link: "https://medium.com/@dinabavli/intuitive-insights-into-data-science-nlp-and-large-language-models-1de876690149"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 과학, 기계 학습, 자연어 처리 및 대형 언어 모델의 핵심 간소화

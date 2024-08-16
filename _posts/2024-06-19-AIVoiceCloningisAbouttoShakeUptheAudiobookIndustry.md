@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Voice Cloning is About to Shake Up the Audiobook Industry"
 link: "https://medium.com/the-generator/ai-voice-cloning-is-about-to-shake-up-the-audiobook-industry-11aa477161e9"
+isUpdated: true
 ---
+
+
+
 
 
 ![AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry](/assets/img/2024-06-19-AIVoiceCloningisAbouttoShakeUptheAudiobookIndustry_0.png)

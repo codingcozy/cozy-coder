@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Recreate Adobe AfterEffects With SFX Using SwiftUI"
 link: "https://medium.com/better-programming/sfx-using-swiftui-2a3e4079f4f2"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*adaUpDI77HWM13BjZ0LjCA.gif)

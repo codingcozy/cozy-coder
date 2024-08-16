@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Should Never Schedule Cron Jobs Exactly at Midnight"
 link: "https://medium.com/@akhaerov/why-you-should-never-schedule-cron-jobs-exactly-at-midnight-8f11650f79f8"
+isUpdated: true
 ---
+
+
+
 
 
 제 개발자로서, 제가 직접 체험한 바에 의하면 새벽 정각에(0 0 * * *) cron 작업을 예약하는 것이 일으킬 수 있는 혼란에 대해 알고 있습니다. 왜 그렇게 하는 것이 좋지 않은지, 그리고 보다 효과적으로 cron 작업을 예약하는 방법에 대한 팁을 소개하겠습니다.

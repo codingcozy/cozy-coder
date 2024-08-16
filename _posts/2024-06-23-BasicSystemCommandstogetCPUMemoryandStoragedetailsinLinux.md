@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Basic System Commands to get CPU, Memory, and Storage details in Linux"
 link: "https://medium.com/devops-engineering-on-cloud/basic-system-commands-to-get-cpu-memory-and-storage-details-in-linux-9ee7f2778749"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-BasicSystemCommandstogetCPUMemoryandStoragedetailsinLinux_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Linear Regression: From Basics to Practical Applications"
 link: "https://medium.com/@raufpokemon00/understanding-linear-regression-from-basics-to-practical-applications-5d141386ea02"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분! 오랜만에 이야기를 나누게 되어 기쁩니다. 머신 러닝의 기초에 대한 여정을 떠나기로 했고, 오늘은 선형 회귀에 대해 자세히 살펴볼 예정입니다. 선형 회귀는 결과를 예측할 뿐만 아니라 변수 간의 관계를 직관적으로 이해하는 강력한 도구입니다.

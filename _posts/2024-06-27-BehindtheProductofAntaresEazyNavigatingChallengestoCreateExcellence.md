@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Behind the Product of Antares Eazy: Navigating Challenges to Create Excellence"
 link: "https://medium.com/@telkomdesign/behind-the-product-of-antares-eazy-navigating-challenges-to-create-excellence-20db8ee4d106"
+isUpdated: true
 ---
+
+
+
 
 
 # 안타레스를 알아보기

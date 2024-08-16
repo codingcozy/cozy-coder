@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Easily Understand Generative AI in 7 Minutes"
 link: "https://medium.com/generative-ai/easily-understand-generative-ai-in-7-minutes-042185acf488"
+isUpdated: true
 ---
+
+
+
 
 
 ![Generative AI](/assets/img/2024-07-13-EasilyUnderstandGenerativeAIin7Minutes_0.png)

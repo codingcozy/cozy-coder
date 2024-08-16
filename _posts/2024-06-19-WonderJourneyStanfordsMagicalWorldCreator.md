@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "WonderJourney: Stanford’s Magical World Creator"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/wonderjourney-stanfords-magical-world-creator-599b49e92add"
+isUpdated: true
 ---
+
+
+
 
 
 제 뉴스레터에서 최근 세계적인 Fei-Fei Li의 Stanford 연구소에서 만든 최신 모델에 대해 이야기했었죠. 그 모델은 명령으로 무한한 마법의 3D 세계를 만들어냈습니다.

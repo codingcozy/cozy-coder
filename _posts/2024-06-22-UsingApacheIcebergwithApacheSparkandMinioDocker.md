@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "🖥️Using Apache Iceberg with Apache Spark and Minio — Docker"
 link: "https://medium.com/towardsdev/%EF%B8%8Fusing-apache-iceberg-with-apache-spark-and-minio-docker-dee475b55a8f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-UsingApacheIcebergwithApacheSparkandMinioDocker_0.png" />

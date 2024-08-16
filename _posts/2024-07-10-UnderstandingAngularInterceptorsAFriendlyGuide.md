@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Angular Interceptors: A Friendly Guide"
 link: "https://medium.com/@paul-chesa/understanding-angular-interceptors-a-friendly-guide-ed505b32211c"
+isUpdated: true
 ---
+
+
+
 
 
 

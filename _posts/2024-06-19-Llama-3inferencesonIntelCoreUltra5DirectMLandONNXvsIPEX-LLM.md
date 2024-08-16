@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Llama-3 inferences on Intel® Core™ Ultra 5: DirectML and ONNX vs. IPEX-LLM"
 link: "https://medium.com/@GenerationAI/llama-3-inferences-on-intel-core-ultra-5-directml-and-onnx-vs-ipex-llm-418e7220817d"
+isUpdated: true
 ---
+
+
+
 
 
 이전 글에서 언급했듯이 Intel은 ONNX + DirectML을 위한 하드웨어 가속화를 제공합니다. 이에 대해 몇 가지 실험을 진행했습니다.

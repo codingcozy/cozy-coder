@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Generating Images with Stable Diffusion and OnnxStream on the Raspberry Pi"
 link: "https://medium.com/towards-data-science/generating-images-with-stable-diffusion-and-onnxstream-on-the-raspberry-pi-f126636b6c0c"
+isUpdated: true
 ---
+
+
+
 
 
 ## 라즈베리 파이에서 Stable Diffusion XL Turbo를 사용하여 이미지를 생성하는 방법을 배워보세요!

@@ -1,5 +1,5 @@
 ---
-title: "당신이 모르고 지나치는 iPhone 15의 USB-C 포트 활용법"
+title: "대부분 모르는 iPhone 15의 USB-C 포트 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-28-YoureProbablyUnderutilizingYouriPhone15sUSB-CPort_0.png"
 date: 2024-07-28 13:49
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Youre Probably Underutilizing Your iPhone 15s USB-C Port"
 link: "https://medium.com/macoclock/youre-probably-underutilizing-your-iphone-15-s-usb-c-port-fa094b71ba9d"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-28-YoureProbablyUnderutilizingYouriPhone15sUSB-CPort_0.png)

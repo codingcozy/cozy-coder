@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular, Angular Universal and NestJS in One Project within Nx Monorepo: Arcade Server-Side Rendering"
 link: "https://medium.com/@mohamedali.mnassar/angular-angular-universal-and-nestjs-in-one-project-within-nx-monorepo-arcade-ssr-59d6a7280f86"
+isUpdated: true
 ---
+
+
+
 
 
 앞으로 SPAs(Server-side rendering가 일반적이었던 시대에는 php, java 등을 사용해 일반적인 방식으로 작동했습니다. HTML, CSS, JS는 백엔드에서 생성되어 브라우저가 렌더링하고 일부 사용자 상호작용을 개선하는 데 사용되었습니다. 이제 사람들은 그런 설정으로 돌아가려고 하지만 SPA용으로 구축된 도구를 사용하면 효율적이지 않습니다.

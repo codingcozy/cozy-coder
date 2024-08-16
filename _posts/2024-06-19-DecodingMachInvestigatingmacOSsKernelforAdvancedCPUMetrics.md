@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding Mach: Investigating macOS’s Kernel for Advanced CPU Metrics"
 link: "https://medium.com/@federicosauter/decoding-mach-investigating-macoss-kernel-for-advanced-cpu-metrics-6627bf5429a4"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-DecodingMachInvestigatingmacOSsKernelforAdvancedCPUMetrics_0.png" />

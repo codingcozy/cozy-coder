@@ -3,12 +3,16 @@ title: "AI 윤리 전 세계적으로 가능할까요"
 description: ""
 coverImage: "/assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png"
 date: 2024-05-27 15:33
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png
 tag: Tech
 originalTitle: "AI Ethics: Is It Even Possible On A Global Scale?"
 link: "https://medium.com/asecuritysite-when-bob-met-alice/ai-ethics-is-it-even-possible-on-a-global-scale-c463f065b94d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-05-27-AIEthicsIsItEvenPossibleOnAGlobalScale_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The world is changing faster than we can imagine: can we keep up?"
 link: "https://medium.com/enrique-dans/the-world-is-changing-faster-than-we-can-imagine-can-we-keep-up-fe871e50708c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-Theworldischangingfasterthanwecanimaginecanwekeepup_0.png" />

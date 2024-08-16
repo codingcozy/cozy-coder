@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Right Way to Listen Jetpack Compose State Changes"
 link: "https://medium.com/@efebu/the-right-way-to-listen-jetpack-compose-state-changes-281d8d47c2ec"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-28-TheRightWaytoListenJetpackComposeStateChanges_0.png" />

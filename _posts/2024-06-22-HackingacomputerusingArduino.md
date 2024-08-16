@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hacking a computer using Arduino"
 link: "https://medium.com/csg-govtech/hacking-a-computer-using-arduino-8f0ddddab7e1"
+isUpdated: true
 ---
+
+
+
 
 
 상상해보세요...

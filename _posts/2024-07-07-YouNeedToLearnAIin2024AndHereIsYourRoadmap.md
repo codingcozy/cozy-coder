@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "You Need To Learn AI in 2024! (And Here Is Your Roadmap)"
 link: "https://medium.com/predict/you-need-to-learn-ai-in-2024-and-here-is-your-roadmap-c28e6cb5c045"
+isUpdated: true
 ---
+
+
+
 
 
 이미지를 보고 있어요.

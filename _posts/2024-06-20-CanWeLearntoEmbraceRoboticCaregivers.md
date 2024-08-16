@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can We Learn to Embrace Robotic Caregivers?"
 link: "https://medium.com/neodotlife/can-we-learn-to-embrace-robotic-caregivers-231dbbd8291e"
+isUpdated: true
 ---
+
+
+
 
 
 

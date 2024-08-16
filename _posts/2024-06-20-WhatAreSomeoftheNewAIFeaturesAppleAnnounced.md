@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What Are Some of the New AI Features Apple Announced?"
 link: "https://medium.com/@topqlearn2021/what-are-some-of-the-new-ai-features-apple-announced-2f2b45de6110"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-WhatAreSomeoftheNewAIFeaturesAppleAnnounced_0.png" />

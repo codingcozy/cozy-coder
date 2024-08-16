@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Wait! You Forgot Something in Your Data Analysis!"
 link: "https://medium.com/@epiren/wait-you-forgot-something-in-your-data-analysis-5ecb36928e99"
+isUpdated: true
 ---
+
+
+
 
 
 대도시에서 배달 사업을 운영하는 소유자라고 상상해보세요. 귀하의 전달 직원은 모두 자전거를 타고 배달을 하고 있습니다. 자전거 사고로 발생하는 응급실 방문을 기반으로 한 연구 결과를 읽었습니다. "사이클링 중 부상을 입은 사람들의 데이터에 따르면, 헬멧을 착용한 사람 중 57%가 부상을 입었으며 착용하지 않은 사람은 43%입니다." 귀하의 직원들에게 어떤 것을 권장하겠습니까?

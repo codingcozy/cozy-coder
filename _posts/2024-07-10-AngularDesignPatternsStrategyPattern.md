@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Design Patterns: Strategy Pattern"
 link: "https://medium.com/@vugar-005/angular-design-patterns-strategy-pattern-ace359ae77b3"
+isUpdated: true
 ---
+
+
+
 
 
 

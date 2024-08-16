@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 ways to learn the Raspberry Pi"
 link: "https://medium.com/@juned.ahmed078/10-ways-to-learn-the-raspberry-pi-3e2064714195"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-10waystolearntheRaspberryPi_0.png" />

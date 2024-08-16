@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Play GTA 5 on Mac"
 link: "https://medium.com/@kukucourses/how-to-play-gta-5-on-mac-cef807cb2cdb"
+isUpdated: true
 ---
+
+
+
 
 
 ## GTA 5을 맥에서 하는 방법을 안내할게요

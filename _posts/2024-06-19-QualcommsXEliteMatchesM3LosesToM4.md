@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Qualcomm’s X Elite Matches M3, Loses To M4"
 link: "https://medium.com/@impure/qualcomms-x-elite-matches-m3-loses-to-m4-b15b03f33f67"
+isUpdated: true
 ---
+
+
+
 
 
 저는 Qualcomm의 X Elite 칩에 대해 매우 회의적이었습니다. 왜냐하면 노트북에 Qualcomm 칩이 포함된 것은 처음이 아니기 때문입니다. 그들은 8cx 칩도 만들었는데 그것은 재앙이었습니다. 이전 게시물에서 말했듯이:

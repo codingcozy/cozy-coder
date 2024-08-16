@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Resolving Chrome Launch Issues After Hostname Change in Rocky Linux 9"
 link: "https://medium.com/@equus3144/resolving-chrome-launch-issues-after-hostname-change-in-rocky-linux-9-3805fd707d3f"
+isUpdated: true
 ---
+
+
+
 
 
 이 문서는 Rocky Linux 9 시스템에서 호스트 이름을 수정한 후 Google Chrome을 실행하려고 할 때 발생하는 특정 문제에 대해 다룹니다. 이 문제는 Chrome이 시작하지 못하는 상황으로 나타나며, 기존의 Chrome 프로세스와 충돌이 발생할 수 있다는 오류 메시지와 함께 나타납니다.

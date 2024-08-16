@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Forget Prompt Engineering, ChatGPT Can Write Perfect Prompts for You"
 link: "https://medium.com/@jordan_gibbs/forget-prompt-engineering-chatgpt-can-write-perfect-prompts-for-you-6ad21c4cfa99"
+isUpdated: true
 ---
+
+
+
 
 
 ![This is an image](/assets/img/2024-06-23-ForgetPromptEngineeringChatGPTCanWritePerfectPromptsforYou_0.png)

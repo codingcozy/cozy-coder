@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Snake,Apple VII — Antivirus"
 link: "https://medium.com/@karol-mazurek/snake-apple-vii-antivirus-0a57acc10185"
+isUpdated: true
 ---
+
+
+
 
 
 게이트키퍼, 격리, 그리고 XProtect에 대한 macOS 소개

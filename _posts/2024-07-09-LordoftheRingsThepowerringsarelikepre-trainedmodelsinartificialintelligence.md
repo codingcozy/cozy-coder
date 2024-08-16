@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Lord of the Rings! The power rings are like pre-trained models in artificial intelligence!"
 link: "https://medium.com/ai-advances/lord-of-the-rings-the-power-rings-are-the-pre-trained-models-a3de5b3a77e7"
+isUpdated: true
 ---
+
+
+
 
 
 ## # Part I: 텍스트의 가장 중요한 사전 훈련 모델을 검토하고 비교해보겠습니다.

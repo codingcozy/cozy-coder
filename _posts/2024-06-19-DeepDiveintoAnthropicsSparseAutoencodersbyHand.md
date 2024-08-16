@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Dive into Anthropic’s Sparse Autoencoders by Hand ✍️"
 link: "https://medium.com/towards-data-science/deep-dive-into-anthropics-sparse-autoencoders-by-hand-%EF%B8%8F-eebe0ef59709"
+isUpdated: true
 ---
+
+
+
 
 
 ## LLMs 해석 가능성 탐색의 개념을 살펴보세요

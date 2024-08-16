@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Software for MacOS Developers that cannot Miss, Again"
 link: "https://medium.com/@Fredtaylor1/software-for-macos-developers-that-cannot-miss-again-8089e05df7a4"
+isUpdated: true
 ---
+
+
+
 
 
 맥OS 개발을 위한 필수 소프트웨어 요약입니다. 이 도구들은 모두 무료이며 대부분 오픈 소스입니다. 여러분의 개발 경험을 향상시키기를 바랍니다.

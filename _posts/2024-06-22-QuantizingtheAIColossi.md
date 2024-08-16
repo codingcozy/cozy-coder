@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Quantizing the AI Colossi"
 link: "https://medium.com/towards-data-science/quantizing-the-ai-colossi-017e121a27c5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 거장들의 작업 간소화 파트 2: 신경망 양자화

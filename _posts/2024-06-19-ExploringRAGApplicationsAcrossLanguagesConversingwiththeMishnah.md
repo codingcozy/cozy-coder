@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring RAG Applications Across Languages: Conversing with the Mishnah"
 link: "https://medium.com/towards-data-science/exploring-rag-applications-across-languages-conversing-with-the-mishnah-16615c30f780"
+isUpdated: true
 ---
+
+
+
 
 
 ## 래빈 문헌에 대한 다국어 RAG 시스템 구축

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GenAI Reality"
 link: "https://medium.com/@lynnlangit/ai-reality-c1335e677d31"
+isUpdated: true
 ---
+
+
+
 
 
 좋은 것, 나쁜 것, 흥미로운 것

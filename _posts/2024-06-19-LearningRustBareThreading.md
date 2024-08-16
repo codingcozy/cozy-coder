@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learning Rust: Bare Threading"
 link: "https://medium.com/gitconnected/learning-rust-bare-threading-1defb65038c9"
+isUpdated: true
 ---
+
+
+
 
 
 

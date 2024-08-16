@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Planning as the Core Challenge in Agentic AI: Solving it with Reinforcement Learning"
 link: "https://medium.com/@alcarazanthony1/planning-as-the-core-challenge-in-agentic-ai-solving-it-with-reinforcement-learning-00e2076203ee"
+isUpdated: true
 ---
+
+
+
 
 
 창의력을 발휘하여 복잡한 비즈니스 전략 문제를 해결하기 위해 원활하게 협업하는 AI 에이전트 팀을 상상해보세요. 시장 동향을 조사하는 한 명의 에이전트, 재무 데이터를 분석하는 다른 한 명, 그리고 권고 사항을 준비하는 세 번째 에이전트가 모두 공통 목표를 향해 노력하고 있습니다.

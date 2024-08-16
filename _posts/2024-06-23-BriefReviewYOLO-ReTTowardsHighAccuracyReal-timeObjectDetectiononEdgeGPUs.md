@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Brief Review — YOLO-ReT: Towards High Accuracy Real-time Object Detection on Edge GPUs"
 link: "https://medium.com/@sh-tsang/brief-review-yolo-ret-towards-high-accuracy-real-time-object-detection-on-edge-gpus-015baf211e62"
+isUpdated: true
 ---
+
+
+
 
 
 ## YOLO-Ret, Jetson Nano 및 Jetson Xavier NX에서 실시간으로 작동하는 Jetson Xavier NGX

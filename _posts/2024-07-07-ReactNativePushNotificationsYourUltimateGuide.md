@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "React Native Push Notifications: Your Ultimate Guide"
 link: "https://medium.com/@abbasradio1234.ar/react-native-push-notifications-your-ultimate-guide-44d11009bb76"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요, 지니어스 분들!! 현대 모바일 앱 개발의 빠른 세계에서 푸시 알림은 사용자들과 시기적절한 업데이트를 전달하는 데 중요한 역할을 합니다. 이 포스트에서는 React Native 앱에서 react-native-push-notification 모듈을 사용하여 푸시 알림을 설정하는 방법에 대해 알아보겠습니다. Firebase 콘솔을 활용하여 알림을 전송하고 앱 내에서 이를 수신하는 방법을 살펴볼 것입니다. 또한 React Native 애플리케이션에서 푸시 알림을 관리하는 과정을 깊이 파헤쳐볼 것입니다. 이는 앱 내에서 푸시 알림을 통해 전송된 데이터에 액세스하고, 앱이 비활성 상태이거나 종료된 경우 앱을 활성화하는 것을 포함합니다.

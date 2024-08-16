@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How are LLMs creative?"
 link: "https://medium.com/towards-artificial-intelligence/how-are-llms-creative-c9a348a0e354"
+isUpdated: true
 ---
+
+
+
 
 
 ## LLMs의 창의성에 대한 과학 - Softmax, 온도

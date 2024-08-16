@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is This The Secret To Google’s Success Over ChatGPT?"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/is-this-the-secret-to-googles-success-over-chatgpt-b2a545f39ad5"
+isUpdated: true
 ---
+
+
+
 
 
 저희가 Gemini 1.5의 비밀 본성을 파악한 것 같아요.

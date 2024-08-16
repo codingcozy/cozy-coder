@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "PHP ranking drops to an all-time low"
 link: "https://medium.com/gitconnected/php-ranking-drops-to-an-all-time-low-98dc5843efd8"
+isUpdated: true
 ---
+
+
+
 
 
 TIOBE released the programming language rankings for April 2024. The world’s best language, PHP, made headlines this month (Is PHP losing its mojo?), but it appeared on the list due to its lowest historical ranking.

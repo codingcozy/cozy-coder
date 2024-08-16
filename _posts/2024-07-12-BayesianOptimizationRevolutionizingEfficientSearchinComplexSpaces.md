@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bayesian Optimization: Revolutionizing Efficient Search in Complex Spaces"
 link: "https://medium.com/aimonks/bayesian-optimization-revolutionizing-efficient-search-in-complex-spaces-3e2cc476d2cd"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소개

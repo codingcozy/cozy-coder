@@ -3,12 +3,16 @@ title: "NASA LDAP 서버를 해킹한 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png"
 date: 2024-05-27 15:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png
 tag: Tech
 originalTitle: "How I Hacked NASA LDAP Server"
 link: "https://medium.com/@maxcyber882/how-i-hacked-nasa-ldap-server-b7cbb8cd0eee"
+isUpdated: true
 ---
+
+
+
 
 <img src="/assets/img/2024-05-27-HowIHackedNASALDAPServer_0.png" />
 

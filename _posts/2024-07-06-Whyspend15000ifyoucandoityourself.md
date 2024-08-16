@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why spend 150,00€ if you can do it yourself?"
 link: "https://medium.com/@francescocassano945/why-spend-200-00-if-you-can-do-it-yourself-1f8e346f46eb"
+isUpdated: true
 ---
+
+
+
 
 
 몇 주 전에 심슨 쇼를 보다가 홈럴이 그릴에서 고기의 익힘을 확인하는 장면을 보다가, 아마존에서 블루투스 온도계를 찾기 시작했어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Arduino and Face Recognition Project Idea: Initial Concept"
 link: "https://medium.com/@unnathch/arduino-and-face-recognition-project-idea-initial-concept-872e37ca334b"
+isUpdated: true
 ---
+
+
+
 
 
 저자: [언젠가 밝히겠어요 :D]

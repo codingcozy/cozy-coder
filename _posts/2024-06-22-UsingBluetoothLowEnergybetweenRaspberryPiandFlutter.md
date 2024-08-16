@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Bluetooth Low Energy between Raspberry Pi and Flutter"
 link: "https://medium.com/@florentblot/using-bluetooth-low-energy-between-raspberry-pi-and-flutter-cba012c48b97"
+isUpdated: true
 ---
+
+
+
 
 
 플러터의 멋진 점은 안드로이드, iOS 및 웹과 같은 다양한 플랫폼용 앱을 만들 수 있다는 것입니다. 그러나 iOS에서는 BLE(Bluetooth Low Energy) 프로토콜을 사용해야 합니다.

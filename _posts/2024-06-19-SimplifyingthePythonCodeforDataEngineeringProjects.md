@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying the Python Code for Data Engineering Projects"
 link: "https://medium.com/towards-data-science/simplifying-the-python-code-for-data-engineering-projects-95f0c41dc58a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 수집, 검증, 처리 및 테스트를 위한 파이썬 팁과 기술: 실용적인 안내

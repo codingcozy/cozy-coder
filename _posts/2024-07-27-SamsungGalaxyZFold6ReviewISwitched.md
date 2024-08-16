@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Samsung Galaxy Z Fold6 Review I Switched"
 link: "https://medium.com/macoclock/samsung-galaxy-z-fold6-review-i-switched-e8580209972d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Samsung Galaxy Z Fold6 Review](/assets/img/2024-07-27-SamsungGalaxyZFold6ReviewISwitched_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Inevitable Inequality: Navigating the Economic Disparities of Industrial Revolutions"
 link: "https://medium.com/@amandaiglesiasmoreno/the-inevitable-inequality-navigating-the-economic-disparities-of-industrial-revolutions-450b69ab19f2"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions](/assets/img/2024-06-30-TheInevitableInequalityNavigatingtheEconomicDisparitiesofIndustrialRevolutions_0.png)

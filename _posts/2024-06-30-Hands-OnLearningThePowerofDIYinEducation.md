@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hands-On Learning: The Power of DIY in Education"
 link: "https://medium.com/@tinq/hands-on-learning-the-power-of-diy-in-education-5f9945ab313a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-30-Hands-OnLearningThePowerofDIYinEducation_0.png" />

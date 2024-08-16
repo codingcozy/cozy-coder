@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Active Directory Basics — TryHackMe"
 link: "https://medium.com/@kawsaruddin238/active-directory-basics-tryhackme-548e4cb6e7fb"
+isUpdated: true
 ---
+
+
+
 
 
 이 방에서는 Active Directory가 제공하는 기본 개념과 기능을 소개합니다.

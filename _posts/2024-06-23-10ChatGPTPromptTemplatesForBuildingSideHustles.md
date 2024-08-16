@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 ChatGPT Prompt Templates For Building Side Hustles"
 link: "https://medium.com/@slakhyani20/10-chatgpt-prompt-templates-for-building-side-hustles-4876083b2eae"
+isUpdated: true
 ---
+
+
+
 
 
 요즘 사람들은 부가 수입을 원합니다.

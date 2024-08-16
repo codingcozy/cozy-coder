@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple’s Major Announcements at WWDC 2024"
 link: "https://medium.com/@tarekalkhatibb/apples-latest-announcements-at-wwdc-2024-0793189d8c6b"
+isUpdated: true
 ---
+
+
+
 
 
 애플의 Worldwide Developers Conference(WWDC)는 기술 애호가, 개발자 및 소비자들의 주목을 끌지 않는다는 보장이 없습니다. 올해에는 애플이 생태계 전반에 걸쳐 혁신적인 업데이트를 제공하여 놀라운 소식을 전해주었습니다. 이곳에서는 WWDC 2024에서의 중요 발표 사항을 종합적으로 살펴보겠습니다.

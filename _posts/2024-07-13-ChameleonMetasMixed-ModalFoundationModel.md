@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Chameleon, Meta’s Mixed-Modal Foundation Model"
 link: "https://medium.com/generative-ai/chameleon-metas-mixed-modal-foundation-model-bfc259d11ac1"
+isUpdated: true
 ---
+
+
+
 
 
 최근에 Meta에서 새로운 혼합 형식의 기반 모델 가족을 출시했습니다. 이전 모델은 각 양식을 별도로 모델링하고 서로 다른 인코더 및 디코더를 의존하여 결합했던 것과 달리, Chameleon 모델 가족은 두 양식을 모델링하는 데 하나의 아키텍처를 사용합니다.

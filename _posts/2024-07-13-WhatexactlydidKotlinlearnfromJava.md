@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What exactly did Kotlin learn from Java?"
 link: "https://medium.com/@PurpleGreenLemon/what-exactly-did-kotlin-learn-from-java-55f566659b8d"
+isUpdated: true
 ---
+
+
+
 
 
 지금 이 순간을 상상해 보세요 - 그 해는 2011년입니다.

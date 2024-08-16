@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Can’t Apple Teach its Productivity Apps to Share Nicely"
 link: "https://medium.com/@jbkendrick_50942/why-cant-apple-teach-its-productivity-apps-to-share-nicely-707c083d6890"
+isUpdated: true
 ---
+
+
+
 
 
 ![img](/assets/img/2024-06-19-WhyCantAppleTeachitsProductivityAppstoShareNicely_0.png)

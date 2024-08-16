@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Investigation: Malicious PDF + OSINT"
 link: "https://medium.com/@princeprafull/investigation-malicious-pdf-osint-37380fd2b67f"
+isUpdated: true
 ---
+
+
+
 
 
 이 블로그는 다양한 기술과 자원을 활용하여 악성 PDF 파일을 분석하는 데 도움이 될 것입니다. OSINT 방법을 사용하여 조사를 개선하는 방법에 대해 이야기할 것입니다.

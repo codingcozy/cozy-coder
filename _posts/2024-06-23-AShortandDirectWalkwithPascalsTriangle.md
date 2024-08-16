@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Short and Direct Walk with Pascal’s Triangle"
 link: "https://medium.com/towards-data-science/a-short-and-direct-walk-with-pascals-triangle-26a86d76f75f"
+isUpdated: true
 ---
+
+
+
 
 
 ## 경로 탐색 알고리즘을 세는 것으로 개선할 수 있다면?

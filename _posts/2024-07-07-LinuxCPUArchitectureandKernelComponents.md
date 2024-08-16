@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux — CPU Architecture and Kernel Components"
 link: "https://medium.com/@tonylixu/linux-cpu-architecture-and-kernel-components-062e05c44614"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-LinuxCPUArchitectureandKernelComponents_0.png" />

@@ -1,5 +1,5 @@
 ---
-title: "VS Code를 극대화하고 더 빠르게 코딩하는 10가지 필수 팁 초보부터 전문가까지"
+title: "더 빠르게 코딩할 수 있도록 도와주는 VS Code 10가지 팁 "
 description: ""
 coverImage: "/assets/img/2024-07-27-10essentialtipstosuperchargeVSCodeandcodefaster0to100_0.png"
 date: 2024-07-27 14:06
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 essential tips to supercharge VS Code and code faster 0 to 100"
 link: "https://medium.com/coding-beauty/vscode-upgrade-tips-246481c27e8e"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-27-10essentialtipstosuperchargeVSCodeandcodefaster0to100_0.png)

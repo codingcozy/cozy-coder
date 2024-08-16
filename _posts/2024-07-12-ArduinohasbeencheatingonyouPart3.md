@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Arduino has been cheating on you. Part 3"
 link: "https://medium.com/@carlosaldea/arduino-has-been-cheating-on-you-part-3-c1d566b009de"
+isUpdated: true
 ---
+
+
+
 
 
 프로그램이 보드로 전달되는 방법은 어떻게 되나요?

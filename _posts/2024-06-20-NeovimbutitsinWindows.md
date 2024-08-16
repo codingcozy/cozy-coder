@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Neovim, but it’s in Windows"
 link: "https://medium.com/nerd-for-tech/neovim-but-its-in-windows-f39f181afaf9"
+isUpdated: true
 ---
+
+
+
 
 
 ![Neovim in Windows](/assets/img/2024-06-20-NeovimbutitsinWindows_0.png)

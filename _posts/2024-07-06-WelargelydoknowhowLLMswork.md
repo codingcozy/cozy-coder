@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "We largely *do* know how LLMs work"
 link: "https://medium.com/@paul.k.pallaghy/we-largely-do-know-how-llms-work-57ed21410f2a"
+isUpdated: true
 ---
+
+
+
 
 
 많은 사람들이 우리가 LLMs(언어 모델들)가 어떻게 작동하는지 이해하는 데 있어 그들만큼 잘 이해 못 한다고 의심합니다.

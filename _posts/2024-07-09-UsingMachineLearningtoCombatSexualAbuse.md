@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Machine Learning to Combat Sexual Abuse"
 link: "https://medium.com/ai-in-plain-english/using-machine-learning-to-combat-sexual-abuse-83ef11ff94ed"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 어린 시절은 즐거움, 탐험, 그리고 성장의 시기로 존재합니다. 하지만 너무 많은 어린이들에게는 성학대의 고통스러운 경험이 이 시기의 즐거움을 빼앗아갑니다. 성학대가 사진과 동영상으로 기록되고 다른 사람들과 공유될 때, 해로운 사이클은 계속됩니다. 이러한 콘텐츠를 아동 성학대 자료(CSAM)라고 합니다.

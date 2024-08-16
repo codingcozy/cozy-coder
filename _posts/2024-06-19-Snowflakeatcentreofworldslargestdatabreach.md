@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Snowflake at centre of world’s largest data breach"
 link: "https://medium.com/doublepulsar/snowflake-at-central-of-worlds-largest-data-breach-939fc400912e"
+isUpdated: true
 ---
+
+
+
 
 
 Cloud AI 데이터 플랫폼 Snowflake는 어려운 한 달을 보내고 있습니다. 십대 위협 가해자들과 고객들의 사이버 보안 문제 때문에... 그리고 시각적으로도 자사의 사이버 보안에 대한 문제가 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to install Java 21 and setup JAVA_HOME Path in macOS 🍏 (Apple Silicon M1 , M2)"
 link: "https://medium.com/@aniketvishal/how-to-install-java-and-setup-java-home-path-in-macos-apple-silicon-m1-m2-2edf185b992c"
+isUpdated: true
 ---
+
+
+
 
 
 Apple Silicon M1 또는 M2 Mac의 자랑스러운 소유자라면 Java를 설치하고 JAVA_HOME 경로를 설정하는 방법에 대해 궁금할 수 있습니다. Java는 다양한 애플리케이션에서 사용되는 유연한 프로그래밍 언어로, macOS에 올바르게 설치하는 것은 개발자와 기술 애호가들에게 필수적입니다. 이 안내서에서는 Apple Silicon Mac에서 Java를 설치하고 실행하는 단계를 안내해 드리겠습니다.

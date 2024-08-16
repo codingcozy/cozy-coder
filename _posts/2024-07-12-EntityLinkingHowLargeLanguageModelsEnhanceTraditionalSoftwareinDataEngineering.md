@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Entity Linking: How Large Language Models Enhance Traditional Software in Data Engineering"
 link: "https://medium.com/@alcarazanthony1/entity-linking-how-large-language-models-enhance-traditional-software-in-data-engineering-656364b7968c"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 엔지니어링은 거인과 마주합니다. 구조화되지 않은 방대하고 혼돈스러운 데이터는 우리가 그것을 이해하는 능력에 도전을 제기합니다. 그 핵심에는 Entity Linking(EL)이 있습니다. 이는 텍스트 언급을 지식 베이스 항목에 연결하는 중요한 작업입니다. "워싱턴"에 대해 읽고 있다고 상상해보세요. 어떤 "워싱턴"인가요? 수도? 주 이름? 대통령 이름?

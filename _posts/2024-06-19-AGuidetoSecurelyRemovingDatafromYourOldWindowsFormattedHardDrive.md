@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Guide to Securely Removing Data from Your Old Windows Formatted Hard Drive"
 link: "https://medium.com/@veritysystems/a-guide-to-securely-removing-data-from-your-old-windows-formatted-hard-drive-214f1f571c26"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-AGuidetoSecurelyRemovingDatafromYourOldWindowsFormattedHardDrive_0.png" />

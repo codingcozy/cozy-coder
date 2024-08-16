@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ways I Use ChatGPT at Work (with examples!)"
 link: "https://medium.com/learning-data/ways-i-use-chatgpt-at-work-with-examples-8869bf00c9ef"
+isUpdated: true
 ---
+
+
+
 
 
 

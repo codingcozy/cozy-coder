@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows Forensics: USB Device Profiling"
 link: "https://medium.com/@andrewss112/windows-forensics-usb-device-profiling-c0af50a203da"
+isUpdated: true
 ---
+
+
+
 
 
 # 개요:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ai-Thinker LoRaWAN Module Ra-08(H) Secondary Development Getting Started Guide"
 link: "https://medium.com/@taraqiuaithinker/ai-thinker-lorawan-module-ra-08-h-secondary-development-getting-started-guide-3d3fbf9b43bb"
+isUpdated: true
 ---
+
+
+
 
 
 # 내용

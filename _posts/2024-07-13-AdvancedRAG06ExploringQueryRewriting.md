@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced RAG 06: Exploring Query Rewriting"
 link: "https://medium.com/@florian_algo/advanced-rag-06-exploring-query-rewriting-23997297f2d1"
+isUpdated: true
 ---
+
+
+
 
 
 In Retrieval Augmented Generation (RAG), we often face challenges with the original queries provided by users. The queries may contain inaccurate wording or lack important semantic information. For example, a query like "The NBA champion of 2020 is the Los Angeles Lakers! Tell me what is langchain framework?" could lead to incorrect or unanswerable responses when directly searched using LLM.

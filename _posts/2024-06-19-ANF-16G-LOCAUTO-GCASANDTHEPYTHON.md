@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AN F-16, G-LOC, AUTO-GCAS AND THE PYTHON"
 link: "https://medium.com/@smtrsln8/an-f-16-g-loc-auto-gcas-and-the-python-7f06d9297521"
+isUpdated: true
 ---
+
+
+
 
 
 유튜브에는 군용 항공 및 전투기를 밀접히 주시하는 많은 사람이 알아 볼 수 있는 분류되지 않은 HUD(Head-Up Display) 비디오가 있습니다. 이 비디오에서는 F-16 전투기에서 고속 기동을 수행하면서 학습 비행사가 G-LOC(G-induced Loss of Consciousness)를 경험하는 장면이 담겨 있습니다. 이 비디오에서 전투기가 17,000피트에서 4,500피트로 몇 초 사이에 하강하는 동안, 비행기의 통합 AUTO-GCAS(Automatic Ground Collision Avoidance System)가 제어를 인계하고 비행기와 비행사의 생명을 구하는 기동을 합니다. 이 비디오가 최근에 다시 제 유튜브 피드에 나타나자, 이 일 분짜리 장면을 Python을 사용하여 분석하고 시각화하는 아이디어가 생겼습니다. 이어지는 섹션에서는 제가 이를 어떻게 하였는지 설명하겠습니다. 그 전에, G-LOC와 AUTO-GCAS에 대해 조금 이야기해보겠습니다.

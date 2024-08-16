@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Audio module UART (YX5300) Chip for Arduino AVR ARM , PIC"
 link: "https://medium.com/@zsuperxtreme/audio-module-uart-yx5300-chip-for-arduino-avr-arm-pic-280399af9c77"
+isUpdated: true
 ---
+
+
+
 
 
 제가 발견한 가장 쉬운 오디오 재생 방법은 Serial MP3 UART 모듈을 통한 것입니다. 이 다재다능한 모듈은 MP3 및 WAV 파일 모두를 다룰 수 있어 다양한 오디오 응용 프로그램에 좋은 선택이 됩니다. 이 모듈은 사운드 잭에 직접 연결되어 스피커를 연결할 수 있게 해줍니다. 자체 앰프가 장착된 스피커는 소리 크기를 제어하여 명확하고 조절된 오디오 출력을 제공할 수 있습니다. 이 설정은 모듈이 모든 필요한 디코딩 및 재생 기능을 효율적으로 처리하기 때문에 오디오 재생을 프로젝트에 통합하는 과정을 간단하게 만듭니다.

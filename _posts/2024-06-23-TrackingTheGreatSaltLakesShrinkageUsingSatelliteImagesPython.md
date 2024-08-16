@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tracking The Great Salt Lake’s Shrinkage Using Satellite Images (Python)"
 link: "https://medium.com/towards-data-science/tracking-the-great-salt-lakes-shrinkage-using-satellite-images-python-d8b3b04538cf"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*HOgBDjBrNhopFc2jBrRXVw.gif" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Secrets of ROS 2 Python Launch Files"
 link: "https://medium.com/@cullensun/unlocking-the-secrets-of-ros-2-python-launch-files-cd8e9f03c629"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png](/assets/img/2024-06-19-UnlockingtheSecretsofROS2PythonLaunchFiles_0.png)

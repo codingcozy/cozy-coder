@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Twitter processes 4 billion events in real-time daily"
 link: "https://medium.com/data-engineer-things/how-twitter-processes-4-billion-events-in-real-time-daily-942db8f7d7b5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 람다에서 카파로

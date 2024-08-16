@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Power Consumption of the Creality Ender-3 V2"
 link: "https://medium.com/@ermanas/power-consumption-of-the-creality-ender-3-v2-eb946d9fbbd3"
+isUpdated: true
 ---
+
+
+
 
 
 3D 프린팅 사업에 뛰어들기 전에, 특히 3D 프린팅 서비스 제공을 시작하기 전에, 나는 내 3D 프린터의 운영 비용에 대해 궁금해 했습니다. 그리고 알리익스프레스에서 약 8달러에 기본 스마트 소켓을 구매한 후, 이러한 측정을 준비했습니다. 그럼 시작해볼까요,

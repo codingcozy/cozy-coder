@@ -1,5 +1,5 @@
 ---
-title: "반드시 알아야 할 React Context API 사용법"
+title: "초보 개발자라면 반드시 알아야 할 React Context API 사용법"
 description: ""
 coverImage: "/assets/img/2024-08-04-ReactContextAPI_0.png"
 date: 2024-08-04 18:45
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "React Context API"
 link: "https://medium.com/@aliriza.ihn/react-context-api-91c3f6a5e896"
+isUpdated: true
 ---
+
+
+
 
 
 React Context API는 상태를 관리하고 구성 요소 트리를 통해 데이터를 전달하는 강력한 도구입니다. prop drilling 없이 컴포넌트 간에 값을 공유하는 방법을 제공합니다.

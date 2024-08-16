@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build a LoRa Network with Transceivers Only"
 link: "https://medium.com/@qiweimao/lorawan-vs-lora-0eda63a88034"
+isUpdated: true
 ---
+
+
+
 
 
 제 개인 웹사이트에서도 이 기사를 확인하실 수 있어요: [https://www.qiweimao.dev/lora-network-protocol](https://www.qiweimao.dev/lora-network-protocol)

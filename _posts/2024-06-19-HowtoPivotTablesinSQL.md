@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Pivot Tables in SQL"
 link: "https://medium.com/towards-data-science/how-to-pivot-tables-in-sql-88ef2ada5d96"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 과학, SQL, ETL

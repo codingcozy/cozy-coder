@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Serverless Image Text Extractor and Translator Using Google Cloud Pre-Trained AI"
 link: "https://medium.com/google-cloud/building-a-serverless-image-text-extractor-and-translator-using-google-cloud-pre-trained-ai-adfdccdb18d9"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요!

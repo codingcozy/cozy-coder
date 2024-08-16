@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Partial Least Squares: Bridging the Gap in Multivariate Analysis"
 link: "https://medium.com/ai-mind-labs/partial-least-squares-bridging-the-gap-in-multivariate-analysis-5376df6baaa0"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소개

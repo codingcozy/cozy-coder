@@ -1,5 +1,5 @@
 ---
-title: "더 깔끔한 코드 작성을 위해 JavaScript에서 이중 부정 사용을 중단하는 방법"
+title: "JavaScript에서 이중 부정 사용을 하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-28-StopusingdoublenegativesinJavaScriptforcleanercode_0.png"
 date: 2024-07-28 14:07
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Stop using double negatives in JavaScript for cleaner code"
 link: "https://medium.com/coding-beauty/avoid-double-negatives-6e6d8229918d"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-28-StopusingdoublenegativesinJavaScriptforcleanercode_0.png)

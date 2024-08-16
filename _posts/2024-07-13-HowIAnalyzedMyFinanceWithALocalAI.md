@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Analyzed My Finance With A Local AI"
 link: "https://medium.com/gitconnected/declutter-your-spending-with-local-ai-finance-insighter-049191711f9e"
+isUpdated: true
 ---
+
+
+
 
 
 봄이 들어와 집 청소 전통을 가져오면서, 나는 내 이스터 휴가를 활용하여 재정 상황을 잡고 비용을 줄이고 더 나은 재정 계획을 세우기로 결정했다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Quectel EC200 HTTP post in Arduino"
 link: "https://medium.com/@gmainapro/quectel-ec200-http-post-in-arduino-f70166a11376"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-23-QuectelEC200HTTPpostinArduino_0.png)

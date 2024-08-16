@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Python Engineer’s Introduction to 3D Gaussian Splatting (Part 2)"
 link: "https://medium.com/towards-data-science/a-python-engineers-introduction-to-3d-gaussian-splatting-part-2-7e45b270c1df"
+isUpdated: true
 ---
+
+
+
 
 
 ## 3D 가우시안 스플래팅 내에서 가우시안 함수가 어떻게 사용되는지 이해하고 코딩하기

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Taking “Words Have Power!” to a new level!"
 link: "https://medium.com/@Osiris_Sorcerer/taking-words-have-power-to-a-new-level-78115a803745"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사는 오늘 조금 이상한데, 인터넷에서 만난 혼돈의 마법사들을 위한 필수적인 희생이라고 할까요. 솔직히 말하자면, 페이스북의 일부 마법을 부릴 수도 있을 텐데, 대신 메타텍스트를 조금 감상할 것 같아요...

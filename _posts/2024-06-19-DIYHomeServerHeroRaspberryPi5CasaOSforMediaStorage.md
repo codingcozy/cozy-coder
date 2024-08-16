@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DIY Home Server Hero: Raspberry Pi 5 + CasaOS for Media , Storage"
 link: "https://medium.com/@kshitijdarwhekar/diy-home-server-hero-raspberry-pi-5-casaos-for-media-storage-17a18c7b4a0b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-DIYHomeServerHeroRaspberryPi5CasaOSforMediaStorage_0.png" />

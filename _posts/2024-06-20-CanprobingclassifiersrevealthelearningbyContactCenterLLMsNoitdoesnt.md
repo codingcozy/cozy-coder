@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can probing classifiers reveal the learning by Contact Center LLMs?: No, it doesn’t!"
 link: "https://medium.com/@digvijay.ingle16/can-probing-classifiers-reveal-the-learning-by-contact-center-llms-no-it-doesnt-d9124540e4d9"
+isUpdated: true
 ---
+
+
+
 
 
 이 블로그는 2024년 NAACL에서 수락된 기술 논문에 대한 참조입니다. 이 논문은 멕시코시티에서 개최된 5번째 맞춤형 결과로부터의 통찰력 워크샵(NLP@NAACL)에서 발표되었습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fine-Tuning Mistral-7B: A Journey Through Literature and AI"
 link: "https://medium.com/data-bistrot/fine-tuning-mistral-7b-a-journey-through-literature-and-ai-3322e68b65c3"
+isUpdated: true
 ---
+
+
+
 
 
 ## 문장 데이터셋에서 Mistral 7B를 섬세하게 튜닝하기

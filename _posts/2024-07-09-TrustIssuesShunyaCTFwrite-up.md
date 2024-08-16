@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Trust Issues ShunyaCTF write-up"
 link: "https://medium.com/@tavilefty/trust-issues-shunyactf-write-up-2c38ece7aa33"
+isUpdated: true
 ---
+
+
+
 
 
 지난 주 nCreeps에서 첫 번째 오프라인 CTF인 ShunyaCTF를 주최했는데, 이 이벤트의 주최자로써 이벤트를 위해 CTF 도전 과제를 만들 기회가 있었어요. 그래서 제가 만든 도전 과제 중 하나인 Trust Issues에 대해 이야기할게요. 이는 허니팟(스포일러), 함정 그리고 신뢰 문제를 기반으로 한 리눅스 박스예요 😋

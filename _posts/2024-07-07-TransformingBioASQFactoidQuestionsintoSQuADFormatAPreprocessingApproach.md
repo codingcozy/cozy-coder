@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Transforming BioASQ Factoid Questions into SQuAD Format: A Preprocessing Approach"
 link: "https://medium.com/@ahmedajminenehal/transforming-bioasq-factoid-questions-into-squad-format-a-preprocessing-approach-a43a884eeb98"
+isUpdated: true
 ---
+
+
+
 
 
 ![TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach](/assets/img/2024-07-07-TransformingBioASQFactoidQuestionsintoSQuADFormatAPreprocessingApproach_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "2024 Cybersecurity Issue: Hacktivists Hijack Smart Building Systems in Protest of Financial Giant’s Investments"
 link: "https://medium.com/purple-team/2024-cybersecurity-issue-hacktivists-hijack-smart-building-systems-in-protest-of-financial-giants-55cbb2c48ca9"
+isUpdated: true
 ---
+
+
+
 
 
 ![그림](/assets/img/2024-06-23-2024CybersecurityIssueHacktivistsHijackSmartBuildingSystemsinProtestofFinancialGiantsInvestments_0.png)

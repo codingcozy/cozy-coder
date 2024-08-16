@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install Windows Games on macOS using GPTK"
 link: "https://medium.com/@chandrus03/install-windows-games-on-macos-using-gptk-63caddc219aa"
+isUpdated: true
 ---
+
+
+
 
 
 맥북을 사용하는 동안 주변 사람들이 AAA 타이틀을 즐기는 동안 Asphalt 9만 플레이할 수 있다는 것은 후회스러울 수 있어요.

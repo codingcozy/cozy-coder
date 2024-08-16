@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Add Custom Popovers to Your iOS App"
 link: "https://medium.com/better-programming/how-to-add-custom-popovers-to-your-swiftui-ios-app-814bdfad73d0"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-22-HowtoAddCustomPopoverstoYouriOSApp_0.png" />

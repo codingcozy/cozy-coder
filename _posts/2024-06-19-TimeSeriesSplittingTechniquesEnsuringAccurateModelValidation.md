@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Time Series Splitting Techniques: Ensuring Accurate Model Validation"
 link: "https://medium.com/@mouadenna/time-series-splitting-techniques-ensuring-accurate-model-validation-5a3146db3088"
+isUpdated: true
 ---
+
+
+
 
 
 시계열 데이터 작업 중이시군요. 멋지네요! 그러나 모델 훈련에 들어가기 전에 데이터를 나누는 방법에 대해 이야기해보죠. 시계열 데이터를 나눌 때는 날짜 순서를 유지하고 데이터 누수를 피하는 것이 중요합니다. 모델이 정확하고 신뢰할 수 있도록 유지하는 효과적인 시계열 분할 기술을 살펴봅시다.

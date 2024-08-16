@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Can Now Look At Your Heart , Predict How Long You’ll Live."
 link: "https://medium.com/gitconnected/ai-can-now-look-at-your-heart-predict-how-long-youll-live-23770010be0b"
+isUpdated: true
 ---
+
+
+
 
 
 AI가 본격적으로 사용되어 복잡한 의료 문제를 해결하는 데 이제껏 없던 방법으로 사용되고 있어요.

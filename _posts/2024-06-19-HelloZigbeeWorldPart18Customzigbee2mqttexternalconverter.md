@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hello Zigbee World, Part 18 — Custom zigbee2mqtt external converter"
 link: "https://medium.com/@omaslyuchenko/hello-zigbee-world-part-18-custom-zigbee2mqtt-external-converter-1a666db52d44"
+isUpdated: true
 ---
+
+
+
 
 
 이전 두 편의 글에서는 스마트 스위치에 여러 작업을 지원하는 기능을 구현하여, 멀티스테이트 입력 클러스터를 통해 단일/더블/트리플/롱 프레스를 처리하고 보고할 수 있게 되었습니다. 또한 On/Off 스위치 설정 클러스터의 사용자 정의 확장을 통해 장치의 설정을 제어하는 기능도 구현했습니다. 이러한 추가 기능으로 사용자들은 Zigbee 시설을 이용하여 런타임에서 장치를 구성할 수 있게 됩니다.

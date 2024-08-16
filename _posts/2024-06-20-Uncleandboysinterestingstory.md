@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Uncle and boys interesting story"
 link: "https://medium.com/@Samahh/uncle-and-boys-interesting-story-c9cd0af733a2"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-Uncleandboysinterestingstory_0.png)

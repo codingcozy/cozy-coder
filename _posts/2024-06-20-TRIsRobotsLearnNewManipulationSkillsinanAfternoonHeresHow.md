@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TRI’s Robots Learn New Manipulation Skills in an Afternoon. Here’s How."
 link: "https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573"
+isUpdated: true
 ---
+
+
+
 
 
 ## 작성자: Siyuan Feng, Ben Burchfiel, Toffee Albina, and Russ Tedrake

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Vision Transformers to Masked Autoencoders in 5 Minutes"
 link: "https://medium.com/towards-data-science/from-vision-transformers-to-masked-autoencoders-in-5-minutes-cfd2fa1664ac"
+isUpdated: true
 ---
+
+
+
 
 
 ## 컴퓨터 비전으로 일반화된 NLP 작업을 안내하는 간단한 가이드

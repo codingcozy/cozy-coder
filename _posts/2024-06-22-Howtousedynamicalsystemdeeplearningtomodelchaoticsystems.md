@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to use dynamical system deep learning to model chaotic systems"
 link: "https://medium.com/@machine-learning-made-simple/how-to-use-dynamical-system-deep-learning-to-model-chaotic-systems-64f38bf3bd39"
+isUpdated: true
 ---
+
+
+
 
 
 ## 매우 중요한 기법 요약

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Transformer Architecture From a Top View"
 link: "https://medium.com/towards-artificial-intelligence/the-transformer-architecture-from-a-top-view-e8079c96b473"
+isUpdated: true
 ---
+
+
+
 
 
 지금까지 사용되던 최신 언어 처리(NLP) 모델은 다른 모델들 중에서 순환 신경망(RNN)이었습니다.

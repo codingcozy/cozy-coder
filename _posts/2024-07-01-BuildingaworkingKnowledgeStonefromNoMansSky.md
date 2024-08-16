@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a working Knowledge Stone from No Man’s Sky"
 link: "https://medium.com/@kgabrieldev/building-a-working-knowledge-stone-from-no-mans-sky-417d25dd6fce"
+isUpdated: true
 ---
+
+
+
 
 
 게임 No Man’s Sky에서는 지식의 돌과 상호 작용하여 언어의 단어를 배웁니다. 이 돌은 하나의 단어를 캐릭터의 두뇌로 직접 전달하는 지식을 전달합니다. 하지만 실제 세계에서 언어를 배우는 것은 그렇게 간단하지 않습니다. 그럼에도 불구하고, 당신을 가르치는 지식의 돌을 만들어 봅시다.

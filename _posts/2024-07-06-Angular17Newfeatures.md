@@ -3,12 +3,16 @@ title: "Angular 17의 새로운 기능들"
 description: ""
 coverImage: "/assets/img/2024-07-06-Angular17Newfeatures_0.png"
 date: 2024-07-06 11:06
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-Angular17Newfeatures_0.png
 tag: Tech
 originalTitle: "Angular 17 New features"
 link: "https://medium.com/@harshitmangla96/angular-17-new-features-2d395ebf1429"
+isUpdated: true
 ---
+
+
+
 
 저는 새 프로젝트로 Angular 17을 사용하고 있어요. 그래서 그 기능을 활용하고 프로젝트에 적용하려고 하고 있어요.
 지금까지 배운 것들을 담은 기사를 쓰기로 결정했습니다.

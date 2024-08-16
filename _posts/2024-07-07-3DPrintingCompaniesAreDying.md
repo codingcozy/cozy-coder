@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3D Printing Companies Are Dying…"
 link: "https://medium.com/@alexhuckstepp/3d-printing-companies-are-dying-e604cf7a92c7"
+isUpdated: true
 ---
+
+
+
 
 
 

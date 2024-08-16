@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LVM in Linux — Create and Extend a Logical Volume"
 link: "https://medium.com/@yhakimi/lvm-how-to-create-and-extend-a-logical-volume-in-linux-9744f27eacfe"
+isUpdated: true
 ---
+
+
+
 
 
 ## XFS 파일 시스템에 LVM 논리 볼륨을 생성하고 확장하는 방법 안내서

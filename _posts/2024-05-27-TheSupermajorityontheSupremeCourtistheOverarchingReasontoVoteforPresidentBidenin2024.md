@@ -3,12 +3,16 @@ title: "슈프림 코트의 슈퍼매이져리티는 2024년 대통령 선거에
 description: ""
 coverImage: "/assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png"
 date: 2024-05-27 15:42
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png
 tag: Tech
 originalTitle: "The Supermajority on the Supreme Court is the Overarching Reason to Vote for President Biden in 2024*"
 link: "https://medium.com/@richardvanwagoner/the-supermajority-on-the-supreme-court-is-the-overarching-reason-to-vote-for-president-biden-in-a16616b0ed4e"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-05-27-TheSupermajorityontheSupremeCourtistheOverarchingReasontoVoteforPresidentBidenin2024_0.png)

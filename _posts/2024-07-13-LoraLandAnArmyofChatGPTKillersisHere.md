@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LoraLand, An Army of ChatGPT Killers is Here"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/loraland-an-army-of-chatgpt-killers-is-here-05630010b2c6"
+isUpdated: true
 ---
+
+
+
 
 
 오픈소스 세계가 기다려온 순간일까요? 기업들은 이에 주목해야 합니다.

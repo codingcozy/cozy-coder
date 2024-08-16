@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Studio crashes on MacBook Pro 2012 after Sonoma Update [SOLVED]"
 link: "https://medium.com/@xabaras/android-studio-crashes-on-macbook-pro-2012-after-sonoma-update-solved-3fa7c42998fb"
+isUpdated: true
 ---
+
+
+
 
 
 2012년식 맥북 프로를 사용 중입니다. 일상적인 사용 및 모바일 개발에 아주 좋은 성능을 발휘하고 있어요. 이렇게 오래된 기기를 여전히 잘 사용할 수 있는 것은 바로 OpenCore Legacy Patcher 프로젝트 덕분이에요.

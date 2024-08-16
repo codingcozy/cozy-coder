@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "🐼 Mastering SQL Joins"
 link: "https://medium.com/gitconnected/mastering-sql-joins-eb786ad7a7c7"
+isUpdated: true
 ---
+
+
+
 
 
 ![SQL Join](/assets/img/2024-06-19-MasteringSQLJoins_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build Express App with Firestore and Deploy on Choreo"
 link: "https://medium.com/@ishanhansakasilva/build-express-app-with-firebase-and-deploy-on-choreo-07152f2423ba"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터베이스 통합 및 Choreo 플랫폼에 배포하는 단계별 가이드

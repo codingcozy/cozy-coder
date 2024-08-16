@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Types Of ChatGPT Prompts Every Blogger Needs To Use (To Write Faster)"
 link: "https://medium.com/write-a-catalyst/5-types-of-chatgpt-prompts-every-blogger-needs-to-use-to-write-faster-9c511166ba81"
+isUpdated: true
 ---
+
+
+
 
 
 

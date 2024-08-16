@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Future of Robotics and AI: Insights from Ben Ditto"
 link: "https://medium.com/@singularitynetambassadors/exploring-the-future-of-robotics-and-ai-insights-from-ben-ditto-81b6af7229d9"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-ExploringtheFutureofRoboticsandAIInsightsfromBenDitto_0.png" />

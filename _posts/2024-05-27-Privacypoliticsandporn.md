@@ -3,12 +3,16 @@ title: "개인정보 보호, 정치, 그리고 포르노"
 description: ""
 coverImage: "/assets/img/2024-05-27-Privacypoliticsandporn_0.png"
 date: 2024-05-27 15:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-Privacypoliticsandporn_0.png
 tag: Tech
 originalTitle: "Privacy, politics, and porn"
 link: "https://medium.com/user-experience-design-1/privacy-politics-and-porn-2524b8e68f25"
+isUpdated: true
 ---
+
+
+
 
 캐나다 정치가 아이스크림이라면, 저당량 네오폴리탄 맛일 것 같아요. 쇼콜라, 바닐라, 딸기 같은 세 가지 서로 다른 옵션이 있는데, 실제 맛과는 다르게 느껴질 수 있고 인공적인 후맛을 남길 수 있어요.
 

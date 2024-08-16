@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ternoa launches Testnet of zkEVM+, built with Polygon CDK, bringing in anti-censorship, integrity proofs and native privacy to secure digital assets on Ethereum ecosystem"
 link: "https://medium.com/ternoa/ternoa-launches-testnet-of-zkevm-built-with-polygon-cdk-bringing-in-anti-censorship-integrity-508c5051a0c5"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-TernoalaunchesTestnetofzkEVMbuiltwithPolygonCDKbringinginanti-censorshipintegrityproofsandnativeprivacytosecuredigitalassetsonEthereumecosystem_0.png)

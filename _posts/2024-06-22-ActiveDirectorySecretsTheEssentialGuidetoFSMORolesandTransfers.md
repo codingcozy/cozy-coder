@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Active Directory Secrets: The Essential Guide to FSMO Roles and Transfers"
 link: "https://medium.com/system-weakness/active-directory-secrets-the-essential-guide-to-fsmo-roles-and-transfers-24be3cc1b6c1"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-ActiveDirectorySecretsTheEssentialGuidetoFSMORolesandTransfers_0.png)

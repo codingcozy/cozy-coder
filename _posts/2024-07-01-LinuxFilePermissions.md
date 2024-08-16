@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux File Permissions"
 link: "https://medium.com/@GibzB/linux-file-permissions-48bb9221c0ea"
+isUpdated: true
 ---
+
+
+
 
 
 

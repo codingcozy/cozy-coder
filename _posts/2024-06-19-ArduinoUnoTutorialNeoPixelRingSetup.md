@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Arduino Uno Tutorial: NeoPixel Ring Setup"
 link: "https://medium.com/@elonskolnik/arduino-uno-tutorial-neopixel-ring-setup-9fafc099c89a"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 다시 왔네요! 지난 주말에 MicroCenter에 가서 아두이노 스타터 키트를 업그레이드하기 위해 멋진 새로운 부품 몇 개를 구입했어요. 특히 NeoPixel 16 RGBW 링을 구했는데, 이 링 안에는 16개의 개별적으로 제어 가능한 LED가 들어 있어서 아주 강력한 플러그인 링이에요. 또한 마이크로폰 브레이크아웃도 구입했는데, 그건 나중에 자세히 알아볼게요.

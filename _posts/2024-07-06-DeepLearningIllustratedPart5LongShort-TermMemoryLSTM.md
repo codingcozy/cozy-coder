@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Learning Illustrated, Part 5: Long Short-Term Memory (LSTM)"
 link: "https://medium.com/towards-data-science/deep-learning-illustrated-part-5-long-short-term-memory-lstm-d379fbbc9bc6"
+isUpdated: true
 ---
+
+
+
 
 
 저희의 딥러닝 일러스트 여행 5부에 오신 것을 환영합니다!

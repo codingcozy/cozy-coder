@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Marketing Campaigns with Data Science: Unleashing the Power of Customer Insights"
 link: "https://medium.com/@poornamsai/optimizing-marketing-campaigns-with-data-science-unleashing-the-power-of-customer-insights-38375e8bb6dd"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-07-OptimizingMarketingCampaignswithDataScienceUnleashingthePowerofCustomerInsights_0.png)

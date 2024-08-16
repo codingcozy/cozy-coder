@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kubernetes vs Docker: A Beginner’s Guide"
 link: "https://medium.com/@ayushdotpro/kubernetes-vs-docker-a-beginners-guide-97156b842a4e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Docker vs Kubernetes](/assets/img/2024-06-22-KubernetesvsDockerABeginnersGuide_0.png)

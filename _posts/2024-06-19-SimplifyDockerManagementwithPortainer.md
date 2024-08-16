@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Simplify Docker Management with Portainer."
 link: "https://medium.com/@sagarkpanda/simplify-docker-management-with-portainer-f6783fa56fed"
+isUpdated: true
 ---
+
+
+
 
 
 ## 도커용 포트에이너 설정. 이미지와 컨테이너 관리를 위한 GUI 사용.

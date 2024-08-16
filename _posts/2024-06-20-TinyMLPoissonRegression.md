@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — Poisson Regression"
 link: "https://medium.com/@thommaskevin/tinyml-poisson-regression-5174d88479f5"
+isUpdated: true
 ---
+
+
+
 
 
 수학적 기초부터 엣지 구현까지

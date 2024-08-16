@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Open Source Model Gemma 2 by Google is Here!"
 link: "https://medium.com/ai-advances/the-open-source-model-gemma-2-by-google-is-here-b002389d65ef"
+isUpdated: true
 ---
+
+
+
 
 
 취약하지만 접근성이 높은 LLM입니다.

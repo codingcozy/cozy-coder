@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mac keyboard shortcuts for arranging app windows"
 link: "https://medium.com/@mohsen-vaziri/mac-keyboard-shortcuts-for-moving-app-windows-bdff89e2d163"
+isUpdated: true
 ---
+
+
+
 
 
 (이 게시물에 업데이트가 있습니다. 이곳에서 확인할 수 있습니다: 최적의 워크플로우를 위한 Mac 창 단축키 전략 업데이트)

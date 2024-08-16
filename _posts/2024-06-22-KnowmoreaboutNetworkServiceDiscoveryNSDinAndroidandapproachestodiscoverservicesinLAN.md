@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Know more about Network Service Discovery(NSD) in Android and approaches to discover services in LAN"
 link: "https://medium.com/@mangesh.sambare/know-more-about-network-service-discovery-nsd-in-android-and-approaches-to-discover-services-in-2e474dbbd858"
+isUpdated: true
 ---
+
+
+
 
 
 **테이블** 태그를 마크다운 형식으로 변경해주세요.

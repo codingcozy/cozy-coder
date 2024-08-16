@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why You (Currently) Do Not Need Deep Learning for Time Series Forecasting"
 link: "https://medium.com/towards-data-science/why-you-currently-do-not-need-deep-learning-for-time-series-forecasting-0de57f2bc0ed"
+isUpdated: true
 ---
+
+
+
 
 
 /assets/img/2024-07-06-WhyYouCurrentlyDoNotNeedDeepLearningforTimeSeriesForecasting_0.png

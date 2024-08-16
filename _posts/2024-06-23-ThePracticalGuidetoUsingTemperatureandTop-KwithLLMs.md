@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Practical Guide to Using Temperature and Top-K with LLMs"
 link: "https://medium.com/ai-advances/the-practical-guide-to-using-temperature-and-top-k-with-llms-21d3e5031fb6"
+isUpdated: true
 ---
+
+
+
 
 
 대형 언어 모델(LLMs)은 자연 언어 처리를 혁신적으로 바꿨지만, 그들의 전체 잠재력을 이용하기 위해서는 주요 파라미터를 이해하는 것이 필요합니다.

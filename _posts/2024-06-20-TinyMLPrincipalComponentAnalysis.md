@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — Principal Component Analysis"
 link: "https://medium.com/@thommaskevin/tinyml-principal-component-analysis-pca-5379d0874592"
+isUpdated: true
 ---
+
+
+
 
 
 From mathematical foundations to edge implementation

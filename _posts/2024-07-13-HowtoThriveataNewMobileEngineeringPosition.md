@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Thrive at a New Mobile Engineering Position"
 link: "https://medium.com/better-programming/how-to-make-the-most-of-your-first-month-at-a-new-mobile-engineering-position-8f9e2870d1f7"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 🌟

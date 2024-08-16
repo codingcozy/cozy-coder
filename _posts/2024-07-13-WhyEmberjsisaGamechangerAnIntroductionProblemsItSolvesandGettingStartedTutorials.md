@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Ember.js is a Gamechanger: An Introduction, Problems It Solves, and Getting Started Tutorials"
 link: "https://medium.com/@asierr/why-ember-js-is-a-gamechanger-an-introduction-problems-it-solves-and-getting-started-tutorials-3953b56fb499"
+isUpdated: true
 ---
+
+
+
 
 
 만약 Ember.js에 대해 궁금하시다면, 웹 개발 세계에서 왜 게임 체인저로 간주되는지 알고 싶다면, 다행히도 제대로 온 곳이네요. 이 기사에서는 Ember.js를 돋보이게 만드는 요소, 해결하는 문제, 그리고 시작하는 데 도움이 되는 튜토리얼을 살펴보겠습니다. 함께 알아보시죠!

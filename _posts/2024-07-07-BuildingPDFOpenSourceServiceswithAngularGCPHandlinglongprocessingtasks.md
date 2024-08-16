@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building PDF Open Source Services with Angular , GCP — Handling long processing tasks"
 link: "https://medium.com/itnext/building-pdf-open-source-services-with-angular-gcp-handling-long-processing-tasks-e15cb4e511d3"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-BuildingPDFOpenSourceServiceswithAngularGCPHandlinglongprocessingtasks_0.png" />

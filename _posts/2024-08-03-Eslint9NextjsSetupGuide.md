@@ -1,5 +1,5 @@
 ---
-title: "Eslint 9와 Nextjs 설치 가이드 단계별 튜토리얼"
+title: "Nextjs에 Eslint 9 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-Eslint9NextjsSetupGuide_0.png"
 date: 2024-08-03 18:33
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Eslint 9 , Nextjs  Setup Guide"
 link: "https://medium.com/linotte-technology/eslint-9-next-js-935c2b6d0371"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-08-03-Eslint9NextjsSetupGuide_0.png)

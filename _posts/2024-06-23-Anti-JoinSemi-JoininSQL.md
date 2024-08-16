@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Anti-Join , Semi-Join in SQL"
 link: "https://medium.com/@ritusantra/anti-join-semi-join-in-sql-077582f67ea8"
+isUpdated: true
 ---
+
+
+
 
 
 ## Anti-Join 및 Semi-Join 이해하기 - 예제와 함께

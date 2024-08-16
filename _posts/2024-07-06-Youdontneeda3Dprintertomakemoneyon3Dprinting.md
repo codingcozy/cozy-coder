@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "You don’t need a 3D printer to make money on 3D printing"
 link: "https://medium.com/@sxe3dp/you-dont-need-a-3d-printer-to-make-money-on-3d-printing-45abb4bd3e87"
+isUpdated: true
 ---
+
+
+
 
 
 ## AM 산업에서 살아남는 법

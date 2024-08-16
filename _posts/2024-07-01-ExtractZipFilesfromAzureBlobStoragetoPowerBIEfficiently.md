@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Extract Zip Files from Azure Blob Storage to Power BI Efficiently"
 link: "https://medium.com/bi3-technologies/extract-zip-files-from-azure-blob-storage-to-power-bi-efficiently-9f85a6f82c90"
+isUpdated: true
 ---
+
+
+
 
 
 

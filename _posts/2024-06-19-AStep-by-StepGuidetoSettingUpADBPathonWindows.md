@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Setting Up ADB Path on Windows"
 link: "https://medium.com/@yadav-ajay/a-step-by-step-guide-to-setting-up-adb-path-on-windows-0b833faebf18"
+isUpdated: true
 ---
+
+
+
 
 
 ![사진](/assets/img/2024-06-19-AStep-by-StepGuidetoSettingUpADBPathonWindows_0.png)

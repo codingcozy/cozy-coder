@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Senior Android Development👨🏻‍💻 Roadmap"
 link: "https://medium.com/@niranjanky14/roadmap-to-senior-android-development-9ff5994f9059"
+isUpdated: true
 ---
+
+
+
 
 
 # 👨🏻‍💻Foundation Building: Your Must-Have Toolkit

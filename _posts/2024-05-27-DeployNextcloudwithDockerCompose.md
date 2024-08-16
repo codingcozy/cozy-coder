@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deploy Nextcloud with Docker Compose"
 link: "https://medium.com/@chrisgrime/deploy-nextcloud-with-docker-compose-935a76a5eb78"
+isUpdated: true
 ---
+
+
+
 
 
 DIY, 실험, 그리고 학습을 즐기며, Google Drive와 One Drive를 대체하기 위해 Nextcloud 서버를 설정했어요. 몇 년 동안 제 Nextcloud 인스턴스는 백업된 파일, 연락처, 캘린더, 노트 등이 모두 모여 있는 집이 되었고, Collabora 덕분에 서버에는 사무실 스위트도 갖췄네요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Four R’s of Code Excellence for Data Projects (Part 1)"
 link: "https://medium.com/towards-data-science/the-four-rs-of-code-excellence-for-data-projects-part-1-3a390deacff4"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-TheFourRsofCodeExcellenceforDataProjectsPart1_0.png)

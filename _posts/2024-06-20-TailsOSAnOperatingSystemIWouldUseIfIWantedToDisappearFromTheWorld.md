@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TailsOS: An Operating System I Would Use If I Wanted To Disappear From The World"
 link: "https://medium.com/gitconnected/tailsos-an-operating-system-i-would-use-if-i-wanted-to-disappear-from-the-world-fe31447b9c57"
+isUpdated: true
 ---
+
+
+
 
 
 에드워드 스노든에 대해서 들어보셨나요?

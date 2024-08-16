@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Things I Wish I Knew Before My First Job as a Data Analyst"
 link: "https://medium.com/learning-data/5-things-i-wish-i-knew-before-my-first-job-as-a-data-analyst-3bdef1f2c6f"
+isUpdated: true
 ---
+
+
+
 
 
 

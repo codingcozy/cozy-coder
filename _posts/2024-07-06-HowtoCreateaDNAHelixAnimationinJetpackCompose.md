@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a DNA Helix Animation in Jetpack Compose"
 link: "https://medium.com/@kappdev/how-to-create-a-dna-helix-animation-in-jetpack-compose-b43244cf734f"
+isUpdated: true
 ---
+
+
+
 
 
 환영합니다! 

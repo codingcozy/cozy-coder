@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Stock Return Predictions in the S,P 500: A Comparative Study of Random Forests and LSTM Networks"
 link: "https://medium.com/@redeaddiscolll/enhancing-stock-return-predictions-in-the-s-p-500-a-comparative-study-of-random-forests-and-lstm-8fd030ceafcd"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사에서는 S&P 500 지수의 주식 가격 움직임을 미래 예측하는 데 얼마나 잘 할 수 있는지 확인하기 위해 랜덤 포레스트(Random Forests)와 LSTM 네트워크(CuDNNLSTM) 두 가지 방법을 시험해 보았습니다. 우리는 1993년 1월부터 2018년 12월까지의 데이터를 살펴보았는데, 이는 주간 거래를 위한 것입니다. 우리의 접근 방식은 여러 주식의 종가, 시가 그리고 주간 수익을 고려하는 것이었습니다.

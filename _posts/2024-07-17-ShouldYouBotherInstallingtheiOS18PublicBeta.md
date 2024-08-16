@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Should You Bother Installing the iOS 18 Public Beta"
 link: "https://medium.com/macoclock/should-you-bother-installing-the-ios-18-public-beta-0db59dc3f40d"
+isUpdated: true
 ---
+
+
+
 
 
 아래는 마크다운 형식으로 바뀐 테이블 태그입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Basics: Reading DC Motor Encoder Values with Arduino"
 link: "https://medium.com/@chrishio/basics-reading-dc-motor-encoder-values-with-arduino-2c185f3601ef"
+isUpdated: true
 ---
+
+
+
 
 
 본 예제는 동력 모터 인코더 값을 모니터링하는 방법을 학습하는 내용입니다. 제가 시작한곳은 https://www.electroniclinic.com/arduino-dc-motor-speed-control-with-encoder-arduino-dc-motor-encoder/ 인데, 이 예제에는 모터가 실제로 회전하지 않고 디지털 읽기 값을 아날로그 A2D 값인 것처럼 스케일링한다는 것을 발견했습니다.

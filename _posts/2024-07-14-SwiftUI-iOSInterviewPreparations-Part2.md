@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SwiftUI-iOS Interview Preparations-Part 2"
 link: "https://medium.com/swiftui-interview-preparations/swiftui-ios-interview-preparations-part-2-52830fdeb26a"
+isUpdated: true
 ---
+
+
+
 
 
 **SwiftUI, iOS 및 Xcode에 관한 면접 질문**

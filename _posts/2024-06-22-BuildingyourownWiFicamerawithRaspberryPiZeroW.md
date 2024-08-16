@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building your own WiFi camera with Raspberry Pi Zero W"
 link: "https://medium.com/@celecavac/building-your-own-wifi-camera-with-raspberry-pi-zero-w-6d59b494e0c9"
+isUpdated: true
 ---
+
+
+
 
 
 넓은 선택지를 가진 소비자용 WiFi 카메라가 있습니다. 아기 모니터나 가정 감시와 같은 용도로는 적합할 수 있지만, 몇 가지 단점이 있습니다. 매우 자주 소유권 애플리케이션을 사용해야 할 수도 있지만 그러한 애플리케이션은 전혀 유지보수되지 않을 수 있고 또한 클라우드 서비스와 통합될 수도 있어 편리하지만 여전히 보안 위험이 될 수 있습니다. 네트워크 구성에 따라 카메라가 전체 인터넷 액세스를 받아 악의적인 행동을 할 수 있습니다.

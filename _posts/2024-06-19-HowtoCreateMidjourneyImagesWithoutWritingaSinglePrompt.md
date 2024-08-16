@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create Midjourney Images Without Writing a Single Prompt"
 link: "https://medium.com/generative-ai/how-to-create-midjourney-images-without-writing-a-single-prompt-7ca4b9009617"
+isUpdated: true
 ---
+
+
+
 
 
 ## 자유로운 창의력

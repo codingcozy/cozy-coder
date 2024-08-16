@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Process Journey — login"
 link: "https://medium.com/@boutnaru/the-linux-process-journey-login-02b6d83ab6c5"
+isUpdated: true
 ---
+
+
+
 
 
 일반적으로 "login"은 Linux 시스템에서 세션을 시작하는 데 사용되는 ELF 바이너리로 기본적으로 "/usr/bin/login" (또는 /bin/login)에 위치합니다. Linux 시스템에 로그인할 때 사용되며 인자를 전달하지 않으면 사용자의 프롬프트가 표시됩니다. (https://man7.org/linux/man-pages/man1/login.1.html) - 아래 스크린샷에 나와 있습니다 (https://www.tecmint.com/understanding-shell-initialization-files-and-user-profiles-linux/).

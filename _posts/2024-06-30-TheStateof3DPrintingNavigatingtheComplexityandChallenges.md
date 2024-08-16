@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The State of 3D Printing: Navigating the Complexity and Challenges"
 link: "https://medium.com/@jacobgoldman_3d/the-state-of-3d-printing-navigating-the-complexity-and-challenges-bdd7541ec0be"
+isUpdated: true
 ---
+
+
+
 
 
 지난 10년 동안 3D 프린팅 기술은 많이 발전해 왔습니다. 하지만 저처럼 산업에 오래 종사한 분들은 여전히 극복해야 할 중요한 과제들이 있다는 것을 아실 것입니다. 특히 제가 창업한 3D 프린팅 스타트업은 특정 응용 프로그램 요구 사항을 위한 센서 및 소프트웨어를 만드는 데 초점을 맞추고 있어, 현재 3D 프린팅 분야의 역동성과 복잡성을 직접 경험해왔습니다.

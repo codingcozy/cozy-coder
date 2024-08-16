@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Time Series Forecasting in the Age of GenAI: Make Gradient Boosting Behaves like LLMs"
 link: "https://medium.com/towards-data-science/time-series-forecasting-in-the-age-of-genai-make-gradient-boosting-behaves-like-llms-674d9e22e1ce"
+isUpdated: true
 ---
+
+
+
 
 
 **대체 이미지**

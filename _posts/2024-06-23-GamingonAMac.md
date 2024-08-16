@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Gaming on A Mac"
 link: "https://medium.com/@kukucourses/gaming-on-a-mac-188de86ca343"
+isUpdated: true
 ---
+
+
+
 
 
 ## Mac 게임 경험담

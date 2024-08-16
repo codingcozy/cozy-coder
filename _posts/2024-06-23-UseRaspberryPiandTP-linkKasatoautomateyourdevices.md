@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Use Raspberry Pi and TP-link Kasa to automate your devices"
 link: "https://medium.com/geekculture/use-raspberry-pi-and-tp-link-kasa-to-automate-your-devices-9f936a6243c1"
+isUpdated: true
 ---
+
+
+
 
 
 **판매 프로모션 아님**

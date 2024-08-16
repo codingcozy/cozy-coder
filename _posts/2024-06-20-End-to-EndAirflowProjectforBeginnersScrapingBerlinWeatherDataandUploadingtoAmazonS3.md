@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "End-to-End Airflow Project for Beginners: Scraping Berlin Weather Data and Uploading to Amazon S3"
 link: "https://medium.com/@soumyabhimakkanavar/end-to-end-airflow-project-for-beginners-scraping-berlin-weather-data-and-uploading-to-amazon-s3-6ff527c8776d"
+isUpdated: true
 ---
+
+
+
 
 
 파이썬 개발과 Apache Airflow에 열정을 가진 데이터 엔지니어로서, 베를린의 최신 날씨 데이터를 가져 와 CSV 파일로 저장하고 Amazon S3로 업로드하는 프로젝트를 시작했습니다. 이 튜토리얼에서는 Python, 웹 스크래핑을 위한 BeautifulSoup, 데이터 조작을 위한 Pandas, 그리고 오케스트레이션을 위한 Airflow를 사용한 전체 설정 및 구현 방법을 안내해 드릴 겁니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "You Know Nothing, ChatGPT. How Much Does Your LLM Know?"
 link: "https://medium.com/gitconnected/you-know-nothing-chatgpt-how-much-does-your-llm-know-03ce79d4b925"
+isUpdated: true
 ---
+
+
+
 
 
 ## | LLM | 지식 | 스케일링 법칙 |

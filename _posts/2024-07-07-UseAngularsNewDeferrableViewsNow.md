@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Use Angular’s New Deferrable Views Now"
 link: "https://medium.com/angular-blog/use-angulars-new-deferrable-views-now-20ca9f64f1e5"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-UseAngularsNewDeferrableViewsNow_0.png" />

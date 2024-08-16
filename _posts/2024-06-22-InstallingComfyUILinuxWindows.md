@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Installing ComfyUI (Linux , Windows)"
 link: "https://medium.com/@yushantripleseven/installing-comfyui-linux-windows-b59a57af61b6"
+isUpdated: true
 ---
+
+
+
 
 
 친절한 마음으로 설치 방법 알려드립니다.

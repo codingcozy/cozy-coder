@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Modular RAG and RAG Flow: Part Ⅰ"
 link: "https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-%E2%85%B0-e69b32dc13a3"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

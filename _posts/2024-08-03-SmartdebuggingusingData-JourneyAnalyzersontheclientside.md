@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smart debugging using Data-Journey Analyzers on the client side"
 link: "https://medium.com/@ethicalhacker365/smart-debugging-using-data-journey-analyzers-on-client-side-d66edbe8dd94"
+isUpdated: true
 ---
+
+
+
 
 
 당신의 앱이 새벽 3시에 데이터베이스 마이그레이션을 예약하거나 정기적인 간격으로 동기화를 수행하는 상황에서 QA 팀이 일부 사용자가 데이터가 올바르게 마이그레이션되지 않는 심각한 버그를 겪고 있다고 보고했습니다. 사용자의 기기에서 이렇게 발생할 수 있는 방법에 대해 전혀 감이 없습니다. 이 버그나 잘못된 상태를 일으킬 수 있는 레이스 조건을 재현할 수있는 가능성은 90%입니다. 이를 어떻게 디버깅할 것인가요?

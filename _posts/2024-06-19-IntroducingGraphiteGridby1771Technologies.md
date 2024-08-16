@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Graphite Grid by 1771 Technologies"
 link: "https://medium.com/@1771technologies/introducing-graphite-grid-by-1771-technologies-cfdb3cf2606d"
+isUpdated: true
 ---
+
+
+
 
 
 ![그래픽그리드 소개](/assets/img/2024-06-19-IntroducingGraphiteGridby1771Technologies_0.png)

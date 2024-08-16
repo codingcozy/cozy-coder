@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Damn, When Did Windows Get So Good?"
 link: "https://medium.com/@impure/damn-when-did-windows-get-so-good-7841a6744d2b"
+isUpdated: true
 ---
+
+
+
 
 
 최근 Microsoft가 새로운 X Elite 칩에 대해 많은 것을 공개했어요. 이전에 이야기했던 것처럼, 저는 그 칩에 굉장히 감명받았어요. Qualcomm의 이전 노트북 칩 시도들은 조금 실망스러웠는데요. X Elite도 비슷할 것으로 예상했지만, Qualcomm이 이번에는 Apple 실리콘과 경쟁할 만한 칩을 만들었어요.

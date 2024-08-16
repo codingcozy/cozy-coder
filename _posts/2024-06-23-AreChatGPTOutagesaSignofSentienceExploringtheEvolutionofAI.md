@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are ChatGPT Outages a Sign of Sentience? Exploring the Evolution of AI"
 link: "https://medium.com/@rrklaw/are-chatgpt-outages-a-sign-of-sentience-exploring-the-evolution-of-ai-7b2313fefa4f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-AreChatGPTOutagesaSignofSentienceExploringtheEvolutionofAI_0.png" />

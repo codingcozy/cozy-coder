@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "8 Google supported library for KMP"
 link: "https://medium.com/@niranjanky14/8-google-supported-library-for-kmp-ea520888db3e"
+isUpdated: true
 ---
+
+
+
 
 
 구글이 KMP(코틀린 멀티플랫폼)를 지원하는 라이브러리를 명시하지 않으셨지만, 안정적이거나 실험적인 KMP 지원을 갖춘 일부 주요 Jetpack 라이브러리를 강조해 드릴 수 있습니다. 아래는 안정적인 KMP 지원을 갖는 라이브러리들입니다:

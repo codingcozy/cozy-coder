@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Weekend AI Project: Using Speech Recognition, PTT, and a Large Action Model on a Raspberry Pi"
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-using-speech-recognition-ptt-and-a-large-action-model-on-a-raspberry-pi-ac8d839d078a"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0](/assets/img/2024-06-20-AWeekendAIProjectUsingSpeechRecognitionPTTandaLargeActionModelonaRaspberryPi_0.png)

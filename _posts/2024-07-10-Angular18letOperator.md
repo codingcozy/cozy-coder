@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 18 : @let Operator"
 link: "https://medium.com/@anasmasti10/angular-18-let-operator-62013eaab2e3"
+isUpdated: true
 ---
+
+
+
 
 
 Angular 18.1은 새로운 흥미로운 기능을 가져왔어요: @let 연산자. JavaScript의 let 키워드를 알고 있다면, Angular 템플릿에서 @let 연산자를 사용하는 것이 직관적이고 강력한 것을 발견할 거예요. 그래서, 이 새로운 기능은 무엇을 할까요?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Grad-CAM Overview"
 link: "https://medium.com/@zakhtar2020/grad-cam-overview-f8f84edebe9d"
+isUpdated: true
 ---
+
+
+
 
 
 Grad-CAM (Gradient-weighted Class Activation Mapping)은 컨볼루션 신경망의 예측에 중요한 영역을 시각화하는 데 사용되는 기술입니다. Selvaraju 등에 의해 소개된 Grad-CAM은 최종 컨볼루션 레이어로 흐르는 대상 클래스의 그래디언트를 활용하여 클래스 차별화 지역 맵을 제공합니다. 이를 통해 네트워크의 의사 결정 과정을 이해하는 데 도움이 됩니다. 여기 Grad-CAM의 상세 개요가 있습니다:

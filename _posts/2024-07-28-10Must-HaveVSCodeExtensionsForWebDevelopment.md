@@ -1,5 +1,5 @@
 ---
-title: "웹 개발자를 위한 꼭 필요한 VS Code 확장 프로그램 10가지"
+title: "웹 개발자를 위한 꼭 필요한  편리한 VS Code 확장 프로그램 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-28-10Must-HaveVSCodeExtensionsForWebDevelopment_0.png"
 date: 2024-07-28 14:06
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 Must-Have VS Code Extensions For Web Development"
 link: "https://medium.com/coding-beauty/vscode-extensions-web-dev-55116dd64b2c"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Stack Weekly — Issue#132"
 link: "https://medium.com/canopas/android-stack-weekly-issue-132-37f9fcc42e23"
+isUpdated: true
 ---
+
+
+
 
 
 이미지를 Markdown 형식으로 바꿔보세요.

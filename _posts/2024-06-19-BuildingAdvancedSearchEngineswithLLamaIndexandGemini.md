@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Advanced Search Engines with LLamaIndex and Gemini"
 link: "https://medium.com/@erkajalkumari/building-advanced-search-engines-with-llamaindex-and-gemini-9593105dc08c"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

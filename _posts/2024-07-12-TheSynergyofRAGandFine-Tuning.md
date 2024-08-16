@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Synergy of RAG and Fine-Tuning"
 link: "https://medium.com/ai-in-plain-english/the-synergy-of-rag-and-fine-tuning-ff24701d9dcc"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어를 사용하여이 기사 텍스트의 문법, 흐름 및 가독성을 향상시키는 데 성공했습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Colima Essentials Developer Guide"
 link: "https://medium.com/java-nibble/colima-essentials-guide-e5b969f74b62"
+isUpdated: true
 ---
+
+
+
 
 
 ## macOS에서 Colima 컨테이너 런타임을 사용하는 개발자 안내서.

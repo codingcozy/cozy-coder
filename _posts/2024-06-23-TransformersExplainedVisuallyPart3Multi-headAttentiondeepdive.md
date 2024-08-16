@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Transformers Explained Visually (Part 3): Multi-head Attention, deep dive"
 link: "https://medium.com/towards-data-science/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853"
+isUpdated: true
 ---
+
+
+
 
 
 ## 직관적인 트랜스포머 시리즈 NLP

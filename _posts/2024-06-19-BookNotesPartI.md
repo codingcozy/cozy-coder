@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Book Notes(Part I)"
 link: "https://medium.com/@gjc199501/book-notes-part-i-16401281bf4d"
+isUpdated: true
 ---
+
+
+
 
 
 Storytelling with Data: A Data Visualization Guide for Business Professionals을 Cole Nussbaumer Knaflic가 쓴 책을 읽고 있어요. 이 책에서 배운 내용을 정리할 수 있도록 메모를 작성해 보려고 해요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learning Linux — 7.Configruing Networking"
 link: "https://medium.com/@bradyxu831/learning-linux-7-configruing-networking-8ad0f1401246"
+isUpdated: true
 ---
+
+
+
 
 
 ## 리눅스 학습 여정을 공유하는 곳

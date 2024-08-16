@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Change is coming"
 link: "https://medium.com/arondite-blog/change-is-coming-f61cc26e633b"
+isUpdated: true
 ---
+
+
+
 
 
 ## Arondite가 만들고 있는 것을 주도하는 두 가지 큰 트렌드는 무엇인가요?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Pushing RL Boundaries: Integrating Foundational Models, e.g. LLMs and VLMs, into Reinforcement Learning"
 link: "https://medium.com/towards-data-science/pushing-boundaries-integrating-foundational-models-e-g-556cfb6d0632"
+isUpdated: true
 ---
+
+
+
 
 
 ## Foundational Models를 RL Training 루프에 통합하는 심층 탐구

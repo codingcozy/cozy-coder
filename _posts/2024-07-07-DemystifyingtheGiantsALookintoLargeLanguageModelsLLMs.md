@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying the Giants: A Look into Large Language Models (LLMs)"
 link: "https://medium.com/@vdwayne/demystifying-the-giants-a-look-into-large-language-models-llms-8cff7cc8b018"
+isUpdated: true
 ---
+
+
+
 
 
 ![DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0](/assets/img/2024-07-07-DemystifyingtheGiantsALookintoLargeLanguageModelsLLMs_0.png)

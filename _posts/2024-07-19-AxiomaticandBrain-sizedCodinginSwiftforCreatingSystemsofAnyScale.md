@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Axiomatic and Brain-sized Coding in Swift for Creating Systems of Any Scale"
 link: "https://medium.com/better-programming/axiomatic-and-brain-sized-coding-in-swift-for-creating-systems-of-any-scale-ec352e7d87a9"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-19-AxiomaticandBrain-sizedCodinginSwiftforCreatingSystemsofAnyScale_0.png" />

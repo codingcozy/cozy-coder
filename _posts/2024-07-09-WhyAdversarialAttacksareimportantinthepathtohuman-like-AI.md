@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Adversarial Attacks are important in the path to human-like-AI"
 link: "https://medium.com/bits-and-neurons/why-adversarial-attacks-are-important-in-the-path-to-human-like-ai-93475d0b7acc"
+isUpdated: true
 ---
+
+
+
 
 
 심층 학습 기반 알고리즘들은 이미 10년 이상에 걸쳐 시각 작업의 최전선에 있습니다. 이러한 대형 인공 신경망(CNN 및 Vision Transformer)은 이미지 분류와 물체 감지와 같은 시각 작업에서 인간 수준의 성능을 달성할 수 있습니다. 이 도메인에서의 성공의 증거가 있다고 하더라도, 그들의 부족함을 입증하는 증거 또한 부족하지 않습니다. 이러한 네트워크의 취약성 중 하나는 깊은 학습 커뮤니티에서 상당한 주목을 받고 있는데, 바로 이 네트워크의 부서지기 쉬운 특성입니다. 입력 이미지의 작은 뒤틀림이나 화소 값의 변경이 이러한 네트워크에서 예측할 수 없는 움직임을 일으키기 때문입니다. 이 기사에서는 적대적 공격의 문제, 그 원인 및 인공 시각 지능의 상태를 더욱 끌어올리는 데 왜 중요한지를 개요로 설명하겠습니다.

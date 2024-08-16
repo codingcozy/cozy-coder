@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Seven Months With the 14-Inch M3 Max MacBook Pro"
 link: "https://medium.com/macoclock/seven-months-with-the-14-inch-m3-max-macbook-pro-01c2369872d8"
+isUpdated: true
 ---
+
+
+
 
 
 

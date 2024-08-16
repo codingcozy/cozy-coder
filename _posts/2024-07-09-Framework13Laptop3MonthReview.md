@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Framework 13 Laptop: 3 Month Review"
 link: "https://medium.com/@thesmashy/framework-13-laptop-3-month-review-481463bf9edd"
+isUpdated: true
 ---
+
+
+
 
 
 # 최고의 노트북은 스스로 조립하고 수리할 수있는 노트북일지도 모릅니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "4D-Printing + SMARTOrthotics: How Adaptability Can be Taken to the Next Level"
 link: "https://medium.com/@sumirkat/4d-printing-smartorthotics-how-adaptability-can-be-taken-to-the-next-level-e9ecc256dfb1"
+isUpdated: true
 ---
+
+
+
 
 
 나는 겨우 4살 때 나의 삶이 바뀌었고, 내 작은 두뇌는 그 크기를 이해할 수 없었습니다. 내 형제들이 태어났습니다. 알아요, 제가 알고 있는 한 모든 형제는 형제가 그들의 세계에 들어올 때 그들의 삶이 급격하게 변한다고 증언할 수 있을 것이라고 확신합니다. 어떤 사람들은 그것이 나빠진 것이라고 농담하기도 하지만요. 하지만 나의 형제들은 대부분의 어린이들, 나를 포함하여, 피할 수 있는 특권을 부여받은 신체적, 정신적 장애와 함께 태어났습니다. 이것은 심각한 발달 장애로 이어지며, 이로 인해 그들은 오늘날까지 말을 할 수 없고, 걸음을 평범하게 하지 못하는 상태입니다. 

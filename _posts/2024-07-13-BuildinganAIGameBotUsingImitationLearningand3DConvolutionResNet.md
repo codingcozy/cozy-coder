@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building an AI Game Bot Using Imitation Learning and 3D Convolution ResNet"
 link: "https://medium.com/gopenai/building-an-ai-game-bot-using-imitation-learning-and-3d-convolution-resnet-0edc6f38cd7d"
+isUpdated: true
 ---
+
+
+
 
 
 # 인사

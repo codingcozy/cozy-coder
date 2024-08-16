@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Generate Wealth in the Machine Economy: Investing in AI and Robotics Startups"
 link: "https://medium.com/@foresightbureau/how-to-generate-wealth-in-the-machine-economy-investing-in-ai-and-robotics-startups-7151a600dc22"
+isUpdated: true
 ---
+
+
+
 
 
 # 십조 달러의 기회: AI 및 로보틱스로 지금 투자하세요!

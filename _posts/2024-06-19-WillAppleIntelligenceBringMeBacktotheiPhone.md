@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Will Apple Intelligence Bring Me Back to the iPhone?"
 link: "https://medium.com/macoclock/will-apple-intelligence-bring-me-back-to-the-iphone-b40603bb3679"
+isUpdated: true
 ---
+
+
+
 
 
 

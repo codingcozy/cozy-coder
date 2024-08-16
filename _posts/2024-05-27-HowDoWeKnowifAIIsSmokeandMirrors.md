@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Do We Know if AI Is Smoke and Mirrors?"
 link: "https://medium.com/towards-data-science/how-do-we-know-if-ai-is-smoke-and-mirrors-16ed5b6877aa"
+isUpdated: true
 ---
+
+
+
 
 
 ## "AI 혁명"이 인쇄 기계인지, 암호폐인지에 대한 사려 (스포일러: 둘 다 아님)

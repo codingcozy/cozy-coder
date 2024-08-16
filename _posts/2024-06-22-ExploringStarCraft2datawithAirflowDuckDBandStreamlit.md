@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit"
 link: "https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6"
+isUpdated: true
 ---
+
+
+
 
 
 - 📝 소개 및 개요

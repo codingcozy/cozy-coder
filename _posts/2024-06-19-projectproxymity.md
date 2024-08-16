@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "project proxy.mity"
 link: "https://medium.com/@saharsh-sinha-career/project-proxy-mity-81a27ee96969"
+isUpdated: true
 ---
+
+
+
 
 
 프록시는 비디오 회의를 더 다이내믹하고 상호작용적으로 만들기 위해 설계된 가정용 로봇입니다. 프록시를 독특하게 만드는 것은 AI 비전 제어 메커니즘입니다. 이를 통해 사용자(나!)는 포즈 추정을 통해 로봇을 손을 사용하지 않고 제어할 수 있습니다. 이는 손짓만으로 로봇을 움직일 수 있기 때문에 경험이 더 자연스럽고 몰입적입니다.

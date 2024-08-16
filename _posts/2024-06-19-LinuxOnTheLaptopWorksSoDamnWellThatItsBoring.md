@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux On The Laptop Works So Damn Well That It’s Boring"
 link: "https://medium.com/@clivethompson/linux-on-the-laptop-works-so-damn-well-that-its-boring-29014b347941"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-LinuxOnTheLaptopWorksSoDamnWellThatItsBoring_0.png" />

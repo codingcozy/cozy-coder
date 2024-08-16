@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How we orchestrate 2000+ DBT models in Apache Airflow"
 link: "https://medium.com/@aleexmagno/how-we-orchestrate-2000-dbt-models-in-apache-airflow-90901504032d"
+isUpdated: true
 ---
+
+
+
 
 
 ![How we orchestrate 2000 DBT models in Apache Airflow](/assets/img/2024-05-27-Howweorchestrate2000DBTmodelsinApacheAirflow_0.png)

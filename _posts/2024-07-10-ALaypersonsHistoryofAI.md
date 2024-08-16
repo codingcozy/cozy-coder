@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Layperson’s History of AI"
 link: "https://medium.com/on-technology/a-laypersons-history-of-ai-0654e55a3811"
+isUpdated: true
 ---
+
+
+
 
 
 ## 인공지능 연구 논문, 쉽게 설명해 드립니다

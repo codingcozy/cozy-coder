@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Step-By-Step Guide: Installing K3s on a Raspberry Pi 4 Cluster"
 link: "https://medium.com/@stevenhoang/step-by-step-guide-installing-k3s-on-a-raspberry-pi-4-cluster-8c12243800b9"
+isUpdated: true
 ---
+
+
+
 
 
 이 게시물을 읽는 데 어려움이 있으면 여기를 확인하십시오.

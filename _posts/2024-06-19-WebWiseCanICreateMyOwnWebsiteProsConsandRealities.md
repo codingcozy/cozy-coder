@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Web Wise: Can I Create My Own Website? Pros, Cons, and Realities"
 link: "https://medium.com/x-periment-asteroid/web-wise-can-i-create-my-own-website-pros-cons-and-realities-e38c7a348291"
+isUpdated: true
 ---
+
+
+
 
 
 ## 장 3: DIY 웹사이트 빌더 탐험

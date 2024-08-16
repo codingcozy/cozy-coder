@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What’s tree-shaking in Angular?"
 link: "https://medium.com/angular-training/whats-tree-shaking-in-angular-da95c346114c"
+isUpdated: true
 ---
+
+
+
 
 
 

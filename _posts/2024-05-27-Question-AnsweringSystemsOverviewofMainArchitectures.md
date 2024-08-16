@@ -3,12 +3,16 @@ title: "질문-응답 시스템 주요 아키텍처 개요"
 description: ""
 coverImage: "/assets/img/2024-05-27-Question-AnsweringSystemsOverviewofMainArchitectures_0.png"
 date: 2024-05-27 15:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-Question-AnsweringSystemsOverviewofMainArchitectures_0.png
 tag: Tech
 originalTitle: "Question-Answering Systems: Overview of Main Architectures"
 link: "https://medium.com/towards-data-science/question-answering-systems-overview-of-main-architectures-46b94d58bae6"
+isUpdated: true
 ---
+
+
+
 
 ## 확장 가능한 정보 검색 시스템을 구축하는 디자인 방식 탐색
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iOS 17.2 Is Way Bigger Than We’ve Expected — 15+ Amazing Features!"
 link: "https://medium.com/macoclock/ios-17-2-is-way-bigger-than-weve-expected-15-amazing-features-4d4b23c9c69c"
+isUpdated: true
 ---
+
+
+
 
 
 **Apple is working on the new iOS updates in full swing!**

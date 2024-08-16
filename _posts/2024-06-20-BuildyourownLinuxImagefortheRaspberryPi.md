@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build your own Linux Image for the Raspberry Pi"
 link: "https://medium.com/nerd-for-tech/build-your-own-linux-image-for-the-raspberry-pi-f61adb799652"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-BuildyourownLinuxImagefortheRaspberryPi_0.png" />

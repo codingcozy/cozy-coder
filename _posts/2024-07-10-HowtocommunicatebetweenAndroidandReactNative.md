@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to communicate between Android and React Native"
 link: "https://medium.com/@sinanomik/how-to-communicate-between-android-and-react-native-1e12c5a73b03"
+isUpdated: true
 ---
+
+
+
 
 
 ![React Native Bridging](/assets/img/2024-07-10-HowtocommunicatebetweenAndroidandReactNative_0.png)

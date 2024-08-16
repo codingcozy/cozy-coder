@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Interview Experience for Blinkit SDE2 Role (Android)"
 link: "https://medium.com/@rajagupta07042000/interview-experience-for-blinkit-sde2-role-android-b35907ff0821"
+isUpdated: true
 ---
+
+
+
 
 
 **Blinkit SDE2 역할 면접** 대화가 친근한 간단한 소개로 시작됐어요. 인터뷰어가 처음부터 편안하게 느끼게 해줬더니 처음에 느낀 긴장감도 풀리는 느낌이었어요.

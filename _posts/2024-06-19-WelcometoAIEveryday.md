@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Welcome to AI Everyday"
 link: "https://medium.com/@AiEveryday/welcome-to-ai-everyday-c684444bb91f"
+isUpdated: true
 ---
+
+
+
 
 
 환영합니다! 인공지능 세상의 흥미로운 통찰, 트렌드, 혁신을 제공하는 AI Everyday에 오신 것을 환영합니다. 저희의 미션은 AI를 해독하고 어떻게 우리의 일상을 형성하고 향상시키는지를 보여주는 것입니다. 우리가 사용하는 장치부터 의존하는 서비스까지, AI가 우리가 자주 깨닫지 못하는 많은 방법으로 영향을 미치고 있습니다. AI의 미래를 함께 탐험하기 위해 이 여정에 동참해 보시죠.

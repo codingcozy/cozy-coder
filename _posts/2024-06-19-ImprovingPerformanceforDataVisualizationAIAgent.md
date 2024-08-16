@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Improving Performance for Data Visualization AI Agent"
 link: "https://medium.com/firebird-technologies/improving-performance-for-data-visualization-ai-agent-d677ccb71e81"
+isUpdated: true
 ---
+
+
+
 
 
 ## DSPy를 사용하고 최적화 기술을 활용하여 에이전트 성능 향상

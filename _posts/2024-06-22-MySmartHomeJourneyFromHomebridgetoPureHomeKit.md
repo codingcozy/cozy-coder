@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Smart Home Journey From Homebridge to Pure HomeKit"
 link: "https://medium.com/@bhoven/my-smart-home-journey-from-homebridge-to-pure-homekit-ba7c84e7f6b8"
+isUpdated: true
 ---
+
+
+
 
 
 

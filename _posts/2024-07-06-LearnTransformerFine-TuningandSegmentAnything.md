@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learn Transformer Fine-Tuning and Segment Anything"
 link: "https://medium.com/towards-data-science/learn-transformer-fine-tuning-and-segment-anything-481c6c4ac802"
+isUpdated: true
 ---
+
+
+
 
 
 ## Train Meta’s Segment Anything Model (SAM) to segment high fidelity masks for any domain

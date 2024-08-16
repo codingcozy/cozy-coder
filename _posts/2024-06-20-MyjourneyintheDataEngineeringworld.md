@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My journey in the Data Engineering world"
 link: "https://medium.com/@priyanka-/my-journey-in-the-data-engineering-world-184d56e0a169"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-20-MyjourneyintheDataEngineeringworld_0.png)

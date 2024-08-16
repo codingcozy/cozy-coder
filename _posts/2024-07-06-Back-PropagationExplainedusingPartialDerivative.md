@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Back-Propagation Explained using Partial Derivative"
 link: "https://medium.com/@sagar4999/back-propagation-explained-using-partial-derivative-25279e52931c"
+isUpdated: true
 ---
+
+
+
 
 
 #### 백프로파게이션: 심층학습의 기본 컴포넌트

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Language Agent Tree Search — LATS"
 link: "https://medium.com/@cobusgreyling/language-agent-tree-search-lats-837de73d0672"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

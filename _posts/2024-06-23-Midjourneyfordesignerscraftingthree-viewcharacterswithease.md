@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Midjourney for designers: crafting three-view characters with ease"
 link: "https://medium.com/design-bootcamp/midjourney-for-designers-crafting-three-view-characters-with-ease-e54477a0290a"
+isUpdated: true
 ---
+
+
+
 
 
 "Midjourney에서 캐릭터의 세 개의 뷰를 생성하는 것은 비교적 간단합니다. 먼저, 우리는 프롬프트를 작성하여 기본 캐릭터 이미지를 시작합니다. 프롬프트를 구성하는 방법은 다음과 같습니다:

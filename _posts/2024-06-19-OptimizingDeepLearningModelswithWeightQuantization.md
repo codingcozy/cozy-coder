@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Deep Learning Models with Weight Quantization"
 link: "https://medium.com/towards-data-science/optimizing-deep-learning-models-with-weight-quantization-c786ffc6d6c1"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-19-OptimizingDeepLearningModelswithWeightQuantization_0.png)

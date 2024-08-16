@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The ultimate guide to managing Python virtual environments in MacOS"
 link: "https://medium.com/@miqui.ferrer/the-ultimate-guide-to-managing-python-virtual-environments-in-macos-c8cb49bf0a3c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TheultimateguidetomanagingPythonvirtualenvironmentsinMacOS_0.png" />

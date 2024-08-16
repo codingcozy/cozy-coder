@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Monitor children’s mobiles"
 link: "https://medium.com/@uzair_inayat/monitor-childrens-mobiles-04c8e13682fd"
+isUpdated: true
 ---
+
+
+
 
 
 자녀의 휴대전화 오용으로부터 보호하세요 – -*

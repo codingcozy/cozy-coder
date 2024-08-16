@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Up-cycling an old Raspberry Pi into a digital photo frame"
 link: "https://medium.com/@cgarethc/up-cycling-an-old-raspberry-pi-into-a-digital-photo-frame-928d2fa599"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이 프로젝트에 관한 몇 가지 이야기를 게시했어요. "SaaS prepper" 프로젝트 두 가지가 있어요: 하나는 플리커용이고, 다른 하나는 에버노트용이야. 그리고 후에는 휴 조명 자동화와 그에 대한 규칙 언어 추가도 있었어요. 모두 빌트인 와이파이가 있는 최신 모델 Pi에서 작동해.

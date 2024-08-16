@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Cross-Architecture Docker Deployment: From x86_64 to ARM64 on Raspberry Pi"
 link: "https://medium.com/@tobibot/cross-architecture-docker-deployment-from-x86-64-to-amd64-on-raspberry-pi-1e097e43b644"
+isUpdated: true
 ---
+
+
+
 
 
 애플리케이션을 일관된 환경에서 다양한 아키텍처로 배포하는 것은 컨테이너화에서 처음으로 겪은 중요한 도전 중 하나였어요. 이 글에서는 x86_64 머신에서 Docker 이미지를 빌드하고 ARM64 라즈베리 파이에서 실행하는 경험을 공유하려고 해요. 이 여정은 Docker Buildx를 사용하고 이미지를 전송하며 cron과 함께 Python 스크립트를 실행하도록 컨테이너를 구성하는 과정을 포함하고 있답니다.

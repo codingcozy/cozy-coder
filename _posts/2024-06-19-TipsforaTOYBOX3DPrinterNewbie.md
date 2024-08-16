@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tips for a TOYBOX 3D Printer Newbie"
 link: "https://medium.com/@alexispriddy/tips-for-a-toybox-3d-printer-newbie-24bd5c338462"
+isUpdated: true
 ---
+
+
+
 
 
 지난 휴일에 할아버지, 할머니로부터 ToyBox 3D 프린터를 선물받았어요! 제가 아이들보다 더 즐겁게 사용하고 있다고 확신합니다. 하지만 처음에 몇 가지에 대해 놓쳤다가 깨닫는 순간 멍청하게 느꼈어요. 아마 저만 그랬을 수도 있지만, 누군가에겐 도움이 될 수 있을 거에요.

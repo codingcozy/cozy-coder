@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Andino — Open source robot Part 2 Hardware Assembly , Testing"
 link: "https://medium.com/@robofoundry/building-andino-open-source-robot-part-2-hardware-assembly-testing-fcd26028031d"
+isUpdated: true
 ---
+
+
+
 
 
 이전 글에서는 호스트 컴퓨터 및 RPi를 설정하여 시뮬레이션 모드에서 로봇을 실행할 수 있는지 확인했습니다. 이번 글에서는 안디노 로봇의 하드웨어 구성에 중점을 두겠습니다. 안디노 로봇 하드웨어의 GitHub 저장소에는 상당히 좋은 다이어그램과 부품 목록이 있지만, 모든 것을 어떻게 조립하거나 조립하는 방법에 대한 구체적인 내용은 제공되지 않습니다. 또한 연결 다이어그램은 매우 고수준이며, 로봇을 처음으로 만들어 보는 사람들에게는 매우 혼란스러울 것입니다.

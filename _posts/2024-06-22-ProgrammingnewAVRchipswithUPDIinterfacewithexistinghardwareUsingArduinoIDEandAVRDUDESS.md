@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Programming new AVR chips with UPDI interface with existing hardware. (Using Arduino IDE and AVRDUDESS)"
 link: "https://medium.com/@nidulam2001/programming-new-avr-chips-with-updi-interface-with-existing-hardware-79757a933156"
+isUpdated: true
 ---
+
+
+
 
 
 ## 통합 프로그램 및 디버그 인터페이스 (UPDI) 이해하기

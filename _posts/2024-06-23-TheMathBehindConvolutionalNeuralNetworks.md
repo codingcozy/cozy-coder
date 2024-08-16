@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Math Behind Convolutional Neural Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-convolutional-neural-networks-6aed775df076"
+isUpdated: true
 ---
+
+
+
 
 
 

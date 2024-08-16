@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a Sentiment Analysis Model in Python"
 link: "https://medium.com/@kaabar-sofien/how-to-create-a-sentiment-analysis-model-in-python-cf03cb9988e0"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtoCreateaSentimentAnalysisModelinPython_0.png" />

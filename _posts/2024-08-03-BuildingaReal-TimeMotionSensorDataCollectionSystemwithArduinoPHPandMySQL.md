@@ -1,5 +1,5 @@
 ---
-title: "Arduino, PHP, MySQL로 실시간 모션 센서 데이터 수집 시스템 구축하는 방법"
+title: "Arduino, PHP, MySQL로 실시간 모션 센서 데이터 수집하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-BuildingaReal-TimeMotionSensorDataCollectionSystemwithArduinoPHPandMySQL_0.png"
 date: 2024-08-03 20:12
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Real-Time Motion Sensor Data Collection System with Arduino, PHP, and MySQL"
 link: "https://medium.com/stackademic/building-a-real-time-motion-sensor-data-collection-system-with-arduino-php-and-mysql-feaf3c6d29d2"
+isUpdated: true
 ---
+
+
+
 
 
 # TL;DR

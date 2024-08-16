@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Toddler Loves Planes, So I Built Her A Radar"
 link: "https://medium.com/gitconnected/my-toddler-loves-planes-so-i-built-her-a-radar-52f4f4534818"
+isUpdated: true
 ---
+
+
+
 
 
 이 글은 영감의 이야기이자 비전이 형태를 갖는 과정, 그리고 가장 성급한 평가자인 2세 소녀의 신속한 피드백을 담은 이야기입니다.

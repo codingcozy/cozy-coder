@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Shot on iPhone 15 Pro Max — REALLY!"
 link: "https://medium.com/macoclock/shot-on-iphone-15-pro-max-really-13d64e95d5c7"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-13-ShotoniPhone15ProMaxREALLY_0.png](/assets/img/2024-07-13-ShotoniPhone15ProMaxREALLY_0.png)

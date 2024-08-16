@@ -3,12 +3,16 @@ title: "아두이노에 마이크로SD 카드 모듈을 연결하고 CSV 형식�
 description: ""
 coverImage: "/assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_0.png"
 date: 2024-05-27 13:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-CompleteGuidetoConnectingaMicroSDCardModuletoArduinoandSavingDatainCSVFormat_0.png
 tag: Tech
 originalTitle: "Complete Guide to Connecting a MicroSD Card Module to Arduino and Saving Data in CSV Format"
 link: "https://medium.com/@madhurajayashanka/complete-guide-to-connecting-a-microsd-card-module-to-arduino-and-saving-data-in-csv-format-1f30a163cab"
+isUpdated: true
 ---
+
+
+
 
 # 소개
 

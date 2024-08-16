@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Another Exciting Career Opportunity for Your Finger!"
 link: "https://medium.com/a-gentle-cult/another-exciting-career-opportunity-for-your-finger-ac9cfaf60f13"
+isUpdated: true
 ---
+
+
+
 
 
 안녕 친구들!

@@ -1,5 +1,5 @@
 ---
-title: "넷플릭스 아키텍처에서 배울 수 있는 시스템 설계 교훈 10가지"
+title: "넷플릭스 아키텍처로 알아보는 최신 시스템 설계 트렌드 10가지"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-29 13:49
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 System Design Lessons from Netflixs Architecture"
 link: "https://medium.com/javarevisited/10-system-design-lessons-from-netflixs-architecture-19ece2191a03"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*PB7v7MmW9NpdNn-_mfTj_A.gif" />

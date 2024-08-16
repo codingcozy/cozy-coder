@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Visualization Generation Using Large Language and Image Generation Models with LIDA"
 link: "https://medium.com/towards-data-science/data-visualization-generation-using-large-language-and-image-generation-models-with-lida-69fcf95866ee"
+isUpdated: true
 ---
+
+
+
 
 
 ## LIDA 라이브러리 개요, 시작하는 방법, 예시 및 앞으로 고려 사항

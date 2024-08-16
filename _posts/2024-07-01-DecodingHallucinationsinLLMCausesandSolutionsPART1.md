@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding Hallucinations in LLM: Causes and Solutions — PART 1"
 link: "https://medium.com/@anuj0456/decoding-hallucinations-in-llm-causes-and-solutions-part-1-b4c67c00c1e6"
+isUpdated: true
 ---
+
+
+
 
 
 ![Decoding Hallucinations in LLM: Causes and Solutions (PART 1)](https://www.example.com/assets/img/2024-07-01-DecodingHallucinationsinLLMCausesandSolutionsPART1_0.png)

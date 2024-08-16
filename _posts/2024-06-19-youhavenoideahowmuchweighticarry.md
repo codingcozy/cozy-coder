@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "you have no idea how much weight i carry"
 link: "https://medium.com/@vourline/you-have-no-idea-how-much-weight-i-carry-d3eac7a4e497"
+isUpdated: true
 ---
+
+
+
 
 
 

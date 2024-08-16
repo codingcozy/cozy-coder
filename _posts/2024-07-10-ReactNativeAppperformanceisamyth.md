@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "React Native App performance is a myth?"
 link: "https://medium.com/@anil-gudigar/react-native-app-performance-is-a-myth-dfe7b141b812"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-07-10-ReactNativeAppperformanceisamyth_0.png" />`

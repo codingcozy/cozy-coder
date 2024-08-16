@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mathematical understanding of Gaussian Process"
 link: "https://medium.com/the-quantastic-journal/mathematical-understanding-of-gaussian-process-eaffc9c8a6d6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 기계 학습과 수학

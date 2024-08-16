@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top-5 Python Frontend Libraries for Data Science"
 link: "https://medium.com/ai-advances/top-5-python-frontend-libraries-for-data-science-91261a65e366"
+isUpdated: true
 ---
+
+
+
 
 
 파이썬에는 많은 프론트엔드 라이브러리가 있습니다. 각각의 장단점이 있죠. 어떤 것을 선택해야 할까요?

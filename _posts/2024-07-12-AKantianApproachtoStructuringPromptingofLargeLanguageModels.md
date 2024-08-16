@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Kantian Approach to Structuring Prompting of Large Language Models"
 link: "https://medium.com/ai-in-plain-english/a-kantian-approach-to-structuring-prompting-of-large-language-models-fc35e138e532"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 이 기사의 텍스트의 문법, 흐름, 가독성을 향상시키는 데 사용되었습니다.

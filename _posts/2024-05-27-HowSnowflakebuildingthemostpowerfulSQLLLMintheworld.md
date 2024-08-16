@@ -3,12 +3,16 @@ title: "세계에서 가장 강력한 SQL LLM을 구축하는 Snowflake의 방�
 description: ""
 coverImage: "/assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_0.png"
 date: 2024-05-27 13:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowSnowflakebuildingthemostpowerfulSQLLLMintheworld_0.png
 tag: Tech
 originalTitle: "How Snowflake building the most powerful SQL LLM in the world"
 link: "https://medium.com/wrenai/what-we-learned-from-snowflake-copilot-building-the-most-powerful-sql-llm-in-the-world-52f82d661bc1"
+isUpdated: true
 ---
+
+
+
 
 AI가 데이터 민주화를 위한 새로운 기회를 만들어냈습니다. SQL을 필요로 하지 않고 언어 모델 이해력의 힘을 이용하여 통찰력을 얻는 것으로 많은 사용자가 현재 대량의 데이터에 감춰진 가치 있는 통찰을 발견할 수 있게 되었습니다.
 

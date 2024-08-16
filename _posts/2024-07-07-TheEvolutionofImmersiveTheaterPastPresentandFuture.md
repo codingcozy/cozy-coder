@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Evolution of Immersive Theater: Past, Present, and Future"
 link: "https://medium.com/@monicapquinn/the-evolution-of-immersive-theater-past-present-and-future-4ab556747056"
+isUpdated: true
 ---
+
+
+
 
 
 ## 멧등극장이 이야기 전달을 어떻게 변화시켰는지와 다음에 대해

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi: How to expose Web Services in Private to Public with Cloudflare Tunnel — DNS routing"
 link: "https://medium.com/@life-is-short-so-enjoy-it/raspberry-pi-how-to-expose-web-services-in-private-to-public-with-cloudflare-tunnel-dns-routing-000e8792cff2"
+isUpdated: true
 ---
+
+
+
 
 
 클라우드플레어 터널을 사용하여 홈랩에 있는 서비스를 공용으로 노출할 수 있습니다. 이것은 포트 포워딩의 대안이 될 수 있습니다.

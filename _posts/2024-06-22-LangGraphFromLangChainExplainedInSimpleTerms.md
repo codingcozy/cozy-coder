@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LangGraph From LangChain Explained In Simple Terms"
 link: "https://medium.com/@cobusgreyling/langgraph-from-langchain-explained-in-simple-terms-f7cd0c12cdbf"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

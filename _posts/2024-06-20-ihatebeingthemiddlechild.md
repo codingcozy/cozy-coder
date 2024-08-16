@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "i hate being the middle child"
 link: "https://medium.com/@andengxzs_/i-hate-being-the-middle-child-fae3acb9512d"
+isUpdated: true
 ---
+
+
+
 
 
 

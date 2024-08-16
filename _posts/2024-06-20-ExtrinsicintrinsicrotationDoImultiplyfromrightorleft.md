@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Extrinsic , intrinsic rotation: Do I multiply from right or left?"
 link: "https://medium.com/@dominicplein/extrinsic-intrinsic-rotation-do-i-multiply-from-right-or-left-357c38c1abfd"
+isUpdated: true
 ---
+
+
+
 
 
 ## 오일러 각도는 헷갈릴 수 있습니다, 특히 여러 회전을 연쇄적으로 곱셈으로 연결할 때 행렬의 순서가 어떻게 되는지에 대해서요. 이 게시물에서는 외부, 내부 회전 순서의 차이와 오른쪽이나 왼쪽에서 곱셈을 해야 하는지를 어떻게 결정하는지 설명해 드릴게요.

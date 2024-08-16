@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Three Features Make iOS 16 Great"
 link: "https://medium.com/five-hundred-words/three-features-make-ios-16-great-93b509a9cea7"
+isUpdated: true
 ---
+
+
+
 
 
 지난 몇 주간 iOS 16 공개 베타를 사용해 왔어요. 상당히 안정적이라는 것이 좋았어요. 하지만 일상적으로 사용하는 데 많이 다르지는 않다고 솔직히 말하면, 세 가지 정말 중요하고 정말 멋진 변화를 제외하고요.

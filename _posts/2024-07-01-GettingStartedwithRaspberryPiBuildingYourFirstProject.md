@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Raspberry Pi: Building Your First Project"
 link: "https://medium.com/@thisistamim/getting-started-with-raspberry-pi-building-your-first-project-fe2291f96ab3"
+isUpdated: true
 ---
+
+
+
 
 
 ![Getting Started with Raspberry Pi](/assets/img/2024-07-01-GettingStartedwithRaspberryPiBuildingYourFirstProject_0.png)

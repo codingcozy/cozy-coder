@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Verifying the Origin of Media in an Algorithmic World"
 link: "https://medium.com/better-programming/verifying-the-origin-of-media-in-an-algorithmic-world-25bff92ab572"
+isUpdated: true
 ---
+
+
+
 
 
 ## C2PA 콘텐츠 신뢰성 사양 및 Rust SDK 소개

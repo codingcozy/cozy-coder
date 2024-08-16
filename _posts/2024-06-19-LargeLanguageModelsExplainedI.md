@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Large Language Models Explained — I"
 link: "https://medium.com/@prasannasanjay1/large-language-models-explained-i-62a55999b7a2"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! ChatGPT가 어떻게 작동하는지 궁금했던 적이 있나요? ChatGPT-3.5는 무료로 제공되지만 ChatGPT-4는 유료인 이유가 궁금하신가요? 그와 같은 대안이 있는지 알아보고 싶나요? 이 기사에서 ChatGPT에 대해 도는 모든 질문에 답해보겠습니다. ChatGPT에 대한 기술적 세부사항에만 근거하여 수학이나 ChatGPT 뒤에 있는 프로그램에 대한 내용은 제외할 것입니다.

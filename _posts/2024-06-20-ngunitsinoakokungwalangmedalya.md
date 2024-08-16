@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ngunit sino ako kung walang medalya?"
 link: "https://medium.com/@andengxzs_/ngunit-sino-ako-kung-walang-medalya-61a2a1535d39"
+isUpdated: true
 ---
+
+
+
 
 
 

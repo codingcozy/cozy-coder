@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — XGBoost (Regression)"
 link: "https://medium.com/@thommaskevin/tinyml-xgboost-regression-d2b513a0d237"
+isUpdated: true
 ---
+
+
+
 
 
 수학적 기초부터 엣지 구현까지

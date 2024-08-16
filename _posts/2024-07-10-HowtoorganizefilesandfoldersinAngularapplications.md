@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to organize files and folders in Angular applications?"
 link: "https://medium.com/angular-training/how-to-organize-files-and-folders-in-angular-applications-21ab9bfb237b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-10-HowtoorganizefilesandfoldersinAngularapplications_0.png" />

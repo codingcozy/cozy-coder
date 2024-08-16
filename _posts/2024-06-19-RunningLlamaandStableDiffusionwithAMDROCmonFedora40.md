@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Running Llama and Stable Diffusion with AMD ROCm on Fedora 40"
 link: "https://medium.com/@seancheo/running-generative-ai-on-amd-in-fedora-40-28aa3bebb187"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-RunningLlamaandStableDiffusionwithAMDROCmonFedora40_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux Directory Structure"
 link: "https://medium.com/@dheeruthedeployer/linux-directory-structure-03ab5c23e993"
+isUpdated: true
 ---
+
+
+
 
 
 # Linux 디렉토리 구조에 대한 자세한 설명

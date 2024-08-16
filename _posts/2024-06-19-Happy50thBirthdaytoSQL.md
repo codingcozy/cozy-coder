@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Happy 50th Birthday to SQL"
 link: "https://medium.com/asecuritysite-when-bob-met-alice/happy-50th-birthday-to-sql-c07ad9cb6090"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-Happy50thBirthdaytoSQL_0.png" />

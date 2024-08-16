@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DeepSeek-coder + llama 3 How I Build Application with One Prompt"
 link: "https://medium.com/gitconnected/deepseek-coder-llama-3-how-i-build-application-with-one-prompt-05a77b02cace"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-DeepSeek-coderllama3HowIBuildApplicationwithOnePrompt_0.png)

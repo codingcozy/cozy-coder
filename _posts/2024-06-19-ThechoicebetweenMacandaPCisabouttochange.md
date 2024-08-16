@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The choice between Mac and a PC is about to change"
 link: "https://medium.com/@lewisjdoyle/the-choice-between-mac-and-a-pc-is-about-to-change-72492e31b8dd"
+isUpdated: true
 ---
+
+
+
 
 
 

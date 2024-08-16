@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Python Return Invalid Syntax Error"
 link: "https://medium.com/@fixitblog/solved-python-return-invalid-syntax-error-b44078761163"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이에서 간단한 파이썬 프로그램을 작성 중이며 파이썬 프로그래밍이 처음이라고 하셨군요. GetMessage라는 매개변수가 없고 data라는 변수를 반환하는 함수를 정의했는데, 다음과 같은 오류가 발생하고 있다고 하셨군요.

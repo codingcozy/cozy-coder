@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a Biological 3D Printer Using Lasers, Peptides, Growth Hormones, and Stem Cells"
 link: "https://medium.com/@rabmcmenemy/how-to-create-a-biological-3d-printer-using-lasers-peptides-growth-hormones-and-stem-cells-0b5c06ab1eac"
+isUpdated: true
 ---
+
+
+
 
 
 

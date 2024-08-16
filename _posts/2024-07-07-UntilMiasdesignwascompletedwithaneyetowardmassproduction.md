@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Until Mia’s design was completed: with an eye toward mass production"
 link: "https://medium.com/@kazutaka.yoshinaga/until-mias-design-was-completed-with-an-eye-toward-mass-production-bcac86cca1f8"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-07-UntilMiasdesignwascompletedwithaneyetowardmassproduction_0.png)

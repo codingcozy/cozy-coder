@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows Forensics: Office Documents"
 link: "https://medium.com/@andrewss112/windows-forensics-office-documents-7f51bde27140"
+isUpdated: true
 ---
+
+
+
 
 
 # Windows 포렌식 - 파일/폴더 오픈, 응용프로그램 실행과 관련된 증거

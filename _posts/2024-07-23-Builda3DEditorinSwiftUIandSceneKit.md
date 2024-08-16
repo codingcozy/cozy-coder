@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build a 3D Editor in SwiftUI and SceneKit"
 link: "https://medium.com/better-programming/build-a-3d-editor-in-swiftui-and-scenekit-7a680e95d8a"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*UcYgmZsPYcEV_imN4SM1RQ.gif)

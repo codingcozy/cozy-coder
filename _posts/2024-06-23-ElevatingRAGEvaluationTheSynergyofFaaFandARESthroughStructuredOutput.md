@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Elevating RAG Evaluation: The Synergy of FaaF and ARES through Structured Output"
 link: "https://medium.com/ai-in-plain-english/elevating-rag-evaluation-the-synergy-of-faaf-and-ares-through-structured-output-be2e2556dfdd"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 이 기사의 텍스트 문법, 흐름 및 가독성을 향상시키는 데 사용되었습니다.

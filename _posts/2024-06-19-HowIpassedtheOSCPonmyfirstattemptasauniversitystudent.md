@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I passed the OSCP on my first attempt as a university student."
 link: "https://medium.com/@lucas.rezaioff/how-i-passed-the-oscp-on-my-first-attempt-as-a-university-student-8a802c954c84"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요,

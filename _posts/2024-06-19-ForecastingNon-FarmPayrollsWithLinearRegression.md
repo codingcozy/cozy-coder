@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Forecasting Non-Farm Payrolls With Linear Regression"
 link: "https://medium.com/@kaabar-sofien/forecasting-non-farm-payrolls-with-linear-regression-11ca69f8b0b8"
+isUpdated: true
 ---
+
+
+
 
 
 

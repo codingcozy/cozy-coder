@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "UART Communication on ESP32"
 link: "https://medium.com/@khantalha7367/uart-communication-on-esp32-28fd3df3b6eb"
+isUpdated: true
 ---
+
+
+
 
 
 ![UART 통신](/assets/img/2024-06-20-UARTCommunicationonESP32_0.png)

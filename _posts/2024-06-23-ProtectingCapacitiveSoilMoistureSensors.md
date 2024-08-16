@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Protecting Capacitive Soil Moisture Sensors"
 link: "https://medium.com/@d.robertson/protecting-capacitive-soil-moisture-sensors-e1ab81f1c4fb"
+isUpdated: true
 ---
+
+
+
 
 
 화분 식물의 토양 수분을 측정하려고 했었는데, 일단 저항성 토양 수분 센서 몇 개를 구입했습니다. 그러나 프로브 다리, 전자 부품 및 커넥터 주변 등이 빨리 부식되어 망가졌습니다. 완전히 망가졌어요. 그 후 내가 '부식 방지'로 홍보된 적응형 센서를 보게 되었고, 싸게 여러 개를 구입했습니다. 안타깝게도 비슷한 문제가 발생했습니다. 이 기사에서는 적응형 토양 수분 센서가 입은 손상과 그것을 해결하려고 시도한 내 경험을 적었습니다.

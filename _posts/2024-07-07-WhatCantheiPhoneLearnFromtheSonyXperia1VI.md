@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What Can the iPhone Learn From the Sony Xperia 1 VI?"
 link: "https://medium.com/macoclock/what-can-the-iphone-learn-from-the-sony-xperia-1-vi-2ddc886e4a63"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-WhatCantheiPhoneLearnFromtheSonyXperia1VI_0.png" />

@@ -3,12 +3,16 @@ title: "언급되지 않은 수퍼 비밀 프롬프트 도구 지금은 아무�
 description: ""
 coverImage: "/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png"
 date: 2024-05-27 14:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png
 tag: Tech
 originalTitle: "Super Secret Prompting Tool No One Talks About (Just Yet)"
 link: "https://medium.com/generative-ai/super-secret-prompting-tool-no-one-talks-about-just-yet-a2a7d39f4c47"
+isUpdated: true
 ---
+
+
+
 
 ![이미지](/assets/img/2024-05-27-SuperSecretPromptingToolNoOneTalksAboutJustYet_0.png)
 

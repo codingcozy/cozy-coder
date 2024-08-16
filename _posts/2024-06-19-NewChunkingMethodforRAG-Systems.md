@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "New Chunking Method for RAG-Systems"
 link: "https://medium.com/datadriveninvestor/new-chunking-method-for-rag-systems-2eb3523d0420"
+isUpdated: true
 ---
+
+
+
 
 
 ## 문서 분할 개선

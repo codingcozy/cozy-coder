@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Towards Hybrid Reasoning: Assimilating Structure into Subsymbolic Systems"
 link: "https://medium.com/the-modern-scientist/towards-hybrid-reasoning-assimilating-structure-into-subsymbolic-systems-05cf9d34d13d"
+isUpdated: true
 ---
+
+
+
 
 
 최근 대형 언어 모델의 발전은 텍스트 생성 시 놀라운 유창함과 적응력을 보여주었습니다. 몇 가지 예시에 노출된 이후, 이러한 모델은 다양한 주제에 대해 놀랍도록 일관된 연장을 제공할 수 있으며, 유연한 이해력과 추론 능력을 나타냅니다.

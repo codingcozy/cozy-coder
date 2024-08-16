@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Robotics #2: Controlling a Robot Remotely with Python"
 link: "https://medium.com/@athicharttangpong/controlling-a-robot-remotely-with-python-4735ed5c2da9"
+isUpdated: true
 ---
+
+
+
 
 
 이전 글 "Raspberry Pi 3, GoPiGo3 및 Python으로 로봇 프로그래밍하기"에서 GoPiGo3 로봇을 관리하기 위한 Python 모듈을 소개했습니다. 이번 글에서는 USB 게임패드 및 USB 키보드를 통한 원격 제어를 가능케 하여 로봇의 기능을 확장할 것입니다. 이 업그레이드로 인해 로봇의 움직임을 관리하고 카메라 서보 모터를 제어할 수 있게 됩니다.

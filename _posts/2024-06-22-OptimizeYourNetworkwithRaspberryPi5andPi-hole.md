@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optimize Your Network with Raspberry Pi 5 and Pi-hole"
 link: "https://medium.com/@toniflorithomar/optimize-your-network-with-raspberry-pi-5-and-pi-hole-11cd6729e67c"
+isUpdated: true
 ---
+
+
+
 
 
 

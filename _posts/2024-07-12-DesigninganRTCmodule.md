@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Designing an RTC module"
 link: "https://medium.com/gitconnected/designing-an-rtc-module-25a6c6f2353f"
+isUpdated: true
 ---
+
+
+
 
 
 아두이노, ESP32, STM32 등을 사용한 많은 홈 자동화/DIY/교육 프로젝트는 실시간 시계(RTC)와 백업 전원원을 필요로 합니다. 그렇게 하면 매번 시간을 재설정할 필요가 없어요. 시장에서 DS3231과 DS1307 모듈과 같은 것들을 많이 찾을 수 있어요. 오늘은 그런 간단한 모듈을 언가-붕가하는 여행에 여러분을 초대하고 싶어합니다. 준비되셨나요? 함께 떠나요!

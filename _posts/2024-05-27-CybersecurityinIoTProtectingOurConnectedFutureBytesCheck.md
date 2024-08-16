@@ -3,12 +3,16 @@ title: "사이버보안 IoT 저희의 연결된 미래를 지키는 방법  Byte
 description: ""
 coverImage: "/assets/img/2024-05-27-CybersecurityinIoTProtectingOurConnectedFutureBytesCheck_0.png"
 date: 2024-05-27 13:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-CybersecurityinIoTProtectingOurConnectedFutureBytesCheck_0.png
 tag: Tech
 originalTitle: "Cybersecurity in IoT: Protecting Our Connected Future — BytesCheck"
 link: "https://medium.com/@bytescheck0/cybersecurity-in-iot-protecting-our-connected-future-bytescheck-dad7665a8d0e"
+isUpdated: true
 ---
+
+
+
 
 이미지
 

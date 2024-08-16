@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Weird Choices and Big Numbers: What Apple Got up to Yesterday"
 link: "https://medium.com/macoclock/weird-choices-and-big-numbers-what-apple-got-up-to-yesterday-60f4edc9b3b7"
+isUpdated: true
 ---
+
+
+
 
 
 아래의 표 태그를 마크다운 형식으로 변경해주세요.

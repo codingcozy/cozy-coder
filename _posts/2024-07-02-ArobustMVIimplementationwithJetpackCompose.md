@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A robust MVI implementation with Jetpack Compose"
 link: "https://medium.com/proandroiddev/a-robust-mvi-with-jetpack-compose-e08882d2c4ff"
+isUpdated: true
 ---
+
+
+
 
 
 # 왜 이를 하고 있는 걸까?

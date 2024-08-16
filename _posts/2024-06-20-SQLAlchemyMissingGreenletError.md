@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SQLAlchemy: MissingGreenletError"
 link: "https://medium.com/@vickypalaniappan12/sqlalchemy-missinggreenleterror-656825b3ce13"
+isUpdated: true
 ---
+
+
+
 
 
 SQLAlchemy은 Python을 위한 강력한 라이브러리로, Python 프로그램과 데이터베이스 간의 통신을 용이하게 해줍니다. 이는 고수준 ORM (객체-관계 매핑)과 저수준 SQL 표현 언어를 제공합니다. asyncio의 등장으로 SQLAlchemy는 비동기 작업을 지원하도록 도입되었는데, 이는 비동기 IO가 성능을 향상시킬 수 있는 웹 애플리케이션에 특히 유용합니다. SQLAlchemy에서의 MissingGreenletError는 SQLAlchemy가 asyncio나 다른 비동기 프레임워크와 함께 사용될 때 발생하는 일반적인 문제입니다. 이 오류는 SQLAlchemy의 기본 동작이 동기적이기 때문에 발생하며, 이는 데이터베이스 작업이 결과를 기다리는 동안 이벤트 루프를 차단한다는 것을 의미합니다.

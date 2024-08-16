@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Process Journey — “dmesg” (Print Control the Kernel Ring Buffer)"
 link: "https://medium.com/@boutnaru/the-linux-process-journey-dmesg-print-control-the-kernel-ring-buffer-dc78abeb87b7"
+isUpdated: true
 ---
+
+
+
 
 
 "dmesg"은 "/usr/bin/dmesg" (또는 "/bin/dmesg")에 위치한 ELF 바이너리입니다. Linux 커널은 부팅 시간과 시스템이 실행 중일 때 다양한 메시지를 커널 링 버퍼에 기록합니다. 따라서 커널 링 버퍼는 다양한 로그 메시지를 보유하며 버퍼 크기가 고정되어 있어 가득 차면 이전 항목이 덮어쓰기됩니다. "kern" (커널 메시지), "user" (사용자 레벨 메시지), "mail" (메일 시스템), "daemon" (시스템 데몬), "auth" (보안/승인 메시지), "syslog" 등과 같은 다양한 로그 시설이 커널 링 버퍼에 작성할 수 있습니다.

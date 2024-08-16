@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Restored My Car Using the School of YouTube"
 link: "https://medium.com/@reidbauer/how-i-restored-my-car-using-the-school-of-youtube-a89a54161996"
+isUpdated: true
 ---
+
+
+
 
 
 몇 달 전, 나는 내 차에 헌신하기로 결정했어.

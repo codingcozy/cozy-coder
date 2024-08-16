@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Worst Social Media Posts That Nobody Wants to See"
 link: "https://medium.com/bouncin-and-behavin-blogs/the-worst-social-media-posts-that-nobody-wants-to-see-7f63791cac20"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이건 정말 이상해요

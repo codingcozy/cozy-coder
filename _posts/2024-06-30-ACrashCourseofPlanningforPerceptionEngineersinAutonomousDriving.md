@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Crash Course of Planning for Perception Engineers in Autonomous Driving"
 link: "https://medium.com/towards-data-science/a-crash-course-of-planning-for-perception-engineers-in-autonomous-driving-ede324d78717"
+isUpdated: true
 ---
+
+
+
 
 
 ## 기획과 결정을 위한 기본

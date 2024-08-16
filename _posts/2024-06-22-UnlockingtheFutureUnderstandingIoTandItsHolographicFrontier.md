@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Future: Understanding IoT and Its Holographic Frontier"
 link: "https://medium.com/@ieeewiesusl/unlocking-the-future-understanding-iot-and-its-holographic-frontier-ec4689851ed4"
+isUpdated: true
 ---
+
+
+
 
 
 <table> 태그를 Markdown 형식으로 변경해주세요.

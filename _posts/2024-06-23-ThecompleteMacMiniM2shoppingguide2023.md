@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The complete Mac Mini M2 shopping guide (2023)"
 link: "https://medium.com/@darkghosthunter/the-complete-mac-mini-m2-shopping-guide-2023-2ead3f1547de"
+isUpdated: true
 ---
+
+
+
 
 
 ## 돈을 아끼고 싶은 분들을 위해

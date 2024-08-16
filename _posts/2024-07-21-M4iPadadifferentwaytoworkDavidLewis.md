@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "M4 iPad  a different way to work  David Lewis"
 link: "https://medium.com/macoclock/m4-ipad-a-different-way-to-work-david-lewis-70404e69abca"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Foundations of Reasoning with Large Language Models: The Neuro-Symbolic Perspective"
 link: "https://medium.com/ai-in-plain-english/foundations-of-reasoning-with-language-models-the-neuro-symbolic-perspective-d3334b44646f"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 소프트웨어가 이 기사의 텍스트를 개선하는 데 사용되었습니다.

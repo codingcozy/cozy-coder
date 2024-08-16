@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Concept Journey — Directory File"
 link: "https://medium.com/@boutnaru/the-linux-concept-journey-directory-file-74ba52001fc5"
+isUpdated: true
 ---
+
+
+
 
 
 Linux에서 사용되는 일곱 가지 다른 파일 유형이 있음을 아시죠 (https://medium.com/@boutnaru/the-linux-concept-journey-linux-file-types-4cb622887331). 이 중 "디렉토리" 파일 유형이 있습니다. 이를 파일과 같이 생각할 수 있으며 해당 콘텐츠로 파일 이름과 해당 i-node 번호를 보유하는 파일입니다 (https://medium.com/@boutnaru/linux-what-is-an-inode-7ba47a519940).

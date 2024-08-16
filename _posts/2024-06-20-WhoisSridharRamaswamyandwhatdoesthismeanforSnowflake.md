@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Who is Sridhar Ramaswamy and what does this mean for Snowflake?"
 link: "https://medium.com/@hugolu87/who-is-sridhar-ramaswamy-and-what-does-this-mean-for-snowflake-33d52785198f"
+isUpdated: true
 ---
+
+
+
 
 
 ## 서문

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPhone 15 Pro Max vs. Pixel 8 Pro — two very different stories"
 link: "https://medium.com/macoclock/iphone-15-pro-max-vs-pixel-8-pro-two-very-different-stories-68938a6d749f"
+isUpdated: true
 ---
+
+
+
 
 
 ![Link to the image](/assets/img/2024-07-13-iPhone15ProMaxvsPixel8Protwoverydifferentstories_0.png)

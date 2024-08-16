@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I’m Healing On My Soul Journey"
 link: "https://medium.com/@yadayinyadayang/how-im-healing-on-my-soul-journey-7d777fd2704b"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-09-HowImHealingOnMySoulJourney_0.png)

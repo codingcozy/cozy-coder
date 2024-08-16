@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Establishing Remote SSH Connections from Windows to Kali Linux"
 link: "https://medium.com/bugbountywriteup/establishing-remote-ssh-connections-from-windows-to-kali-linux-545c71793fae"
+isUpdated: true
 ---
+
+
+
 
 
 리모트 Kali Linux VM에 SSH 키 설정하기

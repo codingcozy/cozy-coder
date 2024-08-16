@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Boot Home Assistant from SSD on Raspberry Pi 4"
 link: "https://medium.com/@uliandim/how-to-boot-home-assistant-from-ssd-on-raspberry-pi-4-ede6fbf0c721"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-HowtoBootHomeAssistantfromSSDonRaspberryPi4_0.png" />

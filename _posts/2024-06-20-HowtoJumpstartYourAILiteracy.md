@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Jumpstart Your AI Literacy"
 link: "https://medium.com/@jordan_gibbs/how-to-jumpstart-your-ai-literacy-45a7113ec198"
+isUpdated: true
 ---
+
+
+
 
 
 AI 열풍이 시작된 지 벌써 1년이 넘었어요. AI는 글쓰기, 예술, 기술, 소셜 미디어 그리고 업무에 영향을 미쳤어요. 이제 거의 모든 회사, 정부, 그리고 기관이 AI 열풍에 참여하고 있습니다. 인공 지능은 여기에 남아 있고, 버블이던 아니던 사회에 지속적인 영향을 미칠 거예요.

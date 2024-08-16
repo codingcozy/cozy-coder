@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Josh.ai , Specifi Partner to Streamline Workflows for Custom Installers 📝"
 link: "https://medium.com/@joshdotai/josh-ai-specifi-partner-to-streamline-workflows-for-custom-installers-0855a34f8e15"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-JoshaiSpecifiPartnertoStreamlineWorkflowsforCustomInstallers_0.png" />

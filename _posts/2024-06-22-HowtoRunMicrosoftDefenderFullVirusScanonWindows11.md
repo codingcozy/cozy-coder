@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Run Microsoft Defender Full Virus Scan on Windows 11"
 link: "https://medium.com/@khalilullah1/how-to-run-microsoft-defender-full-virus-scan-on-windows-11-dbe4cd1f2cfa"
+isUpdated: true
 ---
+
+
+
 
 
 Microsoft Defender의 전체 바이러스 스캔을 PC에서 실행하는 세 가지 쉬운 방법을 알아보세요. Windows Security 앱, Powershell 및 명령 프롬프트를 사용하는 방법이 포함되어 있습니다.

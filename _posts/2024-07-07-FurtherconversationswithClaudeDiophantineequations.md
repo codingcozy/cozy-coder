@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Further conversations with Claude — Diophantine equations"
 link: "https://medium.com/@sukivenkat/further-conversations-with-claude-diophantine-equations-ae9a9db768db"
+isUpdated: true
 ---
+
+
+
 
 
 먼저, 산술에 대한 친절한 소개를 제공한 뒤, 대수학과 방정식 해결의 추상적 개념에 대해 설명합니다. 우리는 동시 선형 방정식부터 시작하여 악명 높은 디오판틴 방정식까지 진행합니다.

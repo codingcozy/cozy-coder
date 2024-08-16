@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Control any RC model programmatically from computer"
 link: "https://medium.com/@kelvinkoko/control-any-rc-model-programmatically-from-computer-2e2cdbc0e4aa"
+isUpdated: true
 ---
+
+
+
 
 
 유니버설 RC 컨트롤러와 멀티 모듈을 사용하여 만들기

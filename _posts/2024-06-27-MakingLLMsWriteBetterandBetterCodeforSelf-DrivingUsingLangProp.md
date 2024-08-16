@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Making LLMs Write Better and Better Code for Self-Driving Using LangProp"
 link: "https://medium.com/towards-data-science/making-llms-write-better-and-better-code-for-self-driving-using-langprop-99c6c3dc9508"
+isUpdated: true
 ---
+
+
+
 
 
 ## 고전적 기계 학습 유추: LLM (Large Language Model) = 옵티마이저; 코드 = 매개변수; LangProp = PyTorch Lightning

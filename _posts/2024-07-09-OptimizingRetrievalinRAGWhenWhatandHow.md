@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Retrieval in RAG: When, What and How"
 link: "https://medium.com/ai-in-plain-english/optimizing-retrieval-in-rag-when-what-and-how-bff2bb8356bf"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 소프트웨어가 사용되어 이 기사의 텍스트 문법, 흐름 및 가독성을 향상시켰습니다.

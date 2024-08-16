@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Make Ubuntu look like MacOS"
 link: "https://medium.com/featurepreneur/make-ubuntu-look-like-macos-fd11c6ccf83a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-MakeUbuntulooklikeMacOS_0.png" />

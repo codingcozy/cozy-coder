@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Large Language Models (LLMs) — How Do They Solve Problems?"
 link: "https://medium.com/@hugmanskj/understanding-large-language-models-llms-how-do-they-solve-problems-3c94720714c5"
+isUpdated: true
 ---
+
+
+
 
 
 이 게시물의 한국어 버전을 다음 링크에서 찾을 수 있습니다. 😊

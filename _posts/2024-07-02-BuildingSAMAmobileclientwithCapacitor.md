@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building SAMA mobile client with Capacitor"
 link: "https://medium.com/sama-communications/building-sama-mobile-client-with-capacitor-4b58c1de485e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 웹 앱을 모바일 앱으로 단 3번의 클릭으로 변경하는 방법

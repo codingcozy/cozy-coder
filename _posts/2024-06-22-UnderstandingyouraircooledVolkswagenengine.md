@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding your aircooled Volkswagen engine"
 link: "https://medium.com/@iknowdavehouse/understanding-your-aircooled-volkswagen-engine-7d01688e799e"
+isUpdated: true
 ---
+
+
+
 
 
 오래된 비틀, 스플릿, 베이, 카만 기아 또는 심지어 공조식 포르쉐를 구입했다면, 스스로 약간의 유지보수를 해야 할 가능성이 높습니다.

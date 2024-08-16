@@ -3,12 +3,16 @@ title: "리눅스에서 Plank 설치 및 설정 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png"
 date: 2024-07-06 10:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png
 tag: Tech
 originalTitle: "Installing and Configuring Plank on Linux"
 link: "https://medium.com/@huzaifaqureshi037/installing-and-configuring-plank-on-linux-498731d2477c"
+isUpdated: true
 ---
+
+
+
 
 ![Installing and Configuring Plank on Linux Lite](/assets/img/2024-07-06-InstallingandConfiguringPlankonLinux_0.png)
 

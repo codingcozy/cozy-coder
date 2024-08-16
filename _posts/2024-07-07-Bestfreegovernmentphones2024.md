@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Best free government phones 2024"
 link: "https://medium.com/@picassopagan/best-free-government-phones-2024-d00b75701a4d"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-07-Bestfreegovernmentphones2024_0.png)

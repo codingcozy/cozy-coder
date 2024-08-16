@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How does the Segment-Anything Model’s (SAM’s) decoder work?"
 link: "https://medium.com/towards-data-science/how-does-the-segment-anything-models-sam-s-decoder-work-0e4ab4732c37"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 7월 10일 - 세그먼트 물체 모델 (Segment-Anything Model, SAM)의 디코딩 과정에 대한 심층 분석을 진행하겠습니다. 이 논문은 SAM의 디코더에 초점을 맞추고, 그 자가 주의와 상호주의 메커니즘이 어떻게 작동하는지에 대해 다뤄보겠습니다.

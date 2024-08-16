@@ -1,5 +1,5 @@
 ---
-title: "CrowdStrike 윈도우 패치 대참사, EU 때문"
+title: "CrowdStrike 윈도우 패치 대참사가 발생한 이유"
 description: ""
 coverImage: "/assets/img/2024-07-24-CrowdStrikeWindowsPatchDisasterTheFaultOfTheEU_0.png"
 date: 2024-07-24 11:56
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "CrowdStrike Windows Patch Disaster The Fault Of  The EU"
 link: "https://medium.com/@tsecretdeveloper/crowdstrike-windows-patch-disaster-the-fault-of-the-eu-5b2addd464fb"
+isUpdated: true
 ---
+
+
+
 
 
 지난 금요일 일어난 CrowdStrike-Windows 장애를 기억해 보세요. 전 세계적으로 윈도우 기기에 큰 피해가 발생했죠.

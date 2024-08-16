@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LiveData vs MutableLiveData"
 link: "https://medium.com/@kaurparam.30jeet31/livedata-vs-mutablelivedata-df11d4d8da19"
+isUpdated: true
 ---
+
+
+
 
 
 **What is LiveData?**

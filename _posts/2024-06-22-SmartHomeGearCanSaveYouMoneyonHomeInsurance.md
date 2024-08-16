@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smart Home Gear Can Save You Money on Home Insurance"
 link: "https://medium.com/@tcaflisch/smart-home-gear-can-save-you-money-on-home-insurance-1e2ecbaecd36"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 4일

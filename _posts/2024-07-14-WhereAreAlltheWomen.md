@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Where Are All the Women?"
 link: "https://medium.com/towards-data-science/where-are-all-the-women-3c79dabfdfc2"
+isUpdated: true
 ---
+
+
+
 
 
 ![WhereAreAlltheWomen_0](/assets/img/2024-07-14-WhereAreAlltheWomen_0.png)

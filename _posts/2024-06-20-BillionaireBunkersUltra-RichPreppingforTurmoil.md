@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Billionaire Bunkers: Ultra-Rich Prepping for Turmoil?"
 link: "https://medium.com/@foresightbureau/billionaire-bunkers-ultra-rich-prepping-for-turmoil-4d7de1ae8973"
+isUpdated: true
 ---
+
+
+
 
 
 # 걱정스러운 추세가 나타나고 있어요

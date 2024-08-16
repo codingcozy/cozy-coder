@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kotlin: Is singleton thread safe? vs Object"
 link: "https://medium.com/@hiteshdhamshaniya-wvmagic/kotlin-is-singleton-tread-safe-vs-object-3414d8e79259"
+isUpdated: true
 ---
+
+
+
 
 
 # Kotlin에서의 싱글톤

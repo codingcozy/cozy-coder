@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "14 Badass iPhone Tricks You Probably Never Thought Existed"
 link: "https://medium.com/macoclock/14-badass-iphone-tricks-you-probably-never-thought-existed-151f65ff2245"
+isUpdated: true
 ---
+
+
+
 
 
 

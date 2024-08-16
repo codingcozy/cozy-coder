@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Architecture of Apache Druid"
 link: "https://medium.com/data-engineer-things/the-architecture-of-apache-druid-e92d64ba4360"
+isUpdated: true
 ---
+
+
+
 
 
 ## 하둡이 모든 문제를 해결할 수 있는 때

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions: A Brief Overview"
 link: "https://medium.com/towards-artificial-intelligence/exploring-lama-resolution-robust-large-mask-inpainting-with-fourier-convolutions-a-brief-overview-593f29a3f8da"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

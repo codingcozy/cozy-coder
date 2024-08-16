@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding and Implementing Medprompt"
 link: "https://medium.com/towards-data-science/understanding-and-implementing-medprompt-77bbd2777c91"
+isUpdated: true
 ---
+
+
+
 
 
 ## 프롬프트 프레임워크 뒷면에 숨겨진 세부사항 파헤치기

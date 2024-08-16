@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Large Enterprise Organizations Adopted Spark for Data Engineering"
 link: "https://medium.com/@danielmantovani/why-apache-spark-is-better-compared-to-all-other-enterprise-data-engineering-tools-and-history-027e3f102cdd"
+isUpdated: true
 ---
+
+
+
 
 
 # 역사 요약과 오픈 소스

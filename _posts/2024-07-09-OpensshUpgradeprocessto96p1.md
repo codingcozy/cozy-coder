@@ -3,12 +3,16 @@ title: "Openssh 96p1 업그레이드 과정 완벽 가이드"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 10:00
-ogImage:
+ogImage: 
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Openssh Upgrade process to 9.6p1"
 link: "https://medium.com/@eren.c.uysal/openssh-upgrade-process-to-9-6p1-4d71ca4cd424"
+isUpdated: true
 ---
+
+
+
 
 먼저, 패키지 관리자를 통해 gcc 패키지를 검색하고 설치하세요.
 

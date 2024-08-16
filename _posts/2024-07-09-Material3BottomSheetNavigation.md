@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Material3 BottomSheet Navigation"
 link: "https://medium.com/@stefanoq21/material3-bottomsheet-navigation-13f726c13d6b"
+isUpdated: true
 ---
+
+
+
 
 
 ## 새로운 라이브러리로 간편하게 Material3에서 Bottomsheet Navigation을 간소화하세요

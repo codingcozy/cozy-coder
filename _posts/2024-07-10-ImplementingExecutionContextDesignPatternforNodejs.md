@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Execution Context Design Pattern for Node.js"
 link: "https://medium.com/intangles-engineering/implementing-execution-context-design-pattern-for-node-js-dbe757714251"
+isUpdated: true
 ---
+
+
+
 
 
 작년에 Intangles에서 프로젝트 중 하나에서 흥미로운 도전 과제를 만났었습니다. 저희의 API 서버는 Node.JS로 구축되었고 서버 프레임워크로 Restify를 사용하며 수백 개의 API가 있습니다.

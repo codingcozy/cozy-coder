@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The State of Angular: Signals and Observables"
 link: "https://medium.com/@albertobasalo/the-state-of-angular-signals-and-observables-dd964caf3fe4"
+isUpdated: true
 ---
+
+
+
 
 
 

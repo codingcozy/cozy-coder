@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Should You Test Your Machine Learning Project? A Beginner’s Guide"
 link: "https://medium.com/towards-data-science/how-should-you-test-your-machine-learning-project-a-beginners-guide-2e22da5a9bfc"
+isUpdated: true
 ---
+
+
+
 
 
 ## Pytest 및 Pytest-cov와 같은 표준 라이브러리를 사용하여 머신 러닝 프로젝트를 테스트하는 친절한 소개

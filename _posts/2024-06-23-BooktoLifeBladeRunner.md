@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Book to Life: Blade Runner"
 link: "https://medium.com/@khmeyers_52075/book-to-life-blade-runner-b9309f5b1a27"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-BooktoLifeBladeRunner_0.png" />

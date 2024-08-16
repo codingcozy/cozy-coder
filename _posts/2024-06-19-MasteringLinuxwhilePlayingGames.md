@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Linux while Playing Games"
 link: "https://medium.com/@audrey_evans/mastering-linux-while-playing-games-11e3919e7096"
+isUpdated: true
 ---
+
+
+
 
 
 ## 테르미너이터

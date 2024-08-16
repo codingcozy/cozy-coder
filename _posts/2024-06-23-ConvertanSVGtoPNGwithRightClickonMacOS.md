@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Convert an SVG to PNG with Right Click on MacOS"
 link: "https://medium.com/@instanceofMA/convert-an-svg-to-png-with-right-click-on-macos-2353d151f4eb"
+isUpdated: true
 ---
+
+
+
 
 
 ## 맥용 바로 가기(Mac Shortcut)를 만들었습니다. 이제는 SVG 파일을 오른쪽 클릭하면 쉽게 변환할 수 있어요.

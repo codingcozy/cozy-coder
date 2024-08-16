@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Working With Landsat Surface Reflectance Data in QGIS"
 link: "https://medium.com/@robsimmon/working-with-landsat-surface-reflectance-data-in-qgis-13e44e68c217"
+isUpdated: true
 ---
+
+
+
 
 
 표 정보로 형식을 변경합니다. 

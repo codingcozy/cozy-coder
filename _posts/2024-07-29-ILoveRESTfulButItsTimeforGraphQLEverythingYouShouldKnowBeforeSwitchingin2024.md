@@ -1,5 +1,5 @@
 ---
-title: "RESTful을 좋아하지만 GraphQL로 전환할 때가 온 이유 2024년 전 알아야 할 모든 것"
+title: "2024년에는 RESTful대신 GraphQL을 사용해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-29-ILoveRESTfulButItsTimeforGraphQLEverythingYouShouldKnowBeforeSwitchingin2024_0.png"
 date: 2024-07-29 14:04
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Love RESTful, But Its Time for GraphQL Everything You Should Know Before Switching in 2024"
 link: "https://medium.com/javascript-in-plain-english/i-love-restful-but-its-time-for-graphql-everything-you-should-know-before-switching-in-2024-ff4c6da870cd"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What GPT-4o means for designers"
 link: "https://medium.com/design-bootcamp/what-gpt-4o-means-for-designers-6093fd81057e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-WhatGPT-4omeansfordesigners_0.png" />

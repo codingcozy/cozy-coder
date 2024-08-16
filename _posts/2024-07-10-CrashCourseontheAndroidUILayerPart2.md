@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Crash Course on the Android UI Layer | Part 2"
 link: "https://medium.com/bumble-tech/crash-course-on-the-android-ui-layer-part-2-2335171467e0"
+isUpdated: true
 ---
+
+
+
 
 
 ## 상태 보유자 및 상태 저장

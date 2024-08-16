@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Rise and Fall of (Autonomous) Agents"
 link: "https://medium.com/@lukas.kowejsza/the-rise-and-fall-of-autonomous-agents-18360625067e"
+isUpdated: true
 ---
+
+
+
 
 
 2023년 ChatGPT가 인기를 끌자, 창조적 AI 공간에서 골드 러시 분위기가 등장했습니다. 전 세계적으로 사람들은 미래에 대한 AI의 변혁적 잠재력을 인식했습니다. 이 골드 러시적 마인드셋은 우리를 핵심 질문으로 이끕니다: 여기에는 골드가 어디에 있을까요?

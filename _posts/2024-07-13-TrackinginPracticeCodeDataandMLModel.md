@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tracking in Practice: Code, Data and ML Model"
 link: "https://medium.com/towards-data-science/tracking-in-practice-code-data-and-ml-model-6787a881609c"
+isUpdated: true
 ---
+
+
+
 
 
 ![Tracking](/assets/img/2024-07-13-TrackinginPracticeCodeDataandMLModel_0.png)

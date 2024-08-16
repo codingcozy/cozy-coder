@@ -1,14 +1,18 @@
 ---
-title: "모든 개발자를 위해 도움이 되는 5가지 Bash 문자열 조작 방법"
+title: "웹 개발자를 위해 도움이 되는 5가지 Bash 문자열 조작 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-5BashStringManipulationMethodsThatHelpEveryDeveloper_0.png"
 date: 2024-05-27 12:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-5BashStringManipulationMethodsThatHelpEveryDeveloper_0.png
 tag: Tech
 originalTitle: "5 Bash String Manipulation Methods That Help Every Developer"
 link: "https://medium.com/gitconnected/5-bash-string-manipulation-methods-that-help-every-developer-49d4ee38b593"
+isUpdated: true
 ---
+
+
+
 
 ![Bash String Manipulation Methods](/assets/img/2024-05-27-5BashStringManipulationMethodsThatHelpEveryDeveloper_0.png)
 

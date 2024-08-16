@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why you should stop roleplaying with ChatGPT"
 link: "https://medium.com/@bendaviesromano/why-you-should-stop-roleplaying-with-chatgpt-eecc4461c171"
+isUpdated: true
 ---
+
+
+
 
 
 본 문서는 볼보 카스의 주요 UX 콘텐츠 디자이너이자 로컬라이제이션 전문가 및 단어 애호가인 안넬리 틴워스와 함께 제작되었습니다.

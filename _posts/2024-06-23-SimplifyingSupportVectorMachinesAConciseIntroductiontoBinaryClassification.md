@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying Support Vector Machines — A Concise Introduction to Binary Classification"
 link: "https://medium.com/towards-data-science/support-vector-machines-svm-ml-basics-machine-learning-data-science-getting-started-1683fc99cd45"
+isUpdated: true
 ---
+
+
+
 
 
 데이터와 컴퓨터 프로그램의 세계에서 머신 러닝이라는 개념은 어려운 문제 같을 수도 있어요. 복잡한 수학과 이해하기 어려운 개념이 가득한 것 같죠.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Managing an AI and IoT-Defined Future in the World of Intelligence"
 link: "https://medium.com/generative-ai/managing-an-ai-and-iot-defined-future-in-the-world-of-intelligence-eea0cf3f8324"
+isUpdated: true
 ---
+
+
+
 
 
 지난 몇 년 동안 우리는 인공지능(AI)과 사물인터넷(IoT)의 결합된 영향으로 일상 생활, 경제 및 기업이 현저하게 변화하는 것을 목격했습니다.

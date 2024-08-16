@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Zero to dbt: How to Analyze and Build Data Models from Spotify’s Million Playlist Data"
 link: "https://medium.com/inthepipeline/from-zero-to-dbt-how-to-analyze-and-build-data-models-from-spotifys-million-playlist-data-241c3d8c9b5d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-FromZerotodbtHowtoAnalyzeandBuildDataModelsfromSpotifysMillionPlaylistData_0.png" />

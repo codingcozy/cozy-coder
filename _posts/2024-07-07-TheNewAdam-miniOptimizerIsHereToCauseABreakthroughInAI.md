@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The New ‘Adam-mini’ Optimizer Is Here To Cause A Breakthrough In AI"
 link: "https://medium.com/gitconnected/the-new-adam-mini-optimizer-is-here-to-cause-a-breakthrough-in-ai-6b0ba252ae36"
+isUpdated: true
 ---
+
+
+
 
 
 Most modern neural networks are backed by an Optimizer for their training. The Adam Optimizer, introduced in 2017, has emerged as the preferred choice for training Large Language Models (LLMs) in the industry today, thanks to its variations. However, despite its remarkable performance, one aspect has largely gone unnoticed - Memory inefficiency.

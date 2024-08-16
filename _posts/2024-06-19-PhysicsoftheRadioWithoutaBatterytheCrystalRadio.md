@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Physics of the Radio Without a Battery — the Crystal Radio"
 link: "https://medium.com/@rjallain/physics-of-the-radio-without-a-battery-the-crystal-radio-a057a5650077"
+isUpdated: true
 ---
+
+
+
 
 
 

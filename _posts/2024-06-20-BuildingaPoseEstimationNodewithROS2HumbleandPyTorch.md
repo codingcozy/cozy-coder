@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Pose Estimation Node with ROS 2 Humble and PyTorch"
 link: "https://medium.com/@kabilankb2003/building-a-pose-estimation-node-with-ros-2-hu-and-pytorch-0d6a4b71f620"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-BuildingaPoseEstimationNodewithROS2HumbleandPyTorch_0.png" />

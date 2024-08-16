@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Z-Inspection: a method to evaluate an AI’s trustworthiness"
 link: "https://medium.com/user-experience-design-1/the-z-inspection-a-method-to-evaluate-an-ais-trustworthiness-f6e638f4ddd7"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-TheZ-InspectionamethodtoevaluateanAIstrustworthiness_0.png" />

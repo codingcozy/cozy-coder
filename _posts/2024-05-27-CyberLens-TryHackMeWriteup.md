@@ -3,12 +3,16 @@ title: "사이버렌즈 - TryHackMe 후기"
 description: ""
 coverImage: "/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png"
 date: 2024-05-27 12:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png
 tag: Tech
 originalTitle: "CyberLens - TryHackMe Writeup"
 link: "https://medium.com/bugbountywriteup/cyberlens-tryhackme-writeup-d3320449ce41"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-05-27-CyberLens-TryHackMeWriteup_0.png)

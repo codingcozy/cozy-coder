@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Reverse Router Firmware , Backdooring It…"
 link: "https://medium.com/@nahid0x1/reverse-router-firmware-backdooring-it-78ff442edb6c"
+isUpdated: true
 ---
+
+
+
 
 
 라우터 펌웨어는 네트워크 인프라의 중요한 구성 요소이며 보안이 자주 간과됩니다. 해커로서 라우터 펌웨어를 역공학 및 백도어링하는 방법을 이해하는 것이 중요합니다. 이 문서에서는 라우터 펌웨어를 역공학하고 백도어링하는 과정을 살펴보겠습니다.

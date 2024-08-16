@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fashion GAN"
 link: "https://medium.com/@ahtashamahsan988/fashion-gan-a96a94e5d8c5"
+isUpdated: true
 ---
+
+
+
 
 
 이 글은 Fashion MNIST 데이터셋을 기반으로 이미지를 생성하기 위해 TensorFlow를 사용하여 생성 적 적대 신경망(GAN)을 구현합니다. 데이터 전처리, 생성자 및 구분자 모델 정의, 훈련을 위한 사용자 지정 GAN 클래스 및 생성된 이미지의 시각화가 포함되어 있습니다.

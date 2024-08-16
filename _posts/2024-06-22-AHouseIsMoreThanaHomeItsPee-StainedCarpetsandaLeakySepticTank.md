@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A House Is More Than a Home, It’s Pee-Stained Carpets and a Leaky Septic Tank"
 link: "https://medium.com/muddyum/a-house-is-more-than-a-home-its-pee-stained-carpets-and-a-leaky-septic-tank-92d6699ca5c8"
+isUpdated: true
 ---
+
+
+
 
 
 ## BOB'S VILLA

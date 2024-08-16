@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Complete idiot guide for building a dactyl manuform keyboard."
 link: "https://medium.com/swlh/complete-idiot-guide-for-building-a-dactyl-manuform-keyboard-53454845b065"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png](/assets/img/2024-07-07-Completeidiotguideforbuildingadactylmanuformkeyboard_0.png)

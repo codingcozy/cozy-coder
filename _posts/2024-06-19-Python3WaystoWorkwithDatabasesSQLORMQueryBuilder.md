@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Python — 3 Ways to Work with Databases (SQL, ORM, Query Builder)"
 link: "https://medium.com/stackademic/python-3-ways-to-work-with-databases-sql-orm-query-builder-e2a2d3cbe437"
+isUpdated: true
 ---
+
+
+
 
 
 ## 원시 SQL 쿼리, ORM 및 SQL 쿼리 빌더 비교와 코드 예제

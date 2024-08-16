@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Back testing Cryptocurrencies Astonishing Results from a Simple Deep Learning Strategy V2"
 link: "https://medium.com/@jsgastoniriartecabrera/back-testing-cryptocurrencies-astonishing-results-from-a-simple-deep-learning-strategy-v2-54d55b4f5048"
+isUpdated: true
 ---
+
+
+
 
 
 과거 글이 많은 댓글을 유발하고 의심스럽다는 점을 감안해 코드를 수정하고 결과를 보여드렸어요. 만약 수정할 부분을 발견하시면 알려주세요. 코드나 ONNX 모델이 필요하면 Github 페이지 링크를 남겨드릴게요.

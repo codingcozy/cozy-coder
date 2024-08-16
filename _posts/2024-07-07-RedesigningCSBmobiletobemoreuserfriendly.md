@@ -6,10 +6,13 @@ date: 2024-07-07 13:42
 ogImage: 
   url: /assets/img/2024-07-07-RedesigningCSBmobiletobemoreuserfriendly_0.png
 tag: Tech
-originalTitle: "R
-edesigning CSB mobile+ to be more user friendly"
+originalTitle: "R edesigning CSB mobile+ to be more user friendly"
 link: "https://medium.com/@edwinkavalakat47/redesigning-csb-mobile-to-be-more-user-friendly-d977732eb711"
+isUpdated: true
 ---
+
+
+
 
 
 # Context

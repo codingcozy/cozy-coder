@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "OnePlus Nord 4 Review 429 All-Metal Flagship Killer"
 link: "https://medium.com/macoclock/oneplus-nord-4-review-429-all-metal-flagship-killer-06c8158b84a0"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-19-OnePlusNord4Review429All-MetalFlagshipKiller_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Avoid the Out-of-Space Problem: A Guideline for an ML Engineer"
 link: "https://medium.com/codenlp/free-up-your-disk-space-regularly-guideline-for-an-ml-engineer-c1a9eb94439b"
+isUpdated: true
 ---
+
+
+
 
 
 체크포인트, 도커 이미지, Python 환경, HF 모델 및 pip 캐시는 귀하가 완전한 인식 없이 시간이 지남에 따라 성장하여 디스크 공간을 더 많이 차지할 수 있습니다. 공간 부족 문제에 빠지지 않도록 주의하십시오.

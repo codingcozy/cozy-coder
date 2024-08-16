@@ -1,5 +1,5 @@
 ---
-title: "AWS Lambda, SQS, Nodejs, MongoDB로 HubSpot처럼 확장 가능한 자동화 워크플로우 만드는 방법"
+title: "AWS Lambda, SQS, Nodejs, MongoDB로 자동화 워크플로우 만들기"
 description: ""
 coverImage: "/assets/img/2024-08-04-HowtoBuildScalableAutomatedWorkflowslikeHubSpotusingAWSLambdaSQSNodejsandMongoDB_0.png"
 date: 2024-08-04 18:30
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build Scalable Automated Workflows like HubSpot using AWS Lambda, SQS, Nodejs, and MongoDB"
 link: "https://medium.com/@bhaskar.csawant417/how-to-build-scalable-automated-workflows-like-hubspot-using-aws-lambda-sqs-node-js-and-mongodb-1ac28dd4b26e"
+isUpdated: true
 ---
+
+
+
 
 
 HubSpot의 강력한 시스템과 유사한 자동화된 워크플로우를 만드는 데에는 고급 클라우드 기술을 활용해야 합니다. 이 안내서는 AWS Lambda, Amazon SQS, Node.js, 그리고 MongoDB를 사용하여 이러한 워크플로우를 개발하는 과정을 안내해 드릴 것입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Ethical AI Starts with the Data Team — Here’s Why"
 link: "https://medium.com/towards-data-science/building-ethical-ai-starts-with-the-data-team-heres-why-ebf0ec7c162b"
+isUpdated: true
 ---
+
+
+
 
 
 ## GenAI은 윤리적인 어려움이 있습니다. 데이터 리더들은 이를 어떻게 해결해야 할까요? 이 기사에서는 윤리적 AI의 필요성과 데이터 윤리가 AI 윤리임을 고려합니다.

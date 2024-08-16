@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Graph Based RAG Is The Future?"
 link: "https://medium.com/@learn-simplified/why-graph-based-rag-is-the-future-4a8b3ad3c68f"
+isUpdated: true
 ---
+
+
+
 
 
 LLM을 기업 AI에 그래프로 지지하십시오. 그래프 벡터가 아닙니다. 다음 부분에서 하나를 만들어보겠습니다!

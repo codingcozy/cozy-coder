@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple and Google Won; We Lost."
 link: "https://medium.com/@carlst-james/apple-and-google-won-we-lost-2895488191d1"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-13-AppleandGoogleWonWeLost_0.png](/assets/img/2024-07-13-AppleandGoogleWonWeLost_0.png)

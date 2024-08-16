@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Kotlin Is the Future of Android Development?"
 link: "https://medium.com/@satishlokhande5674/why-kotlin-is-the-future-of-android-development-da5e497d2bef"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-07-WhyKotlinIstheFutureofAndroidDevelopment](/assets/img/2024-07-07-WhyKotlinIstheFutureofAndroidDevelopment_0.png)

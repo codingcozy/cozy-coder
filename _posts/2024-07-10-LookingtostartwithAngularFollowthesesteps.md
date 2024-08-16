@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Looking to start with Angular? Follow these steps."
 link: "https://medium.com/angular-with-abhinav/looking-to-start-with-angular-follow-these-steps-6ee131781842"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png](/assets/img/2024-07-10-LookingtostartwithAngularFollowthesesteps_0.png)

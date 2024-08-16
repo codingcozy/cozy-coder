@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold"
 link: "https://medium.com/towards-data-science/protein-interactions-alphafold-04eeb8f56d79"
+isUpdated: true
 ---
+
+
+
 
 
 ![How I Predicted the Effect of Mutations on Protein Interactions Using AlphaFold](/assets/img/2024-07-14-HowIPredictedtheEffectofMutationsonProteinInteractionsUsingAlphaFold_0.png)

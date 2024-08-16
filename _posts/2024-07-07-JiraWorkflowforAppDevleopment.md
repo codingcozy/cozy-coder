@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Jira Workflow for App Devleopment🚀"
 link: "https://medium.com/@niranjanky14/jira-workflow-for-app-devleopment-660c2d59505c"
+isUpdated: true
 ---
+
+
+
 
 
 # 🌟이게 해결책이야! 특정 업무 절차를 설명하지만 여러분 팀의 필요에 맞게 맞춤화될 수 있어요:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "NLP: Text Summarization and Keyword Extraction on Property Rental Listings — Part 1"
 link: "https://medium.com/towards-data-science/nlp-text-summarization-and-keyword-extraction-on-property-rental-listings-part-1-f1b760cc7bbb"
+isUpdated: true
 ---
+
+
+
 
 
 ## NLP 기술의 실용적 적용: 텍스트 요약, NER, 주제 모델링 및 텍스트 분류

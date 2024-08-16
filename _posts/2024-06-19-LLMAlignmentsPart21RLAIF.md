@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LLM Alignments [Part 2.1: RLAIF]"
 link: "https://medium.com/@yianyao1994/llm-alignments-part-2-1-rlaif-2f3ea0147522"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요!

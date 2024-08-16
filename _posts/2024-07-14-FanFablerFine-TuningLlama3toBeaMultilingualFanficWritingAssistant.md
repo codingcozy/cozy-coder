@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "FanFabler: Fine-Tuning Llama 3 to Be a Multilingual Fanfic Writing Assistant"
 link: "https://medium.com/towards-data-science/fanfabler-fine-tuning-llama-3-to-be-a-multilingual-fanfic-writing-assistant-dfc664ed4a72"
+isUpdated: true
 ---
+
+
+
 
 
 대규모 언어 모델(LLMs)의 등장으로 텍스트 기반 AI 시스템의 새 시대가 열렸습니다. 이러한 모델은 매우 우수하고 높은 능력을 갖추고 있지만, 그들의 훈련은 주로 영어에 집중되어 있습니다. 가장 큰 상용 LLMs는 "저자원" 언어를 사용하여 텍스트를 잘 생성하지만, 작은 오픈소스 모델들은 비유럽 언어에 대해 잘 처리하지 못합니다.

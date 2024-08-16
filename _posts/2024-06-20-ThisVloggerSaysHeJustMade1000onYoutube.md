@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "This Vlogger Says He Just Made $1000 on Youtube"
 link: "https://medium.com/the-happy-blogger/this-vlogger-says-he-just-made-1000-on-youtube-bb57162abd33"
+isUpdated: true
 ---
+
+
+
 
 
 유튜버들이 얼마나 돈을 벌까요?

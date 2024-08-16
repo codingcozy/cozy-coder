@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Wahala: React abi na Angular — Which One Better??"
 link: "https://medium.com/@odiliodili3/frontend-wahala-react-abi-na-angular-which-one-better-d4f60838a9d4"
+isUpdated: true
 ---
+
+
+
 
 
 우리야, 진지하게 말씀드리겠습니다...

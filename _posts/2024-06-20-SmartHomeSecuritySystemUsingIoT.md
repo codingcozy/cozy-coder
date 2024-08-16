@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smart Home Security System Using IoT"
 link: "https://medium.com/@shak.avasthi/smart-home-security-system-using-iot-89477157f9d2"
+isUpdated: true
 ---
+
+
+
 
 
 IoT를 활용한 스마트 홈 보안 시스템은 인터넷에 연결된 장치를 사용하여 집을 감시하고 보호하는 시스템입니다. 이러한 장치로는 스마트 도어락, 스마트 도어벨, 움직임 감지 센서, 문 및 창 센서, 보안 카메라 등이 포함될 수 있습니다.

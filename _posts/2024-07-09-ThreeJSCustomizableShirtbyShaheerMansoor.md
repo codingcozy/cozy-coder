@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ThreeJS Customizable Shirt by Shaheer Mansoor"
 link: "https://medium.com/@shaheermansoor321/threejs-customizable-shirt-by-shaheer-mansoor-f179ea28d177"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-09-ThreeJSCustomizableShirtbyShaheerMansoor_0.png)

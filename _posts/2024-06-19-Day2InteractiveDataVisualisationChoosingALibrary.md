@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Day 2: Interactive Data Visualisation — Choosing A Library 📊"
 link: "https://medium.com/@cubode/day-2-interactive-data-visualisation-choosing-a-library-a31f8df094e7"
+isUpdated: true
 ---
+
+
+
 
 
 ![Data visualisation](/assets/img/2024-06-19-Day2InteractiveDataVisualisationChoosingALibrary_0.png)

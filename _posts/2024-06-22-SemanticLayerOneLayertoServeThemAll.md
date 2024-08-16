@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Semantic Layer — One Layer to Serve Them All"
 link: "https://medium.com/@axel.schwanke/semantic-layer-one-layer-to-serve-them-all-d0ef7eff1ffa"
+isUpdated: true
 ---
+
+
+
 
 
 ## 기술과 비즈니스 간의 간극을 메우다

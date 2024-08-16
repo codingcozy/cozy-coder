@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The AI Revolution: 3D Modeling and Motion Capture"
 link: "https://medium.com/@singularitynetambassadors/the-ai-revolution-3d-modeling-and-motion-capture-37da84a55d53"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-TheAIRevolution3DModelingandMotionCapture_0.png)

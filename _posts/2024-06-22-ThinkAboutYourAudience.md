@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Think About Your Audience"
 link: "https://medium.com/@SiziweL/think-about-your-audience-4c3259b1d9bd"
+isUpdated: true
 ---
+
+
+
 
 
 친애하는 예측할 수 없는 자기 짓 펜시어,

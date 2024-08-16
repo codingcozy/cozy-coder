@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Power of Data Build Tool (dbt)"
 link: "https://medium.com/@nydas/the-power-of-data-build-tool-dbt-6b26dfab5bac"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 분석 엔지니어를 위한 안내서

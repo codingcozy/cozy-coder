@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking Data Analysis Efficiency: A Comprehensive Guide to esProc SPL"
 link: "https://medium.com/@rfeers/unlocking-data-analysis-efficiency-a-comprehensive-guide-to-esproc-spl-4ced812fc22b"
+isUpdated: true
 ---
+
+
+
 
 
 ## esProc SPL(Structured Process Language)을 통해 애플리케이션 비용을 줄이고 일반적인 데이터 분석 도전 과제를 해결하는 방법을 발견하세요

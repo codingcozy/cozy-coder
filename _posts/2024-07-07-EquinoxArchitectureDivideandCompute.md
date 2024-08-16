@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Equinox Architecture: Divide and Compute"
 link: "https://medium.com/@DakshishSingh/equinox-architecture-divide-and-compute-99c555ac08d6"
+isUpdated: true
 ---
+
+
+
 
 
 # Abstract:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Data Storytelling is Your New Superpower"
 link: "https://medium.com/data-storytelling-corner/why-data-storytelling-is-your-new-superpower-9f76e62762ce"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-WhyDataStorytellingisYourNewSuperpower_0.png)

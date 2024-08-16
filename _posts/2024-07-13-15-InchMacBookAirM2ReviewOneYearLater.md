@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "15-Inch MacBook Air M2 Review — One Year Later!"
 link: "https://medium.com/macoclock/15-inch-macbook-air-m2-review-one-year-later-92136084a54e"
+isUpdated: true
 ---
+
+
+
 
 
 

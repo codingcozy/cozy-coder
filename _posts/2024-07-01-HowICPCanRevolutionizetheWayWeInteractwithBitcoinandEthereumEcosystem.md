@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How ICP Can Revolutionize the Way We Interact with Bitcoin and Ethereum Ecosystem?"
 link: "https://medium.com/@sikeee.exe/how-icp-can-revolutionize-the-way-we-interact-with-bitcoin-and-ethereum-ecosystem-b2ed5b5a4195"
+isUpdated: true
 ---
+
+
+
 
 
 # 인터넷 컴퓨터 프로토콜(ICP) 이해: 웹 혁신

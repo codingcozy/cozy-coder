@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock AI Potential: Transfer Learning Essentials"
 link: "https://medium.com/@paravisionlab/unlock-ai-potential-transfer-learning-essentials-79a5265662cb"
+isUpdated: true
 ---
+
+
+
 
 
 # 개요

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why you should learn about additive manufacturing from MIT"
 link: "https://medium.com/open-learning/why-you-should-learn-about-additive-manufacturing-from-mit-487aebb182ac"
+isUpdated: true
 ---
+
+
+
 
 
 ![MIT xPRO](/assets/img/2024-06-20-WhyyoushouldlearnaboutadditivemanufacturingfromMIT_0.png)

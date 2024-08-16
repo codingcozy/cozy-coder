@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Arduino programming to iOS App development"
 link: "https://medium.com/@leonardocavagnis/from-arduino-programming-to-ios-app-development-8b5da1783e1e"
+isUpdated: true
 ---
+
+
+
 
 
 ## BLE 연결을 통한 IoT 프로젝트 구축 실습 가이드

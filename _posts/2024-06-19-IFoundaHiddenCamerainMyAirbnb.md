@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Found a Hidden Camera in My Airbnb"
 link: "https://medium.com/long-sweet-valuable/i-found-a-hidden-camera-in-my-airbnb-fa0ba4704424"
+isUpdated: true
 ---
+
+
+
 
 
 

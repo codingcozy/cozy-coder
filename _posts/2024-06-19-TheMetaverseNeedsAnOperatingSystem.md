@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Metaverse Needs An Operating System"
 link: "https://medium.com/@theo/the-metaverse-needs-an-operating-system-5fe135ec5b9"
+isUpdated: true
 ---
+
+
+
 
 
 

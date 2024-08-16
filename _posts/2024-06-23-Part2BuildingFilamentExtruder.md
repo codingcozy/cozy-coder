@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Part 2: Building Filament Extruder"
 link: "https://medium.com/endless-filament/building-filament-extruder-9cad8df7d357"
+isUpdated: true
 ---
+
+
+
 
 
 첫 번째 게시물에서는 집에서 필라멘트를 만드는 것의 타당성에 대해 논의했어요. 필라멘트를 만들어 돈을 절약하는 것도 중요하지만, 지역 플라스틱 재활용 업체들이 플라스틱 잔재를 분쇄, 세척하여 펠릿으로 변환하는 데 도움을 줄 수 있으면 좋겠죠. 주로 기능적인 부품과 신속한 프로토타입을 출력하는데, 우리가 출력하는 물건 중 80%는 쓰레기통으로 이어지죠. 이를 지역적으로 다시 필라멘트로 재활용하여 30-40%의 순수 펠릿과 혼합한다면 환경에 도움이 될 수 있을 거에요.

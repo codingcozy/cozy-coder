@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Crossover For Mac Gaming"
 link: "https://medium.com/@kukucourses/crossover-for-mac-gaming-5b6d8fc6cd52"
+isUpdated: true
 ---
+
+
+
 
 
 ## Crossover을 사용하여 Mac에서 게임하는 방법을 가르쳐 드릴게요

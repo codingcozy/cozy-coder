@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "When Did Rock , Roll Die? A Statistical Analysis"
 link: "https://medium.com/fan-fare/when-did-rock-roll-die-a-statistical-analysis-87e429a0b0d8"
+isUpdated: true
 ---
+
+
+
 
 
 ![WhenDidRockRollDieAStatisticalAnalysis_0](/assets/img/2024-07-01-WhenDidRockRollDieAStatisticalAnalysis_0.png)

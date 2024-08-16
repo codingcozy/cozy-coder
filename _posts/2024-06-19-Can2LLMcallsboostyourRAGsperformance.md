@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can 2 LLM calls boost your RAG’s performance?"
 link: "https://medium.com/@mpattadkal/can-2-llm-calls-boost-your-rags-performance-f3d13adcbba1"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 열정가로서, 기ꁵ적으로 우리 조직 프로젝트용 첫 번째 검색 증강 생성 (RAG) 시스템을 구축해서 정말 기뻤어요! 이 블로그에서는 현재 직장에서 차이를 만드는 실제 세계 RAG 시스템을 개발하는 과정 속에서의 좋은 일과 나쁜 일을 함께 공유하고자 해요.

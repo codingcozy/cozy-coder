@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are you lovin’ it? You better: McDonald’s automated restaurant is the future of fast food"
 link: "https://medium.com/enrique-dans/are-you-lovin-it-you-better-mcdonald-s-automated-restaurant-is-the-future-of-fast-food-c091d8dce548"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-AreyoulovinitYoubetterMcDonaldsautomatedrestaurantisthefutureoffastfood_0.png">

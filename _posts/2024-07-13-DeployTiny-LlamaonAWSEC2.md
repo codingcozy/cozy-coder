@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deploy Tiny-Llama on AWS EC2"
 link: "https://medium.com/towards-data-science/deploy-tiny-llama-on-aws-ec2-f3ff312c896d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Tiny Llama](/assets/img/2024-07-13-DeployTiny-LlamaonAWSEC2_0.png)

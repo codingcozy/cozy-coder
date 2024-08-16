@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SAMBA, An AI Miracle"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/samba-an-ai-miracle-3d9a7e83a8e4"
+isUpdated: true
 ---
+
+
+
 
 
 최근, Microsoft의 AI 게임은 한 가지로 요약될 수 있습니다: Small Language Models 또는 SLMs입니다. 다시 말해, 그들은 강력한 AI 모델을 구축하는 데 집착하면서도 운영 비용이 싸고 인위적인 모델을 만들려 노력합니다.

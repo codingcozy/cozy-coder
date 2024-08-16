@@ -3,12 +3,16 @@ title: "마이크로파이썬PyCharms로 시작하기 기본 설정"
 description: ""
 coverImage: "/assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_0.png"
 date: 2024-05-27 13:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MicroPythoninPyCharmsBasicSetup_0.png
 tag: Tech
 originalTitle: "MicroPython in PyCharms: Basic Setup"
 link: "https://medium.com/@andymule/micropython-in-pycharms-basic-setup-9169b497ec8a"
+isUpdated: true
 ---
+
+
+
 
 지난 기사에서는 ESP32에 Python을 설치하고 실행하는 방법을 안내했어요. 하지만 해당 기사는 Thonny를 Python 코드를 마이크로컨트롤러에 작성하는 데 사용할 수 있는 편집기로 소개하며 끝이 났죠. 이는 기초 학습 및 신속하게 시작하는 데에는 훌륭한 도구이지만, 진정한 현대 IDE의 모든 기능을 제공하지는 못합니다. 만약 "진짜" 작업을 수행하고 싶다면 가능한 모든 도움이 필요할 거예요. 이 기사에서는 PyCharm에 대해 알아보도록 할게요. 다음 기사에서는 프로세스를 완전히 자동화하여 놀라운 효율성으로 작업할 수 있도록 할 것이에요.
 

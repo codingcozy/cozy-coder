@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Multilayer Perceptrons (MLPs) in Deep Learning"
 link: "https://medium.com/@ckekula/implementing-multilayer-perceptrons-a-mathematical-guide-c528ea89704d"
+isUpdated: true
 ---
+
+
+
 
 
 이전 글을 따라오셨다면, 신경망이 어디에서 시작되었는지, 그 아키텍처가 무엇이며 출력을 어떻게 계산하는지 알고 있을 겁니다. 또한 역전파 알고리즘에 대해서도 배웠을 거예요. 그렇다면 정확히 이것들로 어떤 일을 할 수 있을까요?

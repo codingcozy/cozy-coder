@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating better Midjourney images with composition rules"
 link: "https://medium.com/@aivaras.a.grauzinis/creating-better-midjourney-images-with-composition-rules-8caa930bf9f7"
+isUpdated: true
 ---
+
+
+
 
 
 모든 사진 작가는 가장 아름다운 주제, 완벽한 조명, 그리고 멋진 배경을 가졌다 하더라도, 좋은 구도가 없다면 보기 좋은 이미지를 얻을 수 없을 수도 있다는 것을 알고 있어요.

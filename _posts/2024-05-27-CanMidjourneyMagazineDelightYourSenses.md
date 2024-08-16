@@ -3,12 +3,16 @@ title: "중간여행 매거진이 여러분의 감각을 기쁘게 해줄 수 �
 description: ""
 coverImage: "/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png"
 date: 2024-05-27 15:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png
 tag: Tech
 originalTitle: "Can Midjourney Magazine Delight Your Senses?"
 link: "https://medium.com/generative-ai/can-midjourney-magazine-delight-your-senses-bf0a0b83352"
+isUpdated: true
 ---
+
+
+
 
 ![CanMidjourneyMagazineDelightYourSenses](/assets/img/2024-05-27-CanMidjourneyMagazineDelightYourSenses_0.png)
 

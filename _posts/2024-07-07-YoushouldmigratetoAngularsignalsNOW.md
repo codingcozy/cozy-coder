@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "You should migrate to Angular signals NOW"
 link: "https://medium.com/@hmidihamdi7/you-should-migrate-to-angular-signals-now-c6a74a924017"
+isUpdated: true
 ---
+
+
+
 
 
 

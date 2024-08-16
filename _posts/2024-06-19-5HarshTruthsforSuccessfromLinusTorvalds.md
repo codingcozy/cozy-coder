@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Harsh Truths for Success from Linus Torvalds"
 link: "https://medium.com/codex/5-harsh-truths-from-linus-torvalds-406ab20cea02"
+isUpdated: true
 ---
+
+
+
 
 
 ![20180428243](https://example.com/image.jpg)

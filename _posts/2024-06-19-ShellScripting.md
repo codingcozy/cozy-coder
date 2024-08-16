@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Shell Scripting"
 link: "https://medium.com/@roddamgokul1999/shell-scripting-32368465e51c"
+isUpdated: true
 ---
+
+
+
 
 
 셸 스크립팅이란 무엇인가요?

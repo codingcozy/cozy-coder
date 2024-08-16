@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Asus Zenbook 14X Review"
 link: "https://medium.com/techuisite/asus-zenbook-14x-review-35bf06b2f0c9"
+isUpdated: true
 ---
+
+
+
 
 
 

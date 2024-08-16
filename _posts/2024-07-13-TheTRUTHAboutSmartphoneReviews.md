@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The TRUTH About Smartphone Reviews"
 link: "https://medium.com/macoclock/the-truth-about-smartphone-reviews-a1a425e74bae"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png](/assets/img/2024-07-13-TheTRUTHAboutSmartphoneReviews_0.png)

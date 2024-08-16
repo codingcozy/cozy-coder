@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding OpenAI’s CLIP model"
 link: "https://medium.com/@paluchasz/understanding-openais-clip-model-6b52bade3fa3"
+isUpdated: true
 ---
+
+
+
 
 
 CLIP은 2021년 OpenAI에 의해 출시되어 그 이후로 많은 다중 모달 AI 시스템의 핵심 구성 요소 중 하나가 되었습니다. 이 기사는 CLIP에 대한 심층적인 내용을 다룹니다. CLIP이 무엇이며, 어떻게 작동하는지, 어떻게 사용되는지, 그리고 어떻게 구현되는지에 대해 소개합니다.

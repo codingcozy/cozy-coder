@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Data Visualizations to Support Marketing Strategies."
 link: "https://medium.com/@datageek22/using-data-visualizations-to-support-marketing-strategies-a50c807c10bb"
+isUpdated: true
 ---
+
+
+
 
 
 ## R을 사용하여 호텔 예약 회사를 위한 데이터 시각화 작업을 합니다.

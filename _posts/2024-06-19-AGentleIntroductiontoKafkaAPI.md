@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Gentle Introduction to Kafka API"
 link: "https://medium.com/gitconnected/a-gentle-introduction-to-kafka-api-6a9cf67c4618"
+isUpdated: true
 ---
+
+
+
 
 
 ![Kafka API 소개](/assets/img/2024-06-19-AGentleIntroductiontoKafkaAPI_0.png)

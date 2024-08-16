@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Vim: A Hacky Alternative To VSCode"
 link: "https://medium.com/@pedrovidal27/vim-a-hacky-alternative-to-vscode-9eb1c74c5acc"
+isUpdated: true
 ---
+
+
+
 
 
 

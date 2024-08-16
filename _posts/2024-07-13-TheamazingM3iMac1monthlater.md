@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The amazing M3 iMac — 1 month later"
 link: "https://medium.com/macoclock/the-amazing-m3-imac-1-month-later-687ddd01249e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-13-TheamazingM3iMac1monthlater_0.png)

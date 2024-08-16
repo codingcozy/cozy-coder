@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Making my first Internet of Things device (for measuring temperature, humidity, and motion)"
 link: "https://medium.com/@datawarrior/making-my-first-internet-of-things-device-for-measuring-temperature-humidity-and-motion-d4b36f1d50a8"
+isUpdated: true
 ---
+
+
+
 
 
 약 두 년 전, 나는 어떤 아두이노 기기를 만들고 싶다는 소망에 대해 이야기를 시작한 한 여성과 친해졌어요. 보통 나는 이렇게 되면 흥미를 느끼게 돼요. 그래서 그당시 저는 Freenove 아두이노 알티메이트 스타터 킷이라는 것을 사기로 결정을 했어요. 이 킷에는 아두이노와 함께, 모션, 온도, 습도, 적외선 등 다양한 센서들, 버튼 몇 개, LED 다이오드, 조이스틱, 디스플레이 등 시작하기에 필요한 모든 것이 들어 있어요. 보드 프로그래밍 및 연결하는 방법에 관한 많은 자습서도 함께 제공돼요. 제가 배우기 위해 이를 활용해 몇 가지 흥미로운 것들을 만들어봤어요. 하지만 사물 인터넷 기기를 얘기한다면, 중요한 것이 하나 부족했는데, 그것은 인터넷 접속이었어요. 그래서 그 문제를 해결하려고 Heltech Wifikit 8이라는 것도 구입을 했어요. 이것은 약 10파운드, 또는 약 12유로 정도 하는 가격이었는데, 와이파이 커넥터가 달린 디스플레이라고 생각했어요. 그러나 며칠 전에 이것과 놀기 시작했을 때, 이것이 꽤 강력한 컨트롤러 보드이면서 화면과 와이파이 연결성을 갖추고 있으며 아두이노와 같은 프로그래밍 환경을 사용해 프로그래밍할 수 있다는 것을 깨달았어요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Kernel: The Heart and Brain of Linux Systems"
 link: "https://medium.com/@moraneus/the-linux-kernel-the-heart-and-brain-of-your-computer-f94f91386912"
+isUpdated: true
 ---
+
+
+
 
 
 

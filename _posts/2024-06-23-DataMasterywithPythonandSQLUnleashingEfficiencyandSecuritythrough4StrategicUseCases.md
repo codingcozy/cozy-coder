@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Mastery with Python and SQL: Unleashing Efficiency and Security through 4 Strategic Use Cases"
 link: "https://medium.com/towards-data-science/data-mastery-with-python-and-sql-unleashing-efficiency-and-security-through-4-strategic-use-cases-eb8afb5019a0"
+isUpdated: true
 ---
+
+
+
 
 
 

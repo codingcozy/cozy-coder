@@ -1,5 +1,5 @@
 ---
-title: "초보자를 위한 JavaScript JSON 완벽 가이드"
+title: "프론트엔드 초보 개발자를 위한 JavaScript JSON 정리"
 description: ""
 coverImage: "/assets/img/2024-07-28-AllAboutJavaScriptJSONforBeginners_0.png"
 date: 2024-07-28 14:07
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "All About JavaScript JSON for Beginners"
 link: "https://medium.com/@sarahisdevs/all-about-javascript-json-for-beginners-72346b9d5063"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-28-AllAboutJavaScriptJSONforBeginners_0.png" />

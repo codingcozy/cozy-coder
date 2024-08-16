@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install NerdFont (or any fonts) using the command line in Debian (or other Linux)."
 link: "https://medium.com/@almatins/install-nerdfont-or-any-fonts-using-the-command-line-in-debian-or-other-linux-f3067918a88c"
+isUpdated: true
 ---
+
+
+
 
 
 

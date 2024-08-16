@@ -3,12 +3,16 @@ title: "당신의 이야기를 위한 시각적 서술 만들기 ChatGPT, 중간
 description: ""
 coverImage: "/assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_0.png"
 date: 2024-05-27 15:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-CreatingVisualNarrativesforYourStoriesChatGPTMidJourneyMagic_0.png
 tag: Tech
 originalTitle: "Creating Visual Narratives for Your Stories: ChatGPT , MidJourney Magic"
 link: "https://medium.com/the-generator/creating-visual-narratives-for-your-stories-chatgpt-midjourney-magic-f84d9d899453"
+isUpdated: true
 ---
+
+
+
 
 당신에게 익숙한 소리인가요? 혈관을 타고 카페인이 흘러 들어오며, 완벽한 단어들의 전성기가 화면 위에 머물기 시작하고, 마침내 지금 막 미디엄의 낯선 세계에 최신 작품을 펼쳐보려는 찰나, 벽에 부딪치는 순간. 이것은 작가의 블록이 아니라, 똑같이 악랄하고 영혼을 파괴하는 무언가요 - 완벽한 이미지를 찾는 탐험.
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Capsule Network | CapsNet Pytorch"
 link: "https://medium.com/@m-aliabbas/capsule-network-capsnet-pytorch-in-story-form-72a71cf89b55"
+isUpdated: true
 ---
+
+
+
 
 
 # 타로 전문가님 안녕하세요!

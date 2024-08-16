@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Social Science to Data Science"
 link: "https://medium.com/towards-data-science/from-social-science-to-data-science-9cc87c9df3c6"
+isUpdated: true
 ---
+
+
+
 
 
 ![FromSocialSciencetoDataScience_0.png](/assets/img/2024-07-13-FromSocialSciencetoDataScience_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating the Future of AI :"
 link: "https://medium.com/@adarsh.181916/navigating-the-future-of-ai-dbbb9131c8b4"
+isUpdated: true
 ---
+
+
+
 
 
 # 트렌드, 도전 과제, 그리고 기회

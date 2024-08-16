@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Splash Screens on Android"
 link: "https://medium.com/@elifduzcan6/splash-screens-on-android-8f8186dadfaf"
+isUpdated: true
 ---
+
+
+
 
 
 ![Splash Screen](/assets/img/2024-07-10-SplashScreensonAndroid_0.png)

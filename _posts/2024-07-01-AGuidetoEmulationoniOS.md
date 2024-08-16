@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Guide to Emulation on iOS"
 link: "https://medium.com/macoclock/a-guide-to-emulation-on-ios-eaa62f611543"
+isUpdated: true
 ---
+
+
+
 
 
 ![Emulation on iOS](/assets/img/2024-07-01-AGuidetoEmulationoniOS_0.png)

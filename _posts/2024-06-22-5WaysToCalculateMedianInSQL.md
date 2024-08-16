@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Ways To Calculate Median In SQL"
 link: "https://medium.com/@subhralina/5-ways-to-calculate-median-in-sql-cffba38aa945"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-5WaysToCalculateMedianInSQL_0.png)

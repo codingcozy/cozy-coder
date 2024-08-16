@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Better MacOS Terminal for Programmers: Use zsh without installing iTerm2"
 link: "https://medium.com/javarevisited/better-macos-terminal-for-programmers-use-zsh-without-installing-iterm2-41ce5e75296b"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-BetterMacOSTerminalforProgrammersUsezshwithoutinstallingiTerm2_0.png)

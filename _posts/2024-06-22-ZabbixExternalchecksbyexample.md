@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Zabbix External checks by example"
 link: "https://medium.com/@r.szulist/zabbix-external-checks-by-example-b9d8bd5ebaaf"
+isUpdated: true
 ---
+
+
+
 
 
 ## 샤오미 미지아 센서에서 데이터 가져오기

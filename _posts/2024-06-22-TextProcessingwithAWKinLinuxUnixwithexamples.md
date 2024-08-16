@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Text Processing with AWK in Linux Unix with examples"
 link: "https://medium.com/@ahmedmansouri/text-processing-with-awk-in-linux-unix-with-examples-26b7b1f1f5d3"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-TextProcessingwithAWKinLinuxUnixwithexamples_0.png) 

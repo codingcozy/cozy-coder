@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unleash the Magic of Mage Global Hooks"
 link: "https://medium.com/mage-ai/unleash-the-magic-of-mage-global-hooks-9fee3375f07a"
+isUpdated: true
 ---
+
+
+
 
 
 

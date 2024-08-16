@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Here’s why your friends have more friends than you"
 link: "https://medium.com/@csferrie/heres-why-your-friends-have-more-friends-than-you-2b205a6c278b"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-Hereswhyyourfriendshavemorefriendsthanyou_0.png)

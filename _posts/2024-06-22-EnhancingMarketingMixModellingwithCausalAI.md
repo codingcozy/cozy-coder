@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Marketing Mix Modelling with Causal AI"
 link: "https://medium.com/towards-data-science/enhancing-marketing-mix-modelling-with-causal-ai-77f638bce3a9"
+isUpdated: true
 ---
+
+
+
 
 
 ## 인과적 AI, 인과 추론을 기계 학습에 통합하는 것을 탐구합니다

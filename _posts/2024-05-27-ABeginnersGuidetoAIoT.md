@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "👾 A Beginner’s Guide to AIoT"
 link: "https://medium.com/@vancx/a-beginners-guide-to-aiot-5fa94c4dca68"
+isUpdated: true
 ---
+
+
+
 
 
 ## 핵심 아이디어, 응용 및 AI-기반 IoT 솔루션 개발에 대한 직접적인 관련 내용

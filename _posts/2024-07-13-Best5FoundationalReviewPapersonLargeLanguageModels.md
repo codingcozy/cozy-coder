@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Best 5 Foundational Review Papers on Large Language Models"
 link: "https://medium.com/gitconnected/best-5-foundational-review-papers-on-large-language-models-0ff95a4e7835"
+isUpdated: true
 ---
+
+
+
 
 
 LLM(Large Language Models)은 자연어 처리 분야에서 혁명적인 역할을 하는 중요한 요소로 떠오르고 있습니다. 텍스트 생성, 질문 응답, 요약 등 여러 분야에 걸쳐 응용됩니다.

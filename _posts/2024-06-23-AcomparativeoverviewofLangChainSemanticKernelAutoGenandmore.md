@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A comparative overview of LangChain, Semantic Kernel, AutoGen and more"
 link: "https://medium.com/data-science-at-microsoft/harnessing-the-power-of-large-language-models-a-comparative-overview-of-langchain-semantic-c21f5c19f93e"
+isUpdated: true
 ---
+
+
+
 
 
 Jane Huang과 Kirk Li가 씀

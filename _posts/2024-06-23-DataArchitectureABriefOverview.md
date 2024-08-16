@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Architecture : A Brief Overview"
 link: "https://medium.com/towards-data-engineering/data-architecture-a-brief-overview-a93286f3e1f7"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 아키텍처는 성공적인 데이터 엔지니어링의 중요한 요소입니다. 조직 전반에서 데이터 수집, 저장, 처리 및 활용 방식의 기초를 제공합니다. 잘 설계된 데이터 아키텍처를 통해 기업은 원활한 데이터 통합, 높은 성능, 확장성 및 효과적인 데이터 거버넌스를 달성할 수 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enterprise Workflow Integration: Leveraging Chatbots for Returns and Refunds"
 link: "https://medium.com/gptalk/enterprise-workflow-integration-leveraging-chatbots-for-returns-and-refunds-47bf45fce2ed"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-엔터프라이즈워크플로우통합챗봇을활용한반품및환불.png" />

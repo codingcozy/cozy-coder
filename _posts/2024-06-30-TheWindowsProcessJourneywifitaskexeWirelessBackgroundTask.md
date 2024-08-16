@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Windows Process Journey — “wifitask.exe” (Wireless Background Task)"
 link: "https://medium.com/@boutnaru/the-windows-process-journey-wifitask-exe-wireless-background-task-5bbb900082e2"
+isUpdated: true
 ---
+
+
+
 
 
 "wifitask.exe" (무선 백그라운드 작업)은 " %windir%\System32\wifitask.exe "에 위치한 PE 이진 파일입니다. Windows 64비트 버전에서는 "cmd.exe"와 같이 다른 실행 파일에 병렬로 32비트 버전이 없습니다. 또한 해당 이진 파일은 Microsoft에 의해 디지턀 서명되어 있습니다.

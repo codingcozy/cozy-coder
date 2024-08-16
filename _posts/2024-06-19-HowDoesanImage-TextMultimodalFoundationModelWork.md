@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Does an Image-Text Multimodal Foundation Model Work"
 link: "https://medium.com/towards-data-science/how-does-an-image-text-foundation-model-work-05bc7598e3f2"
+isUpdated: true
 ---
+
+
+
 
 
 

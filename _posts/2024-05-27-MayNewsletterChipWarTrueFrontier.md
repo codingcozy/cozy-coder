@@ -3,12 +3,16 @@ title: "5월 뉴스레터 칩 전쟁, 트루 프론티어"
 description: ""
 coverImage: "/assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png"
 date: 2024-05-27 13:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png
 tag: Tech
 originalTitle: "May Newsletter: “Chip War”, True Frontier"
 link: "https://medium.com/healthcare-3d-printing-stories/may-newsletter-chip-war-true-frontier-04b3c08b79a4"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-05-27-MayNewsletterChipWarTrueFrontier_0.png](/assets/img/2024-05-27-MayNewsletterChipWarTrueFrontier_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "head(amame) Summer 2024 Update"
 link: "https://medium.com/@headamame/head-amame-summer-2024-update-52616399ef3f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-headamameSummer2024Update_0.png" />

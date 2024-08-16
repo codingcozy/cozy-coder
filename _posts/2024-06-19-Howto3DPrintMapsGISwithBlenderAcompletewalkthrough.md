@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to 3D Print Maps — GIS with Blender — A complete walkthrough."
 link: "https://medium.com/stackademic/how-to-3d-print-maps-gis-with-blender-a-complete-walkthrough-c6414240ceb2"
+isUpdated: true
 ---
+
+
+
 
 
 # 저자

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The political dimension of the public security problem in Chile"
 link: "https://medium.com/@jbkmkncd/the-political-dimension-pf-the-public-security-problem-in-chile-7ceba21a74c6"
+isUpdated: true
 ---
+
+
+
 
 
 칠레는 항상 중간-높은 수준의 발전, 민주주의 및 안전을 갖춘 국가로 알려져 왔습니다. 그러나 최근에는 이 세 가지 요소가 약화되고 있습니다.

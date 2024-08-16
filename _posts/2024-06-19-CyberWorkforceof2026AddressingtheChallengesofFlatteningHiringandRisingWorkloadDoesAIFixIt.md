@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Cyber Workforce of 2026: Addressing the Challenges of Flattening Hiring and Rising Workload, Does AI Fix It?"
 link: "https://medium.com/@omrig9/cyber-workforce-of-2026-addressing-the-challenges-of-flattening-hiring-and-rising-workload-does-4178aec0475a"
+isUpdated: true
 ---
+
+
+
 
 
 # 사이버보안 과제

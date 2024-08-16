@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing the Power of Raspberry Pi 5 for Language Learning Models (LLMs) with OpenLLM"
 link: "https://medium.com/@toniflorithomar/unleashing-the-power-of-raspberry-pi-5-for-language-learning-models-llms-with-openllm-71acdbf282a3"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이 5가 최근에 출시되어 테크 열정가와 전문가들에게 새로운 기회의 문을 열었습니다. 이 강력한 마이크로 컴퓨터의 가장 흥미로운 혁신적인 사용 중 하나는 언어 학습 모델 (LLM) 분야에서 입니다. 이 글에서는 라즈베리 파이 5를 활용하여 OpenLLM을 실행하고 실험하여, 인공 지능 및 머신 러닝 프로젝트를 위한 강력한 소형 장비로 변환하는 방법을 살펴보겠습니다.

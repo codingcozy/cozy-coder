@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Dive into Transformers by Hand ✍︎"
 link: "https://medium.com/towards-data-science/deep-dive-into-transformers-by-hand-%EF%B8%8E-68b8be4bd813"
+isUpdated: true
 ---
+
+
+
 
 
 ## 트랜스포머의 힘에 대한 세부 정보 살펴보기

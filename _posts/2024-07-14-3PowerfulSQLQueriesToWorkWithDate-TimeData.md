@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3 Powerful SQL Queries To Work With Date-Time Data"
 link: "https://medium.com/towards-data-science/3-powerful-sql-queries-to-work-with-date-time-data-41681fea7c89"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 과학

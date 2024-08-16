@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are the Boston Marathon Qualifying Times Fair For All Age Groups?"
 link: "https://medium.com/runners-life/are-the-boston-qualifying-times-fair-for-all-age-groups-7b33a296e02a"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-AretheBostonMarathonQualifyingTimesFairForAllAgeGroups_0.png" />

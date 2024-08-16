@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Google’s Proofread: AI-Driven Typing Accuracy in One Tap"
 link: "https://medium.com/syncedreview/googles-proofread-ai-driven-typing-accuracy-in-one-tap-1fe7451a2b4c"
+isUpdated: true
 ---
+
+
+
 
 
 

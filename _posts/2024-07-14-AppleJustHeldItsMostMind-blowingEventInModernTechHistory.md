@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple Just Held Its Most Mind-blowing Event In Modern Tech History"
 link: "https://medium.com/the-gray-area/apples-just-held-its-most-mind-blowing-event-in-modern-tech-history-520603b24303"
+isUpdated: true
 ---
+
+
+
 
 
 아이폰, 아이패드, 또는 애플 실리콘의 최초 출시라도 잊어버리세요. 의심할 여지 없이 매우 영향력 있는 애플 이벤트이며, 이 모든 것 덕분에 오늘 우리는 전에 상상도 못 했던 것들을 훨씬 더 많이 하고 더 유연하고 창의적으로 할 수 있게 되었습니다. 그러나 그 모든 것이 상대적으로 지금은 매우 인상적하지 않은 것처럼 느껴집니다. WWDC 2023 키노트 이벤트에 비해 말이죠. 이번 해의 업데이트들을 독특하게 만든 모든 것에 대해 다루려 하지 않겠습니다. 그 대신, 오늘 애플 팬들을 정말 기쁘게 만든 요소에 초점을 맞출 것이고, 어떤 기술 회사도 시도하지 않았을 정도로 개인 컴퓨팅을 끌어올릴 것이라 생각하는 점에 대해 이야기해보겠습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Do We Need More Privacy or Better Laws?"
 link: "https://medium.com/tech-and-me/do-we-need-more-privacy-or-better-laws-bc502f1ea2fb"
+isUpdated: true
 ---
+
+
+
 
 
 ## 비밀 공간

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Stack Weekly — Issue#131"
 link: "https://medium.com/canopas/android-stack-weekly-issue-131-a3e1ac8d89a0"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-01-AndroidStackWeeklyIssue131_0.png)

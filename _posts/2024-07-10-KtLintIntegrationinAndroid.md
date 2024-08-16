@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "KtLint Integration in Android"
 link: "https://medium.com/@amitdogra70512/ktlint-integration-in-android-952049b9d17d"
+isUpdated: true
 ---
+
+
+
 
 
 **KtLint을 안드로이드 프로젝트에 통합하고 필요에 맞게 구성하는 과정에 대해 안내해 드리겠습니다.**

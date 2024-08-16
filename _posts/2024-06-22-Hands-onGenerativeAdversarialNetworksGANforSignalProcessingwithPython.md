@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hands-on Generative Adversarial Networks (GAN) for Signal Processing, with Python"
 link: "https://medium.com/towards-data-science/hands-on-generative-adversarial-networks-gan-for-signal-processing-with-python-ff5b8d78bd28"
+isUpdated: true
 ---
+
+
+
 
 
 ## 몇 줄의 코드로 신호 처리를 위한 생성형 딥러닝 모델을 만드는 방법

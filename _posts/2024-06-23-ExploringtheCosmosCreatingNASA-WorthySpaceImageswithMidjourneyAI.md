@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Cosmos: Creating NASA-Worthy Space Images with Midjourney AI"
 link: "https://medium.com/let-there-be-prompt/exploring-the-cosmos-creating-nasa-worthy-space-images-with-midjourney-ai-3cc2fe6804a9"
+isUpdated: true
 ---
+
+
+
 
 
 우주 이미지를 좋아해요. 허블 우주 망원경, 신 개발된 웹 우주 망원경, 그리고 카시니, 준호, 뉴 호라이즌스 임무에서 얻은 사진들이 정말 놀라웠어요.

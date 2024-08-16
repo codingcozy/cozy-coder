@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Windows Concept Journey — Windows Package Manager"
 link: "https://medium.com/@boutnaru/the-windows-concept-journey-windows-package-manager-0452231e89c4"
+isUpdated: true
 ---
+
+
+
 
 
 일반적으로, 우리는 패키지 매니저를 소프트웨어를 자동으로 설치/구성/업데이트하는 도구 세트로 정의할 수 있습니다. (https://learn.microsoft.com/en-us/training/modules/explore-windows-package-manager-tool/2-explain-purpose-of). "Microsoft Store" (https://medium.com/@boutnaru/the-windows-concept-journey-microsoft-store-formally-windows-store-75d7f2d5370b)가 있더라도 "Windows Package Manager"는 여전히 매우 관련이 있습니다 (https://www.windowscentral.com/software-apps/is-overreliance-on-copilot-chatgpt-making-you-dumber)

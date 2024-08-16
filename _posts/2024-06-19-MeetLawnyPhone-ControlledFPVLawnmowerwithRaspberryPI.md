@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Meet Lawny: Phone-Controlled FPV Lawnmower with Raspberry PI"
 link: "https://medium.com/@gektor650/meet-lawny-phone-controlled-fpv-lawnmower-with-raspberry-pi-100fd48f0488"
+isUpdated: true
 ---
+
+
+
 
 
 가정에서 편안한 의자에 앉아 레이싱 시뮬레이터를 즐기고, 동시에 잔디를 풀어낼 수 있는 상상을 해보세요. 멋져 보이나요? 이게 실제로 가능해요.

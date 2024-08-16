@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TryHackMe: Kenobi Writeup"
 link: "https://medium.com/@zaynahsd/tryhackme-kenobi-writeup-93953817d7da"
+isUpdated: true
 ---
+
+
+
 
 
 리눅스 머신을 해킹해 봅시다.

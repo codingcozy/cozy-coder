@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "New Smart Item Composition for Better Performance  ContextualFlowRow Column"
 link: "https://medium.com/@stevdza-san/new-smart-item-composition-for-better-performance-contextualflowrow-column-390db2eb6bd5"
+isUpdated: true
 ---
+
+
+
 
 
 

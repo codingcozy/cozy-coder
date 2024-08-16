@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate WWDC 2024 Roundup: Everything Apple Unveiled"
 link: "https://medium.com/@vizllx/the-ultimate-wwdc-2024-roundup-everything-apple-unveiled-78e36a5b5053"
+isUpdated: true
 ---
+
+
+
 
 
 애플의 WWDC 2024는 혁신적인 발표와 혁신적인 발전으로 기술 세계를 다시 한 번 들썩이게 만들었습니다. 하드웨어 업그레이드부터 소프트웨어 향상까지, 올해 개발자 컨퍼런스에서 발표된 모든 것을 종합적으로 살펴보세요.

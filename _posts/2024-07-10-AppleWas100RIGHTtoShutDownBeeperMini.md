@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple Was 100% RIGHT to Shut Down Beeper Mini"
 link: "https://medium.com/@michaelswengel/apple-was-100-right-to-shut-down-beeper-mini-9f3582667f39"
+isUpdated: true
 ---
+
+
+
 
 
 ![Link preview](/assets/img/2024-07-10-AppleWas100RIGHTtoShutDownBeeperMini_0.png)

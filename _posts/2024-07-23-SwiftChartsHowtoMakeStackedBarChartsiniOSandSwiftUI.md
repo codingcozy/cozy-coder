@@ -1,5 +1,5 @@
 ---
-title: "iOS와 SwiftUI에서 스택 막대 차트 만드는 방법 - Swift Charts 완벽 가이드"
+title: "iOS와 SwiftUI에서 스택 막대 차트 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_0.png"
 date: 2024-07-23 21:41
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Swift Charts How to Make Stacked Bar Charts in iOS and SwiftUI"
 link: "https://medium.com/better-ios-development/swift-charts-how-to-make-stacked-bar-charts-in-ios-and-swiftui-f4cd5b08a081"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-23-SwiftChartsHowtoMakeStackedBarChartsiniOSandSwiftUI_0.png" />

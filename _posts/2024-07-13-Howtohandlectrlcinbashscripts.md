@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to handle ctrl+c in bash scripts"
 link: "https://medium.com/@kpatronas/how-to-handle-ctrl-c-in-bash-scripts-d7085e7d3d47"
+isUpdated: true
 ---
+
+
+
 
 
 

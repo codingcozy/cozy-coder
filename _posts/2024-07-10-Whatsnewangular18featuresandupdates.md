@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What’s new angular 18 features and updates?"
 link: "https://medium.com/@angularminds/whats-new-angular-18-features-and-updates-1142b3be03ff"
+isUpdated: true
 ---
+
+
+
 
 
 

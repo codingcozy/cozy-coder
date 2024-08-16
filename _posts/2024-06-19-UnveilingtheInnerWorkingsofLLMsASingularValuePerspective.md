@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unveiling the Inner Workings of LLMs: A Singular Value Perspective"
 link: "https://medium.com/towards-data-science/unveiling-the-inner-workings-of-llms-a-singular-value-perspective-74c0c831e819"
+isUpdated: true
 ---
+
+
+
 
 
 ## Llama3–8B 투영 행렬에 대한 특이값 분해 분석

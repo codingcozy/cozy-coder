@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced RAG 12: Enhancing Global Understanding"
 link: "https://medium.com/ai-advances/advanced-rag-12-enhancing-global-understanding-b13dc9a8db39"
+isUpdated: true
 ---
+
+
+
 
 
 많은 중요한 실제 업무는 과학 문헌 검토, 법적 사례 요약 및 의료 진단과 같이 다양한 문서 덩어리나 문서 간의 지식 이해가 필요합니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Automated Contract Clause Understanding and Risk Assessment Chatbot with fine-tuned Legal-BERT and GPT-4o"
 link: "https://medium.com/@prakarsha/automated-contract-clause-understanding-and-risk-assessment-with-fine-tuned-legal-bert-and-gpt-4o-3a6f0423ace3"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-AutomatedContractClauseUnderstandingandRiskAssessmentChatbotwithfine-tunedLegal-BERTandGPT-4o_0.png)

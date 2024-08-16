@@ -3,12 +3,16 @@ title: "PIC 생태계"
 description: ""
 coverImage: "/assets/img/2024-05-27-PICEcosystem_0.png"
 date: 2024-05-27 13:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-PICEcosystem_0.png
 tag: Tech
 originalTitle: "PIC Ecosystem"
 link: "https://medium.com/@lfoster.se.be/pic-ecosystem-f8268a6c3d72"
+isUpdated: true
 ---
+
+
+
 
 # PIC16LF18324 코딩을 시작하는 방법
 

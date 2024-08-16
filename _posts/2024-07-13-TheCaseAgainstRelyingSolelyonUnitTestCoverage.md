@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Case Against Relying Solely on Unit Test Coverage"
 link: "https://medium.com/better-programming/the-case-against-relying-solely-on-unit-test-coverage-1cb3977e38ac"
+isUpdated: true
 ---
+
+
+
 
 
 ![TheCaseAgainstRelyingSolelyonUnitTestCoverage](/assets/img/2024-07-13-TheCaseAgainstRelyingSolelyonUnitTestCoverage_0.png)

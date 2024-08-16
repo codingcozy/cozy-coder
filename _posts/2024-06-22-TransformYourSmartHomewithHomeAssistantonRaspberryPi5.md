@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Transform Your Smart Home with Home Assistant on Raspberry Pi 5"
 link: "https://medium.com/@doole.baba/transform-your-smart-home-with-home-assistant-on-raspberry-pi-5-aefb324755f8"
+isUpdated: true
 ---
+
+
+
 
 
 스마트 홈 자동화의 미래에 오신 것을 환영합니다! 이 게시물에서는 Raspberry Pi 5에 Home Assistant를 설치하는 방법을 살펴보겠습니다. Home Assistant는 모든 스마트 기기를 하나의 쉽고 간편한 인터페이스로 통합하는 강력한 오픈 소스 플랫폼입니다. 누구나 쉽게 시작할 수 있도록 도와주는 본 가이드를 통해 고급 기술 애호가든 호기심 많은 초보자든 Raspberry Pi 5에서 Home Assistant를 시작하는 방법을 알아보세요.

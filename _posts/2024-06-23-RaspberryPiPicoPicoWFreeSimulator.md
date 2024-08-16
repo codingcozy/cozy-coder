@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi Pico Pico W Free Simulator"
 link: "https://medium.com/@shilleh/raspberry-pi-pico-pico-w-free-simulator-899fbec34aaf"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-RaspberryPiPicoPicoWFreeSimulator_0.png" />

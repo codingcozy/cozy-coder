@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Serial Communication: Arduino Mega 2560 (Master) and Uno (Slave) UART Tutorial"
 link: "https://medium.com/@lekushlev/mastering-serial-communication-arduino-mega-2560-master-and-uno-slave-uart-tutorial-975ca9b165c6"
+isUpdated: true
 ---
+
+
+
 
 
 

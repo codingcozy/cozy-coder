@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to connect Python to PostgreSQL: A Step-by-Step Guide for Data Scientists!"
 link: "https://medium.com/@vinny-purgato/how-to-connect-python-to-postgresql-a-step-by-step-guide-for-data-scientists-134b1459a2cd"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 과학자들은 종종 분석, EDA, ETL 등의 작업을 수행하기 위해 데이터 웨어하우스에 액세스해야 합니다.

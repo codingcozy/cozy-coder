@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Aws Lambda that Reacts to S3 File Upload"
 link: "https://medium.com/gitconnected/aws-lambda-that-reacts-to-s3-file-upload-4d16b08fede1"
+isUpdated: true
 ---
+
+
+
 
 
 ![Architecture](/assets/img/2024-07-07-AwsLambdathatReactstoS3FileUpload_0.png)

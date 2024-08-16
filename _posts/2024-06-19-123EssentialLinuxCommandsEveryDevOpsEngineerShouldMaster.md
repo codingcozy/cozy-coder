@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "123 Essential Linux Commands Every DevOps Engineer Should Master"
 link: "https://medium.com/@nidhiashtikar/essential-linux-commands-every-developer-should-master-a86905726d4a"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*BD9mlZ9FUpq8_NjXR-HPVQ.gif)

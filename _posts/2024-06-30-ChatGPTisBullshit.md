@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT is Bullshit."
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/chatgpt-is-bullshit-a0b3f26ee217"
+isUpdated: true
 ---
+
+
+
 
 
 원페이지가 하나의 이유로 산업계에서 큰 화제를 일으키고 있어요:

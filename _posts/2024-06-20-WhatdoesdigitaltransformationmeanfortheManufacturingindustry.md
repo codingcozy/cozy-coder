@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What does digital transformation mean for the Manufacturing industry?"
 link: "https://medium.com/@rautsan/what-does-digital-transformation-mean-for-the-manufacturing-industry-67b00ad1c1d4"
+isUpdated: true
 ---
+
+
+
 
 
 제작업계에 대한 디지턀 변화는 모든 제작 과정 영역에 고급 디지털 기술을 통합하여 기업이 운영하고 고객에게 가치를 전달하는 방식을 근본적으로 변화시키는 것을 의미합니다.

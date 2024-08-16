@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Modularised Navigation in SwiftUI — An Enum-based Approach"
 link: "https://medium.com/better-programming/modularised-navigation-in-swiftui-an-enum-based-approach-13028acd01ae"
+isUpdated: true
 ---
+
+
+
 
 
 iOS 16에서, SwiftUI가 새롭게 나타났어! 이제 네비게이션을 완전히 캡슐화할 수 있게 되었어. 이제 더 이상 많은 바인딩을 전달하거나 UI에 직접 NavigationLink를 사용할 필요가 없어졌어.

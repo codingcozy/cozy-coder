@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ode to an Angel"
 link: "https://medium.com/long-sweet-valuable/ode-to-an-angel-12c48a10d557"
+isUpdated: true
 ---
+
+
+
 
 
 ## SWEET.PUB WRITING CHALLENGE|STORY 3

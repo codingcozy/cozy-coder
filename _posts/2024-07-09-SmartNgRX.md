@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SmartNgRX"
 link: "https://medium.com/@davembush_78433/smartngrx-d4fd2fb2382a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 보일러플레이트를 제거하고 SmartNgRX가 대부분의 작업을 대신하도록 합시다! (원문: smart-ngrx 게시물에서 발췌)

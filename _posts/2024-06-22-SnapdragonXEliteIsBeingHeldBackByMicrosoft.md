@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Snapdragon X Elite Is Being Held Back… By Microsoft"
 link: "https://medium.com/@impure/snapdragon-x-elite-is-being-held-back-by-microsoft-05b9412c218e"
+isUpdated: true
 ---
+
+
+
 
 
 얼마 전에 Snapdragon X Elite에 대한 분석을 한 적이 있습니다. 이 분석은 초기 벤치마크를 기반으로 한 Qualcomm의 X Elite Matches M3 Loses To M4라는 제목의 글이었습니다. 그때는 몇 가지 출판물만이 칩을 손에 넣을 수 있었던 시절이었습니다. 그러나 지금은 Snapdragon X Elite가 공식적으로 출시되었는데, 성능은 어떨까요? 그다지 좋지 않습니다.

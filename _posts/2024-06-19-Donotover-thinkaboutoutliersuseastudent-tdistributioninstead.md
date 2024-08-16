@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Do not over-think about ‘outliers’, use a student-t distribution instead"
 link: "https://medium.com/towards-data-science/do-not-over-think-about-outliers-use-a-student-t-distribution-instead-b6c584b91d5c"
+isUpdated: true
 ---
+
+
+
 
 
 ## R과 Brms를 사용한 베이지안 접근

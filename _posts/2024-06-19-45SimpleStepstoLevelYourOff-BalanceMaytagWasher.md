@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "45 Simple Steps to Level Your Off-Balance Maytag Washer"
 link: "https://medium.com/jane-austens-wastebasket/how-to-level-your-off-balance-maytag-washer-in-45-simple-steps-4591914dc247"
+isUpdated: true
 ---
+
+
+
 
 
 

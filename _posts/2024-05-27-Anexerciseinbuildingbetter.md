@@ -3,12 +3,16 @@ title: "더 나은 것을 만드는 연습"
 description: ""
 coverImage: "/assets/img/2024-05-27-Anexerciseinbuildingbetter_0.png"
 date: 2024-05-27 13:39
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-Anexerciseinbuildingbetter_0.png
 tag: Tech
 originalTitle: "An exercise in building better."
 link: "https://medium.com/user-experience-design-1/an-exercise-in-building-better-1928c991ae31"
+isUpdated: true
 ---
+
+
+
 
 ## 스튜디오 LUFF에 의한 Air Quality Sensory 뒤의 이야기
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Make a USB Rubber Ducky with less than $3"
 link: "https://medium.com/bugbountywriteup/make-usb-rubber-ducky-with-less-than-3-fa72dac9e4de"
+isUpdated: true
 ---
+
+
+
 
 
 USB Rubber Ducky는 USB 플래시 드라이브와 비슷하지만 다릅니다. 컴퓨터를 해킹하기 위해 일부 페이로드를 이용하여 키 입력을 삽입할 것입니다. 가장 좋은 점은 USB Rubber Ducky가 플래시 드라이브로 감지되지 않고 키보드로 감지된다는 것입니다.

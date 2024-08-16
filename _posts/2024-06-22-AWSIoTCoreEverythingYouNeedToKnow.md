@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AWS IoT Core — Everything You Need To Know."
 link: "https://medium.com/@umerfarooqai/exploring-internet-of-things-iot-with-aws-iot-core-in-depth-part-i-overview-and-provisioning-20f914e195f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-AWSIoTCoreEverythingYouNeedToKnow_0.png" />

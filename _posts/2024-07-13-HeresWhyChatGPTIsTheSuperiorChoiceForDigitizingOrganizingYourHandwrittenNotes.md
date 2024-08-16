@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Here’s Why ChatGPT Is The Superior Choice For Digitizing , Organizing Your Handwritten Notes"
 link: "https://medium.com/generative-ai/heres-why-chatgpt-is-the-superior-choice-for-digitizing-organizing-your-handwritten-notes-a9e40e55ab24"
+isUpdated: true
 ---
+
+
+
 
 
 ## 강화된 메모 기능

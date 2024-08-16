@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "About me — Mitchel berries"
 link: "https://medium.com/about-me-stories/about-me-mitchel-berries-b9e3f76bd3be"
+isUpdated: true
 ---
+
+
+
 
 
 ## 안녕하세요 여러분

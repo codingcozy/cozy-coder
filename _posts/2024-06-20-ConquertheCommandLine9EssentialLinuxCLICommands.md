@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Conquer the Command Line: 9 Essential Linux CLI Commands"
 link: "https://medium.com/nerdytest/conquer-the-command-line-20-essential-linux-cli-commands-4729186616e0"
+isUpdated: true
 ---
+
+
+
 
 
 리눅스 명령줄 인터페이스(CLI)는 처음 보는 사람에게는 어렵게 보일 수 있습니다. 암호화된 텍스트와 깜박이는 커서가 기술 마법사들을 위해 예약된 것처럼 보입니다. 그러나 걱정하지 마세요! 이 복잡해 보이는 외부 아래에는 잠재력 가득한 강력한 도구가 숨어 있습니다. 필수 명령어 몇 가지만 습득하면 시스템을 쉽게 탐색하고 파일을 효율적으로 관리하며 작업을 자동화할 수 있습니다. 이 안내서는 여러분을 당혹스러운 초보자에서 숙련된 CLI 닌자로 변몽해주는 20가지 기본 리눅스 CLI 명령어로 여러분을 장비시킵니다.

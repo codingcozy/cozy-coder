@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Uncensor any LLM with abliteration"
 link: "https://medium.com/@mlabonne/uncensor-any-llm-with-abliteration-d30148b7d43e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 재학습 없이 세밀 조정하기

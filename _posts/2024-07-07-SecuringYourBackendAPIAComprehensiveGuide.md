@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Securing Your Backend API: A Comprehensive Guide"
 link: "https://medium.com/codex/securing-your-backend-api-a-comprehensive-guide-9bf5e0166fd6"
+isUpdated: true
 ---
+
+
+
 
 
 현재의 유기적으로 연결된 세상에서 API (애플리케이션 프로그래밍 인터페이스)는 현대 웹 및 모바일 애플리케이션의 중추가 되었습니다. 이들은 다양한 소프트웨어 시스템이 손쉽게 통신하고 데이터를 교환할 수 있도록 합니다. 그러나 API에 대한 의존도가 증가함에 따라, 그들의 보안을 확보하는 것이 절실해졌습니다. 탈취당한 API는 데이터 유출, 무단 접근 및 그 밖의 심각한 결과로 이어질 수 있습니다. 본 문서에서는 백엔드 API를 안전하게 보호하는 데 필요한 최상의 실천 방법과 기술에 대해 깊이 있게 다룰 것입니다. 인증 및 권한 부여부터 입력 유효성 검사, 속도 제한 등 다양한 측면을 다루겠습니다.

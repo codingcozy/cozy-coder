@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Microsoft Demands China Staff Use iPhones, Not Android Phones: A Strategic Cybersecurity Move"
 link: "https://medium.com/@innovirtuoso/the-shift-to-iphones-f6d3febe3d92"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개: 아이폰으로의 전환

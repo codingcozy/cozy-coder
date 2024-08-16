@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Basic Concepts of ANN: Artificial Neural Network"
 link: "https://medium.com/@cerencaglaozturk/basic-concepts-of-ann-artificial-neural-network-ed8d5a7b9539"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-07-BasicConceptsofANNArtificialNeuralNetwork_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Information Retrieval in NLP: Building a Search Engine (Part 18)"
 link: "https://medium.com/ai-advances/information-retrieval-in-nlp-building-a-search-engine-part-18-5cc4c9a9a80d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-14-InformationRetrievalinNLPBuildingaSearchEnginePart18_0.png)

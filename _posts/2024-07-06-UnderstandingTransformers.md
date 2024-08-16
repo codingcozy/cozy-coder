@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Transformers"
 link: "https://medium.com/towards-data-science/understanding-transformers-3344d16c8c36"
+isUpdated: true
 ---
+
+
+
 
 
 **“Attention is All You Need”** 간단히 살펴보기

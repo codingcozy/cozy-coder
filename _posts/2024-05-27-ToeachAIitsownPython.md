@@ -3,12 +3,16 @@ title: "각 AI에게 맞는 Python"
 description: ""
 coverImage: "/assets/img/2024-05-27-ToeachAIitsownPython_0.png"
 date: 2024-05-27 13:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ToeachAIitsownPython_0.png
 tag: Tech
 originalTitle: "To each AI its own Python"
 link: "https://medium.com/generative-ai/to-each-ai-its-own-python-4294596886c6"
+isUpdated: true
 ---
+
+
+
 
 ![2024-05-27-ToeachAIitsownPython_0](/assets/img/2024-05-27-ToeachAIitsownPython_0.png)
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Large Language Models Explained — II"
 link: "https://medium.com/@prasannasanjay1/large-language-models-explained-ii-9c135ad47abc"
+isUpdated: true
 ---
+
+
+
 
 
 ChatGPT의 추상적 진화와 LLM의 일반적인 세부 정보가 'Large Language Models Explained — I'에서 제공되었습니다. 이전 글에서 몇 가지 질문으로 글을 마무리했습니다. 이 글에서는 해당 질문에 대한 답을 논의하고 LLM의 기본 프로그래밍 측면부터 시작하겠습니다.

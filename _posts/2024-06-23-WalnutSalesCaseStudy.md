@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Walnut Sales Case Study"
 link: "https://medium.com/@shivaniwac/walnut-sales-case-study-cea9916a12c1"
+isUpdated: true
 ---
+
+
+
 
 
 호두 판매 탐험: 사례 연구 여정

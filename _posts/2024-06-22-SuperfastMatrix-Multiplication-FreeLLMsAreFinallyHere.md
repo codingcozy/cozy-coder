@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Superfast Matrix-Multiplication-Free LLMs Are Finally Here"
 link: "https://medium.com/gitconnected/superfast-matrix-multiplication-free-llms-are-finally-here-cac5b78a4fa7"
+isUpdated: true
 ---
+
+
+
 
 
 최근 ArXiv에 발표된 연구 논문은 오늘날 우리가 알고 있는 LLM(Large Language Model)에 대해 대대적인 변화를 제안했습니다.

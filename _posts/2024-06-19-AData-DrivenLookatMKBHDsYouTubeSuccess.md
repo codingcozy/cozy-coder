@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Data-Driven Look at MKBHD’s YouTube Success"
 link: "https://medium.com/@kakarvardaan/a-data-driven-look-at-mkbhds-youtube-success-1339df454a47"
+isUpdated: true
 ---
+
+
+
 
 
 ## 테크 비디오 블로깅에서 콘텐츠 트렌드와 관객 참여에 대해 발견하다

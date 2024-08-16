@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Configuration Changes and their Impact on Lifecycle: Effects and Solutions"
 link: "https://medium.com/@cugo15/android-configuration-changes-and-their-impact-on-lifecycle-effects-and-solutions-190a2359c6ec"
+isUpdated: true
 ---
+
+
+
 
 
 앱이 세로 모드에서 가로 모드로 전환되거나 누군가가 전화의 시계 설정이나 다른 전화 설정을 변경할 때, 앱은 마치 "뭐야, 잠깐! 설정 변경 알림!" 하는 것과 같아요.

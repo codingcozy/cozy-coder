@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Courage to Learn ML: A Detailed Exploration of Gradient Descent and Popular Optimizers"
 link: "https://medium.com/towards-data-science/courage-to-learn-ml-a-detailed-exploration-of-gradient-descent-and-popular-optimizers-022ecf97be7d"
+isUpdated: true
 ---
+
+
+
 
 
 Welcome back to a new chapter of ‘Courage to Learn ML’. For those new to this series, our aim is to make complex topics accessible and engaging, much like a casual conversation between a mentor and a learner, inspired by the writing style of “The Courage to Be Disliked,” with a special focus on machine learning.

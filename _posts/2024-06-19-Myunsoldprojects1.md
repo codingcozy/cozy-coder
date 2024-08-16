@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My unsold projects 1"
 link: "https://medium.com/@shashankts/my-unsold-projects-1-0e7693cdabcd"
+isUpdated: true
 ---
+
+
+
 
 
 과거 실험

@@ -1,5 +1,5 @@
 ---
-title: "완벽한 Rust 기반 터미널 설정 가이드"
+title: "Rust 기반 터미널 설정에 필요한 모든 가이드"
 description: ""
 coverImage: "/assets/img/2024-08-03-TheBESTFullyRust-basedTerminalSetup_0.png"
 date: 2024-08-03 20:17
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The BEST Fully Rust-based Terminal Setup"
 link: "https://medium.com/@nanthony007/the-best-fully-rust-based-terminal-setup-f6384ea3de1d"
+isUpdated: true
 ---
+
+
+
 
 
 터미널과 러스트 기반 도구만 사용한 개발 환경 전체적인 개요에 대해 간략히 살펴보겠습니다.

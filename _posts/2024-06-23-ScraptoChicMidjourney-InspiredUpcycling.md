@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Scrap to Chic: Midjourney-Inspired Upcycling"
 link: "https://medium.com/let-there-be-prompt/scrap-to-chic-midjourney-inspired-upcycling-03c68f2c8be6"
+isUpdated: true
 ---
+
+
+
 
 
 나는 오래된 쓰레기를 좋아해. 녹슨 제리캔과 통, 오래된 철로 못과 철 도구, 드리프트우드, 그리고 고장 난 의자들을 좋아해. 안타깝게도, 나의 반쪽이 그런 물건을 좋아해서, 우리는 업사이클링할 물건들을 모아두게 되었어.

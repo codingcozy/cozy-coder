@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Three Favorite Alternatives to Photoshop and InDesign"
 link: "https://medium.com/@clivethompson/my-three-favorite-alternatives-to-photoshop-and-indesign-23c269410553"
+isUpdated: true
 ---
+
+
+
 
 
 ![My Three Favorite Alternatives to Photoshop and InDesign](/assets/img/2024-06-27-MyThreeFavoriteAlternativestoPhotoshopandInDesign_0.png)

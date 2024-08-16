@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The low-hanging-fruit fallacy in data science and machine learning"
 link: "https://medium.com/slalom-data-ai/the-low-hanging-fruit-fallacy-in-data-science-and-machine-learning-01e210ea4fc2"
+isUpdated: true
 ---
+
+
+
 
 
 ## 지속적인 성공을 위한 유연한 데이터 과학 솔루션 구축 방법

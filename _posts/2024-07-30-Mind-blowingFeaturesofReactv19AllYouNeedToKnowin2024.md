@@ -1,5 +1,5 @@
 ---
-title: "2024년, React v19의 놀라운 기능 총정리 꼭 알아야 할 모든 것"
+title: "2024년, React v19에 새로 추가된 기능 정리"
 description: ""
 coverImage: "/assets/img/2024-07-30-Mind-blowingFeaturesofReactv19AllYouNeedToKnowin2024_0.png"
 date: 2024-07-30 17:18
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mind-blowing Features of React v19 All You Need To Know in 2024"
 link: "https://medium.com/javascript-in-plain-english/mind-blowing-features-of-react-v19-all-you-need-to-know-in-2024-4ffb52767cef"
+isUpdated: true
 ---
+
+
+
 
 
 저는 TypeScript 개발자로서, 매일 사용하는 도구들의 최신 기술 발전을 기대합니다. React는 현대 웹 개발의 중심 요소이며, React v19의 출시로 큰 발전을 경험하고 있습니다. 🔮

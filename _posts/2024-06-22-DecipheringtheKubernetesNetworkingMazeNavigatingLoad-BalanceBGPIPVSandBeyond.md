@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond"
 link: "https://medium.com/itnext/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572"
+isUpdated: true
 ---
+
+
+
 
 
 쿠버네티스 세계에서는 매일 ipvs 대 iptables || pureLB 대 metalLB || overlay 대 underlay || Nodeport 대 Loadbalance와 같은 용어가 자주 들려옵니다. 이런 정보들을 다양한 소스에서 얻어서 하나로 묶는 것은 정말 어렵습니다. 그래서 저는 여기서 그것을 해냈습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Serverpod vs Dart Frog"
 link: "https://medium.com/serverpod/serverpod-vs-dart-frog-2507df893273"
+isUpdated: true
 ---
+
+
+
 
 
 우리는 Dart 백엔드 프레임워크인 Serverpod와 다른 인기 있는 Dart Frog를 비교해 보기로 했어요. 이를 위해 Frog의 웹사이트에서 Todos 예제를 복제했어요.

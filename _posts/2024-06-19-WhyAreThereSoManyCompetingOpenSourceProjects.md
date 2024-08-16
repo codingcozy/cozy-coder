@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Are There So Many Competing Open Source Projects?"
 link: "https://medium.com/pragmatic-programmers/why-are-there-so-many-competing-open-source-projects-e69c12de1aed"
+isUpdated: true
 ---
+
+
+
 
 
 

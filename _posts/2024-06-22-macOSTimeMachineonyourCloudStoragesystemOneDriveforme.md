@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "macOS Time Machine on your Cloud Storage system (OneDrive for me)"
 link: "https://medium.com/@vullnetyy/macos-time-machine-on-your-cloud-storage-system-onedrive-for-me-d3ae8f161b56"
+isUpdated: true
 ---
+
+
+
 
 
 

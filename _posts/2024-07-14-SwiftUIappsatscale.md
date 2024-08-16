@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SwiftUI apps at scale"
 link: "https://medium.com/better-programming/swiftui-apps-at-scale-19b7886384f7"
+isUpdated: true
 ---
+
+
+
 
 
 오늘은 3개의 스타트업에서의 SwiftUI 여정 이야기를 전하고, SwiftUI를 풀타임으로 사용하는 데 방해 요인이 되는 중대한 결함에 대한 해결책을 설명하려고 해요.

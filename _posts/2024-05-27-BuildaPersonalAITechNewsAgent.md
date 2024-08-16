@@ -3,12 +3,16 @@ title: "개인용 AI 기술 소식 에이전트 구축하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-BuildaPersonalAITechNewsAgent_0.png"
 date: 2024-05-27 15:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-BuildaPersonalAITechNewsAgent_0.png
 tag: Tech
 originalTitle: "Build a Personal AI Tech News Agent"
 link: "https://medium.com/gitconnected/build-a-personal-ai-tech-news-agent-94e7a2e508fe"
+isUpdated: true
 ---
+
+
+
 
 ### 귀하의 선호에 따라 기술 사이트를 크롤링하여 주요 트렌드를 요약합니다
 

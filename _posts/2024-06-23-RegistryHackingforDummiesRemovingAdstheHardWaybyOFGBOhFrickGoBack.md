@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Registry Hacking for Dummies: Removing Ads the Hard Way by OFGB (Oh Frick Go Back)"
 link: "https://medium.com/@overkill_security/registry-hacking-for-dummies-removing-ads-the-hard-way-by-ofgb-oh-frick-go-back-2945a3dd374a"
+isUpdated: true
 ---
+
+
+
 
 
 ![OFGB (Oh Frick Go Back) tool](/assets/img/2024-06-23-RegistryHackingforDummiesRemovingAdstheHardWaybyOFGBOhFrickGoBack_0.png)

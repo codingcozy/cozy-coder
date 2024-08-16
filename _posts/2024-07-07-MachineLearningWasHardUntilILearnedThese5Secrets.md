@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Machine Learning Was Hard Until I Learned These 5 Secrets!"
 link: "https://medium.com/towards-artificial-intelligence/machine-learning-was-hard-until-i-learned-these-5-secrets-0ad594de0bec"
+isUpdated: true
 ---
+
+
+
 
 
 기계 학습을 배우는 것을 훨씬 쉽고 즐겁게 만들어주는 나만 알고 있는 비밀들.

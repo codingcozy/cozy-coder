@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "7 Ways How AI Will Change Your Workplace, and Why Should You Care"
 link: "https://medium.com/datadriveninvestor/7-ways-how-ai-will-change-your-workplace-12c6cdd332f7"
+isUpdated: true
 ---
+
+
+
 
 
 다음 5~10년 동안 귀하의 직장은 근본적으로 다른 모습으로 변할 것입니다. 인공 지능, 사물 인터넷 및 로봇 과 같은 기술 덕분에 기존의 업무 방식이 급격히 변화할 것입니다. 미래의 일에는 큰 기회뿐만 아니라 조직에 많은 과제를 안겨줄 것입니다. 직원들과 경영진은 적응하고 더 똑똑하게 일해야 할 것입니다. 인공 지능은 귀하의 직업을 보조하고, 사물 인터넷은 세밀한 통찰력을 제공하며, 로봇은 많은 일자리를 대체할 것입니다.

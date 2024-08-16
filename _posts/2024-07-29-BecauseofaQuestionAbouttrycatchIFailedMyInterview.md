@@ -1,5 +1,5 @@
 ---
-title: "trycatch 문으로 인해 인터뷰에 실패한 이유"
+title: "프론트엔드 개발 면접 단골 질문 trycatch 문"
 description: ""
 coverImage: "/assets/img/2024-07-29-BecauseofaQuestionAbouttrycatchIFailedMyInterview_0.png"
 date: 2024-07-29 14:05
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Because of a Question About trycatch, I Failed My Interview"
 link: "https://medium.com/stackademic/because-of-a-question-about-try-catch-i-failed-my-interview-2cea0225820c"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-29-BecauseofaQuestionAbouttrycatchIFailedMyInterview_0.png)

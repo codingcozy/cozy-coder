@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock the Hidden Power of File Explorer with Alt+P."
 link: "https://medium.com/@Onecooltip/unlock-the-hidden-power-of-file-explorer-with-alt-p-b64a43559862"
+isUpdated: true
 ---
+
+
+
 
 
 Windows 파일 탐색기에서 Alt+P 키보드 단축키의 변화력을 발견하고, 파일 관리를 향상된 생산성을 위해 간소화하는 방법을 알아보세요.

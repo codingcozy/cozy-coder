@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Utilizing Generative AI and LLMs to Automate Detection Writing"
 link: "https://medium.com/@dylanhwilliams/utilizing-generative-ai-and-llms-to-automate-detection-writing-5e4ea074072e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-UtilizingGenerativeAIandLLMstoAutomateDetectionWriting_0.png" />

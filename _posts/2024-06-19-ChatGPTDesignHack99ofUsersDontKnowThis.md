@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT Design Hack — 99% of Users Don’t Know This"
 link: "https://medium.com/@addison-best/chatgpt-design-hack-99-of-users-dont-know-this-313626f58696"
+isUpdated: true
 ---
+
+
+
 
 
 ## 챗GPT를 5성급 그래픽 디자이너로 변신시키기

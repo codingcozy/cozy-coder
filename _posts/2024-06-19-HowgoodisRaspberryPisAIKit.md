@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How good is Raspberry Pi’s AI Kit"
 link: "https://medium.com/generative-ai/how-good-is-raspberry-pis-ai-kit-3a6d65884bee"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-19-HowgoodisRaspberryPisAIKit_0.png)

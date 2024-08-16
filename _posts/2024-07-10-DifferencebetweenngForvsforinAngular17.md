@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Difference between *ngFor vs @for in Angular 17"
 link: "https://medium.com/@fixitblog/solved-difference-between-ngfor-vs-for-in-angular-17-550e9ca4b199"
+isUpdated: true
 ---
+
+
+
 
 
 Angular 17으로 몇 개의 Angular 프로젝트를 업그레이드 및 이전하려고 노력 중입니다. 또한 해당 버전의 주요 업그레이드 일환으로 스탠드얼론 컴포넌트를 학습 중입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install Home Assistant (HASS) on Android (NO ROOT)"
 link: "https://medium.com/@lucacesarano/install-home-assistant-hass-on-android-no-root-fb65b2341126"
+isUpdated: true
 ---
+
+
+
 
 
 이 구성은 루팅을 하지 않고 안드로이드폰에 Home Assistant (HASS)를 설치하는 데 매우 유용합니다. 중앙 서버로 가정 자동화를 제어하는 데 매우 유용하며 쉽게 이동하고 수정할 수 있습니다. 저는 예전 폰 (샤오미 Mi 4C, 적어도 안드로이드 7.0)을 백업으로 사용하고 원활하게 작동하고 있어요 :).

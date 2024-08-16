@@ -1,5 +1,5 @@
 ---
-title: "Dart 35에서 매크로 작성 깊이 파헤치기"
+title: "Dart 35에서 매크로 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-DeepdiveintowritingmacrosinDart35_0.png"
 date: 2024-08-03 20:31
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deep dive into writing macros in Dart 35"
 link: "https://medium.com/@alexey.inkin/deep-dive-into-writing-macros-in-dart-3-5-a1dd50914a7d"
+isUpdated: true
 ---
+
+
+
 
 
 한 달 동안 전업으로 마크로를 만지작거리며 보냈는데, 여기서 빠르게 시작할 수 있는 모든 것이 있어요.

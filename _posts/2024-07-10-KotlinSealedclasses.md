@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kotlin Sealed classes"
 link: "https://medium.com/@guruprasadhegde4/kotlin-sealed-classes-9dcb75dea0df"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 링크는 아래와 같이 표기해주세요.

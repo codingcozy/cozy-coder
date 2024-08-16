@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging BFF and Dynamic UI in Android Applications with Jetpack Compose"
 link: "https://medium.com/@basaransuleyman/leveraging-bff-and-dynamic-ui-in-android-applications-with-jetpack-compose-27d81edb7c7c"
+isUpdated: true
 ---
+
+
+
 
 
 기사를 시작하기 전에 BFF와 Dynamic UI에 대해 간단히 소개한 후, 안드로이드용 Jetpack Compose를 사용하여 사용 및 장점에 대해 논의하고, 마지막으로 코드 도전 과제를 다룰 것입니다.

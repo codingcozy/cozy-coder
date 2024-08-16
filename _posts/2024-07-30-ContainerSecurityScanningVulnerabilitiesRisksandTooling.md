@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Container Security Scanning Vulnerabilities, Risks and Tooling"
 link: "https://medium.com/4th-coffee/container-security-scanning-vulnerabilities-risks-and-tooling-31b09f64e6f7"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-30-ContainerSecurityScanningVulnerabilitiesRisksandTooling_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Back-testing Cryptocurrencies: Astonishing Results from a Simple Deep Learning Strategy"
 link: "https://medium.com/@jsgastoniriartecabrera/backtesting-cryptocurrencies-astonishing-results-from-a-simple-deep-learning-strategy-584e06e6998c"
+isUpdated: true
 ---
+
+
+
 
 
 암호화폐 시장의 급격한 변동 속에서 백테스팅은 투자 전략을 검증하는 데 중요한 역할을 합니다. 본 연구는 비트코인, 이더리움, 바이낸스 코인, 솔라나 및 엑스알피와 같은 주요 암호화폐를 간단한 딥 러닝 모델을 활용해 평가하는 데 초점을 맞췄습니다. 놀랍게도, 이 방법은 다음과 같이 매우 뛰어난 성과 지표를 제시합니다:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tiger Analytics Data Engineer Role Interview Experience"
 link: "https://medium.com/@bvsarathc06/tiger-analytics-data-engineer-role-interview-experience-610e4b78932d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TigerAnalyticsDataEngineerRoleInterviewExperience_0.png" />

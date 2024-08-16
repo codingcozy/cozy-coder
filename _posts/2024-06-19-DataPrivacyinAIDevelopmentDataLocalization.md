@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Privacy in AI Development: Data Localization"
 link: "https://medium.com/towards-data-science/data-privacy-in-ai-development-data-localization-50df725bfa1c"
+isUpdated: true
 ---
+
+
+
 
 
 ## 왜 데이터가 어디에 있는지 중요한지 알아야 할까요?

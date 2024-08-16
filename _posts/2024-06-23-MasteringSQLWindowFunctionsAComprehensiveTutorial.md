@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering SQL Window Functions: A Comprehensive Tutorial"
 link: "https://medium.com/@manutej/mastering-sql-window-functions-guide-e6dc17eb1995"
+isUpdated: true
 ---
+
+
+
 
 
 # SQL 창 함수의 전체 잠재력을 발휘하세요. 기본적인 이해부터 고급 기술까지, 데이터 분석 및 쿼리 기술을 높이는 방법을 알아봅니다.

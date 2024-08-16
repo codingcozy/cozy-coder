@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Day 51: Understanding the OSI Model"
 link: "https://medium.com/@int0x33/day-51-understanding-the-osi-model-f22d5f3df756"
+isUpdated: true
 ---
+
+
+
 
 
 참고: 이 편집이 혼란스러웠습니다. 최종적으로 OSI 모델 안내서로 변경될 예정이니, 이 안내서를 개선하는 동안 조금만 기다려 주세요. 감사합니다!

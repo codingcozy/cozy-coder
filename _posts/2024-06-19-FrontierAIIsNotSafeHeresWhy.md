@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Frontier AI Is Not Safe. Here’s Why"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/frontier-ai-is-not-safe-heres-why-ef4fff7388c1"
+isUpdated: true
 ---
+
+
+
 
 
 AI 혁명의 리더들이 더 이상 자신들의 의도를 숨기지 않고 있습니다. 그들은 AI가 어디에나 존재하는 세상을 만들고 싶어합니다.

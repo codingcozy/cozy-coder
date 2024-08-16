@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Kubernetes on Raspberry Pi 5 — Part 3 Install K3S on master node"
 link: "https://medium.com/@ionutbanu/kubernetes-on-raspberry-pi-5-part-3-install-k3s-on-master-node-f95ea35a8b1c"
+isUpdated: true
 ---
+
+
+
 
 
 래즈베리 파이 4를 쿠버네티스 호스트로 약 두 년간 사용해 왔어요. 최근에 새로운 라즈베리 파이 5를 구매했어요. 새로 구매한 라즈베리 파이 5에도 쿠버네티스를 설정해 클러스터를 구성할 계획이에요.

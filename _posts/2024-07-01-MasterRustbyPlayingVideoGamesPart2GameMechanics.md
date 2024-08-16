@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Master Rust by Playing Video Games (Part 2) — Game Mechanics"
 link: "https://medium.com/@jonte-osterberg/master-rust-by-playing-video-games-part-2-game-mechanics-110173e9986a"
+isUpdated: true
 ---
+
+
+
 
 
 1부를 아직 안 읽으셨나요? 확인해보세요!

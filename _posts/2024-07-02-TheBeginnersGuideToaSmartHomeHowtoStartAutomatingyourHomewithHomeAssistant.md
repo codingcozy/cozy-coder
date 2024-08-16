@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Beginner's Guide To a Smart Home: How to Start Automating your Home with Home Assistant"
 link: "https://medium.com/techlife/the-beginners-guide-to-a-smart-home-how-to-start-automating-your-home-with-home-assistant-cddc99aaa77d"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Storytelling 101: Using Color Strategically for Impactful Storytelling"
 link: "https://medium.com/microsoft-power-bi/data-visualization-using-color-strategically-for-impactful-storytelling-c58dbbd4694a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이 기사는 데이터 시각화의 효과적인 데이터 스토리텔링을 강화하는 데 중요한 역할을 하는 회색 색상에 대해 탐구합니다. 또한 데이터 시각화를 위해 올바른 색상을 선택하는 몇 가지 기본 규칙을 제공합니다. 이 주제에 대한 치트 시트는 기사 끝에 포함될 예정입니다.

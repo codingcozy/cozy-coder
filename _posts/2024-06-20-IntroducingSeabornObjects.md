@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Seaborn Objects"
 link: "https://medium.com/towards-data-science/introducing-seaborn-objects-aa40406acf3d"
+isUpdated: true
 ---
+
+
+
 
 
 ## QUICK SUCCESS DATA SCIENCE

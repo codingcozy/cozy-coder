@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Prediction AI Is Coming. Are You (and the World) Ready?"
 link: "https://medium.com/illumination-curated/prediction-ai-is-coming-are-you-and-the-world-ready-93da983994b8"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Neural Networks in TensorFlow (and PyTorch)"
 link: "https://medium.com/towards-data-science/implementing-neural-networks-in-tensorflow-and-pytorch-3c1f097e412a"
+isUpdated: true
 ---
+
+
+
 
 
 환영합니다, 깊은 학습 그림 시리즈의 실용적인 실행 가이드로 여러분을 초대합니다. 이번 시리즈에서는 이전 글에서 탐구한 신경망 개념을 실제로 적용하여 이론과 실무 사이의 간극을 줄일 것입니다.

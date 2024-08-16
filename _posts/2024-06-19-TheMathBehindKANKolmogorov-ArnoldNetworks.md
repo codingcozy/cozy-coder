@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Math Behind KAN — Kolmogorov-Arnold Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95"
+isUpdated: true
 ---
+
+
+
 
 
 ## 클래식 다층 퍼셉트론 대안이 나왔어요. 왜 더 정확하고 해석 가능한 건가요? 수학과 코드 심층 탐구.

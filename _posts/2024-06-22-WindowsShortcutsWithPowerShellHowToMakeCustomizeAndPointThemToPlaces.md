@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Windows Shortcuts With PowerShell — How To Make, Customize And Point Them To Places"
 link: "https://medium.com/@dbilanoski/how-to-tuesdays-shortcuts-with-powershell-how-to-make-customize-and-point-them-to-places-1ee528af2763"
+isUpdated: true
 ---
+
+
+
 
 
 이제와서 당신이 손에 가장 흔한 작업인 것처럼 확신을 갖고 "응, 30분 만에 끝낼 거야!" 라고 생각할 때 상황이 발생할 것입니다. 그리고 2시간 후에 일부 희미한 문서를 찾아보며, 코드 예제를 보면서 "이게 정말 이런 건가?" 라고 생생히 느낄 수도 있죠.

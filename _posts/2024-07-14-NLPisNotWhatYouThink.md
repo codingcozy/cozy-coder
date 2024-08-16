@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "NLP is Not What You Think"
 link: "https://medium.com/@KimWitten/nlp-is-not-what-you-think-21ed3d031c71"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-14-NLPisNotWhatYouThink_0.png](/assets/img/2024-07-14-NLPisNotWhatYouThink_0.png)

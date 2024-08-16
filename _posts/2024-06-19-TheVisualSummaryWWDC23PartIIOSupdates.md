@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Visual Summary — WWDC23 Part II: OS updates"
 link: "https://medium.com/thevisualsummary/the-visual-wwdc23-summary-part-ii-os-updates-113d6363cc6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 애플의 WWDC23 OS 업데이트 스케치 노트 요약

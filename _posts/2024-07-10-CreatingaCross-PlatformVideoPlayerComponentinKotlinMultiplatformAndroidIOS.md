@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Cross-Platform Video Player Component in Kotlin Multiplatform Android IOS"
 link: "https://medium.com/@adman.shadman/creating-a-cross-platform-video-player-component-in-kotlin-multiplatform-android-ios-9d79174aa2ca"
+isUpdated: true
 ---
+
+
+
 
 
 ![Creating a Cross-Platform Video Player Component in Kotlin Multiplatform for Android and iOS](/assets/img/2024-07-10-CreatingaCross-PlatformVideoPlayerComponentinKotlinMultiplatformAndroidIOS_0.png)

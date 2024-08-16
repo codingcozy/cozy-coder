@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to run Ollama on Windows"
 link: "https://medium.com/@researchgraph/how-to-run-ollama-on-windows-8a1622525ada"
+isUpdated: true
 ---
+
+
+
 
 
 ## Ollama 사용 시작하기: 단계별 안내

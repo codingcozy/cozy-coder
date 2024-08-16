@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to use wifi module ESP-01 ESP8266 without the headache"
 link: "https://medium.com/@codyexho/how-to-use-wifi-module-esp-01-esp8266-without-the-headache-fa69ab83c06c"
+isUpdated: true
 ---
+
+
+
 
 
 요즘, ESP32와 Arduino UNO 보드를 통합하여 스마트 홈 시스템을 만드는 것을 시도해보고 있어요. 집의 식물을 위한 보습 장치 같은 거 말이죠. 여기에는 그 여정과 그 과정에서 주요한 고충 포인트에 대해 설명하겠어요. 그리고 왜 NodeMCU의 ESP8266을 사용하게 된 이유에 대해서도 언급할게요.

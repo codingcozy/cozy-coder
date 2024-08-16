@@ -3,12 +3,16 @@ title: "맥OS 공격 매트릭스 IOPlatformExpertDevice를 사용하여 시스�
 description: ""
 coverImage: "/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png"
 date: 2024-05-27 12:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png
 tag: Tech
 originalTitle: "MacOS Attack Matrix: Gathering System Information using IOPlatformExpertDevice (Part — 2)"
 link: "https://medium.com/@utkarshcodes/macos-attack-matrix-gathering-system-information-using-ioplatformexpertdevice-part-2-8162f3b83415"
+isUpdated: true
 ---
+
+
+
 
 
 ![Screenshot](/assets/img/2024-05-27-MacOSAttackMatrixGatheringSystemInformationusingIOPlatformExpertDevicePart2_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "More Accessible Graphs with Jetpack Compose Part 4: On-Screen Control Buttons"
 link: "https://medium.com/proandroiddev/more-accessible-graphs-with-jetpack-compose-part-4-on-screen-control-buttons-6187e6991ddc"
+isUpdated: true
 ---
+
+
+
 
 
 ![example](/assets/img/2024-07-10-MoreAccessibleGraphswithJetpackComposePart4On-ScreenControlButtons_0.png)

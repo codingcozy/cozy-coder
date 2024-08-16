@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Robots Gone Wild: Is There Reason for Concern Now and in the Future?"
 link: "https://medium.com/datadriveninvestor/robots-gone-wild-is-there-reason-for-concern-now-and-in-the-future-65cbf61cba7b"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능이 비즈니스의 모든 영역에서 발전하고 있지만, 만약 그것이 "야생"이 된다면 무슨 일이 벌어질지에 대한 심각한 우려가 있습니다.

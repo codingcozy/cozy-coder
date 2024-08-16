@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Risk of False Innovation using 3D Printing"
 link: "https://medium.com/@hashim.alzain/the-risk-of-false-innovation-using-3d-printing-8cbac9e0e40b"
+isUpdated: true
 ---
+
+
+
 
 
 ![테이블 이미지](/assets/img/2024-06-19-TheRiskofFalseInnovationusing3DPrinting_0.png)

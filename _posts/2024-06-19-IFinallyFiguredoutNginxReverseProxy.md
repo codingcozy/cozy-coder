@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Finally Figured out Nginx Reverse Proxy"
 link: "https://medium.com/dev-genius/i-finally-figured-out-nginx-reverse-proxy-b9c050f16db7"
+isUpdated: true
 ---
+
+
+
 
 
 ## 무료 SSL 인증서로 내 웹 앱을 서버에 호스팅하는 방법

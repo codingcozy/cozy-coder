@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "All eyes on Apple — 1 BIG lesson learned!"
 link: "https://medium.com/macoclock/all-eyes-on-apple-1-big-lesson-learned-77c0707015fa"
+isUpdated: true
 ---
+
+
+
 
 
 이미지를 Markdown 형식으로 변경해주세요.

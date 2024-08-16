@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TryHackMe — Blue"
 link: "https://medium.com/@hackshobgoblin/tryhackme-blue-6e62789bad02"
+isUpdated: true
 ---
+
+
+
 
 
 방 정보: https://tryhackme.com/r/room/blue

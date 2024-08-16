@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How we design our semantic engine for LLMs? The backbone of the semantic layer for LLM architecture."
 link: "https://medium.com/wrenai/how-we-design-our-semantic-engine-for-llms-84a00e6e3baa"
+isUpdated: true
 ---
+
+
+
 
 
 트렌드 AI 에이전트의 등장은 비즈니스 인텔리전스 및 데이터 관리 분야를 혁신적으로 변화시켰습니다. 가까운 미래에는 여러 AI 에이전트가 배포되어 데이터베이스와 데이터 웨어하우스에 저장된 방대한 내부 지식을 활용하고 해석할 것입니다. 이를 용이하게 하기 위해서는 의미론적 엔진이 필수적입니다. 이 엔진은 데이터 스키마를 관련 비즈니스 맥락에 매핑하여 AI 에이전트가 데이터의 기저 의미를 이해할 수 있도록 합니다. 비즈니스 맥락에 대한 구조화된 이해를 제공함으로써 의미론적 엔진은 AI 에이전트가 특정 비즈니스 요구에 맞는 정확한 SQL 쿼리를 생성하고 정확하고 맥락에 맞는 데이터 검색을 보장할 수 있도록합니다.

@@ -3,12 +3,16 @@ title: "강화 학습 딥 Q-네트워크"
 description: ""
 coverImage: "/assets/img/2024-05-27-ReinforcementLearningDeepQ-Networks_0.png"
 date: 2024-05-27 14:10
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ReinforcementLearningDeepQ-Networks_0.png
 tag: Tech
 originalTitle: "Reinforcement Learning: Deep Q-Networks"
 link: "https://medium.com/towards-data-science/reinforcement-learning-from-scratch-deep-q-networks-0a8d33ce165b"
+isUpdated: true
 ---
+
+
+
 
 ## Python을 사용하여 달에 착륙하는 셔틀 가르치기: Deep Q-Networks를 활용한 강화 학습의 수학적 탐구
 

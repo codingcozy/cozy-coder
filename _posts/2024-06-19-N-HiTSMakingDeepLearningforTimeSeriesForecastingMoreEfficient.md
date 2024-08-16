@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "N-HiTS — Making Deep Learning for Time Series Forecasting More Efficient"
 link: "https://medium.com/towards-data-science/n-hits-making-deep-learning-for-time-series-forecasting-more-efficient-d00956fc3e93"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-N-HiTSMakingDeepLearningforTimeSeriesForecastingMoreEfficient_0.png" />

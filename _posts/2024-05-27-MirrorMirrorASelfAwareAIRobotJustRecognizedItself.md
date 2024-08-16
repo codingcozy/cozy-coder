@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mirror, Mirror: A ‘Self Aware’ AI Robot Just Recognized Itself"
 link: "https://medium.com/towards-artificial-intelligence/mirror-mirror-a-self-aware-ai-robot-just-recognized-itself-6d2a45f653ab"
+isUpdated: true
 ---
+
+
+
 
 
 "안녕 Rob, 시력을 테스트해 볼까?" 틱톡 비디오에서 화면을 살짝 벗어난 곳에 서 있는 사람이 말했어요.

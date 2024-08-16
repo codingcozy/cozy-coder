@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Roomba App Features You Need To Know"
 link: "https://medium.com/@tcaflisch/roomba-app-features-you-need-to-know-82e7f7eaed63"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 18일

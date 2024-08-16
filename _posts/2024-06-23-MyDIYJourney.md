@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My DIY Journey"
 link: "https://medium.com/the-diy-diaries/my-diy-journey-3e07b58470a5"
+isUpdated: true
 ---
+
+
+
 
 
 

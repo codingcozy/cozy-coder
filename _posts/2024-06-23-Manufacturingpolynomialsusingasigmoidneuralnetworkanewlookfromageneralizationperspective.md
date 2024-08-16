@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Manufacturing polynomials using a sigmoid neural network — a new look from a ‘generalization’ perspective"
 link: "https://medium.com/@snaveenmathew/manufacturing-polynomials-using-a-sigmoid-neural-network-a-new-look-from-a-generalization-68a1b42e4be7"
+isUpdated: true
 ---
+
+
+
 
 
 면허가 있는 거래처 선정이 기존에서 5년 이상된 기사에 대한 후속 내용입니다:

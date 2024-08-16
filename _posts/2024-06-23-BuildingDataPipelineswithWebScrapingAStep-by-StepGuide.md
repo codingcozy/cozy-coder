@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Data Pipelines with Web Scraping: A Step-by-Step Guide"
 link: "https://medium.com/@pillaigreesh16/building-data-pipelines-with-web-scraping-a-step-by-step-guide-3ab712f1412b"
+isUpdated: true
 ---
+
+
+
 
 
 웹 스크레이핑은 웹을 거대한 데이터 광산으로 변신시키는 기술이에요. 여기에는 모든 정보가 발굴되기를 기다리는 잠재적 보석이 숨어 있답니다.

@@ -1,5 +1,5 @@
 ---
-title: "버그 없는 코드를 작성하는 7가지 비법"
+title: "버그 없는 코드를 작성하기 위해 지켜야하는 7가지"
 description: ""
 coverImage: "/assets/img/2024-08-03-Howtoneverwritecodewithbugs_0.png"
 date: 2024-08-03 18:36
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to never write code with bugs"
 link: "https://medium.com/coding-beauty/avoiding-bugs-22b2d6745f63"
+isUpdated: true
 ---
+
+
+
 
 
 

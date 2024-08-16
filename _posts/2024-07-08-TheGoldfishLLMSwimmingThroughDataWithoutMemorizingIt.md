@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Goldfish LLM: Swimming Through Data Without Memorizing It"
 link: "https://medium.com/gitconnected/the-goldfish-llm-swimming-through-data-without-memorizing-it-5903e9bd90eb"
+isUpdated: true
 ---
+
+
+
 
 
 ## |개인정보보호|기억|학습기계|비학습|

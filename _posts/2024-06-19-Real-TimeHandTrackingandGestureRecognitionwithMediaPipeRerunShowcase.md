@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Real-Time Hand Tracking and Gesture Recognition with MediaPipe: Rerun Showcase"
 link: "https://medium.com/towards-data-science/real-time-hand-tracking-and-gesture-recognition-with-mediapipe-rerun-showcase-9ec57cb0c831"
+isUpdated: true
 ---
+
+
+
 
 
 ## 미디어파이프의 손 추척 및 제스처 인식을 Rerun과 함께 시각화하는 방법

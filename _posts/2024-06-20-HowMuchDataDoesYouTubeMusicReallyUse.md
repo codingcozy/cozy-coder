@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Much Data Does YouTube Music Really Use?"
 link: "https://medium.com/@crayborn40/how-much-data-does-youtube-music-really-use-221a1b435556"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-HowMuchDataDoesYouTubeMusicReallyUse_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Power of AIoT: Reshaping Businesses Worldwide"
 link: "https://medium.com/@kanerika/exploring-the-power-of-aiot-reshaping-businesses-worldwide-6e8f56d44743"
+isUpdated: true
 ---
+
+
+
 
 
 당신은 개발자이세요. 위의 텍스트를 친근한 어조로 한국어로 번역해 주실 수 있나요?

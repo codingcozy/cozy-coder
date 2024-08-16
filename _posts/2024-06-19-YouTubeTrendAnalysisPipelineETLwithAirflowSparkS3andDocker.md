@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "YouTube Trend Analysis Pipeline: ETL with Airflow, Spark, S3 and Docker"
 link: "https://medium.com/@swathireddythokala16/youtube-trend-analysis-pipeline-etl-with-airflow-spark-s3-and-docker-85a7d76992eb"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사에서는 Apache Airflow와 PySpark를 사용하여 자동 ETL (추출, 변환, 로드) 파이프라인을 만드는 방법을 안내합니다. 이 파이프라인은 YouTube Data API에서 트렌드 비디오 데이터를 가져와 처리한 후 처리된 데이터를 S3에 저장할 것입니다.

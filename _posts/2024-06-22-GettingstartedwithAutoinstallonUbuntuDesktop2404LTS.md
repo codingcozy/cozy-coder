@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Getting started with Autoinstall on Ubuntu Desktop 24.04 LTS"
 link: "https://medium.com/@local_optimum/getting-started-with-autoinstall-on-ubuntu-desktop-24-04-lts-147a1defb2de"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-GettingstartedwithAutoinstallonUbuntuDesktop2404LTS_0.png)

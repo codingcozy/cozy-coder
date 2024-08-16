@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Image to Summary: Using Tesseract and BART for Text Extraction and Summary"
 link: "https://medium.com/@bambadij/from-image-to-summary-using-tesseract-and-bart-for-text-extraction-and-summary-b74e6eb77f0b"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해주세요.

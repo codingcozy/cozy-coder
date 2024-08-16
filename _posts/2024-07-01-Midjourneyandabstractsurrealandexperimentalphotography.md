@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Midjourney and abstract, surreal, and experimental photography"
 link: "https://medium.com/let-there-be-prompt/midjourney-and-abstract-surreal-and-experimental-photography-26c97837967b"
+isUpdated: true
 ---
+
+
+
 
 
 추상적이고 초현실적인 예술 사진은 사진 예술의 독특한 장르를 대표하며, 각각 현실이 어떻게 인식되고 해석될 수 있는지에 대한 경계를 넓혀줍니다. 이러한 사진 형태들은 전통적인 미학에 도전하며 관객들을 새로운 상상력과 감정의 영역으로 이끌어줍니다.

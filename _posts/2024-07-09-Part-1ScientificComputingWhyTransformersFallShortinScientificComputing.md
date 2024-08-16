@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Part-1 (Scientific Computing) ~ Why Transformers Fall Short in Scientific Computing"
 link: "https://medium.com/autonomous-agents/part-1-scientific-computing-why-transformers-fall-short-in-scientific-computing-812c64c5c149"
+isUpdated: true
 ---
+
+
+
 
 
 LLM(Large Language Model)과 같은 Transformer 기반 모델들은 자연어 처리 작업에서 놀라운 능력을 보여주고 있습니다. 그러나 이러한 모델들은 과학 계산에 적용될 때 한계점이 드러납니다. 특히 네비에-스토크스(Navier-Stokes) 방정식을 해결하는 경우에는 그 한계가 더욱 분명해집니다. 유체 역학에 기초하는 이 방정식들은 복잡한 편미분 방정식(PDEs)을 해결해야 하는데, Transformer 모델들은 이러한 작업을 처리할 수 있는 능력이 없기 때문에 한계가 발생합니다. 이 블로그에서는 Transformer 모델이 직면하는 한계를 설명하고, 이를 탐구하며 수학적 및 개념적 도전에 대해 살펴봅니다.

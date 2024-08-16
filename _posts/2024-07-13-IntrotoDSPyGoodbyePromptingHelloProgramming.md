@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intro to DSPy: Goodbye Prompting, Hello Programming!"
 link: "https://medium.com/towards-data-science/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9"
+isUpdated: true
 ---
+
+
+
 
 
 ![IntrotoDSPyGoodbyePromptingHelloProgramming_0.png](/assets/img/2024-07-13-IntrotoDSPyGoodbyePromptingHelloProgramming_0.png)

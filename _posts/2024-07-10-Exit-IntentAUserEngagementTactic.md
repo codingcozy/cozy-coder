@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exit-Intent: A User Engagement Tactic"
 link: "https://medium.com/@louistrinh/exit-intent-a-user-engagement-tactic-b0639eaf25f2"
+isUpdated: true
 ---
+
+
+
 
 
 ![exit-intent](/assets/img/2024-07-10-Exit-IntentAUserEngagementTactic_0.png)

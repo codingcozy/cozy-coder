@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "macOS full height sidebar window"
 link: "https://medium.com/@bancarel.paul/macos-full-height-sidebar-window-62a214309a80"
+isUpdated: true
 ---
+
+
+
 
 
 요즘, macOS 앱에서 전체 높이 사이드바와 풍부한 툴바 및 타이틀바를 원했어요.

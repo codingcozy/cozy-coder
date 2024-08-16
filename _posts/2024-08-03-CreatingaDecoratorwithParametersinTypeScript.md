@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Decorator with Parameters in TypeScript"
 link: "https://medium.com/@dlyusko/creating-a-decorator-with-parameters-in-typescript-db78873242dd"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-03-CreatingaDecoratorwithParametersinTypeScript_0.png" />

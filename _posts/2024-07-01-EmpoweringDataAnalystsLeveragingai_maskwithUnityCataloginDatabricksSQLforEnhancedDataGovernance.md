@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Empowering Data Analysts: Leveraging ai_mask with Unity Catalog in Databricks SQL for Enhanced Data Governance"
 link: "https://medium.com/dbsql-sme-engineering/empowering-data-analysts-leveraging-ai-mask-with-unity-catalog-in-databricks-sql-for-enhanced-data-46d0d10edef9"
+isUpdated: true
 ---
+
+
+
 
 
 

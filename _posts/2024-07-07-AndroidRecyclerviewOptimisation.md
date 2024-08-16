@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Recyclerview Optimisation"
 link: "https://medium.com/@farimarwat/android-recyclerview-optimisation-3d5408ae31cf"
+isUpdated: true
 ---
+
+
+
 
 
 ![RecyclerView Optimization](/assets/img/2024-07-07-AndroidRecyclerviewOptimisation_0.png)

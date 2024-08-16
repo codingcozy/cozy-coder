@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting performance Faires transition to NextJS"
 link: "https://medium.com/faire-the-craft/boosting-performance-faires-transition-to-nextjs-3967f092caaf"
+isUpdated: true
 ---
+
+
+
 
 
 ## Faire가 성숙한 단일 페이지 애플리케이션에서 서버 측 NextJS 프레임워크로의 이관을 어떻게 처리했는지

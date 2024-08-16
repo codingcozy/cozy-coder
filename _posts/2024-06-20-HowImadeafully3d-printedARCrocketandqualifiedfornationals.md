@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I made a fully 3d-printed ARC rocket and qualified for nationals"
 link: "https://medium.com/@vikramaditya.nishant/how-i-made-a-fully-3d-printed-arc-rocket-and-qualified-for-nationals-bc4c667d9c70"
+isUpdated: true
 ---
+
+
+
 
 
 올해 우리 팀은 ARC 국가 결승전에 진출하여 3D 프린트 된 로켓을 사용하여 Mission 상의 '가장 혁신적인 방법'상을 수상했습니다. 이 글에서는 이 로켓을 개발하면서 경험한 여정과 배운 점을 공유하겠습니다. ARC나 로켓 항공공학에 관심 있는 팀들은 이 디자인에 대한 우리의 학습과 경험에서 이득을 볼 것입니다.

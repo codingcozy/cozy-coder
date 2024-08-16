@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhance Your Function Calls with Inline Functions in Kotlin"
 link: "https://medium.com/@mahbubmridha07/enhance-your-function-calls-with-inline-functions-in-kotlin-dfe1d938648d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-07-EnhanceYourFunctionCallswithInlineFunctionsinKotlin_0.png)

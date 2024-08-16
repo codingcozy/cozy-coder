@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "HOW DATA BINDINGWORKS INTERNALLY"
 link: "https://medium.com/@sandeepkella23/how-data-bindingworks-internally-ca21d7f4d841"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 오늘은 안드로이드에서 데이터 바인딩이 어떻게 작동하는지, 그리고 로직 코드를 어떻게 업데이트하는지에 대해 살펴보겠습니다. 이에 대해 깊이 있는 통찰을 얻을 수 있어요. 데이터 바인딩 컴파일러가 코드를 생성하는 방법, 바인딩 표현식을 어떻게 관리하는지, 그리고 데이터 변경이 UI로 효율적으로 전파되도록 하는 방법을 알아야 해요.

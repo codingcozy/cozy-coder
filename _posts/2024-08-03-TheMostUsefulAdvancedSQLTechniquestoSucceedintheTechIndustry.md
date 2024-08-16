@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Most Useful Advanced SQL Techniques to Succeed in the Tech Industry"
 link: "https://medium.com/towards-data-science/the-most-useful-advanced-sql-techniques-to-succeed-in-the-tech-industry-0f0690e8386c"
+isUpdated: true
 ---
+
+
+
 
 
 ## 고급 SQL 마스터하는 데 필요한 문법, 사용 사례 및 전문가 팁

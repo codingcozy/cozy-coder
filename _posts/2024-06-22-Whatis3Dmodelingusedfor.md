@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What is 3D modeling used for?"
 link: "https://medium.com/@szrashed/what-is-3d-modeling-used-for-425c56832f01"
+isUpdated: true
 ---
+
+
+
 
 
 3D 모델은 영화, 게임, 건축, 제품 디자인 등에서 사용됩니다. 엔터테인먼트 산업과 가상 현실에서 3D 모델을 예상할 수 있지만, 많은 다른 산업에서도 3D 모델이 사용된다는 사실에 놀라실지도 모릅니다.

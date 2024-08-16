@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to run Ollama in Windows via WSL"
 link: "https://medium.com/@Tanzim/how-to-run-ollama-in-windows-via-wsl-8ace765cee12"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-HowtorunOllamainWindowsviaWSL_0.png" />

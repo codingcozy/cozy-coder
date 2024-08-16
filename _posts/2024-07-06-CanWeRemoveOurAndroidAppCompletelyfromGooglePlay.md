@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can We Remove Our Android App Completely from Google Play?"
 link: "https://medium.com/@callmeryan/can-we-remove-our-android-app-completely-from-google-play-b65ef4f720d4"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! Google Play에 앱을 게시하는 것은 돌이킬 수 없는 결정처럼 느껴질 수 있어요. 많은 개발자들이 앱을 플랫폼에서 완전히 제거하는 것이 생각보다 간단하지 않다는 것을 알게 되었어요.

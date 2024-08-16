@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install MySQL on Mac"
 link: "https://medium.com/@rodolfovmartins/how-to-install-mysql-on-mac-959df86a5319"
+isUpdated: true
 ---
+
+
+
 
 
 

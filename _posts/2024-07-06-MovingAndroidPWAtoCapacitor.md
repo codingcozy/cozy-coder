@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Moving Android PWA to Capacitor"
 link: "https://medium.com/adamant-im/moving-android-pwa-to-capacitor-e64b923284c0"
+isUpdated: true
 ---
+
+
+
 
 
 이전에는 몇 가지 제한 사항이 있는 Android 앱을 빌드하기 위해 pwabuilder.com을 사용했습니다:

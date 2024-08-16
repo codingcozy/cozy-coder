@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Platypus: Quick, Cheap, and Powerful LLM"
 link: "https://medium.com/gitconnected/platypus-quick-cheap-and-powerful-llm-404b86af8755"
+isUpdated: true
 ---
+
+
+
 
 
 ## |인공지능|LLMS|NLP|

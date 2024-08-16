@@ -1,5 +1,5 @@
 ---
-title: "React 19까지 모든 React 훅 정리"
+title: "React 19에 새로 추가된 React 훅 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-03 18:43
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "All React hooks  up to React 19"
 link: "https://medium.com/@upekshadilshan000/all-react-hooks-up-to-react-19-5c0bbba534a5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 리액트 훅 완전 가이드.

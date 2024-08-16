@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LLM Alignment: Reward-Based vs Reward-Free Methods"
 link: "https://medium.com/towards-data-science/llm-alignment-reward-based-vs-reward-free-methods-ef0c0f6e8d88"
+isUpdated: true
 ---
+
+
+
 
 
 ## LLM 정렬을 위한 최적화 방법

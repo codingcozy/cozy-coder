@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Lucky Lab Rat: How AI Saved Our Company"
 link: "https://medium.com/@nicdahlquist/lucky-lab-rat-how-ai-saved-our-company-22bf1d5ebbb4"
+isUpdated: true
 ---
+
+
+
 
 
 2023년 3월, 저는 Mango Inc.에 합류했어요. 당시 그는 작은 스타트업이었죠 — 현장에서는 4명의 인원이 있었고, 몇 명의 비현장 컨설턴트가 계셨어요. 저희의 업무는 보통 미생물학, 하드웨어 프로토타이핑, 광학 및 소프트웨어와 같이 여러 전문 분야를 걸쳐 다루는 것이 특징이에요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is it just me or is iPhone 15 Pro Max actually working fine?"
 link: "https://medium.com/macoclock/is-it-just-me-or-is-iphone-15-pro-max-actually-working-fine-35905cf30ff6"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-13-IsitjustmeorisiPhone15ProMaxactuallyworkingfine_0.png)

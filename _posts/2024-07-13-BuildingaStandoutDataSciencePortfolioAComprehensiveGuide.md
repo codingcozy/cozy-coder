@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Standout Data Science Portfolio: A Comprehensive Guide"
 link: "https://medium.com/towards-data-science/building-a-standout-data-science-portfolio-a-comprehensive-guide-6dabd0ec7059"
+isUpdated: true
 ---
+
+
+
 
 
 # 맥락

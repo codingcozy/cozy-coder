@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Transforming Next-Token Prediction into Classification with LLMs"
 link: "https://medium.com/towards-data-science/transforming-next-token-prediction-into-classification-with-llms-fb4f33a02637"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-23-TransformingNext-TokenPredictionintoClassificationwithLLMs_0.png)

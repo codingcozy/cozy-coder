@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "5 Simple Yet Powerful Ways to Improve Your RAG Pipeline"
 link: "https://medium.com/ai-advances/5-simple-yet-powerful-ways-to-improve-your-rag-pipeline-2579b8ad1444"
+isUpdated: true
 ---
+
+
+
 
 
 검색 증강 생성(Retrieval-Augmented Generation, RAG)은 대규모 언어 모델과 외부 소스에서 관련 정보를 검색할 수 있는 능력을 결합함으로써 자연어 처리 작업을 혁신적으로 향상시켰어요. 이 방식을 통해 보다 정확하고 최신 정보를 고려한 응답이 가능해지죠. 하지만 복잡한 시스템과 마찬가지로, RAG 파이프라인은 더 나은 성능을 위해 추가 최적화가 가능합니다.

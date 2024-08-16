@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Entity-Resolved Knowledge Graphs"
 link: "https://medium.com/towards-data-science/entity-resolved-knowledge-graphs-6b22c09a1442"
+isUpdated: true
 ---
+
+
+
 
 
 ## 새로운 용어. 오래된 개념. 결국, 데이터 융합에 관한 이야기입니다.

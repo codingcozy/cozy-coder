@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Review — OpenAI Whisper: Robust Speech Recognition via Large-Scale Weak Supervision"
 link: "https://medium.com/@sh-tsang/review-openai-whisper-robust-speech-recognition-via-large-scale-weak-supervision-f7b9bb646356"
+isUpdated: true
 ---
+
+
+
 
 
 ## OpenAI Whisper for Speech-to-Text (STT)

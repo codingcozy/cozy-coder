@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Speed Up Your Mac With macOS Ventura"
 link: "https://medium.com/macoclock/how-to-speed-up-your-mac-with-macos-13-1-ventura-ed295b2772c5"
+isUpdated: true
 ---
+
+
+
 
 
 ## macOS 13.1 Venture에서 맥을 빠르게 하는 다섯 가지 방법

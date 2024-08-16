@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Next-Level Anomaly Detection: Unlocking Neural Insights"
 link: "https://medium.com/towards-data-science/an-exploration-of-model-state-data-in-anomaly-detection-e6860cbca160"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-08-Next-LevelAnomalyDetectionUnlockingNeuralInsights_0.png)

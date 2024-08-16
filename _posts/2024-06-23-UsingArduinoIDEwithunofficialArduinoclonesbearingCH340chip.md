@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using Arduino IDE with unofficial Arduino clones bearing CH340 chip"
 link: "https://medium.com/dev-genius/using-arduino-ide-with-unofficial-arduino-clones-bearing-ch340-chip-752d1b90810d"
+isUpdated: true
 ---
+
+
+
 
 
 사용되지 않는 Arduino 복제품의 예측할 수 없는 세계로 한 발 들어보세요

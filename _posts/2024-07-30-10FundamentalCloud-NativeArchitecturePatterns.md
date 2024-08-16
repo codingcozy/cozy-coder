@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "10 Fundamental Cloud-Native Architecture Patterns"
 link: "https://medium.com/@azeynalli1990/10-fundamental-cloud-native-architecture-patterns-8a4c4a34b721"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-30-10FundamentalCloud-NativeArchitecturePatterns_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Error handling with Angular2 async pipe"
 link: "https://medium.com/@fixitblog/solved-error-handling-with-angular2-async-pipe-bc48e674272a"
+isUpdated: true
 ---
+
+
+
 
 
 저는 Angular2의 async 파이프를 사용하여 값을 DOM에 스트리밍하는 중입니다. 여기에 간단한 예제가 있습니다:

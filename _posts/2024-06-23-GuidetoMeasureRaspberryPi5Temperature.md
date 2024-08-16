@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guide to Measure Raspberry Pi 5 Temperature"
 link: "https://medium.com/@MrTechGuy/guide-to-measure-raspberry-pi-5-temperature-429d61a1ec44"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이 5의 온도를 이해하는 것은 중요합니다, 특히 고부하 작업 중일 때에는 더욱 중요합니다. 라즈베리 파이 5의 온도를 측정하는 데 도움이 되는 단계별 안내서가 여기 있습니다:

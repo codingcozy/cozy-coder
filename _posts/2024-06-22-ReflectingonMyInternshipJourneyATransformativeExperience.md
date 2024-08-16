@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Reflecting on My Internship Journey: A Transformative Experience"
 link: "https://medium.com/@magantiganesh0353/reflecting-on-my-internship-journey-a-transformative-experience-ed0968e3bb41"
+isUpdated: true
 ---
+
+
+
 
 
 인턴십을 통해 전문가로 성장하는 여정에 돌입하면서 발견하고 배우고 성장하는 과정과 유사합니다. 인턴십 경험을 되돌아보면, 선택한 분야에 대한 시야와 나의 개인 발전에 얼마나 큰 영향을 미쳤는지 깨닫게 됩니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the GA4 BigQuery Export Schema and Structure"
 link: "https://medium.com/towards-data-science/understanding-the-ga4-bigquery-export-schema-and-structure-3a068ebee4ea"
+isUpdated: true
 ---
+
+
+
 
 
 ![GA4 BigQuery Export Schema](/assets/img/2024-06-22-UnderstandingtheGA4BigQueryExportSchemaandStructure_0.png)

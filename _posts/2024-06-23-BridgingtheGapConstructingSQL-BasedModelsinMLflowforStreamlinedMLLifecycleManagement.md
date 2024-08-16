@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bridging the Gap: Constructing SQL-Based Models in MLflow for Streamlined ML Lifecycle Management"
 link: "https://medium.com/gitconnected/bridging-the-gap-constructing-sql-based-models-in-mlflow-for-streamlined-ml-lifecycle-management-f7c4b9e4e667"
+isUpdated: true
 ---
+
+
+
 
 
 ## MLflow 생태계에 SQL 모델을 통합하는 단계별 안내서

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Evolution of a Young Artist"
 link: "https://medium.com/the-diy-diaries/evolution-of-a-young-artist-85a34fc01d42"
+isUpdated: true
 ---
+
+
+
 
 
 ## 자기주도 학습

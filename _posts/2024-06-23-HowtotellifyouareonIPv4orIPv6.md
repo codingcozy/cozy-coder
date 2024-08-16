@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to tell if you are on IPv4 or IPv6"
 link: "https://medium.com/gitconnected/how-to-tell-if-you-are-on-ipv4-or-ipv6-1f33d8a1bf06"
+isUpdated: true
 ---
+
+
+
 
 
 웹이 다음 세대의 인터넷 주소 체계로 천천히 이동함에 따라, 사람들, 기업, 기술 관리자 및 서버 관리팀이 그들의 인터넷 연결 장치가 IPv4 또는 IPv6를 사용 중인지 쉽고 편리하게 확인할 수 있는 방법이 점점 더 중요해질 것입니다.

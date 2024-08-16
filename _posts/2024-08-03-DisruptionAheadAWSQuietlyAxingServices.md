@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Disruption Ahead AWS Quietly Axing Services"
 link: "https://medium.com/@horovits/disruption-ahead-aws-quietly-axing-services-033e7518eefb"
+isUpdated: true
 ---
+
+
+
 
 
 # 아마존이 조용히 Cloud9, SimpleDB, CodeCommit 및 기타 서비스를 폐기하고 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "IP-Adapter-FaceID-PlusV2–0 Shot Face Transfer — Auto Installer , Gradio App — Massed Compute, RunPod, Kaggle, Windows"
 link: "https://medium.com/@furkangozukara/ip-adapter-faceid-plusv2-0-shot-face-transfer-auto-installer-gradio-app-massed-compute-8b4e203e9408"
+isUpdated: true
 ---
+
+
+
 
 
 위의 ZIP 파일에는 Windows, RunPod, Massed Compute 및 무료 Kaggle 계정 노트북용 설치 프로그램이 포함되어 있습니다.

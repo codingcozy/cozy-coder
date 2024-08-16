@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Anatomy of Windows Functions"
 link: "https://medium.com/towards-data-science/anatomy-of-windows-functions-08f04938b12b"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소극적으로 여겨지는 SQL 작업의 이론과 실무

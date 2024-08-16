@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "This Happen When you uninstall WhatsApp App (exactly)"
 link: "https://medium.com/@thekunalkashyap/this-happen-when-you-uninstall-whatsapp-app-exactly-3a8ebb72330c"
+isUpdated: true
 ---
+
+
+
 
 
 Sure thing, here's the translation in a friendly Tarot style:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Meta AI Unveils LLM Compiler for Advanced Code and Compiler Optimization"
 link: "https://medium.com/syncedreview/meta-ai-unveils-llm-compiler-for-advanced-code-and-compiler-optimization-ce001c32cce7"
+isUpdated: true
 ---
+
+
+
 
 
 마크다운 형식으로 이미지 태그를 변경하겠습니다.

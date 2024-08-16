@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What Does OpenAI’s Acquisition of Rockset Mean for AI Companies?"
 link: "https://medium.com/madhukarkumar/what-does-openais-acquisition-of-rockset-mean-for-ai-companies-196211b25468"
+isUpdated: true
 ---
+
+
+
 
 
 ![image source](/assets/img/2024-06-22-WhatDoesOpenAIsAcquisitionofRocksetMeanforAICompanies_0.png)

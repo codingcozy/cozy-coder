@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "📌 Linux ate my ram 📌"
 link: "https://medium.com/@devopslearning/linux-ate-my-ram-a15ed0288a84"
+isUpdated: true
 ---
+
+
+
 
 
 린역 케어킹이 어렵고 복잡하다고 느끼셨던 적이 있나요? 걱정하지 마세요! 당신의 램은 괜찮아요! 이 비디오를 통해 리눅스가 메모리를 어떻게 관리하는지, 왜 램이 가득 차있는 것처럼 보이며 걱정할 필요가 없는지 설명해 드릴게요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Structures and Algorithms Interview Questions for Data Engineer"
 link: "https://medium.com/@vishalbarvaliya/data-structures-and-algorithms-interview-questions-for-data-engineer-7d81bad6901c"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 엔지니어링 면접 준비는 데이터 구조와 알고리즘(DSA)에 대한 튼튼한 이해력이 필요합니다. 여러분이 잘 준비될 수 있도록, 자주 물어지는 DSA 면접 질문들을 정리한 목록을 제공해 드립니다. 연습 문제 링크가 포함되어 있어 다양한 주제를 다루며 다음 면접에 잘 준비될 수 있습니다.

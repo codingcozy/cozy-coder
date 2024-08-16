@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Sin can Never Take a Man to Hell Fire."
 link: "https://medium.com/write-a-catalyst/sin-can-never-take-a-man-to-hell-fire-d3907c100ae7"
+isUpdated: true
 ---
+
+
+
 
 
 ![Tarot Image](/assets/img/2024-07-09-SincanNeverTakeaMantoHellFire_0.png)

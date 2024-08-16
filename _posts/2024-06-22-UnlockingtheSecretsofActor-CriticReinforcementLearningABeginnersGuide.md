@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Secrets of Actor-Critic Reinforcement Learning: A Beginner’s Guide"
 link: "https://medium.com/@arshren/unlocking-the-secrets-of-actor-critic-reinforcement-learning-a-beginners-guide-3c5953b13551"
+isUpdated: true
 ---
+
+
+
 
 
 ## 이해해야 할 개념:

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Microservices vs. Monolithic Approaches in Data"
 link: "https://medium.com/towards-data-science/microservices-vs-monolithic-approaches-in-data-8d9d9a064d06"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Ingestion — Part 1: Architectural Patterns"
 link: "https://medium.com/the-modern-scientist/the-art-of-data-ingestion-powering-analytics-from-operational-sources-467552d6c9a2"
+isUpdated: true
 ---
+
+
+
 
 
 두 편의 기사를 통해 데이터 수집에 대해 철저히 탐구해 보겠습니다. 데이터 수집은 운영 및 분석 세계를 연결하는 기본적인 프로세스입니다. 다양한 출처에서 데이터를 수집하여 원래의 운영 환경인 '운영 평면'에서 분석 평면 또는 '분석 평면'으로 운송하는 것이 중요합니다. 이 전환이 분석 권한의 완전한 잠재력을 발휘하는 데 필수적입니다.

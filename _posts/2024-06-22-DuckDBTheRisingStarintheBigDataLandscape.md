@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DuckDB: The Rising Star in the Big Data Landscape"
 link: "https://medium.com/@mihaibojin/duckdb-the-big-data-rising-star-71916f953f18"
+isUpdated: true
 ---
+
+
+
 
 
 # 빅 데이터의 현재 상태

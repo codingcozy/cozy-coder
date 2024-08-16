@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is ChatGPT Falling Behind Claude 3.5 Sonnet?"
 link: "https://medium.com/ai-in-plain-english/is-chatgpt-falling-behind-claude-3-5-sonnet-702b4b4f64ae"
+isUpdated: true
 ---
+
+
+
 
 
 카드 미디움에게 호의적인 어조로 번역해 드리겠습니다.

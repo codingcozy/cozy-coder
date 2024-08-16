@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fine tune BERT for text classification"
 link: "https://medium.com/codex/fine-tune-bert-for-text-classification-cef7a1d6cdf1"
+isUpdated: true
 ---
+
+
+
 
 
 섬세 조정은 대형 언어 모델이 사용자 지정 데이터에 적응하고 텍스트 분류와 같은 하향 작업을 잘 수행할 수 있도록 돕는 중요한 기술입니다.

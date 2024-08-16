@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "“Making Do” Makes Me Happy"
 link: "https://medium.com/rooted-publication/making-do-makes-me-happy-481091015ae2"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-MakingDoMakesMeHappy_0.png)

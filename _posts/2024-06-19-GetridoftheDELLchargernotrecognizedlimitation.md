@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Get rid of the DELL charger not recognized limitation"
 link: "https://medium.com/@Morikko/get-rid-of-the-dell-charger-not-recognized-limitation-d731bf81f0f3"
+isUpdated: true
 ---
+
+
+
 
 
 # 문제점

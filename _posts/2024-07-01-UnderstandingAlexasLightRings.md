@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Alexa’s Light Rings"
 link: "https://medium.com/@tcaflisch/understanding-alexas-light-rings-22bd7be888bf"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 6월 27일

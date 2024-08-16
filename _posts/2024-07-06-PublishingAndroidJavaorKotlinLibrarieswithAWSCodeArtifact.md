@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Publishing Android, Java or Kotlin Libraries with AWS CodeArtifact"
 link: "https://medium.com/proandroiddev/publishing-android-java-or-kotlin-libraries-with-aws-codeartifact-complete-guide-2fc4aca7fef9"
+isUpdated: true
 ---
+
+
+
 
 
 카드 아티팩트를 사용하여 안드로이드, 자바 또는 코틀린 라이브러리를 안전하게 배포하고 사용하고 싶다면, AWS CodeArtifact가 강력한 솔루션을 제공합니다. CodeArtifact는 아마존 웹 서비스(AWS)가 제공하는 완전히 관리되는 아티팩트 저장소 서비스로, 소프트웨어 패키지를 저장, 정리 및 공유할 수 있는 중앙 위치를 제공합니다.

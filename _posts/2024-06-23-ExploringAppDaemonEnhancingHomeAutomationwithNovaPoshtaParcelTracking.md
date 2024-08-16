@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring AppDaemon: Enhancing Home Automation with NovaPoshta Parcel Tracking"
 link: "https://medium.com/@vmannoor/exploring-appdaemon-enhancing-home-automation-with-novaposhta-parcel-tracking-25983f968304"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-ExploringAppDaemonEnhancingHomeAutomationwithNovaPoshtaParcelTracking_0.png" />

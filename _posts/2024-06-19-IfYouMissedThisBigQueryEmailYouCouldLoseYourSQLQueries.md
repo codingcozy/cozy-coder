@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "If You Missed This BigQuery Email You Could Lose Your SQL Queries"
 link: "https://medium.com/pipeline-a-data-engineering-resource/if-you-missed-this-bigquery-email-you-could-lose-your-sql-queries-30f7a0ee1ca7"
+isUpdated: true
 ---
+
+
+
 
 
 클라우드 및 데이터 엔지니어링의 세계를 처음 접하고 계신가요? 전문가로서의 여정을 시작할 때 포트폴리오로 시작해보세요. 무료 5페이지 프로젝트 아이데이션 가이드를 받아보세요.

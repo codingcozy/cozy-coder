@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What happened when we disabled Google AMP at Tribune Publishing Shockingly little So you should try it, too"
 link: "https://medium.com/@kurtgessler/what-happened-when-we-disabled-google-amp-at-tribune-publishing-2fa65a2f2a40"
+isUpdated: true
 ---
+
+
+
 
 
 2021년 6월 알고리즘 업데이트를 앞두고 구글은 검색 순위 결정에 전반적인 페이지 경험을 강조하기 위해 올리는 앰프(AMP)를 선호하지 않겠다는 중요한 발표를 했습니다.

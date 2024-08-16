@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Can I play GTA 5 on macOS?"
 link: "https://medium.com/@kukucourses/can-i-play-gta-5-on-macos-d0675eba8d59"
+isUpdated: true
 ---
+
+
+
 
 
 ## 네, Whisky, Parallels 및 Crossover와 같은 소프트웨어를 사용하여 맥에서 GTA 5를 플레이할 수 있어요.

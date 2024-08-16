@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Text Classification in NLP: Categorizing Text with Machine Learning (Part 8)"
 link: "https://medium.com/ai-advances/text-classification-in-nlp-categorizing-text-with-machine-learning-part-8-47041e8669ad"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-22-TextClassificationinNLPCategorizingTextwithMachineLearningPart8_0.png)

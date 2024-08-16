@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Unix Linux wc Tool Final Part: Adding Support for Standard Input"
 link: "https://medium.com/@jonathanzihindula95/building-unix-linux-wc-tool-final-part-adding-support-for-standard-input-7daeb9978ba4"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-BuildingUnixLinuxwcToolFinalPartAddingSupportforStandardInput_0.png" />

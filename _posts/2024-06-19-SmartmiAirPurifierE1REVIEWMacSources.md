@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smartmi Air Purifier E1 REVIEW — MacSources"
 link: "https://medium.com/@macsources/smartmi-air-purifier-e1-review-macsources-67cf72c3e096"
+isUpdated: true
 ---
+
+
+
 
 
 # E1 에어청정기를 사용하여 작업 공간을 더 생산적으로 만드세요.

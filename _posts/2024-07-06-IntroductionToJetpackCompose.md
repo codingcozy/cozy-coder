@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction To Jetpack Compose"
 link: "https://medium.com/@adityatheprogrammer/introduction-to-jetpack-compose-87fdb0154fdb"
+isUpdated: true
 ---
+
+
+
 
 
 🌟 안녕하세요! 이쪽은 아디티야입니다. 요즘 네이티브 안드로이드 개발에서 Jetpack Compose라는 용어가 많은 주목을 받고 있어요. 하지만 궁금증이 생깁니다. 바로, Jetpack Compose가 무엇인가요?

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Connect to a headless Raspberry Pi using Bluetooth"
 link: "https://medium.com/@tomw3115/connect-to-a-headless-raspberry-pi-using-bluetooth-0e61c05e1b68"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-ConnecttoaheadlessRaspberryPiusingBluetooth_0.png" />

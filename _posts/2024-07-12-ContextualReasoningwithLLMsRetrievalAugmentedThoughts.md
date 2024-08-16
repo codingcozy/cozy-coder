@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Contextual Reasoning with LLMs: Retrieval Augmented Thoughts"
 link: "https://medium.com/ai-in-plain-english/contextual-reasoning-with-llms-retrieval-augmented-thoughts-b3c59a90eb1f"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 이 기사의 텍스트의 문법, 흐름 및 가독성을 향상시키는 데 사용되었습니다.

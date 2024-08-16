@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate Guide to Mastering “CASE WHEN” in SQL for Data Wizards"
 link: "https://medium.com/illumination/mastering-conditional-logic-in-sql-a-deep-dive-into-case-when-statements-52f0aca9890c"
+isUpdated: true
 ---
+
+
+
 
 
 ## CASE WHEN 매직: SQL 기술을 즉시 변화시키세요!

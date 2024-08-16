@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Tangible Touch: Why Physical Buttons Still Matter in a Digital World"
 link: "https://medium.com/cantata/the-tangible-touch-why-physical-buttons-still-matter-in-a-digital-world-f51b46ba26cd"
+isUpdated: true
 ---
+
+
+
 
 
 

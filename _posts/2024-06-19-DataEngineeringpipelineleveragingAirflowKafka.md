@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Engineering pipeline leveraging Airflow , Kafka"
 link: "https://medium.com/@akhilmakol/data-engineering-pipeline-leveraging-airflow-kafka-063b3a1cd252"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

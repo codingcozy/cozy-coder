@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Millions of Android Phones Will Stop Working Soon"
 link: "https://medium.com/ux-designers-club/millions-of-android-phones-will-stop-working-soon-672169cc8007"
+isUpdated: true
 ---
+
+
+
 
 
 **10년 전**, 나의 첫 번째 안드로이드 폰을 샀다. 그때가 정말 오래된 것 같지 않아?

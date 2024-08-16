@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Josh.ai — Meet The Team: Monika 🆕"
 link: "https://medium.com/@joshdotai/josh-ai-meet-the-team-monika-368c305c4105"
+isUpdated: true
 ---
+
+
+
 
 
 

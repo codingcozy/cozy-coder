@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Increase Disk Size on Your AWS EC2 Linux Instance"
 link: "https://medium.com/@bhuvi01/how-to-increase-disk-size-on-your-aws-ec2-linux-instance-6fcd064e8222"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtoIncreaseDiskSizeonYourAWSEC2LinuxInstance_0.png" />

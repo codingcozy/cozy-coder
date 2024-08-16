@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iOS 18 Is Way Bigger Than We’ve Expected — 15+ Amazing Features!"
 link: "https://medium.com/macoclock/ios-18-is-way-bigger-than-weve-expected-15-amazing-features-1dad04a66113"
+isUpdated: true
 ---
+
+
+
 
 
 iOS 18의 평판과 열풍이 식어버리고 매주 두 번씩 새로운 개발자 베타를 받는 평범한 일상 속으로 돌아왔습니다.

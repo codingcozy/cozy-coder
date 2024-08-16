@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "DilatedNet Overview"
 link: "https://medium.com/@zakhtar2020/dilatednet-overview-5ea4edaeaf0b"
+isUpdated: true
 ---
+
+
+
 
 
 **DilatedNet**은 시맨틱 세그멘테이션과 같은 밀도 예측 작업을 수행하기 위해 설계된 합성곱 신경망 구조로, 해상도와 맥락 정보를 향상시킴. DilatedNet의 핵심 아이디어는 해상도를 잃지 않으면서 네트워크의 수용 영역을 확장하기 위해 확장된(또는 희희한) 컨볼루션을 사용하여 더 많은 맥락을 캡처하면서 세부 사항을 유지한다는 것입니다.

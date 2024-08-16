@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Day to Day Tools, the 2024 edition"
 link: "https://medium.com/@russmckendrick/day-to-day-tools-the-2024-edition-7651c0d5b664"
+isUpdated: true
 ---
+
+
+
 
 
 2017년부터 내가 매일 사용하는 도구에 대해 쓴 것 같아; 얼마나 많이 변했는지 궁금하네. 🤔

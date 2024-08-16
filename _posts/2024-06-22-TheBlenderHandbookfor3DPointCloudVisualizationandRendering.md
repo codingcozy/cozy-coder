@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Blender Handbook for 3D Point Cloud Visualization and Rendering"
 link: "https://medium.com/towards-data-science/the-blender-handbook-for-3d-point-cloud-visualization-and-rendering-1700ebe69c7b"
+isUpdated: true
 ---
+
+
+
 
 
 ## BLENDER

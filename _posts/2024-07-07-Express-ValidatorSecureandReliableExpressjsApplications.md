@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Express-Validator: Secure and Reliable Express.js Applications"
 link: "https://medium.com/@amirakhaled2027/express-validator-secure-and-reliable-express-js-applications-04dd9c4b5bba"
+isUpdated: true
 ---
+
+
+
 
 
 ![Express-validator](/assets/img/2024-07-07-Express-ValidatorSecureandReliableExpressjsApplications_0.png)

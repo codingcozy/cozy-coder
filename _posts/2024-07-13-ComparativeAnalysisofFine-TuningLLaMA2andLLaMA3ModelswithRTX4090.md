@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Comparative Analysis of Fine-Tuning LLaMA 2 and LLaMA 3 Models with RTX 4090"
 link: "https://medium.com/towards-artificial-intelligence/comparative-analysis-of-fine-tuning-llama-2-and-llama-3-models-b476a06c7879"
+isUpdated: true
 ---
+
+
+
 
 
 LLM 작업을 시작할 때 중요한 것은 어떤 모델을 사용할 지에 대한 질문입니다. LLaMA 모델의 팬으로서, LLaMA 3이 반드시 LLaMA 2보다 나은지 궁금해졌습니다. 이 분석은 두 모델의 실제 성능을 세밀한 조정 작업에서 비교하며, 특히 제한된 vRAM과 예산과 같은 제약 조건 하에서의 성능을 살펴봅니다.

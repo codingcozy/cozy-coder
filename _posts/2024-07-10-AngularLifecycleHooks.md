@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular : Lifecycle Hooks"
 link: "https://medium.com/@reachbyteridge/angular-lifecycle-hooks-babc45ebd4b0"
+isUpdated: true
 ---
+
+
+
 
 
 먼저 Angular가 없으면 이 블로그를 읽지 않겠지요… 수명주기 훅은 Angular의 일부로 버전 2부터 있었어요 (오래된 것 같죠 ❤). 수명주기 훅은 거의 5년 동안 Angular에 충실했고 평생 충실할 것을 약속합니다. 지금 실제 내용으로 넘어가 볼게요.

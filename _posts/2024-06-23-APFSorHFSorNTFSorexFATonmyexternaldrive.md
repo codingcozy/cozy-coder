@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "APFS or HFS or NTFS or exFAT on my external drive"
 link: "https://medium.com/@darkghosthunter/apfs-or-hfs-or-ntfs-or-exfat-on-my-external-drive-595d98d30e3c"
+isUpdated: true
 ---
+
+
+
 
 
 ## FAT32가 더 이상 필요 없어요

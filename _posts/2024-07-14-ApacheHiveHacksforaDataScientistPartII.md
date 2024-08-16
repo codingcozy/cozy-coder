@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apache Hive Hacks for a Data Scientist: Part II"
 link: "https://medium.com/towards-artificial-intelligence/apache-hive-hacks-for-a-data-scientist-part-ii-84ba1f19a19b"
+isUpdated: true
 ---
+
+
+
 
 
 아파치 하이브는 SQL 명령어를 통해 대용량 데이터를 처리하는 SQL 엔진입니다. 하이브와 왜 데이터 과학자/머신러닝 엔지니어를 위한 것인지에 대해 더 알고 싶다면, 이전 게시물을 확인해주세요. 오늘은 머신러닝 파이프라인에서 대용량 데이터를 사용할 때 매우 유용한 몇 가지 SQL 해킹에 대해 깊게 살펴보려고 합니다.

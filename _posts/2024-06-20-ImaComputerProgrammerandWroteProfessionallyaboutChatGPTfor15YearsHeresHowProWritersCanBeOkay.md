@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I’m a Computer Programmer and Wrote Professionally about ChatGPT for 1.5 Years — Here’s How Pro Writers Can Be Okay"
 link: "https://medium.com/writing-cooperative/computer-programmer-and-pro-writer-explains-why-chatgpt-isnt-a-threat-to-writers-4c8604f7b59f"
+isUpdated: true
 ---
+
+
+
 
 
 ![alt text](/assets/img/2024-06-20-ImaComputerProgrammerandWroteProfessionallyaboutChatGPTfor15YearsHeresHowProWritersCanBeOkay_0.png)

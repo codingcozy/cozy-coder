@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Interview Experience Senior .NET Angular Full Stack Engineer Contract Position"
 link: "https://medium.com/@vemurivi/interview-experience-senior-net-angular-full-stack-engineer-contract-position-248057739755"
+isUpdated: true
 ---
+
+
+
 
 
 미국 배송 회사에서 계약 직위에 지원한 면접을 최근에 받았어요. 면접관은 Java 및 Angular 전문가인 개발자였어요. 아래는 몇 가지 물음과 제 답변입니다:

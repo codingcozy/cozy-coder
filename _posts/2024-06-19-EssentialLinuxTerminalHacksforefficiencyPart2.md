@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Essential Linux Terminal Hacks for efficiency — Part 2"
 link: "https://medium.com/faun/essential-linux-terminal-hacks-for-efficiency-part-2-84c1036d8258"
+isUpdated: true
 ---
+
+
+
 
 
 ## 파트 2: 팁과 꿀팁 - 역 cmd 검색, 히스토리에서 날짜와 시간 등.

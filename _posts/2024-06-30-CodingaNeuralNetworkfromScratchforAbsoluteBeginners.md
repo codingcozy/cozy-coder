@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Coding a Neural Network from Scratch for Absolute Beginners"
 link: "https://medium.com/@minhaskamal/coding-a-neural-network-from-scratch-for-absolute-beginners-1e68bb0461db"
+isUpdated: true
 ---
+
+
+
 
 
 쌀선별기에 대해 알고 계신가요? 여기에 그 이미지가 있어요-

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AGI is a continuous spectrum. It’s here already. It’s us that have a ‘threshold’ problem."
 link: "https://medium.com/@paul.k.pallaghy/agi-is-a-continuous-spectrum-its-here-already-it-s-us-that-have-a-threshold-a0bb5d608799"
+isUpdated: true
 ---
+
+
+
 
 
 지난 해 GPT-4를 'AGI의 발전'으로 평가한 Microsoft Research 팀에 동의합니다.

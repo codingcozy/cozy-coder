@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LeetCode 1460 Make Two Arrays Equal by Reversing SubarraysEasy Meta Interview Question"
 link: "https://medium.com/@fatmaerturk/leetcode-1460-make-two-arrays-equal-by-reversing-subarrays-easy-meta-interview-question-7dbf3d211419"
+isUpdated: true
 ---
+
+
+
 
 
 두 개의 정수 배열인 target과 arr가 주어졌습니다. 두 배열의 길이는 같습니다. 한 번에 arr의 비어있지 않은 하위 배열을 선택하여 뒤집을 수 있습니다. 원하는 만큼 많은 단계를 수행할 수 있습니다.

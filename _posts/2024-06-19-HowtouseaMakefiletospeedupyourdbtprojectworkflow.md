@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to use a Makefile to speed up your dbt project workflow"
 link: "https://medium.com/inthepipeline/how-to-use-a-makefile-to-speed-up-your-dbt-project-workflow-fb36eb676910"
+isUpdated: true
 ---
+
+
+
 
 
 ## 명령 체계를 간소화하고 관련 명령을 그룹화하여 재사용성을 높이세요

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "TinyML — Convolutional Neural Networks (CNN)"
 link: "https://medium.com/@thommaskevin/tinyml-convolutional-neural-networks-cnn-3601b32c35f4"
+isUpdated: true
 ---
+
+
+
 
 
 수학적 기초부터 엣지 구현까지

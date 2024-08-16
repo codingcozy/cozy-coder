@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPad to Mac — making the big switch"
 link: "https://medium.com/macoclock/ipad-to-mac-making-the-big-switch-0c635615cf82"
+isUpdated: true
 ---
+
+
+
 
 
 여기에 있습니다. 저는 전에는 전혀 상상하지 못했던 말을 하게 되었어요. 요즘에는 Mac을 거의 다 사용하지 않더라구요!

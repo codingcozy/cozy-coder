@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Siri and OpenAI Integration: An Experimental First Step"
 link: "https://medium.com/@biohazerimperion/siriassistant-b720febd7a46"
+isUpdated: true
 ---
+
+
+
 
 
 내 맥북의 Siri와 OpenAI API를 통합하려고 생각 중이에요. 그 과정에서 API와 대화하는 방법을 상세히 설명한 옵션을 찾았는데, 대부분이 Mac에서 작업을 수행하는 것을 활용하지 않고 Siri를 통해 API와 대화에 대해만 논의했어요. 저는 Siri를 사용하여 컴퓨터를 제어하기 위해 한 발짝 더 나아가고 싶었어요. 이 블로그에서는 Siri와 OpenAI API를 결합한 도구를 만든 방법을 공유할 거예요. 이 도구를 사용하면 PyCharm 프로젝트를 열거나 음성 명령으로 브라우저를 열거나 코드를 생성하거나 생성된 코드를 직접 클립보드에 복사하거나 심지어 Siri로 Spotify에서 검색할 수 있어요. 이것은 첫 번째 버전이라 강력하고 최종적인 도구는 아니에요. 그러나 저는 저의 실수, 사용한 전략, 만난 발견, 그리고 이의 장단점에 대해 이야기할 거예요.

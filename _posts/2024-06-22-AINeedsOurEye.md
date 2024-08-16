@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Needs Our Eye"
 link: "https://medium.com/brain-labs/ai-needs-our-eye-581c699bdfa6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 우리 자신을 위해 어떻게 생각하는지 잊지 말아요

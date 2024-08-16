@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Prompting Techniques and Best Practices for Journalists"
 link: "https://medium.com/generative-ai-in-the-newsroom/prompting-techniques-and-best-practices-for-journalists-6fa806cde8ec"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-PromptingTechniquesandBestPracticesforJournalists_0.png" />

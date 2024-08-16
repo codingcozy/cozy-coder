@@ -3,12 +3,16 @@ title: "NBA 네트워크 분석 Neo4j를 활용한 연결하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_0.png"
 date: 2024-05-27 12:40
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-NBANetworkAnalysisConnectingtheDotswithNeo4j_0.png
 tag: Tech
 originalTitle: "NBA Network Analysis: Connecting the Dots with Neo4j"
 link: "https://medium.com/@lucca.miorelli/nba-network-analysis-connecting-the-dots-with-neo4j-99cfbddd306b"
+isUpdated: true
 ---
+
+
+
 
 ## 두 NBA 선수 사이의 가장 짧은 링크를 찾는 동안... 그리고 그래프 데이터베이스로 놀아보기.
 

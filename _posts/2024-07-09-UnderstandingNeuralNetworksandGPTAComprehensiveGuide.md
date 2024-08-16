@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Neural Networks and GPT: A Comprehensive Guide"
 link: "https://medium.com/@sergeahead29/understanding-neural-networks-and-gpt-a-comprehensive-guide-a309734d4409"
+isUpdated: true
 ---
+
+
+
 
 
 Neural Network란 무엇인가요?

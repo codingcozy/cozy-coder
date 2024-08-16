@@ -3,12 +3,16 @@ title: "ChatGPT를 활용한 스마트 대화를 위한 API 구현하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_0.png"
 date: 2024-05-27 14:28
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ImplementanAPIforSmartConversationswithChatGPT_0.png
 tag: Tech
 originalTitle: "Implement an API for Smart Conversations with ChatGPT"
 link: "https://medium.com/dev-genius/implement-an-api-for-smart-conversations-with-chatgpt-57e7a9b335c7"
+isUpdated: true
 ---
+
+
+
 
 ChatGPT API를 활용하여 Node.js 및 Express로 대화형 앱을 개발하겠다고 시작하세요.
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fix VSCode code . for Mac Terminal"
 link: "https://medium.com/@andreshat/fix-vscode-to-run-any-project-from-the-command-line-on-macos-86904275a4f9"
+isUpdated: true
 ---
+
+
+
 
 
 PyCharm에서 가벼운 프로젝트 용도로 VSCode로 전환했더니 cmd를 통해 사용하고 싶었던 기능들이 몇 가지 열렸어요. 그 중 제게 가장 중요한 것은 폴더로 이동한 후 code . 명령을 실행하여 해당 프로젝트를 VSCode 프로젝트로 열 수 있는 능력이었어요.

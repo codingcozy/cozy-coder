@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI Agent Capabilities Engineering"
 link: "https://medium.com/towards-data-science/ai-agent-capabilities-engineering-34c7785f413e"
+isUpdated: true
 ---
+
+
+
 
 
 ## 인공지능 에이전트를 위한 고수준 능력 엔지니어링 프레임워크 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Retrieval-Based In-Context Learning for Reasoning in LargeLanguage Models"
 link: "https://medium.com/@alcarazanthony1/retrieval-based-in-context-learning-for-reasoning-in-largelanguage-models-4e4296b75bce"
+isUpdated: true
 ---
+
+
+
 
 
 대규모 언어 모델(LLM)은 소수의 입력-출력 예제만 제공되어도 혁신적인 능력을 보여주는 것으로 입증되었습니다. 적은 양의 예제만 제공되어도 LLM은 새로운 작업에 빠르게 적응할 수 있으며 어떠한 기울기 업데이트나 파인튜닝도 필요하지 않습니다. 이로써 LLM은 전례 없는 유연성과 일반화 능력을 나타낼 수 있었습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Game Worlds: A Deep Dive into Reinforcement Learning"
 link: "https://medium.com/gitconnected/mastering-game-worlds-a-deep-dive-into-reinforcement-learning-5acccad89a18"
+isUpdated: true
 ---
+
+
+
 
 
 요즘 AI 기술은 바둑이나 체스와 같은 게임에서 놀라운 성과를 보여주며 세계 최고인 인간 선수들을 능가하는 모습을 보여주고 있습니다. 이런 업적들은 기술의 급속한 발전을 강조합니다.

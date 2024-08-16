@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why the Newest LLMs use a MoE (Mixture of Experts) Architecture"
 link: "https://medium.com/datadriveninvestor/why-the-newest-llms-use-a-moe-mixture-of-experts-architecture-1023238ea145"
+isUpdated: true
 ---
+
+
+
 
 
 ![Specialization Made Necessary](/assets/img/2024-07-09-WhytheNewestLLMsuseaMoEMixtureofExpertsArchitecture_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "macOS Sonoma — 1st impressions"
 link: "https://medium.com/macoclock/macos-sonoma-1st-impressions-e26f58e345c1"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-macOSSonoma1stimpressions_0.png" />

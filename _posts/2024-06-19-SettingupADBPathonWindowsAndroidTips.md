@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Setting up ADB Path on Windows: Android Tips."
 link: "https://medium.com/@theflutterist/setting-up-adb-path-on-windows-android-tips-5b5cdaa9084b"
+isUpdated: true
 ---
+
+
+
 
 
 ADB(Android Debug Bridge)는 안드로이드 앱 개발자들에게 필수적인 도구로, 컴퓨터에서 안드로이드 기기와 통신할 수 있게 해줍니다. ADB를 효과적으로 사용하려면 Windows 환경에서 ADB 경로를 설정해야 합니다. 아래 단계별 안내를 따라 시작해보세요:

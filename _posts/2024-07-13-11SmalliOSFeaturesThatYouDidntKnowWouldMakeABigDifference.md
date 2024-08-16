@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "11 Small iOS Features That You Didn’t Know Would Make A Big Difference"
 link: "https://medium.com/macoclock/11-small-ios-features-that-you-didnt-know-would-make-a-big-difference-3452454987ea"
+isUpdated: true
 ---
+
+
+
 
 
 아이폰에 가장 매력을 느끼는 점은 매일 사용해도 숨겨진 기능을 계속 발견할 수 있어서, 갑자기 전체적인 경험을 크게 향상시킬 수 있다는 것이에요.

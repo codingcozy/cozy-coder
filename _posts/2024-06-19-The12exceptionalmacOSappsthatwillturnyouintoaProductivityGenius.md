@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The 12 exceptional macOS apps that will turn you into a Productivity Genius"
 link: "https://medium.com/macoclock/the-12-exceptional-macos-apps-that-will-turn-you-into-a-productivity-genius-f3766462937a"
+isUpdated: true
 ---
+
+
+
 
 
 

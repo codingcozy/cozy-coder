@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tech world"
 link: "https://medium.com/@shumailaumar310/tech-world-ec96fd03f669"
+isUpdated: true
 ---
+
+
+
 
 
 # 현재 기술 트렌드 및 신흥 이슈

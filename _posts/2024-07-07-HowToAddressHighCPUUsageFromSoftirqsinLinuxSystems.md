@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How To Address High CPU Usage From Softirqs in Linux Systems"
 link: "https://medium.com/@cstoppgmr/how-to-address-high-cpu-usage-from-softirqs-in-linux-systems-8216ce1f9755"
+isUpdated: true
 ---
+
+
+
 
 
 인터럽트는 시스템의 동시성을 향상시키기 위해 설계된 비동기 이벤트 처리 메커니즘입니다. 인터럽트 이벤트가 발생하면 인터럽트 핸들러의 실행을 트리거합니다. 이 핸들러는 상단 하프(top half)와 하단 하프(bottom half)로 나뉩니다.

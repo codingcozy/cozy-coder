@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Change a Bicycle Tire After Watching One YouTube Video"
 link: "https://medium.com/the-haven/how-i-change-a-bicycle-tire-after-watching-one-youtube-video-ccd0d8949b30"
+isUpdated: true
 ---
+
+
+
 
 
 ## 풍자

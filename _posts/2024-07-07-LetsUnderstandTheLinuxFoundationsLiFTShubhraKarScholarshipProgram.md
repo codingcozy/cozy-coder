@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Let’s Understand — The Linux Foundation’s LiFT (Shubhra Kar) Scholarship Program 📃"
 link: "https://medium.com/@venilam09/lets-understand-the-linux-foundation-s-lift-shubhra-kar-scholarship-program-89f8b9aa2114"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-LetsUnderstandTheLinuxFoundationsLiFTShubhraKarScholarshipProgram_0.png" />

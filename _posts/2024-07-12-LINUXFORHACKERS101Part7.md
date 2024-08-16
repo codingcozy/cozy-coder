@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "LINUX FOR HACKERS 101 Part 7"
 link: "https://medium.com/@agapehearts/linux-for-hackers-101-part-7-b8d17d95531f"
+isUpdated: true
 ---
+
+
+
 
 
 

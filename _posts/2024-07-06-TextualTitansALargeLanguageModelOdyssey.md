@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Textual Titans: A Large Language Model Odyssey"
 link: "https://medium.com/walmartglobaltech/textual-titans-a-large-language-model-odyssey-d36eab1e2743"
+isUpdated: true
 ---
+
+
+
 
 
 지금 이제 인공지능이 전하는 메시지가 허구적인 캐릭터라고 해도, 그게 바로 요즘 AI가 시도하는 것 아닐까요? 재밌는 사실을 알고 싶나요? 위 이미지도 AI가 생성했다는 걸요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Proxmox: Installing Photoprism in LXC"
 link: "https://medium.com/@rar1871/proxmox-installing-photoprism-in-lxc-5c9d71c25b43"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-ProxmoxInstallingPhotoprisminLXC_0.png)

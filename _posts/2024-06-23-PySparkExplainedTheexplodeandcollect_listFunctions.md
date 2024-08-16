@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "PySpark Explained: The explode and collect_list Functions"
 link: "https://medium.com/towards-data-science/pyspark-explained-the-explode-and-collect-list-functions-834f45ff5ac5"
+isUpdated: true
 ---
+
+
+
 
 
 PySpark SQL은 Apache PySpark의 SQL을 위한 파이썬 인터페이스로, 데이터 변환 및 분석을 위한 강력한 도구 모음입니다. 데이터베이스 SQL 시스템에서 사용 가능한 가장 일반적인 유형의 작업을 모방하도록 만들어졌으며, Spark에서 사용 가능한 데이터프레임 패러다임을 활용하여 추가 기능을 제공할 수 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Golden Methods to Visualize Data with Skewed Distribution"
 link: "https://medium.com/@yuanbo.faith/golden-methods-to-visualize-data-with-skewed-distribution-13f0b2a0db99"
+isUpdated: true
 ---
+
+
+
 
 
 ## 클러스터링된 데이터에서 숨겨진 패턴을 발견하는 주요 기술

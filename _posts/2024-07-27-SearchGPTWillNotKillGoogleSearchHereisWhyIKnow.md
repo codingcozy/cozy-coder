@@ -1,5 +1,5 @@
 ---
-title: "SearchGPT가 Google 검색을 대체하지 못하는 이유 확실한 증거 5가지"
+title: "SearchGPT가 Google 검색을 대체하지 못하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-27-SearchGPTWillNotKillGoogleSearchHereisWhyIKnow_0.png"
 date: 2024-07-27 13:49
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SearchGPT Will Not Kill Google Search Here is Why I Know"
 link: "https://medium.com/@tsecretdeveloper/searchgpt-will-not-kill-google-search-here-is-why-i-know-535b5a20c02e"
+isUpdated: true
 ---
+
+
+
 
 
 

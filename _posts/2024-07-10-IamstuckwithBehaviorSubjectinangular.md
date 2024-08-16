@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I am stuck with BehaviorSubject in angular"
 link: "https://medium.com/@fixitblog/solved-i-am-stuck-with-behaviorsubject-in-angular-4a089342d2e3"
+isUpdated: true
 ---
+
+
+
 
 
 Angular v17에서 BehaviorSubject를 사용하여 중앙 오류 처리 서비스를 생성했어요. 하지만 예상한 대로 작동하지 않아요!

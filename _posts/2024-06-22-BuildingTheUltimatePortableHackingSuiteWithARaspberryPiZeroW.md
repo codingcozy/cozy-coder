@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building The Ultimate Portable Hacking Suite With A Raspberry Pi Zero W"
 link: "https://medium.com/@assume-breach/building-the-ultimate-portable-hacking-suite-with-a-raspberry-pi-zero-w-dbc60704d872"
+isUpdated: true
 ---
+
+
+
 
 
 ---

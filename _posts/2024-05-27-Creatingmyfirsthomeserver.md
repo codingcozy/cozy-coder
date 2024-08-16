@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating my first home server"
 link: "https://medium.com/@tararhoseyn/creating-my-first-home-server-2104cc610514"
+isUpdated: true
 ---
+
+
+
 
 
 소프트웨어 및 제품 개발자로 일하고 있는데, 최근 몇 달간 컴퓨팅의 하드웨어/인프라 구성 요소에 대해 더 많이 배우고 있어요. 지식이 직접적인 영향을 미치지 않더라도, 일상적인 업무에 굉장히 중요한 컴퓨팅에 대한 일반적인 이해를 가지는 것이 도움이 될 것 같아요.

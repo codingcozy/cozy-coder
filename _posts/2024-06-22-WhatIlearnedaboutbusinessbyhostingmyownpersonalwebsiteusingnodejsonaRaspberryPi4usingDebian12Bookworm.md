@@ -3,12 +3,16 @@ title: "Raspberry Pi 4과 Debian 12 Bookworm에 Nodejs를 사용하여 개인 �
 description: ""
 coverImage: "/assets/img/2024-06-22-WhatIlearnedaboutbusinessbyhostingmyownpersonalwebsiteusingnodejsonaRaspberryPi4usingDebian12Bookworm_0.png"
 date: 2024-06-22 19:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-22-WhatIlearnedaboutbusinessbyhostingmyownpersonalwebsiteusingnodejsonaRaspberryPi4usingDebian12Bookworm_0.png
 tag: Tech
 originalTitle: "What I learned about business by hosting my own personal website using node.js on a Raspberry Pi 4 using Debian 12 Bookworm"
 link: "https://medium.com/@capjmk/what-i-learned-about-business-by-hosting-my-own-personal-website-using-node-js-4ffa34170920"
+isUpdated: true
 ---
+
+
+
 
 TL;DR: 네, 확인해보세요 https://julianmkleber.com 시리즈 기사를 따라오면서 몇 일 동안 게임 속으로 빨려 들어갔군요. 멋지네요. 포식자들이 있더라도, 노력한다면 작은 (모델) 회사를 그들로부터 방어할 수 있다는 것을 배웠을 겁니다. 그래서 전 세계에 우리가 XMR을 채굴하여 돈을 버는 인프라를 구축할 수 있다는 것을 증명한 후, 웹사이트를 호스팅하는 것을 시작할 수 있습니다. 이 블로그 글에서는 node.js, podman, vue.js, certbot, fail2ban 및 nginx을 사용하여 정적 웹사이트를 호스팅하는 방법에 대해 설명하고 있습니다. 제 설정은 회사 설정에서 하나의 웹 프로젝트마다 연간 최소 $666을 절약합니다.
 

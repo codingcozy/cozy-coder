@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Modern Android Development in 2024"
 link: "https://medium.com/@devjorgecastro/modern-android-development-in-2024-b70f194938bd"
+isUpdated: true
 ---
+
+
+
 
 
 **![Modern Android Development in 2024](/assets/img/2024-07-07-ModernAndroidDevelopmentin2024_0.png)**

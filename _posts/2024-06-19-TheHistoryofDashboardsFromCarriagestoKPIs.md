@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The History of Dashboards: From Carriages to KPIs"
 link: "https://medium.com/@rahulsenps4/the-history-of-dashboards-from-carriages-to-kpis-feaeff72bfb0"
+isUpdated: true
 ---
+
+
+
 
 
 대시보드는 현대 데이터 분석 및 의사결정 프로세스의 핵심 요소가 되었습니다. 실시간으로 데이터를 시각화하는 강력한 도구로서, 개인 및 조직이 신속하게 정보에 기반한 결정을 내릴 수 있도록 도와줍니다. 대시보드의 역사에 대한 이 자세한 살펴봅니다. 기원부터 진화, 현재 상태까지 살펴보면 이 도구들이 어떻게 우리의 데이터 중심 세계에서 중요해졌는지 통찰력을 제공할 것입니다.

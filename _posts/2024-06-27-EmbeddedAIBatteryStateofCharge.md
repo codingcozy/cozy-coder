@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Embedded AI — Battery State of Charge"
 link: "https://medium.com/@reefwing/embedded-ai-battery-state-of-charge-f357cb156257"
+isUpdated: true
 ---
+
+
+
 
 
 저희 시리즈 중 임베디드 AI의 첫 번째 부분에서는 머신 러닝(ML) 프로세스를 설명하면서 선형 회귀를 예시로 사용했습니다. 이제 동일한 프로세스를 사용하여 아두이노와 룩업 테이블을 이용해 LiPo 배터리의 충전 상태를 계산할 것입니다. 선형 보간법을 사용하여 테이블 내의 각 점 사이의 값을 추정할 것입니다. 세 번째 부분에서는 룩업 테이블 대신 ML을 사용할 것입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Apple’s Revival to the Pope’s Thoughts on Bots"
 link: "https://medium.com/@lbq999/from-apples-revival-to-the-pope-s-thoughts-on-bots-b3a19e88ca63"
+isUpdated: true
 ---
+
+
+
 
 
 - 애플은 세계에서 가장 가치 있는 회사로 자리를 다시 차지했어요. 마이크로소프트와 엔비디아를 능가했답니다.

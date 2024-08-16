@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Automated Knowledge Graph Construction with Large Language Models"
 link: "https://medium.com/@researchgraph/automated-knowledge-graph-construction-with-large-language-models-150512d1bc22"
+isUpdated: true
 ---
+
+
+
 
 
 ## 대형 언어 모델의 파워와 지식 채집하기

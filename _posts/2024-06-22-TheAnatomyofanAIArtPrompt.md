@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Anatomy of an AI Art Prompt"
 link: "https://medium.com/@pdelsignore/the-anatomy-of-an-ai-art-prompt-dcf7d124406d"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-22-TheAnatomyofanAIArtPrompt_0.png)

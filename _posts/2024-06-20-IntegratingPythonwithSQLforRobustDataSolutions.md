@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Python with SQL for Robust Data Solutions"
 link: "https://medium.com/gitconnected/integrating-python-with-sql-for-robust-data-solutions-8f43fedae944"
+isUpdated: true
 ---
+
+
+
 
 
 강력하고 효율적인 데이터 솔루션을 만들기 위해 Python과 SQL 통합을 숙달하세요.

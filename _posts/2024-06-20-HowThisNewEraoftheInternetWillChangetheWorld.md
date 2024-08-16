@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How This New Era of the Internet Will Change the World"
 link: "https://medium.com/@Levente22/how-this-new-era-of-the-internet-will-change-the-world-89789933df7a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 웹 3.0:

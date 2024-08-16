@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Security Journey — Secure Execution Mode"
 link: "https://medium.com/@boutnaru/the-linux-security-journey-secure-execution-mode-325137c3c76a"
+isUpdated: true
 ---
+
+
+
 
 
 일반적으로 "Secure Execution Mode"에서는 보조 벡터의 "AT_SECURE" 항목에 0이 아닌 값이 포함되어 있는 경우 이진 파일이 실행됩니다. LSM(https://medium.com/@boutnaru/linux-security-lsm-linux-security-modules-907bbcf8c8b4)이 값을 설정한 경우, 작업/프로세스의 "실제 UID"(https://medium.com/@boutnaru/the-linux-security-journey-ruid-real-user-id-b23abcbca9c6) 및 "유효 UID"(https://medium.com/@boutnaru/the-linux-security-journey-euid-effective-user-id-65f351532b79)가 다른 경우(그룹 값도 동일)에도 이 값을 0이 아닌 값으로 만들 수 있습니다. 또한, 일반 사용자가 실행한 이진 파일이 프로세스에 권한을 부여했을 경우에도 이 값이 0이 아닌 값이 됩니다(https://man7.org/linux/man-pages/man8/ld.so.8.html).

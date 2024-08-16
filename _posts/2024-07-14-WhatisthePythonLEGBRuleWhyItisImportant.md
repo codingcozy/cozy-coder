@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What is the Python LEGB Rule? Why It is Important?"
 link: "https://medium.com/towards-data-science/what-is-the-python-legb-rule-why-it-is-important-1fdcfecfd62f"
+isUpdated: true
 ---
+
+
+
 
 
 다른 프로그래밍 언어들과 마찬가지로, 파이썬에도 변수와 함수가 정의된 다양한 스코프가 있습니다. 물론, 이러한 스코프 간의 동작을 결정하는 몇 가지 규칙과 계층 구조가 존재합니다. 예를 들어, 함수 내에서 정의된 변수를 외부에서 접근할 수 없습니다.

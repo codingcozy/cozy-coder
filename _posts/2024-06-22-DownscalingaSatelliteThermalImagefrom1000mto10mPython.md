@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Downscaling a Satellite Thermal Image from 1000m to 10m (Python)"
 link: "https://medium.com/towards-data-science/downscaling-a-satellite-thermal-image-from-1000-m-to-10-m-python-3b2ed19ff103"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-22-DownscalingaSatelliteThermalImagefrom1000mto10mPython_0.png)

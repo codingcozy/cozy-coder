@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Local RAG Chatbots Without Coding Using LangFlow and Ollama"
 link: "https://medium.com/towards-data-science/building-local-rag-chatbots-without-coding-using-langflow-and-ollama-60760e8ed086"
+isUpdated: true
 ---
+
+
+
 
 
 ⁤스마트 챗봇을 만드는 데 수개월의 코딩이 필요했던 시절을 기억하나요?

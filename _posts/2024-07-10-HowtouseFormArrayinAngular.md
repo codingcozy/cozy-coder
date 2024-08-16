@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to use FormArray in Angular"
 link: "https://medium.com/@umitbicici64/how-to-use-formarray-in-angular-cf603c93176b"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-07-10-HowtouseFormArrayinAngular_0.png" />`

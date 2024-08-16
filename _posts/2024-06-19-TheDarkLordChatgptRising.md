@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Dark Lord Chatgpt Rising"
 link: "https://medium.com/illumination/the-dark-lord-chatgpt-risin-acbd691bcf42"
+isUpdated: true
 ---
+
+
+
 
 
 <table>

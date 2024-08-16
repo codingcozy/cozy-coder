@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why do smart homes assume one person lives there? An OOUX teardown."
 link: "https://medium.com/design-bootcamp/why-do-smart-homes-assume-one-person-lives-there-an-ooux-teardown-f55c0feee3ad"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0](/assets/img/2024-06-22-WhydosmarthomesassumeonepersonlivesthereAnOOUXteardown_0.png)

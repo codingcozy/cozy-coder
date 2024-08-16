@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "9,883+% Returns in 3 years on Cryptocurrency using 2D Convolutional Neural Network (CNN) Model and short listing Best Assets for Trading — VishvaAlgo Machine Learning Trading Bot"
 link: "https://medium.com/@imbuedeskpicasso/9-883-returns-in-3-years-on-cryptocurrency-using-2d-convolutional-neural-network-cnn-model-and-2105ee7e2893"
+isUpdated: true
 ---
+
+
+
 
 
 ## 최대 수익을 위한 트레이딩 봇을 만들기 위해 신경망의 힘을 발휘하다.

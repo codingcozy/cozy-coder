@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Window Functions: The Ultimate Tool for Data Enthusiasts"
 link: "https://medium.com/code-like-a-girl/sql-window-functions-the-ultimate-tool-for-data-enthusiasts-7a3ff6aac057"
+isUpdated: true
 ---
+
+
+
 
 
 

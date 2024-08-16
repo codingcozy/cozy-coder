@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Tragedy Caused by a Single Kubernetes Command"
 link: "https://medium.com/@zouyee/a-tragedy-caused-by-a-single-kubernetes-command-7b6126b06513"
+isUpdated: true
 ---
+
+
+
 
 
 # 설명

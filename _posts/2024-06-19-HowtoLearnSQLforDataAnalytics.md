@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Learn SQL for Data Analytics"
 link: "https://medium.com/towards-data-science/how-to-learn-sql-for-data-analytics-5e50fa343b72"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-HowtoLearnSQLforDataAnalytics_0.png" />

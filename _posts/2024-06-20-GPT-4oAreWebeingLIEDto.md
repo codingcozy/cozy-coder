@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GPT-4o — Are We being LIED to?"
 link: "https://medium.com/ai-in-plain-english/gpt-4o-are-we-being-lied-to-878a19867d9f"
+isUpdated: true
 ---
+
+
+
 
 
 오늘날 열풍을 일으키는 인공지능(AI) 기술이 얼마나 빠르게 발전하고 있는지에 대해 Open AI 및 기타 기업들로부터 거짓 정보를 받고 있는 걸까요?

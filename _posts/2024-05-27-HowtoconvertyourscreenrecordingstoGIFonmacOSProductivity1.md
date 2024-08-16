@@ -3,12 +3,16 @@ title: "화면 녹화를 GIF로 변환하는 방법 macOS에서  생산성 1"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoconvertyourscreenrecordingstoGIFonmacOSProductivity1_0.png"
 date: 2024-05-27 12:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowtoconvertyourscreenrecordingstoGIFonmacOSProductivity1_0.png
 tag: Tech
 originalTitle: "How to convert your screen recordings to GIF on macOS? — Productivity #1"
 link: "https://medium.com/interaction-dynamics/how-to-convert-your-screen-recordings-to-gif-on-macos-productivity-1-781dbe56fe5c"
+isUpdated: true
 ---
+
+
+
 
 프론트엔드 개발자로서, Pull/Merge Requests, 이슈 또는 Slack에서 종종 스크린샷이나 비디오 녹화를 공유해야 할 때가 많습니다.
 

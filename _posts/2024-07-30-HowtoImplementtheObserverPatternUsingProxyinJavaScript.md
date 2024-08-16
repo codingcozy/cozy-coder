@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트에서 프록시Proxy를 사용하여 옵저버 패턴 구현하는 방법"
+title: "자바스크립트에서 프록시를 사용하여 옵저버 패턴 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-30-HowtoImplementtheObserverPatternUsingProxyinJavaScript_0.png"
 date: 2024-07-30 17:27
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Implement the Observer Pattern Using Proxy in JavaScript"
 link: "https://medium.com/javascript-in-plain-english/how-to-implement-the-observer-pattern-using-proxy-in-javascript-d8fdebd04862"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-30-HowtoImplementtheObserverPatternUsingProxyinJavaScript_0.png" />

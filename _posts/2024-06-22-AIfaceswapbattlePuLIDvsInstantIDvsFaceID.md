@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI face swap battle: PuLID vs InstantID vs FaceID"
 link: "https://medium.com/design-bootcamp/ai-face-swap-battle-pulid-vs-instantid-vs-faceid-2f08db230509"
+isUpdated: true
 ---
+
+
+
 
 
 오늘은 ComfyUI 워크플로우를 사용하여 PuLID, InstantID 및 IP-Adapter의 FaceID-V2와 같은 세 가지 AI 얼굴 교체 기술을 비교해보려고 해요. 이러한 기술은 얼굴 인식, 얼굴 감지 및 얼굴 정렬을 위해 설계된 깊은 얼굴 분석 라이브러리 인 InsightFace를 기반으로 합니다. InsightFace는 상업적 라이센스가 필요하다는 점을 유의해 주세요.

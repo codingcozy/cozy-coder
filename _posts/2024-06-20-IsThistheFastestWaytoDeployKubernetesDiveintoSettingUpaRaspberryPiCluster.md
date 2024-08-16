@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is This the Fastest Way to Deploy Kubernetes? Dive into Setting Up a Raspberry Pi Cluster!"
 link: "https://medium.com/@michael-tissen/is-this-the-fastest-way-to-deploy-kubernetes-dive-into-setting-up-a-raspberry-pi-cluster-16113ccce02b"
+isUpdated: true
 ---
+
+
+
 
 
 최근에 라즈베리 파이 4 싱글보드 컴퓨터를 사용하여 쿠버네티스 클러스터를 빠르고 쉽게 부트스트랩 할 수 있는 솔루션을 발견했어요. 이 솔루션은 다른 베어 메탈 클러스터에도 훌륭하게 작동해요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Android Performance basics"
 link: "https://medium.com/@choijunseok1997/android-performance-basics-98c2a099b5e5"
+isUpdated: true
 ---
+
+
+
 
 
 에뮬레이터는 실제 기기를 대변하지 않습니다. 호스트 OS와 동일한 리소스를 공유합니다. 디버그 빌드는 다시 설치하지 않고 변경 사항을 적용하며 디버거와 함께 작동합니다. 성능 오버헤드로 앱이 불안정해지며 때로는 잘 실행되기도 합니다. 따라서 물리적 기기의 릴리스 버전과 테스트를 반드시 진행해야 합니다.

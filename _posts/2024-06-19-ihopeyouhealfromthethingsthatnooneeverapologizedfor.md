@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "i hope you heal from the things that no one ever apologized for"
 link: "https://medium.com/@andengxzs_/i-hope-you-heal-from-the-things-that-no-one-ever-apologized-for-cc48d799e8b6"
+isUpdated: true
 ---
+
+
+
 
 
 

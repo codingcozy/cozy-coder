@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My DIY Wood Chest Project from a Tea Box"
 link: "https://medium.com/the-diy-diaries/my-diy-wood-chest-project-from-a-tea-box-091582514c43"
+isUpdated: true
 ---
+
+
+
 
 
 ## THE DIY DIARIES/JAPANESE/TEA BOXES/RECYCLING

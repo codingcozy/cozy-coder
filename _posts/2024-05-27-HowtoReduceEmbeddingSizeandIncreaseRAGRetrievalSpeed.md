@@ -3,12 +3,16 @@ title: "임베딩 크기를 줄이고 RAG 검색 속도 높이는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoReduceEmbeddingSizeandIncreaseRAGRetrievalSpeed_0.png"
 date: 2024-05-27 14:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-HowtoReduceEmbeddingSizeandIncreaseRAGRetrievalSpeed_0.png
 tag: Tech
 originalTitle: "How to Reduce Embedding Size and Increase RAG Retrieval Speed"
 link: "https://medium.com/towards-data-science/how-to-reduce-embedding-size-and-increase-rag-retrieval-speed-7f903d3cecf7"
+isUpdated: true
 ---
+
+
+
 
 <img src="/assets/img/2024-05-27-HowtoReduceEmbeddingSizeandIncreaseRAGRetrievalSpeed_0.png" />
 

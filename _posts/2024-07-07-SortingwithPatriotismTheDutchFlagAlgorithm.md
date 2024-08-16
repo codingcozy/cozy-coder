@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Sorting with Patriotism: The Dutch Flag Algorithm"
 link: "https://medium.com/@abhidharmik/sorting-with-patriotism-the-dutch-flag-algorithm-813ec8400b21"
+isUpdated: true
 ---
+
+
+
 
 
 소트 알고리즘은 데이터를 효율적으로 정리하는 컴퓨터 과학의 기본 도구입니다. 도란스 국기 알고리즘(Dutch Flag Algorithm)이라는 독특한 알고리즘은 네덜란드 국기에서 영감을 받았습니다. 이 알고리즘은 요소를 효과적으로 정렬하는 데 도움을 주며 동시에 네덜란드 국기에 경의를 표합니다. 이 글에서는 도란스 국기 알고리즘을 탐구하고 작동 방식을 이해해 보겠습니다.

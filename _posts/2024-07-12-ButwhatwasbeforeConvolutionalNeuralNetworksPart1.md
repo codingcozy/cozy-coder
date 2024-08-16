@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "But what was before Convolutional Neural Networks? | Part 1"
 link: "https://medium.com/thedeephub/but-what-was-before-convolutional-neural-networks-part-1-d654737b026a"
+isUpdated: true
 ---
+
+
+
 
 
 ## Histograms of Oriented Gradients에 대한 간단한 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Turn Off These 14 iOS System Services Right Now For A Bigger Battery"
 link: "https://medium.com/macoclock/turn-off-these-14-ios-system-services-right-now-for-a-bigger-battery-872e902b5a72"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해 보겠습니다.

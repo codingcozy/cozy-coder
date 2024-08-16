@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "macOS App Giveaway — Fover (Click to get FREE license)"
 link: "https://medium.com/@nikhilvemu/macos-app-giveaway-fover-click-to-get-free-license-120b7ff26dc0"
+isUpdated: true
 ---
+
+
+
 
 
 나쁜 농담이네요. 라임이 안 맞네요.

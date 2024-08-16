@@ -3,12 +3,16 @@ title: "차이인차이 101"
 description: ""
 coverImage: "/assets/img/2024-05-27-Difference-in-Difference101_0.png"
 date: 2024-05-27 14:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-Difference-in-Difference101_0.png
 tag: Tech
 originalTitle: "Difference-in-Difference 101"
 link: "https://medium.com/towards-data-science/difference-in-difference-101-9424cb403f9e"
+isUpdated: true
 ---
+
+
+
 
 차이인차이(DiD 또는 DD 또는 diff-in-diff)는 무엇인가요? 왜 차이인차이에 관심이 있나요? 오늘은 정책 효과를 연구하는 경제학에서 가장 인기 있는 방법 중 하나에 대한 모든 질문에 답할 거예요.
 

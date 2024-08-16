@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced SQL Queries you must know"
 link: "https://medium.com/@asma.sithi/advanced-sql-queries-you-must-know-9d922a464a20"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 분석 및 데이터 엔지니어링을 위한 최고의 15가지 고급 SQL 명령어!

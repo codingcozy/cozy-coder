@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How can I force close an app on my Mac?"
 link: "https://medium.com/@best-software/how-can-i-force-close-an-app-on-my-mac-6b326680d7e2"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-HowcanIforcecloseanapponmyMac_0.png)

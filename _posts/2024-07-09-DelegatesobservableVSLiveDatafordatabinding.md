@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Delegates.observable VS LiveData for data binding"
 link: "https://medium.com/proandroiddev/delegates-observable-vs-livedata-for-data-binding-2b4777c732cb"
+isUpdated: true
 ---
+
+
+
 
 
 자신의 앱의 구체적인 요구사항과 맥락에 따라 안드로이드에서 데이터 바인딩에 Delegates.observable과 LiveData 중 어느 것을 선택할지가 달라집니다. 두 가지 방법에는 각각의 장점이 있으며 서로 다른 시나리오에 적합합니다. 자세히 비교해보겠습니다:

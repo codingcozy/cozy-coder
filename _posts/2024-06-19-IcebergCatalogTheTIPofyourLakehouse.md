@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Iceberg Catalog: The TIP of your Lakehouse"
 link: "https://medium.com/@christian_24956/iceberg-catalog-the-tip-of-your-lakehouse-8bea6284f785"
+isUpdated: true
 ---
+
+
+
 
 
 아이스버그 카탈로그 랜드스케이프는 Snowflake와 Databricks로부터 중요한 발표가 속출하며 급속하게 변화하고 있어요. 이 다채로운 생태계에 TIP를 소개합니다. HANSETAG가 선보이는 이 Rust-native Iceberg REST 카탈로그는 데이터 품질, 거버넌스, 그리고 유연성을 우선시합니다. 변경 이벤트, 계약 유효성 검사, 멀티 테넌시와 함께 경량화되고 맞춤형 솔루션으로 혁신을 추구해요.

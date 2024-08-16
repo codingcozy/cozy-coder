@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "major reasons why machine learning fails in stock prediction: part -01"
 link: "https://medium.com/@ved933409/major-reasons-why-machine-learning-fails-in-stock-prediction-part-01-479834eb891d"
+isUpdated: true
 ---
+
+
+
 
 
 이 블로그 시리즈에서는 머신 러닝이 주식 가격을 예측하는 데 실패하는 이유 또는 일반적으로 머신 러닝 기반 투자 펀드가 실패하는 이유에 대해 논의하려 합니다. 이 블로그의 내용은 Marcos Lopez de Prado의 "금융 머신 러닝 발전"이라는 책에서 가져왔습니다. 이 책은 금융에 관심 있는 모든 사람들에게 필독서입니다. 이 책은 금융 데이터를 처리하는 동안 머신 러닝 실무자들이 범한 모든 실수를 언급합니다. 이 블로그를 통해 이 책에서의 학습 내용을 요약하려고 합니다.

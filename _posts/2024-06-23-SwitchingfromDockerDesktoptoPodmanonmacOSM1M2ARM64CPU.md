@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Switching from Docker Desktop to Podman on macOS M1 M2 ARM64 CPU"
 link: "https://medium.com/rahasak/switching-from-docker-desktop-to-podman-on-macos-m1-m2-arm64-cpu-7752c02453ec"
+isUpdated: true
 ---
+
+
+
 
 
 ## 친절한 쿠버네티스 클러스터와 함께

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smart-Home Devices Security: Risks and Protective Measures"
 link: "https://medium.com/@AbuzarNaQvi12/smart-home-devices-security-risks-and-protective-measures-d11709ced798"
+isUpdated: true
 ---
+
+
+
 
 
 스마트 홈 기기에 대해 들어보셨나요? 정말 편리한데, 알고 계시나요? 보안 위험도 따라다닙니다. 이 기기들이 직면하는 보편적인 위험과 안전한 유지 방법에 대해 알려드릴게요.

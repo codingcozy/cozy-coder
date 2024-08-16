@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing SD Card I O Performance with ESP32"
 link: "https://medium.com/@qiweimao/optimizing-sd-card-i-o-performance-with-esp32-b32419c60647"
+isUpdated: true
 ---
+
+
+
 
 
 # 저에 대해

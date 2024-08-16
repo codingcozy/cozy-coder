@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Weekend AI Project: Running Speech Recognition and a LLaMA-2 GPT on a Raspberry Pi"
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-running-speech-recognition-and-a-llama-2-gpt-on-a-raspberry-pi-5298d6edf812"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-AWeekendAIProjectRunningSpeechRecognitionandaLLaMA-2GPTonaRaspberryPi_0.png" />

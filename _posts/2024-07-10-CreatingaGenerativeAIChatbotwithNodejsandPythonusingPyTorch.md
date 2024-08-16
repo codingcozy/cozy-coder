@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Generative AI Chatbot with Node.js and Python using PyTorch"
 link: "https://medium.com/@tc2018000487/creating-a-generative-ai-chatbot-with-node-js-and-python-using-pytorch-4b9f190199a6"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능(AI)은 모두가 챗봇을 개발하기 쉽게 만들어줬어요. 이를 통해 개발자들은 생성적 언어 모델을 사용하여 인간과 대화를 시뮬레이션할 수 있는 애플리케이션을 만들 수 있게 되었어요. 이 기사에서는 Node.js와 Python을 사용하여 생성적 챗봇을 만드는 방법을 살펴보고, PyTorch를 활용한 도구와 기술을 강조할 거예요. 이 챗봇에는 스페인어로 직업 테스트를 수행하는 기능도 포함돼 있을 거에요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Chat Analyzer — From Raw Chats To Data Insights"
 link: "https://medium.com/towards-artificial-intelligence/chat-analyzer-from-raw-chats-to-data-insights-d6dcbb2db1fa"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 앱 개발 리뷰

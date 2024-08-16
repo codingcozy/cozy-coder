@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "7 Android Studio Usage Tips"
 link: "https://medium.com/@domen.lanisnik/android-studio-usage-tips-4c6c47b716e8"
+isUpdated: true
 ---
+
+
+
 
 
 안드로이드 스튜디오는 사용하기 쉬운 강력한 IDE입니다. 그러나 명확하지 않지만 개발자 생산성을 향상시키고 앱 개발을 더 쉽게 만들어 주는 기능도 지원합니다.

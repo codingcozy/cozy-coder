@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Simple ETL Pipeline in Python: A Beginner’s Guide"
 link: "https://medium.com/@sanjayramrajasrinivasan/building-a-simple-etl-pipeline-in-python-a-beginners-guide-d2ab9204e207"
+isUpdated: true
 ---
+
+
+
 
 
 소개:

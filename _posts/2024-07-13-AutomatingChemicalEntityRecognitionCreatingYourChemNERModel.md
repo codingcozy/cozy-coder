@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Automating Chemical Entity Recognition: Creating Your ChemNER Model"
 link: "https://medium.com/towards-data-science/text-mining-for-chemists-a-diy-guide-to-chemical-compound-labeling-ea3145e24dc4"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-13-AutomatingChemicalEntityRecognitionCreatingYourChemNERModel_0.png" />

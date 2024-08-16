@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Get your Home Network Secured with Raspberry Pi , Wazuh — 2023 Edition"
 link: "https://medium.com/@henrion.frn/get-your-home-network-secured-with-raspberry-pi-wazuh-2023-edition-c7ac2044df3e"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-GetyourHomeNetworkSecuredwithRaspberryPiWazuh2023Edition_0.png" />

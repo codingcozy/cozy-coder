@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "4 Strategies to Optimize Retrieval-Augmented Generation (RAG)"
 link: "https://medium.com/ai-advances/4-strategies-to-optimize-retrieval-augmented-generation-0ad902b5c3e2"
+isUpdated: true
 ---
+
+
+
 
 
 # 개인 데이터 및 개인 인프라를 활용한 고급 AI 솔루션

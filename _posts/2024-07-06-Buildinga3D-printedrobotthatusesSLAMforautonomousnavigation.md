@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a 3D-printed robot that uses SLAM for autonomous navigation"
 link: "https://medium.com/@pliam1105/building-a-3d-printed-robot-that-uses-slam-for-autonomous-navigation-cd83473dac7c"
+isUpdated: true
 ---
+
+
+
 
 
 ## Jetson Nano, Arduino 및 ROS 2의 Nav2 라이브러리를 사용하는 자율 로봇

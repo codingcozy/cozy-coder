@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Towards a Sustainable Generative AI Revolution"
 link: "https://medium.com/towards-data-science/towards-sustainable-generative-ai-revolution-a9786de586cb"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-TowardsaSustainableGenerativeAIRevolution_0.png" />

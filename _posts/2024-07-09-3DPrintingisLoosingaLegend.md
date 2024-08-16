@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3D Printing is Loosing a Legend!"
 link: "https://medium.com/mr-plan-publication/3d-printing-is-loosing-a-legend-8c58dbd8bf80"
+isUpdated: true
 ---
+
+
+
 
 
 샤프웨이즈가 파산을 선언하고 사업을 철수하고 있다고 합니다!

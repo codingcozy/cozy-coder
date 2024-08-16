@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Complete Exploratory Data Analysis(EDA) using Python"
 link: "https://medium.com/@navamisunil174/exploratory-data-analysis-of-breast-cancer-survival-prediction-dataset-c423e4137e38"
+isUpdated: true
 ---
+
+
+
 
 
 ## 유방암 생존 예측 데이터 집합의 EDA 단계별 안내서

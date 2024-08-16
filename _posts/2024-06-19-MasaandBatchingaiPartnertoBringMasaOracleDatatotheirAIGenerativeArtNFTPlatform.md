@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Masa and Batching.ai Partner to Bring Masa Oracle Data to their AI Generative Art , NFT Platform"
 link: "https://medium.com/masa-finance/masa-and-batching-ai-partner-to-bring-masa-oracle-data-to-their-ai-generative-art-nft-platform-843ea252f906"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-MasaandBatchingaiPartnertoBringMasaOracleDatatotheirAIGenerativeArtNFTPlatform_0.png" />

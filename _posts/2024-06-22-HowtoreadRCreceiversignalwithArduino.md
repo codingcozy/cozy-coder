@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to read RC receiver signal with Arduino"
 link: "https://medium.com/@werneckpaiva/how-to-read-rc-receiver-signal-with-arduino-54e0447f6c3f"
+isUpdated: true
 ---
+
+
+
 
 
 ![img](/assets/img/2024-06-22-HowtoreadRCreceiversignalwithArduino_0.png)

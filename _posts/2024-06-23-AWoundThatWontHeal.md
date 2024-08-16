@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Wound That Won’t Heal"
 link: "https://medium.com/@ispeakmymind/a-wound-that-wont-heal-28fdee8c70f3"
+isUpdated: true
 ---
+
+
+
 
 
 ## 시간이 흐르고도 마음의 상처가 멈추지 않는 이유는 무엇일까요?

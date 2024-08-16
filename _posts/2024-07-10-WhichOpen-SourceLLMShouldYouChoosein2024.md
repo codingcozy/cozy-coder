@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Which Open-Source LLM Should You Choose in 2024?"
 link: "https://medium.com/towards-artificial-intelligence/which-open-source-llm-should-you-choose-in-2024-c3901ce02271"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-10-WhichOpen-SourceLLMShouldYouChoosein2024_0.png" />

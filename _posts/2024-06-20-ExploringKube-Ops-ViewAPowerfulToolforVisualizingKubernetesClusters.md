@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Kube-Ops-View: A Powerful Tool for Visualizing Kubernetes Clusters"
 link: "https://medium.com/@aruns89/exploring-kube-ops-view-a-powerful-tool-for-visualizing-kubernetes-clusters-024c1e3dc014"
+isUpdated: true
 ---
+
+
+
 
 
 쿠버네티스는 컨테이너 오케스트레이션의 사실상 표준이 되었으며, 팀이 애플리케이션을 신속하게 배포, 관리 및 확장할 수 있도록 지원합니다. 그러나 이 강력함에는 복잡성도 따릅니다. 쿠버네티스 클러스터를 모니터링하고 관리하는 것은 특히 플랫폼 엔지니어링 팀에게 어려울 수 있습니다. 이들은 이 클러스터의 건강 상태와 성능을 유지하는 역할을 맡고 있습니다. Kube-Ops-View가 등장합니다. 이 오픈 소스 도구는 쿠버네티스 클러스터의 시각화를 간편하게 만들기 위해 설계되었습니다. 이 기사에서는 Kube-Ops-View의 기능을 살펴보고 시작하는 데 필요한 코드 조각을 제공하며, 몇 가지 현업 사례에 대해 논의할 것입니다.

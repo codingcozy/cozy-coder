@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Balancing Cost and Accuracy in Generative AI Applications"
 link: "https://medium.com/@alcarazanthony1/balancing-cost-and-accuracy-in-generative-ai-applications-d5f06c20ad2d"
+isUpdated: true
 ---
+
+
+
 
 
 AI 혁명이 여기 있습니다. 생성적 AI 시스템은 우리의 상상력을 사로잡았고 산업을 즉시 변화시킬 수 있습니다. 그러나 이 혁명은 엄청난 대가를 지불해야 합니다.

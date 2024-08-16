@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Learning math at 28."
 link: "https://medium.com/blueinsight/learning-math-at-28-43a03922759d"
+isUpdated: true
 ---
+
+
+
 
 
 3학년 수학부터 시작하면 되겠네요. 두려워하고 흥분되는 일에 도전하는 건 시기를 놓친 일이 아닙니다.

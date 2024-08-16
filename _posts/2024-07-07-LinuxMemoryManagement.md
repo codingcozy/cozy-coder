@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux — Memory Management"
 link: "https://medium.com/@tonylixu/linux-memory-management-8a66932eb711"
+isUpdated: true
 ---
+
+
+
 
 
 

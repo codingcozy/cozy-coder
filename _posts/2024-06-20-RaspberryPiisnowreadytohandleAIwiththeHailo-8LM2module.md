@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi is now ready to handle AI with the Hailo-8L M.2 module"
 link: "https://medium.com/@BAlvesB/raspberry-pi-is-now-ready-to-handle-ai-with-the-hailo-8l-m-2-module-184a1e980eca"
+isUpdated: true
 ---
+
+
+
 
 
 ## 가젯

@@ -3,12 +3,16 @@ title: "GenPiCam - 생성적 AI 카메라"
 description: ""
 coverImage: "/assets/img/2024-05-27-GenPiCam-GenerativeAICamera_0.png"
 date: 2024-05-27 13:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-GenPiCam-GenerativeAICamera_0.png
 tag: Tech
 originalTitle: "GenPiCam - Generative AI Camera"
 link: "https://medium.com/@simon-aubury/genpicam-generative-ai-camera-dfd8123ac6f6"
+isUpdated: true
 ---
+
+
+
 
 ![image](https://miro.medium.com/v2/resize:fit:1268/1*eZzfeCJggafmHaYGcjqEDA.gif)
 

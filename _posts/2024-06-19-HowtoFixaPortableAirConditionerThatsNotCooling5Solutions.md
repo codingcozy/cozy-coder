@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Fix a Portable Air Conditioner That’s Not Cooling? (5 Solutions)"
 link: "https://medium.com/@apollodigitalstudios/how-to-fix-a-portable-air-conditioner-thats-not-cooling-5-solutions-40d09e460136"
+isUpdated: true
 ---
+
+
+
 
 
 ![Portable Air Conditioner](/assets/img/2024-06-19-HowtoFixaPortableAirConditionerThatsNotCooling5Solutions_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Decrypting: Snowblind"
 link: "https://medium.com/@kr1pt7c/decrypting-snowblind-06a70901ac57"
+isUpdated: true
 ---
+
+
+
 
 
 2024년 초에 등장한 안드로이드 기기를 대상으로 한 신작 악성 소프트웨어인 Snowblind은 동남아시아 지역에서 활동 중인 강력한 데이터 스틸러입니다. 이 악성 소프트웨어는 은행 트로이jan 형태로 나타나며, 고유한 공격 벡터를 갖추고 있습니다. Snowblind은 안드로이드의 강력한 보안 메커니즘 중 하나인 seccomp(secure computing)를 활용하여 설계된 애플리케이션을 상대로 공격을 수행합니다. 

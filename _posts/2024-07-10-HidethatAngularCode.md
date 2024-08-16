@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hide that Angular Code!"
 link: "https://medium.com/javascript-in-plain-english/hide-that-angular-code-512f5236d0dc"
+isUpdated: true
 ---
+
+
+
 
 
 타인이 당신의 코드를 훔치지 못하도록 하고 싶나요? 함께 살펴봐요!

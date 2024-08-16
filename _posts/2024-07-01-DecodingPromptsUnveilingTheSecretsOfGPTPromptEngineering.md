@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding Prompts: Unveiling The Secrets Of GPT Prompt Engineering"
 link: "https://medium.com/@jankammerath/decoding-prompts-unveiling-the-secrets-of-gpt-prompt-engineering-fd57db43c66f"
+isUpdated: true
 ---
+
+
+
 
 
 효과적인 프롬프트를 작성하는 것은 상당히 어려운 작업일 수 있습니다. 어떤 사람들은 다른 사람들보다 GPT를 통해 더 나은 결과를 얻는 것 같습니다. 정확히 떠오르는 것을 달성하는 효과적인 프롬프트를 작성하려면 GPT 모델이 어떻게 작동하는지를 이해해야 합니다. ChatGPT, Claude, DALL-E, Firefly, Stable Diffusion 또는 Llama2가 어떻게 프롬프트를 해독하고 사용하는지에 대한 기본적인 이해가 필요합니다.

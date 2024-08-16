@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi 5 CPU Performance"
 link: "https://medium.com/@davidly_33504/raspberry-pi-5-cpu-performance-2d019aa6c0df"
+isUpdated: true
 ---
+
+
+
 
 
 라즈베리 파이 기기들은 사용하기 정말 재미있어요. 가격도 저렴하고 성능도 좋아서 다양한 문제를 해결하는 방법에 대한 예제를 쉽게 찾을 수 있어요. Pi 5가 9월 28일에 발표되었을 때 저는 그것을 만져보고 싶었어요.

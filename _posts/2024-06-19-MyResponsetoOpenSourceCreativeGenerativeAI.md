@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Response to Open Source “Creative” Generative AI"
 link: "https://medium.com/better-programming/response-to-open-source-creative-generative-ai-e83a5d66e335"
+isUpdated: true
 ---
+
+
+
 
 
 ## 적용된 gAI의 개발은 사회적 요구 및 규범에 근거하여 우리 문화와 정체성과 일치시키고 분열을 피해야 합니다

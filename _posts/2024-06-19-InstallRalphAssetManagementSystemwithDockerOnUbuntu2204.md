@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Install Ralph Asset Management System with Docker On Ubuntu 22.04"
 link: "https://medium.com/@hasanudin31113/install-ralph-asset-management-system-with-docker-on-ubuntu-22-04-26494ea6bf76"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-InstallRalphAssetManagementSystemwithDockerOnUbuntu2204_0.png" />

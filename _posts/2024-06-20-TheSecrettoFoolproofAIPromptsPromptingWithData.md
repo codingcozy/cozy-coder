@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Secret to Foolproof AI Prompts: Prompting With Data"
 link: "https://medium.com/@bernardbad/the-secret-to-foolproof-ai-prompts-prompting-with-data-4e2ea2d8ed68"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-TheSecrettoFoolproofAIPromptsPromptingWithData_0.png" />

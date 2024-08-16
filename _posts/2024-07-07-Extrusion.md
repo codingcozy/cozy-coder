@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Extrusion"
 link: "https://medium.com/@bartosz_sroka/why-3d-printer-is-what-you-need-for-zombie-apocalypse-part-2-how-and-what-to-print-56e93b7fdaa9"
+isUpdated: true
 ---
+
+
+
 
 
 좀비 아포칼립스를 위해 3D 프린터가 필요한 이유는 무엇일까요? 파트 2: 어떻게 출력하며 무엇을 출력해야 할까요?

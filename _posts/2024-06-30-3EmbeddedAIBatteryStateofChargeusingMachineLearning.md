@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3. Embedded AI — Battery State of Charge using Machine Learning"
 link: "https://medium.com/@reefwing/3-embedded-ai-battery-state-of-charge-using-machine-learning-62a181cac16b"
+isUpdated: true
 ---
+
+
+
 
 
 ## 배터리 충전 상태(SOC)는 배터리의 잔여 전하를 총 용량의 백분율로 표시합니다. 이 정보는 내장 장치의 에너지 관리에 매우 중요합니다. SOC를 정확하게 추정하는 것은 리튬이온 배터리의 복잡한 행동에 영향을 받아 어려운 작업입니다. 이는 온도, 배터리 건강 상태, 그리고 SOC 자체와 같은 요소들에 의해 영향을 받기 때문입니다. SOC를 추정하기 위한 전통적인 방법인 전기화학 모델은 정확한 매개변수와 배터리의 조성 및 물리적 특성에 대한 심층적인 이해를 요구합니다. 반면, 머신 러닝 모델은 데이터 기반 접근 방식을 제공하여 배터리의 행동에 대해 덜 자세한 지식만으로도 SOC 추정을 단순화시키므로 내장 시스템에 구현하기에 적합합니다.

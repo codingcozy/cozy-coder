@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to send a message and make a phone call from Arduino with SIM800L?"
 link: "https://medium.com/@robotamateur123/how-to-send-a-message-and-make-a-phone-call-from-arduino-with-sim800l-f65db28a5c60"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사에서는 아두이노로 문자 메시지를 보내고 전화를 거는 방법을 공유하고 싶습니다. 그 방법으로 "SIM800L"을 사용할 겁니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Robots Can’t Click the “I’m Not a Robot” Box: The Clever Trick Behind CAPTCHA"
 link: "https://medium.com/@sohaibrumy/why-robots-cant-click-the-i-m-not-a-robot-box-the-clever-trick-behind-captcha-11337ce1babf"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 (AI)이 체스에서부터 창의적인 글쓰기까지 모든 것을 습득하는 세상에서 로봇들이 웹사이트에서 간단한 "로봇이 아닙니다" 확인란을 클릭하지 못하는 이유에 대해 궁금했던 적이 있나요? 그 이유는 인간의 직관과 가장 고급화된 봇을도 속일 수 있는 정교한 알고리즘의 조합에 있다고 할 수 있습니다.

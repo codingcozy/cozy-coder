@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Angular Components with Unidirectional Data Flow and Abstraction"
 link: "https://medium.com/@bobrovice/enhancing-angular-components-with-unidirectional-data-flow-and-abstraction-d936fe8fb8e5"
+isUpdated: true
 ---
+
+
+
 
 
 

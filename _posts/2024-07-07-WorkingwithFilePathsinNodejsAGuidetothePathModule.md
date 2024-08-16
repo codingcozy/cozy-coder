@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Working with File Paths in Node.js: A Guide to the Path Module"
 link: "https://medium.com/@louistrinh/working-with-file-paths-in-node-js-a-guide-to-the-path-module-829f384aac5f"
+isUpdated: true
 ---
+
+
+
 
 
 

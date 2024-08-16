@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Abandoning the iPhone for the Z Fold4"
 link: "https://medium.com/macoclock/abandoning-the-iphone-for-the-z-fold4-b83d2284e7fe"
+isUpdated: true
 ---
+
+
+
 
 
 ![ZFold4](/assets/img/2024-07-13-AbandoningtheiPhonefortheZFold4_0.png)

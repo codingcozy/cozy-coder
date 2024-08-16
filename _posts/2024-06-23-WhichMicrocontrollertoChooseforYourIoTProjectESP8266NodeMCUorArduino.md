@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Which Microcontroller to Choose for Your IoT Project? ESP8266 NodeMCU or Arduino"
 link: "https://medium.com/@campuscomponent11/which-microcontroller-to-choose-for-your-iot-project-esp8266-nodemcu-or-arduino-8b0beaf8531e"
+isUpdated: true
 ---
+
+
+
 
 
 IoT(Internet of Things) 프로젝트를 시작할 때, 올바른 마이크로컨트롤러를 선택하는 것이 전체 프로젝트의 중요한 단계입니다. 마이크로컨트롤러의 두 가지 인기 있는 선택지는 ESP8266 NodeMCU나 아두이노입니다. 둘 다 장점과 단점을 갖고 있으며, 이를 이해하면 현명한 결정을 내릴 수 있습니다.

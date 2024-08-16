@@ -1,5 +1,5 @@
 ---
-title: "React Query를 사용할 때 Redux가 여전히 필요한가요  2024년 상태 관리 트렌드"
+title: "2024년 상태 관리 트렌트인 React Query 개념 및 정리"
 description: ""
 coverImage: "/assets/img/2024-07-30-DoYouStillNeedReduxWhileUsingReactQueryStateManagement2024_0.png"
 date: 2024-07-30 17:25
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Do You Still Need Redux While Using React Query  State Management 2024"
 link: "https://medium.com/javascript-in-plain-english/do-you-still-need-redux-while-using-react-query-state-management-2024-f4d0ce881946"
+isUpdated: true
 ---
+
+
+
 
 
 

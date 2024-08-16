@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Powerful new macOS Sequoia"
 link: "https://medium.com/@BAlvesB/powerful-new-macos-sequoia-d54a7fc801c7"
+isUpdated: true
 ---
+
+
+
 
 
 ## apple

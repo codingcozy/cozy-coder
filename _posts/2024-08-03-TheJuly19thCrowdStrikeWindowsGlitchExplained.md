@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The July 19th CrowdStrike Windows Glitch Explained"
 link: "https://medium.com/code-like-a-girl/the-july-19th-crowdstrike-windows-glitch-explained-c9eb77c49bdc"
+isUpdated: true
 ---
+
+
+
 
 
 ## 할머니와 할아버지도 이해하기 쉽게

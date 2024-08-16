@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Are the robots getting smarter? A conversation about perception in robotics"
 link: "https://medium.com/@mathiasmantelli/are-the-robots-getting-smarter-a-conversation-about-perception-in-robotics-255f32ac3fb9"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사는 보통 여기서 하는 시리즈와는 별도로 됩니다. 이젠 대화를 나누는 것처럼 얘기하는 걸 좋아합니다 (하지만 전 며칠 동안 계속 말을 할 거에요 ㅋㅋ). 그래서 당신이 좋아하는 음료를 준비하고 로봇과 그들이 얼마나 "똑똑"해졌는지에 대해 이야기해봐요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "project proxy.mity: part III — Robot Control mechanism"
 link: "https://medium.com/@saharsh-sinha-career/project-proxy-mity-robot-control-mechanism-7691fa67a6cb"
+isUpdated: true
 ---
+
+
+
 
 
 로봇을 이동시키고 제어 신호를 해석하기

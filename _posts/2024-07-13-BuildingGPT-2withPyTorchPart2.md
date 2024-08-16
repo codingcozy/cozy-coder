@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building GPT-2 with PyTorch (Part 2)"
 link: "https://medium.com/towards-artificial-intelligence/heres-how-you-can-build-and-train-gpt-2-from-scratch-using-pytorch-part-2-9b41d15baf62"
+isUpdated: true
 ---
+
+
+
 
 
 이것은 GPT-2를 처음부터 만드는 프로젝트의 두 번째 부분입니다. 아직 첫 번째 부분을 읽지 않으셨다면, 계속하기 전에 언어 모델의 기본 사항에 익숙해지는 것을 권장합니다.

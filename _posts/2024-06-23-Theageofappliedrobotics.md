@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The age of applied robotics"
 link: "https://medium.com/enrique-dans/the-age-of-applied-robotics-9f377d7cd55e"
+isUpdated: true
 ---
+
+
+
 
 
 ![Amazon Sparrow](/assets/img/2024-06-23-Theageofappliedrobotics_0.png)

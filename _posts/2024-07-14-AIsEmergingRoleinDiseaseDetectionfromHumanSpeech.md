@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI’s Emerging Role in Disease Detection from Human Speech"
 link: "https://medium.com/towards-data-science/ais-emerging-role-in-disease-detection-from-human-speech-f24e6d49d25c"
+isUpdated: true
 ---
+
+
+
 
 
 ## |인공지능| 건강| 음성|

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Reliably Detect BottomSheet State Changes in Jetpack Compose"
 link: "https://medium.com/@efebu/how-to-reliably-detect-bottomsheet-state-changes-in-jetpack-compose-76a91524e9a2"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-25-HowtoReliablyDetectBottomSheetStateChangesinJetpackCompose_0.png" />

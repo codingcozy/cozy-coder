@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Tabula rasa: Could We Have a Transformer for Tabular Data"
 link: "https://medium.com/gitconnected/tabula-rasa-could-we-have-a-transformer-for-tabular-data-9e4b238cde2c"
+isUpdated: true
 ---
+
+
+
 
 
 ## | 표 형식 데이터 | 인공 지능 | 트랜스포머 | LLMS |

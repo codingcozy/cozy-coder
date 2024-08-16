@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging Structured Knowledge to Automatically Detect Hallucination in Large Language Models"
 link: "https://medium.com/the-modern-scientist/leveraging-structured-knowledge-to-automatically-detect-hallucination-in-large-language-models-1a94a7929492"
+isUpdated: true
 ---
+
+
+
 
 
 인공 지능 소프트웨어가 사용되어 이 기사의 텍스트 문법, 흐름 및 가독성을 개선했습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "CPO-SimPO | Training Phi3-Mini4k-Instruct with CPO-SimPO"
 link: "https://medium.com/@zaiinn440/cpo-simpo-training-phi3-mini4k-instruct-with-cpo-simpo-de8c58b3ac32"
+isUpdated: true
 ---
+
+
+
 
 
 친애하는 분들,

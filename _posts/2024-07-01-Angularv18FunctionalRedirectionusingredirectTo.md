@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular v18 — Functional Redirection using redirectTo 🔥🚀"
 link: "https://medium.com/@giorgio.galassi/angular-v18-functional-redirection-using-redirectto-10c853d9d837"
+isUpdated: true
 ---
+
+
+
 
 
 

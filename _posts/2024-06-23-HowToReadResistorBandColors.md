@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How To Read Resistor Band Colors"
 link: "https://medium.com/@aryamansharda/how-to-read-resistor-band-colors-b65a9013d630"
+isUpdated: true
 ---
+
+
+
 
 
 

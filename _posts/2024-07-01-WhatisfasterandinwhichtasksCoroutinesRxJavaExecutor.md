@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "What is faster and in which tasks? Coroutines, RxJava, Executor?"
 link: "https://medium.com/proandroiddev/what-is-faster-and-in-which-tasks-coroutines-rxjava-executor-952b1ff62506"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-01-WhatisfasterandinwhichtasksCoroutinesRxJavaExecutor_0.png" />

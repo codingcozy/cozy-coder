@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Angular passing a value from child component to disable button in parent component"
 link: "https://medium.com/@fixitblog/solved-angular-passing-a-value-from-child-component-to-disable-button-in-parent-component-349101a0943c"
+isUpdated: true
 ---
+
+
+
 
 
 부모 요소의 버튼을 비활성화하거나 활성화하기 위해 @Output 및 EventEmitter를 사용하는 방법을 이해하는 데 어려움을 겪고 있습니다.

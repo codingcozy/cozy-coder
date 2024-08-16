@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data , AI Summit Takeaways: Part II"
 link: "https://medium.com/@matt_weingarten/data-ai-summit-takeaways-part-ii-32df7e6070f3"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-DataAISummitTakeawaysPartII_0.png" />

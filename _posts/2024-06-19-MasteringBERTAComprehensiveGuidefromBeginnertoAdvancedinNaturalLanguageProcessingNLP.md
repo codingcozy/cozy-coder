@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering BERT: A Comprehensive Guide from Beginner to Advanced in Natural Language Processing (NLP)"
 link: "https://medium.com/@shaikhrayyan123/a-comprehensive-guide-to-understanding-bert-from-beginners-to-advanced-2379699e2b51"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-MasteringBERTAComprehensiveGuidefromBeginnertoAdvancedinNaturalLanguageProcessingNLP_0.png" />

@@ -1,5 +1,5 @@
 ---
-title: "Swift에 첫 번째 패키지 명령 플러그인 만드는 방법"
+title: "Swift에서 패키지 명령 플러그인 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-24-CreateYourFirstSwiftPackageCommandPlugin_0.png"
 date: 2024-07-24 11:55
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Create Your First Swift Package Command Plugin"
 link: "https://medium.com/better-programming/create-your-first-swift-package-command-plugin-3f918e2e8b8e"
+isUpdated: true
 ---
+
+
+
 
 
 올해 애플은 Swift Package Manager용 새로운 기능을 출시했습니다: Swift Package 플러그인. 이제 Xcode와 자동으로 통합되는 두 가지 종류의 플러그인을 작성할 수 있습니다:

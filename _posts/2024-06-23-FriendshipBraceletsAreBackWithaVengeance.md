@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Friendship Bracelets Are Back With a Vengeance"
 link: "https://medium.com/share-your-creativity/friendship-bracelets-are-back-with-a-vengeance-269fdc883d16"
+isUpdated: true
 ---
+
+
+
 
 
 ## 친구 브레이슬릿 | 공예 | 월간 도전

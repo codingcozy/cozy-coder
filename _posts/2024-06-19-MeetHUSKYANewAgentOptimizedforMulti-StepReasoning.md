@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Meet HUSKY: A New Agent Optimized for Multi-Step Reasoning"
 link: "https://medium.com/towards-artificial-intelligence/meet-husky-a-new-agent-optimized-for-multi-step-reasoning-0edb8e087d22"
+isUpdated: true
 ---
+
+
+
 
 
 ## Meta AI, Allen AI 및 워싱턴 대학이 함께 한 새로운 연구에서는 LLM 추론에서 가장 중요한 문제 중 하나를 다루고 있습니다.

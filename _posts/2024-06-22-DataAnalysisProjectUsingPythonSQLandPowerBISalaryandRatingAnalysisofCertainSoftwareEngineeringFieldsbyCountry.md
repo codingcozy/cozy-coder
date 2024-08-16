@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Analysis Project Using Python, SQL, and Power BI: [Salary and Rating Analysis of Certain Software Engineering Fields by Country]"
 link: "https://medium.com/@Mehmtcnangn/data-analysis-project-using-python-sql-and-power-bi-salary-and-rating-analysis-of-certain-9bf4b9cfcb7f"
+isUpdated: true
 ---
+
+
+
 
 
 현재 정보 시대에서 데이터 분석의 중요성은 이전보다 더 커졌어요. 이 글에서는 Python, SQL 및 Power BI를 사용하여 진행한 데이터 분석 프로젝트에 대해 자세히 설명할 거예요. Kaggle에서 얻은 데이터셋은 특정 소프트웨어 직종의 채용 공고, 채용자 회사의 평가 비율, 그리고 직원들에게 제공되는 최저, 평균 및 최고 연봉 범위 등의 데이터를 포함하고 있어요. 이 프로젝트는 기존 데이터를 정리하고 구성하는 데 초점을 맞추며 필요한 데이터를 추출하고 이를 시각화하여 통계 비율을 생성합니다. 이 프로젝트의 주요 목표는 나만의 로드맵을 개요화하여 완전한 데이터 엔지니어링 프로젝트를 만드는 것이에요.

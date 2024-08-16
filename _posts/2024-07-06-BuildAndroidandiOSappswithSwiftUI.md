@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build Android and iOS apps with SwiftUI"
 link: "https://medium.com/@rohitsainier/build-android-and-ios-apps-with-swiftui-7c89a92c184f"
+isUpdated: true
 ---
+
+
+
 
 
 오늘날, iOS와 안드로이드 모두를 대상으로하는 앱을 보유하는 것이 성공적인 비즈니스 전략의 중요한 측면이 됩니다. 그러나 각 플랫폼별로 별개의 앱을 만드는 것은 시간이 많이 걸리고 비용이 많이 드는 일일 수 있습니다. 이러한 도전에 대처하기 위해 많은 기업들이 플러터, 리액트 네이티브 및 코틀린 멀티플랫폼(KMP)과 같은 인기있는 프레임워크를 사용한 하이브리드 또는 크로스 플랫폼 앱 개발을 선택합니다.

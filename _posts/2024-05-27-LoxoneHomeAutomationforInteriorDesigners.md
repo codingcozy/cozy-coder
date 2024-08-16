@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Loxone Home Automation for Interior Designers"
 link: "https://medium.com/@jaaaco/loxone-home-automation-for-interior-designers-5ef0a47667f3"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-LoxoneHomeAutomationforInteriorDesigners_0.png" />

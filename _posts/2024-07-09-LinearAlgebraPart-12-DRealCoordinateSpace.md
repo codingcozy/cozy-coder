@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linear Algebra (Part-1): 2-D Real Coordinate Space"
 link: "https://medium.com/@amitsubhashchejara/linear-algebra-part-1-2-d-real-coordinate-space-e5d51a0f4034"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-09-LinearAlgebraPart-12-DRealCoordinateSpace_0.png)

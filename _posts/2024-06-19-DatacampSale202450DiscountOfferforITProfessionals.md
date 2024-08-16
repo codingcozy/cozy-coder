@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Datacamp Sale 2024 — 50% Discount Offer for IT Professionals"
 link: "https://medium.com/javarevisited/datacamp-sale-2024-50-discount-offer-for-it-professionals-1ff8a597426f"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 캠프 연간 요금제로 데이터와 AI 역량 강화를 무제한으로 이용하여 50% 할인 혜택을 받으세요

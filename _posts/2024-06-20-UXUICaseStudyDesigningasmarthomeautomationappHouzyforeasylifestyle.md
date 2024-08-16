@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "UX UI Case Study: Designing a smart home automation app(Houzy) for easy lifestyle"
 link: "https://medium.com/@komalmehra1204/ux-ui-case-study-designing-a-smart-home-automation-app-houzy-for-easy-lifestyle-78f15bb79526"
+isUpdated: true
 ---
+
+
+
 
 
 이것은 UX 학습을 위해 제가 수행한 케이스 스터디입니다. 이 프로젝트는 2022년 봄에 뱅갈로우에 위치한 DesignBoat UI/UX School에서 UI/UX 디자인 코스 중에 만들어졌습니다.

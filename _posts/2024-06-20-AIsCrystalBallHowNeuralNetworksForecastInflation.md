@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "AI’s Crystal Ball: How Neural Networks Forecast Inflation"
 link: "https://medium.com/@kaabar-sofien/ais-crystal-ball-how-neural-networks-forecast-inflation-e2c1704332fe"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-06-20-AIsCrystalBallHowNeuralNetworksForecastInflation_0.png" />`

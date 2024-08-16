@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Home and DIY Projects for 2024"
 link: "https://medium.com/good-vibes-for-you/top-10-home-and-diy-projects-for-2024-6338313a166c"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-20-Top10HomeandDIYProjectsfor2024_0.png)

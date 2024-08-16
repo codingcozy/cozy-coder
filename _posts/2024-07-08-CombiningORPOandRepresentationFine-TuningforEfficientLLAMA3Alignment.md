@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Combining ORPO and Representation Fine-Tuning for Efficient LLAMA3 Alignment"
 link: "https://medium.com/towards-data-science/combining-orpo-and-representation-fine-tuning-for-efficient-llama3-alignment-77f6a2e3af8c"
+isUpdated: true
 ---
+
+
+
 
 
 파인튜닝은 특정 작업에 언어 모델을 적응시키는 가장 인기 있는 기술 중 하나입니다.

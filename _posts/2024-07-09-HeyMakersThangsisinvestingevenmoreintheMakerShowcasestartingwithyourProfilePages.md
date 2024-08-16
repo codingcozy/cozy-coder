@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hey Makers, Thangs is investing even more in the Maker Showcase, starting with your Profile Pages 👏👏"
 link: "https://medium.com/thangs3d/hey-makers-thangs-is-investing-even-more-in-the-maker-showcase-starting-with-your-profile-pages-81e65ade620b"
+isUpdated: true
 ---
+
+
+
 
 
 ## THANGS.COM 제품 업데이트

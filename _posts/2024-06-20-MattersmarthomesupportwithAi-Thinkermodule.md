@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Matter smart home support with Ai-Thinker module"
 link: "https://medium.com/@taraqiuaithinker/matter-smart-home-support-with-ai-thinker-module-7e5cd23976df"
+isUpdated: true
 ---
+
+
+
 
 
 # Ai-Thinker Ai-WB2 시리즈 모듈이 Matter을 지원합니다

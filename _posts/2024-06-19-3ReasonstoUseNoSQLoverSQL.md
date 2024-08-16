@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3 Reasons to Use NoSQL over SQL"
 link: "https://medium.com/gitconnected/3-reasons-to-use-nosql-over-sql-b3fe05b09325"
+isUpdated: true
 ---
+
+
+
 
 
 `<img src="/assets/img/2024-06-19-3ReasonstoUseNoSQLoverSQL_0.png" />`

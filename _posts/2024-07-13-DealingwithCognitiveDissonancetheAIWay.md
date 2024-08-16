@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Dealing with Cognitive Dissonance, the AI Way"
 link: "https://medium.com/towards-data-science/dealing-with-cognitive-dissonance-the-ai-way-1f182a248d6d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-13-DealingwithCognitiveDissonancetheAIWay_0.png)

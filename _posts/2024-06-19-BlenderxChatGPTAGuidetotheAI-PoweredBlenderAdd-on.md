@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Blender x ChatGPT: A Guide to the AI-Powered Blender Add-on"
 link: "https://medium.com/@ryvnollie/blender-x-chatgpt-a-guide-to-the-ai-powered-blender-add-on-cf5766084f8f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-BlenderxChatGPTAGuidetotheAI-PoweredBlenderAdd-on_0.png" />

@@ -3,12 +3,16 @@ title: "맥OS에서 크론탭을 사용하여 스크립트를 정해진 시간�
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtorunyourscriptonascheduleusingcrontabonmacOSAstep-by-stepguide_0.png"
 date: 2024-06-19 15:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-19-HowtorunyourscriptonascheduleusingcrontabonmacOSAstep-by-stepguide_0.png
 tag: Tech
 originalTitle: "How to run your script on a schedule using crontab on macOS: A step-by-step guide"
 link: "https://medium.com/@justin_ng/how-to-run-your-script-on-a-schedule-using-crontab-on-macos-a-step-by-step-guide-a7ba539acf76"
+isUpdated: true
 ---
+
+
+
 
 맥에서는 쉘(Shell), 노드(Node), 파이썬(Python) 및 데노(Deno) 스크립트를 쉽게 자동화할 수 있습니다.
 

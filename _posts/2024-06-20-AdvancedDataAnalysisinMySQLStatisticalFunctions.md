@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Data Analysis in MySQL: Statistical Functions"
 link: "https://medium.com/learning-sql/advanced-data-analysis-in-mysql-statistical-functions-5958d2194fa2"
+isUpdated: true
 ---
+
+
+
 
 
 

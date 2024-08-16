@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "All hail Pi: A DIY privacy enhancement device."
 link: "https://medium.com/@codezen/all-hail-pi-a-diy-privacy-enhancement-device-ea39b234b629"
+isUpdated: true
 ---
+
+
+
 
 
 우리 모두는 웹 사이트에서 정보를 읽고 이해하려고 노력하던 중 갑자기 이것을 만난 귀찮은 상황에 있었을 것입니다.

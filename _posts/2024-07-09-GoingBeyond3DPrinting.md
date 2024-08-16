@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Going Beyond 3D Printing"
 link: "https://medium.com/@ctlrsa/going-beyond-3d-printing-de46cafa23f5"
+isUpdated: true
 ---
+
+
+
 
 
 ## 작성자: 불완전하다고 생각하는 부가 창업자

@@ -3,12 +3,16 @@ title: "이해할 수 있는 이상 탐지 Frequent Patterns Outlier Factor FPOF
 description: ""
 coverImage: "/assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_0.png"
 date: 2024-05-27 15:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-InterpretableOutlierDetectionFrequentPatternsOutlierFactorFPOF_0.png
 tag: Tech
 originalTitle: "Interpretable Outlier Detection: Frequent Patterns Outlier Factor (FPOF)"
 link: "https://medium.com/towards-data-science/interpretable-outlier-detection-frequent-patterns-outlier-factor-fpof-0d9cbf51b17a"
+isUpdated: true
 ---
+
+
+
 
 ## 범주형 데이터를 지원하며 이상치를 감지하고, 이상치에 대한 설명을 제공하는 감지 방법
 

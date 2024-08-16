@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Predict Player Churn, with Some Help From ChatGPT"
 link: "https://medium.com/towards-data-science/player-churn-rate-prediction-data-analysis-and-visualisation-part-1-12a9fdff9c10"
+isUpdated: true
 ---
+
+
+
 
 
 ## 저 코드 머신 러닝 플랫폼을 활용한 데이터 과학 | ACTABLE AI

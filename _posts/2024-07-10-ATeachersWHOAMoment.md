@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Teacher’s WHOA! Moment"
 link: "https://medium.com/educreation/a-teachers-whoa-moment-69f09150bdec"
+isUpdated: true
 ---
+
+
+
 
 
 이 그림에 동의하시나요?

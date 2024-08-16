@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Concerns of Covering Gacha Games"
 link: "https://medium.com/@GWBycer/the-concerns-of-covering-gacha-games-22b1e9bf88fc"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-03-TheConcernsofCoveringGachaGames_0.png" />

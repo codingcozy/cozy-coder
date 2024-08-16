@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "WIFI Spammer on ESP32"
 link: "https://medium.com/@imthedanger/wifi-spammer-on-esp32-f50471599042"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 여러분! 오늘은 제 최신 프로젝트인 esp32에서 동작하는 wifi 스팸 전송기에 대해 이야기하려고 해요. 이 프로젝트에 대한 자세한 설명과 만드는 방법에 대해 알려드릴 거에요. 이 기기는 재미있는 이름의 wifi 핫스팟을 많이 생성하고 정기적으로 업데이트하는 기능을 갖추고 있어요.

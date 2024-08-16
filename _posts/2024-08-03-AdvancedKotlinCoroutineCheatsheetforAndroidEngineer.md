@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 개발자를 위한 고급 코틀린 코루틴 치트 시트"
+title: "안드로이드 개발자를 위한 고급 코틀린 개발 팁 정리"
 description: ""
 coverImage: "/assets/img/2024-08-03-AdvancedKotlinCoroutineCheatsheetforAndroidEngineer_0.png"
 date: 2024-08-03 18:25
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Kotlin Coroutine Cheat sheet for Android Engineer"
 link: "https://medium.com/@galou.minisini/advanced-kotlin-coroutine-cheat-sheet-for-android-engineer-15e0d180fc1f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-03-AdvancedKotlinCoroutineCheatsheetforAndroidEngineer_0.png" />

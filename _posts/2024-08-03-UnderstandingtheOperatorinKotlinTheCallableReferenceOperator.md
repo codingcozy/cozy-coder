@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the  Operator in Kotlin The Callable Reference Operator"
 link: "https://medium.com/@krishusharma292/understanding-the-operator-in-kotlin-the-callable-reference-operator-057ae42b4a6b"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요 Kotlin 팬 여러분! 👋 오늘은 호출 가능한 참조 연산자로 알려진 ::이라는 흥미로운 연산자에 대해 소개합니다. 이 연산자는 함수, 속성 및 생성자를 코틀린에서 간결하고 가독성 있게 참조할 수 있게 해줍니다. 하지만 :: 연산자가 정확히 무엇일까요? 간단히 말하면, 이미 존재하는 코드 요소에 대한 참조를 만들어주어 고차 함수 및 다른 문맥에서 더 쉽게 작업할 수 있게 해줍니다. 호출 가능한 참조는 특히 고차 함수에서 유용하며 코드를 더 표현력 있고 유지보수 가능하게 만듭니다. 이 글에서는 코틀린에서 호출 가능한 참조의 다양한 유형과 사용법에 대해 살펴보며 이 강력한 기능에 대한 포괄적인 안내서를 제공할 것입니다. 🚀

@@ -3,12 +3,16 @@ title: "Angular와 Firebase로 실시간 채팅 애플리케이션 구축 방법
 description: ""
 coverImage: "/assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png"
 date: 2024-07-06 03:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png
 tag: Tech
 originalTitle: "Building a Real-Time Chat Application with Angular and Firebase"
 link: "https://medium.com/@md.mollaie/building-a-real-time-chat-application-with-angular-and-firebase-89f70ebdd5a1"
+isUpdated: true
 ---
+
+
+
 
 ![](/assets/img/2024-07-06-BuildingaReal-TimeChatApplicationwithAngularandFirebase_0.png)
 

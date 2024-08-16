@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mysteries of An: Part 4"
 link: "https://medium.com/@anomalitism/mysteries-of-an-part-4-ff4629bd9000"
+isUpdated: true
 ---
+
+
+
 
 
 시리즈 "Mysteries of An"에 오신 걸 환영합니다. 각각의 디지털 아트 작품은 알 수 없는 신비한 세계를 엿보게 해주는 창을 엽니다. 신비한 대기와 매혹적인 풍경을 가진 행성 An은 이 시리즈의 영감의 원천으로서의 역할을 합니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The 72 Features Of Apple’s iOS 18 Update You NEED To Try!"
 link: "https://medium.com/macoclock/the-72-features-of-apples-ios-18-update-you-need-to-try-c05175e7b749"
+isUpdated: true
 ---
+
+
+
 
 
 **그냥 거침없이 말하자면 — iOS 18는 지금까지 가장 기대되는 애플 업데이트입니다.**

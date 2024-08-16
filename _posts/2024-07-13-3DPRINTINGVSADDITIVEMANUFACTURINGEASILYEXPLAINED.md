@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "3D PRINTING VS. ADDITIVE MANUFACTURING: EASILY EXPLAINED"
 link: "https://medium.com/technology-hits/3d-printing-vs-additive-manufacturing-easily-explained-5ce5a7f5688b"
+isUpdated: true
 ---
+
+
+
 
 
 창의적인 제조 분야에서, "3D 프린팅"과 "부가 제조"라는 용어들은 종종 같은 의미로 사용된다고 사람들은 말합니다. 밀접한 관계를 가졌지만, 분명히 인지해야 할 차이점이 있습니다. 기본적으로 "부가 제조"라는 용어를 "3D 프린팅" 대신 사용할 수 있지만, 그 반대는 불가능합니다.

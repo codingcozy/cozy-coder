@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I choose between SQL and No-SQL solutions"
 link: "https://medium.com/@martin.hodges/how-i-choose-between-sql-and-no-sql-solutions-63463b6e65b9"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사에서는 솔루션을 선택하기 위해 SQL 및 No-SQL 데이터베이스 중 어떤 것을 선택할 것인지에 대해 설명하고 있습니다. 이 결정의 일환으로, 구조화된 및 비구조화된 데이터가 결정에 어떤 영향을 미치는지 및 기타 요소를 탐구합니다. 이것은 복잡한 결정일 수 있습니다 [소프트웨어 관리에 관한 기사].

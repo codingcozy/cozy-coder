@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "RAG solution using Amazon Bedrock - Part 2: Build the MCQ orchestrator using Bedrock Converse API"
 link: "https://medium.com/@vivek-aws/rag-solution-using-amazon-bedrock-part-2-build-the-mcq-orchestrator-using-bedrock-converse-api-61c2b2ce3f20"
+isUpdated: true
 ---
+
+
+
 
 
 Generative AI 데모는 Well-Architected Machine Learning Lens PDF를 활용하여 Machine Learning Engineer Associate (MLA-C01) 자격증 시험을 준비하는 데 도움이 됩니다.

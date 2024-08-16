@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Nobody is Real"
 link: "https://medium.com/write-a-catalyst/nobody-is-real-4c6372665056"
+isUpdated: true
 ---
+
+
+
 
 
 ![Tarot Image](/assets/img/2024-07-13-NobodyisReal_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "330 Weeks of Data Visualizations: My Journey and Key Takeaways"
 link: "https://medium.com/towards-data-science/330-weeks-of-data-visualizations-my-journey-and-key-takeaways-93f824714dd1"
+isUpdated: true
 ---
+
+
+
 
 
 2018년에 풀타임 데이터 과학 직업을 시작한 이후 매주 한 가지 시각화를 만들고 있어요. 이제 330주가 넘는 시간이 흘렀는데, 이것이 정말 자랑스러운 성취라고 생각해요. 커피 시간에 사람들이 자주 물어보는 내용이라서 이를 영감으로 삼아 이 기사를 쓰고 여러분과 나누기로 결심했어요.

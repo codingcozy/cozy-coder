@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing a Cross-Platform Countdown Timer in Kotlin Multiplatform for Android and iOS"
 link: "https://medium.com/@adman.shadman/implementing-a-cross-platform-countdown-timer-in-kotlin-multiplatform-for-android-and-ios-6f3f41695607"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-07-07-ImplementingaCross-PlatformCountdownTimerinKotlinMultiplatformforAndroidandiOS_0.png)

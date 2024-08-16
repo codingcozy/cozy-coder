@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Beyond the Grid: LoRa for Sailboat Communication"
 link: "https://medium.com/@mulitfariousguy/beyond-the-grid-lora-for-sailboat-communication-6544db8e18b4"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-BeyondtheGridLoRaforSailboatCommunication_0.png" />

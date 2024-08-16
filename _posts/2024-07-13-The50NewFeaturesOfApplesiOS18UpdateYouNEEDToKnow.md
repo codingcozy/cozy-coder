@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The 50 New Features Of Apple’s iOS 18 Update You NEED To Know!"
 link: "https://medium.com/macoclock/the-50-new-features-of-apples-ios-18-update-you-need-to-know-ad3fef4e44ab"
+isUpdated: true
 ---
+
+
+
 
 
 WWDC24는 1시간 45분 동안 진행된 이벤트였고, Craig & co.는 하늘에서 낙하산을 타고 수백 가지의 애플의 다음 주요 업데이트의 새로운 기능들을 암시하며 관객들을 즐겁게 만들었습니다.

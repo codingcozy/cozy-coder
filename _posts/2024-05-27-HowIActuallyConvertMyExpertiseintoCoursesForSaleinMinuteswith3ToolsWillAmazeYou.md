@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How I Actually Convert My Expertise into Courses For Sale in Minutes with 3 Tools Will Amaze You"
 link: "https://medium.com/@nallysbiz/build-online-courses-in-minutes-with-these-3-cutting-edge-ai-tools-249dc69027d4"
+isUpdated: true
 ---
+
+
+
 
 
 ![HowIActuallyConvertMyExpertiseintoCoursesForSaleinMinuteswith3ToolsWillAmazeYou_0.png](/assets/img/2024-05-27-HowIActuallyConvertMyExpertiseintoCoursesForSaleinMinuteswith3ToolsWillAmazeYou_0.png)

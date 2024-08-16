@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Evaluating The Quality Of RAG , Long-Context LLM Output"
 link: "https://medium.com/@cobusgreyling/evaluating-the-quality-of-rag-long-context-llm-output-89bc1a56a5d8"
+isUpdated: true
 ---
+
+
+
 
 
 ![img](/assets/img/2024-07-09-EvaluatingTheQualityOfRAGLong-ContextLLMOutput_0.png)

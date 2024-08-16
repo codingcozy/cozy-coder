@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Harnessing the Power of NLP and Knowledge Graphs for Opioid Research"
 link: "https://medium.com/john-snow-labs/harnessing-the-power-of-nlp-and-knowledge-graphs-for-opioid-research-2be5129d6c61"
+isUpdated: true
 ---
+
+
+
 
 
 ## 오피오이드 연구에서 인공지능과 지식 그래프 통합을 통한 혁신

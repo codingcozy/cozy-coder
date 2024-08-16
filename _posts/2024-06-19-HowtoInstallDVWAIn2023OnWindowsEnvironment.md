@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install DVWA In 2023 On Windows Environment"
 link: "https://medium.com/geekculture/how-to-install-dvwa-in-2023-on-windows-environment-8a26a1fe9668"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-HowtoInstallDVWAIn2023OnWindowsEnvironment_0.png" />

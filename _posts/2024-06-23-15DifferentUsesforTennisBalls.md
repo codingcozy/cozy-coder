@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "15 Different Uses for Tennis Balls"
 link: "https://medium.com/@daneversi3674/15-different-uses-for-tennis-balls-522438f8f9be"
+isUpdated: true
 ---
+
+
+
 
 
 ![비디오 미리보기](/assets/img/2024-06-23-15DifferentUsesforTennisBalls_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux How to create self deleting files"
 link: "https://medium.com/@kpatronas/linux-how-to-create-self-deleting-files-ab0b07396cce"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-03-LinuxHowtocreateselfdeletingfiles_0.png" />

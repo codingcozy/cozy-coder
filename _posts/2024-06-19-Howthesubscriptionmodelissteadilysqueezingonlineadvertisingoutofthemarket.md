@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How the subscription model is steadily squeezing online advertising out of the market"
 link: "https://medium.com/enrique-dans/how-the-subscription-model-is-steadily-squeezing-online-advertising-out-of-the-market-3003fcce056f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-Howthesubscriptionmodelissteadilysqueezingonlineadvertisingoutofthemarket_0.png" />

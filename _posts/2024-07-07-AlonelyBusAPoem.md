@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A lonely Bus: (A Poem)"
 link: "https://medium.com/@anindita.nath262/a-lonely-bus-a-poem-99d05c6562cd"
+isUpdated: true
 ---
+
+
+
 
 
 한산한 버스가 산길을 오르고 있어요.

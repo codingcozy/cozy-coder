@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Ship V — from Theory to Practice (the travails)"
 link: "https://medium.com/@vynateya/building-a-ship-v-from-theory-to-practice-the-travails-e4abf0dc1c11"
+isUpdated: true
 ---
+
+
+
 
 
 오프셋 테이블은 배의 선체를 시각화하는 훌륭한(그러나 혼란스러운) 방법입니다. 이것들은 단순한 숫자에서 전체 3D 구조물로 이어지는 과정을 제공합니다. 만일 나무/판재로 배를 건설할 때 오프셋 테이블에 의존한다면, 재료에 따라 오프셋이 변하는 점을 알아두세요. 일부 나무 판재는 잘 구부러지지만, 다른 것들은 그렇지 않습니다. 이러한 경우에는 나무의 자연 곡선을 따라야 합니다. 이것은 어렴풋하게 배워온 교훈으로, 아직 완전한 답을 가지고 있지 않습니다. 대부분의 경우, 내 디자인은 3D 프린팅 부품들에 의존하고 곡률은 플라스틱에 설정되어 있었기 때문입니다.

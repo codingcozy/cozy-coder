@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Clapper — How to make a “clap sensitive” switch with Arduino."
 link: "https://medium.com/@micatovin/the-clapper-how-to-make-a-clap-sensitive-switch-with-arduino-872c917e00df"
+isUpdated: true
 ---
+
+
+
 
 
 당신이 말한 코딩에 관한 책이 필요하다면 언제든지 물어보세요! 저는 여러가지 책과 자료를 추천해드릴 수 있어요. 요즘 프로그래밍을 배우는 것은 정말 뜻깊은 경험이 될거에요. 함께 열심히 공부해서 좋은 개발자가 되어봐요!😊

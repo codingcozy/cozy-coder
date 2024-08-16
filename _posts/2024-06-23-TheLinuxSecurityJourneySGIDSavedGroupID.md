@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Security Journey — SGID (Saved Group ID)"
 link: "https://medium.com/@boutnaru/the-linux-security-journey-sgid-saved-group-id-07b4507b319e"
+isUpdated: true
 ---
+
+
+
 
 
 이 문맥에서 SGID는 "Saved Group ID"의 약자이며 SGID 비트와는 다릅니다. 이는 루트와 같은 고권한(하지만 그에 국한되지는 않는) 상태에서 일을 하다가 무권한으로 무언가를 수행해야 하는 경우 사용됩니다. 우리는 "최소한의 권한" 원칙을 따르고자 하기 때문에 높은 권한은 반드시 필요한 경우에만 사용해야 합니다.

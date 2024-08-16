@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Create Dashboard in Microsoft Excel — Step by Step Method (Part 1)"
 link: "https://medium.com/@chandravi.kala/creating-dashboard-in-excel-step-by-step-method-10042150a8e4"
+isUpdated: true
 ---
+
+
+
 
 
 

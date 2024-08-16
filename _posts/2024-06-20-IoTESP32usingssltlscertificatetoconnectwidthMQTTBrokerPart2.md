@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "IoT ESP32 using ssl tls certificate to connect width MQTT Broker (Part 2 )"
 link: "https://medium.com/@rbeloncle/iot-esp32-using-ssl-tls-certificate-to-connect-width-mqtt-broker-part-2-fce78fae7310"
+isUpdated: true
 ---
+
+
+
 
 
 시작부터 따라오고 싶다면 다음 링크를 확인하세요 (Part 1)

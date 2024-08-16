@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Analysis of Healthcare Facilities and COVID-19 Data: Insights and Recommendations"
 link: "https://medium.com/@Splendor001/analysis-of-healthcare-facilities-and-covid-19-data-insights-and-recommendations-391d82381db3"
+isUpdated: true
 ---
+
+
+
 
 
 

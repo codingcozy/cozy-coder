@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mysteries of An: Part 6"
 link: "https://medium.com/@anomalitism/mysteries-of-an-part-6-83da973903bd"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-20-MysteriesofAnPart6_0.png" />

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Pitfalls of `lazy var`"
 link: "https://medium.com/swiftblade/pitfalls-of-lazy-var-f6970ddcb047"
+isUpdated: true
 ---
+
+
+
 
 
 ![Pitfallsoflazyvar](/assets/img/2024-07-14-Pitfallsoflazyvar_0.png)

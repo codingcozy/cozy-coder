@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My key takeaways after building a data engineering platform"
 link: "https://medium.com/datamindedbe/my-key-takeaways-for-building-a-data-product-307ad06e529f"
+isUpdated: true
 ---
+
+
+
 
 
 대략 두 년 전에, 저는 컨설팅에서 제품 팀에 합류하여 Conveyor에 전념하는 경력 전환을 했습니다. 이 전환으로 인해 저는 짧은 기간의 프로젝트 사고에서 장기적인 계획을 세우고 사용자 경험을 우선시하는 방식으로 마음가짐을 바꿔야 했습니다. 이 블로그 포스트에서는 데이터 엔지니어링 플랫폼을 구축한 두 년 동안 얻은 세 가지 통찰에 초점을 맞추고 싶습니다.

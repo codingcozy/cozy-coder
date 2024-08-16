@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Using C C++ in Android: A Comprehensive Guide For Beginners"
 link: "https://medium.com/proandroiddev/using-c-c-in-android-a-comprehensive-guide-for-beginners-8a870cf3dba6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 안드로이드 개발

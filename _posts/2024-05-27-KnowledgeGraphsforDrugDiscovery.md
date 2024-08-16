@@ -3,12 +3,16 @@ title: "약물 발견을 위한 지식 그래프"
 description: ""
 coverImage: "/assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png"
 date: 2024-05-27 14:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png
 tag: Tech
 originalTitle: "Knowledge Graphs for Drug Discovery"
 link: "https://medium.com/@DattarajR/knowledge-graphs-for-drug-discovery-e1485d368fbd"
+isUpdated: true
 ---
+
+
+
 
 
 ![Knowledge Graphs for Drug Discovery](/assets/img/2024-05-27-KnowledgeGraphsforDrugDiscovery_0.png)

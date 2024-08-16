@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "FIT-RAG: Are RAG Architectures Settling On A Standardised Approach?"
 link: "https://medium.com/@cobusgreyling/fit-rag-are-rag-architectures-settling-on-a-standardised-approach-47775acab1b1"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 경로: [2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png](/assets/img/2024-07-01-FIT-RAGAreRAGArchitecturesSettlingOnAStandardisedApproach_0.png)

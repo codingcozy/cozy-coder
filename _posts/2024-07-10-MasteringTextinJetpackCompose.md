@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Text in Jetpack Compose"
 link: "https://medium.com/proandroiddev/mastering-text-in-jetpack-compose-e99dbf031aed"
+isUpdated: true
 ---
+
+
+
 
 
 ## 간단한 문자열에서 풍부한 HTML로

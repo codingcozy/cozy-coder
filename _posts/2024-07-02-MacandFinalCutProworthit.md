@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mac and Final Cut Pro — worth it?"
 link: "https://medium.com/macoclock/mac-and-final-cut-pro-worth-it-2d81b3e739c3"
+isUpdated: true
 ---
+
+
+
 
 
 

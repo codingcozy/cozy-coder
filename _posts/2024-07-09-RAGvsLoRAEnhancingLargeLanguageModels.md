@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "RAG vs. LoRA: Enhancing Large Language Models"
 link: "https://medium.com/@prglabs/rag-vs-lora-enhancing-large-language-models-ec1a5038e639"
+isUpdated: true
 ---
+
+
+
 
 
 ![RAG](/assets/img/2024-07-09-RAGvsLoRAEnhancingLargeLanguageModels_0.png)

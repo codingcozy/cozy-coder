@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "World History Through the Lens of AI"
 link: "https://medium.com/towards-data-science/world-history-through-the-lens-of-ai-340df6241fbf"
+isUpdated: true
 ---
+
+
+
 
 
 ![World History Through the Lens of AI_0](/assets/img/2024-07-14-WorldHistoryThroughtheLensofAI_0.png)

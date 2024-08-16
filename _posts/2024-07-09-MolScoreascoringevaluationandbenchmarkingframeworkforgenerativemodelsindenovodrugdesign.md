@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "MolScore: a scoring, evaluation and benchmarking framework for generative models in de novo drug design"
 link: "https://medium.com/@mykola.protopopov/molscore-a-scoring-evaluation-and-benchmarking-framework-for-generative-models-in-de-novo-drug-bcdb8a41471e"
+isUpdated: true
 ---
+
+
+
 
 
 현대 유폴모델에 기반을 둔 생성 모델은 새로운 약품 디자인에 강력한 접근 방식을 제공하며, 특정 원하는 특성을 갖춘 소발의 약물 분자를 만드는 것을 가능하게 합니다. 몇 가지 도전 과제에도 불구하고, 모델 아키텍처와 교육 기술의 발전은 그들의 능력을 계속 향상시키고 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "I Created a DDLTodo App with Claude 3.5 Sonnet in 5 prompts"
 link: "https://medium.com/generative-ai/i-created-a-ddltodo-app-with-claude-3-5-sonnet-in-5-prompts-4814bc0f3673"
+isUpdated: true
 ---
+
+
+
 
 
 ![Desk Image](/assets/img/2024-07-13-ICreatedaDDLTodoAppwithClaude35Sonnetin5prompts_0.png)

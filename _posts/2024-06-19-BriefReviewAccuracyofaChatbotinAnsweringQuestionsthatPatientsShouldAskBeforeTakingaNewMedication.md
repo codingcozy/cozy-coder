@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Brief Review — Accuracy of a Chatbot in Answering Questions that Patients Should Ask Before Taking a New Medication"
 link: "https://medium.com/@sh-tsang/brief-review-accuracy-of-a-chatbot-in-answering-questions-that-patients-should-ask-before-taking-a30cc0394d98"
+isUpdated: true
 ---
+
+
+
 
 
 ## 환자 약물에 대한 ChatGPT

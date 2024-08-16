@@ -3,12 +3,16 @@ title: "bashrc, bash-profile, 그리고 profile의 차이점"
 description: ""
 coverImage: "/assets/img/2024-05-27-DifferenceBetweenbashrcbash-profileandprofile_0.png"
 date: 2024-05-27 12:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-DifferenceBetweenbashrcbash-profileandprofile_0.png
 tag: Tech
 originalTitle: "Difference Between .bashrc, .bash-profile, and .profile"
 link: "https://medium.com/@shalinpatel./difference-between-bashrc-bash-profile-and-profile-1947edea4318"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-05-27-DifferenceBetweenbashrcbash-profileandprofile_0.png" />

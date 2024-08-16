@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build a text to SQL chatbot with Claude-Sonnet 3.5."
 link: "https://medium.com/@arslanshahid-1997/build-a-text-to-sql-chatbot-with-claude-sonnet-3-5-621a5bf9f922"
+isUpdated: true
 ---
+
+
+
 
 
 ## Claude Sonnet 3.5을 사용한 텍스트-SQL 및 GPT 모델과의 벤치마킹

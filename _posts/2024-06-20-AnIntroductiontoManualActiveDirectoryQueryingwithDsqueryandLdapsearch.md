@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "An Introduction to Manual Active Directory Querying with Dsquery and Ldapsearch"
 link: "https://medium.com/specter-ops-posts/an-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

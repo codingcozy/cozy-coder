@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How Do Computers Actually Compute?"
 link: "https://medium.com/towards-data-science/how-do-computers-actually-compute-dc193789a6cb"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개글

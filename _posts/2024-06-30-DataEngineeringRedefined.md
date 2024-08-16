@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Engineering, Redefined"
 link: "https://medium.com/towards-data-science/data-engineering-redefined-643249cbbadd"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 엔지니어링이 오늘날 어떻게 실천되고 왜 다시 정의해야 하는지

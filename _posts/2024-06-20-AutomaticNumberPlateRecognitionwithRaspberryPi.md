@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Automatic Number Plate Recognition with Raspberry Pi"
 link: "https://medium.com/@alexey.yeryomenko/automatic-number-plate-recognition-with-raspberry-pi-e1ac8a804c79"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guide to Using Nuclei"
 link: "https://medium.com/@learntheshell/guide-to-using-nuclei-9c37869be30e"
+isUpdated: true
 ---
+
+
+
 
 
 Nuclei라는 강력한 취약점 스캐너 사용 방법을 배우세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "You’ve Hit a Wall in Your Data Project, Now What?"
 link: "https://medium.com/towards-data-science/youve-hit-a-wall-in-your-data-project-now-what-6d206082e182"
+isUpdated: true
 ---
+
+
+
 
 
 ![img](/assets/img/2024-06-22-YouveHitaWallinYourDataProjectNowWhat_0.png)

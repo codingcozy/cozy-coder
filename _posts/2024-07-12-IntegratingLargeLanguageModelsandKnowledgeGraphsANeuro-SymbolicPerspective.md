@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Large Language Models and Knowledge Graphs: A Neuro-Symbolic Perspective"
 link: "https://medium.com/ai-in-plain-english/integrating-large-language-models-and-knowledge-graphs-a-neuro-symbolic-perspective-b1b677a0b2e7"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 소프트웨어가 이 글의 문법, 흐름, 가독성을 향상시키는 데 사용되었습니다.

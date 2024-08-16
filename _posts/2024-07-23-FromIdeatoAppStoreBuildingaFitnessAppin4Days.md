@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Idea to App Store Building a Fitness App in 4 Days"
 link: "https://medium.com/the-entrepreneur-diaries/from-idea-to-app-store-building-a-fitness-app-in-4-days-3e01073dc4c0"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Stop Using Exceptions Try This Instead "
 link: "https://medium.com/@kmorpex/stop-using-exceptions-try-this-instead-a35c0f4d30ad"
+isUpdated: true
 ---
+
+
+
 
 
 ## 개발 팁

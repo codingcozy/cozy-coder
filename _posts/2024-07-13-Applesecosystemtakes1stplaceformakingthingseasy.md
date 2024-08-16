@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Apple’s ecosystem takes 1st place for making things easy"
 link: "https://medium.com/macoclock/apples-ecosystem-takes-1st-place-for-making-things-easy-eb329ed3050a"
+isUpdated: true
 ---
+
+
+
 
 
 ![Apple’s ecosystem](/assets/img/2024-07-13-Applesecosystemtakes1stplaceformakingthingseasy_0.png)

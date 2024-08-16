@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Through the Ages: Apple CPU Architecture"
 link: "https://medium.com/macoclock/through-the-ages-apple-cpu-architecture-92b33abedea7"
+isUpdated: true
 ---
+
+
+
 
 
 ✨✨✨

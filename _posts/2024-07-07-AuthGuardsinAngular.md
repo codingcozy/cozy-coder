@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Auth Guards in Angular"
 link: "https://medium.com/@jaydeepvpatil225/auth-guards-in-angular-6960950b3c6c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-07-AuthGuardsinAngular_0.png" />

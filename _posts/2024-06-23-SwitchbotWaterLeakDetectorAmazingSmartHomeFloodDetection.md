@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Switchbot Water Leak Detector: Amazing Smart Home Flood Detection"
 link: "https://medium.com/@cloud9teck/switchbot-water-leak-detector-amazing-smart-home-flood-detection-4e5c6b00d942"
+isUpdated: true
 ---
+
+
+
 
 
 아마존 프라임 무료 체험

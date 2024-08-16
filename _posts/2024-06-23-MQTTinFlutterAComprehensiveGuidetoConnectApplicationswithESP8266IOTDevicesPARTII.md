@@ -3,12 +3,16 @@ title: "Flutter에서 MQTT 사용하여 ESP8266 IoT 기기 연결하는 완벽 �
 description: ""
 coverImage: "/assets/img/2024-06-23-MQTTinFlutterAComprehensiveGuidetoConnectApplicationswithESP8266IOTDevicesPARTII_0.png"
 date: 2024-06-23 16:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-23-MQTTinFlutterAComprehensiveGuidetoConnectApplicationswithESP8266IOTDevicesPARTII_0.png
 tag: Tech
 originalTitle: "MQTT in Flutter: A Comprehensive Guide to Connect Applications with ESP8266 IOT Devices — PART II"
 link: "https://medium.com/@punnyarthabanerjee/mqtt-in-flutter-a-comprehensive-guide-to-connect-applications-with-esp8266-iot-devices-part-ii-2a0c909e01e8"
+isUpdated: true
 ---
+
+
+
 
 지난 글에서는 Esp8266을 MQTT 브로커에 연결하도록 구성하는 방법에 대해 논의했습니다. 아직 확인하지 않으셨다면, 먼저 그 글을 읽는 것을 적극 권장합니다.
 

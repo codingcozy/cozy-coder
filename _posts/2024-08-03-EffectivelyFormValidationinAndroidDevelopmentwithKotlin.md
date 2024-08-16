@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 개발에서 Kotlin으로 효과적으로 폼 유효성 검사하는 방법"
+title: " Kotlin으로 폼 유효성 검사하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-EffectivelyFormValidationinAndroidDevelopmentwithKotlin_0.png"
 date: 2024-08-03 19:54
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Effectively Form Validation in Android Development with Kotlin"
 link: "https://medium.com/@resmaadi/effectively-form-validation-in-android-development-with-kotlin-932bed9badf1"
+isUpdated: true
 ---
+
+
+
 
 
 

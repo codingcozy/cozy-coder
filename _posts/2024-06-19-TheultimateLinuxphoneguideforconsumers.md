@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The ultimate Linux phone guide for consumers"
 link: "https://medium.com/@camden.o.b/the-ultimate-linux-phone-guide-28d0cce9929"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

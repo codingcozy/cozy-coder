@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "CLIP, LLaVA, and the Brain"
 link: "https://medium.com/towards-data-science/clip-llava-and-the-brain-2073dfb33d7e"
+isUpdated: true
 ---
+
+
+
 
 
 ## DEEP LEARNING AND THE BRAIN

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Maybe GPT Isn’t the Best: BERTs Can Master Generative In-Context Learning"
 link: "https://medium.com/gitconnected/maybe-gpt-isnt-the-best-berts-can-master-generative-in-context-learning-2d95bc8c8507"
+isUpdated: true
 ---
+
+
+
 
 
 ## |LLM|GPT|컨텍스트 학습|

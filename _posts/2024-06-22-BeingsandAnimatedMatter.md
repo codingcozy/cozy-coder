@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Beings and Animated Matter"
 link: "https://medium.com/@metadave/beings-and-animated-matter-0f05aa1d72ed"
+isUpdated: true
 ---
+
+
+
 
 
 "Homo Sapiens, Robot Being, Robot Doing. 인간, 로봇. 우리 생물학적 인간들에게, 함께 있는 심리적 필요를 충족시키기 위해 인공생명 형태들이 우리에게 무엇을 할 수 있을까요?

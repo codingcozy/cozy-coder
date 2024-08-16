@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Overture PLA Filament Review"
 link: "https://medium.com/@jayfrench3dp/overture-pla-filament-review-90e694a41f71"
+isUpdated: true
 ---
+
+
+
 
 
 여러 달 동안 Overture PLA 필라멘트를 사용해온데요. 그 성능에 항상 감탄해 왔습니다. 이 글 전체에서 이 제품을 언급하고 있습니다.

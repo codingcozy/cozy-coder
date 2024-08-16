@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Biomedical Entity Linker with LLMs"
 link: "https://medium.com/towards-data-science/building-a-biomedical-entity-linker-with-llms-d385cb85c15a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 생명과학 개체 링킹에 LLM을 효과적으로 적용하는 방법은 무엇인가요?

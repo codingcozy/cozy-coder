@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Curse of Variance Scaling"
 link: "https://medium.com/@plalindia01/the-curse-of-variance-scaling-53ad2db51283"
+isUpdated: true
 ---
+
+
+
 
 
 이 컨텐츠를 통해 나는 왜 자기 주의가 '스케일드 닷 프로덕트 어텐션'이라고 불리는지에 대한 이유를 특히 타겟팅하고 싶어합니다.

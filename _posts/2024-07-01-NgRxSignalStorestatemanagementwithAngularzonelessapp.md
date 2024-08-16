@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "NgRx SignalStore state management with Angular zoneless app."
 link: "https://medium.com/@serhiizhydetskyi/ngrx-signalstore-state-management-with-angular-zoneless-app-01ddc7e78571"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png](/assets/img/2024-07-01-NgRxSignalStorestatemanagementwithAngularzonelessapp_0.png)

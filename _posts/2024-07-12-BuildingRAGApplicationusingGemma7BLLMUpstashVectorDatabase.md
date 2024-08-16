@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building RAG Application using Gemma 7B LLM , Upstash Vector Database"
 link: "https://medium.com/towards-artificial-intelligence/building-rag-application-using-gemma-7b-llm-upstash-vector-database-ff50b715d906"
+isUpdated: true
 ---
+
+
+
 
 
 Retrieval-Augmented Generation (RAG)은 외부 지식 출처에서 큰 언어 모델(Large Language Models, LLMs)에게 추가 정보를 제공하는 개념입니다. 이를 통해 그들은 더 정확하고 맥락적인 답변을 생성하면서 환각을 줄일 수 있습니다. 이 글에서는 구글 젬마 7B와 Upstash 서버리스 벡터 데이터베이스를 활용해 완전한 RAG 애플리케이션을 만드는 단계별 안내를 제공할 것입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "M3 iMac — brilliant but is it in danger?"
 link: "https://medium.com/macoclock/m3-imac-brilliant-but-is-it-in-danger-fa9d50df8498"
+isUpdated: true
 ---
+
+
+
 
 
 ![2024-07-13-M3iMacbrilliantbutisitindanger_0.png](/assets/img/2024-07-13-M3iMacbrilliantbutisitindanger_0.png)

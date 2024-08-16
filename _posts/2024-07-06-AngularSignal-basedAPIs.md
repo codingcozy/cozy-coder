@@ -3,12 +3,16 @@ title: "Angular 시그널 기반 API 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-06-AngularSignal-basedAPIs_0.png"
 date: 2024-07-06 03:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-AngularSignal-basedAPIs_0.png
 tag: Tech
 originalTitle: "Angular Signal-based APIs"
 link: "https://medium.com/@tayuelo26/angular-signal-based-apis-c731bc27b9b5"
+isUpdated: true
 ---
+
+
+
 
 ![](/assets/img/2024-07-06-AngularSignal-basedAPIs_0.png)
 

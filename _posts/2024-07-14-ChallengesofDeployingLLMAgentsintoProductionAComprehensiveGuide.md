@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Challenges of Deploying LLM Agents into Production: A Comprehensive Guide"
 link: "https://medium.com/gitconnected/challenges-of-deploying-llm-agents-into-production-a-comprehensive-guide-f750c1a2d810"
+isUpdated: true
 ---
+
+
+
 
 
 대규모 언어 모델(LLM) 에이전트를 운용 환경으로 배치하는 것은 복잡하고 다면적입니다. 이 글에서는 제작 단계에서 자주 마주치는 여덟 가지 문제를 공유하려 합니다. 이 프로세스에 대한 프레임워크에 대한 많은 질문을 받습니다. 기본적으로 프레임워크 중립적이 되려고 노력하지만, 어떤 문제들은 특정 프레임워크에 더 관련이 있습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Make Fonts Clearer on Windows"
 link: "https://medium.com/@kjavaman12/how-to-make-fonts-clearer-on-windows-35fdeb13d05c"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-HowtoMakeFontsCleareronWindows_0.png)

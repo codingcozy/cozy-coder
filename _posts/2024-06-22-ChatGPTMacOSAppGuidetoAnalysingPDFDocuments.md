@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT MacOS App: Guide to Analysing PDF Documents"
 link: "https://medium.com/@Vugar_Ibrahimov/chatgpt-macos-app-guide-to-analysing-pdf-documents-46dfaa2f2cda"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Robots can talk like us, but it doesn’t make them human"
 link: "https://medium.com/enrique-dans/robots-can-talk-like-us-but-it-doesnt-make-them-human-9cd701169e58"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-Robotscantalklikeusbutitdoesntmakethemhuman_0.png" />

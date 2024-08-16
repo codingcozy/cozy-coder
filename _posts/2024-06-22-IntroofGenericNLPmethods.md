@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intro of Generic NLP methods"
 link: "https://medium.com/@henryhengluo/intro-of-nlp-methods-before-llm-077f664d5b53"
+isUpdated: true
 ---
+
+
+
 
 
 # NLP 배경 리뷰

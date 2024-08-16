@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why Scooting Through Berlin Made Me Appreciate the iPhone"
 link: "https://medium.com/macoclock/why-scooting-through-berlin-made-me-appreciate-the-iphone-afbb7dc9ed7c"
+isUpdated: true
 ---
+
+
+
 
 
 **이미지 없음**

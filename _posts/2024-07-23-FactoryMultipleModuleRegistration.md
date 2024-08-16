@@ -1,5 +1,5 @@
 ---
-title: "팩토리 패턴 여러 모듈 등록하는 방법"
+title: "팩토리 패턴으로 여러 모듈 등록하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-23-FactoryMultipleModuleRegistration_0.png"
 date: 2024-07-23 21:24
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Factory Multiple Module Registration"
 link: "https://medium.com/better-programming/factory-multiple-module-registration-f9d19721a31d"
+isUpdated: true
 ---
+
+
+
 
 
 

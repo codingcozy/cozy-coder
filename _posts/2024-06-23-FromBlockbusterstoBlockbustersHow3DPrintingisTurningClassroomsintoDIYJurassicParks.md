@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "From Blockbusters to Blockbusters: How 3D Printing is Turning Classrooms into DIY Jurassic Parks"
 link: "https://medium.com/@sciencestyled/from-blockbusters-to-blockbusters-how-3d-printing-is-turning-classrooms-into-diy-jurassic-parks-2b0bfb3df55d"
+isUpdated: true
 ---
+
+
+
 
 
 좋아, 친구들아, 안전벨트를 매고 시끄럽게 웃으며 3D 프린팅 교육의 기술적인 세계로 뛰어들 준비를 하세요. 생명과 과학 수업 중에 낡은 인체 심장 다이어그램을 바라보는 대신에 갑자기 선생님이 책상 위에 3D 프린팅된 심장 모형을 올려 놓는다고 상상해보세요. 당신은 마치 "그레이 아나토미"에 최신 인턴이 되어버린 것처럼 느껴질 것입니다. 맥드림이, 너도 놀란 모습을 보여줘 — 그것을 완전히 의도한 말장난이지만.

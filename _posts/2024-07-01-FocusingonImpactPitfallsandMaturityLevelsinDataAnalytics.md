@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Focusing on Impact: Pitfalls and Maturity Levels in Data Analytics"
 link: "https://medium.com/philips-technology-blog/focusing-on-impact-pitfalls-and-maturity-levels-in-data-analytics-d47698235094"
+isUpdated: true
 ---
+
+
+
 
 
 매일 데이터와 AI 전문가들에게 수많은 도전이 찾아옵니다. 기술의 영향력이 커지면서 분석 팀은 기업에 미치는 영향을 계속 증명해야 합니다. 필립스의 데이터 분석 분야에서 일하는 나는 상업적으로 초점을 맞춘 데이터 팀의 가장 흔한 관찰 결과를 공유하고, 회사 내 신뢰 강화를 위한 세 가지 실용적인 권고 사항을 제공하고 싶습니다:

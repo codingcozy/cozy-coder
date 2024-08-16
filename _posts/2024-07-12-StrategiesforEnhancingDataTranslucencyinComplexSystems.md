@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Strategies for Enhancing Data Translucency in Complex Systems"
 link: "https://medium.com/ai-mind-labs/strategies-for-enhancing-data-translucency-in-complex-systems-c9286ad2ff99"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소개

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Classification Model in R with Caret Package"
 link: "https://medium.com/@andiyudha/classification-model-in-r-with-caret-package-373f20e31dd"
+isUpdated: true
 ---
+
+
+
 
 
 

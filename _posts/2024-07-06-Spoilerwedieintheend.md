@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Spoiler, we die in the end."
 link: "https://medium.com/@lumpiiaaa/spoiler-we-die-in-the-end-cf8b7c2f8271"
+isUpdated: true
 ---
+
+
+
 
 
 지금까지 인생에서 찾아온 기회 중 얼마나 많은 것이 당신이 위험을 감수하기를 두려워해서 낭비되었을까요? 편안한 지역에서 벗어나 진정으로 살아야 할 삶을 살기 위해 “다음에” 몇 번이나 기다려야 할까요?

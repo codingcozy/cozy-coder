@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing MASI Predictions with Artificial Neural Networks and Indicators"
 link: "https://medium.com/@redeaddiscolll/enhancing-masi-predictions-with-artificial-neural-networks-and-indicators-40ec0fba327c"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

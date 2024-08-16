@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Platonic AI: Are All AIs Becoming the Same?"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/platonic-ai-are-all-ais-becoming-the-same-4c5bab63471b"
+isUpdated: true
 ---
+
+
+
 
 
 몇 일 전에 AI와 철학을 결합한 새로운 이론을 발견했어요: "AI가 모두 같은 것이 되고 있는 걸까?" 시사하는 것은, 앞으로 모든 AI 모델이 동일해질까요?

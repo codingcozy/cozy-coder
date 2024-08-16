@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Reproducing Kernel Hilbert Space for Machine Learning"
 link: "https://medium.com/@jonathan-hui/reproducing-kernel-hilbert-space-for-machine-learning-c9a4228136b5"
+isUpdated: true
 ---
+
+
+
 
 
 # 커널

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Aggregation: Rollup Explained"
 link: "https://medium.com/@santosh_joshi_data/sql-aggregation-rollup-374e3d939d04"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-07-01-SQLAggregationRollupExplained_0.png)

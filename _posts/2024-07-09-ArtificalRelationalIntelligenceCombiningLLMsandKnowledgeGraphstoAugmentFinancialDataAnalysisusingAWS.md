@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Artifical Relational Intelligence : Combining LLMs and Knowledge Graphs to Augment Financial Data Analysis using AWS"
 link: "https://medium.com/@alcarazanthony1/relational-intelligence-combining-llms-and-knowledge-graphs-to-augment-financial-data-analysis-b67a772f3c4b"
+isUpdated: true
 ---
+
+
+
 
 
 재정 분야에서 연결을 이해하는 것은 권력입니다. 자산 관리자들은 어마어마한 과제에 직면합니다. 그들은 방대한 포트폴리오 내부의 숨겨진 연결을 발견해야 합니다. 이러한 통찰을 통해 투자가 성공할 수도 실패할 수도 있습니다.

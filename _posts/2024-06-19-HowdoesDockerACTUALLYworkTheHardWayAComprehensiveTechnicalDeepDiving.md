@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How does Docker ACTUALLY work? The Hard Way: A Comprehensive Technical Deep Diving"
 link: "https://medium.com/@furkan.turkal/how-does-docker-actually-work-the-hard-way-a-technical-deep-diving-c5b8ea2f0422"
+isUpdated: true
 ---
+
+
+
 
 
 도커. 컨테이너. 오케스트레이션의 혁명. 산업을 선도하는 PaaS 제품. 빌드, 공유 및 실행. 어떤 앱이든 어디에서든... 그냥 그렇게. “도커는 어떻게 작동할까?”라고 궁금해 해 본 적 있나요? 마법이 아니에요. 재능과 땀 머금은 기술이랍니다.

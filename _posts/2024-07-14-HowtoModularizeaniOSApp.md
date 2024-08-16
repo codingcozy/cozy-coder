@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Modularize an iOS App"
 link: "https://medium.com/gitconnected/how-to-modularize-an-ios-app-a8d5bdab8398"
+isUpdated: true
 ---
+
+
+
 
 
 이 글에서는 iOS 애플리케이션을 더 작은 모듈로 분할하는 방법에 대해 깊이 알아보겠습니다. XcodeGen, Clean Architecture 원칙, Xcode 템플릿 등을 활용할 것입니다. 사용자 인터페이스에는 SwiftUI를 사용하고, 네비게이션에는 UIKit를 사용할 것입니다.

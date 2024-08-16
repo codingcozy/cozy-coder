@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Simple Guide to Buying the Right Google Pixel"
 link: "https://medium.com/macoclock/a-simple-guide-to-buying-the-right-google-pixel-7693652a6e6f"
+isUpdated: true
 ---
+
+
+
 
 
 지금의 구글 스마트폰 중 어떤 것이 당신에게 적합할까요?

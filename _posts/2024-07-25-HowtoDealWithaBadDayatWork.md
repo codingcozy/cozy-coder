@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deal With a Bad Day at Work"
 link: "https://medium.com/code-like-a-girl/how-to-deal-with-a-bad-day-at-work-b23a3c3c3c1d"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-25-HowtoDealWithaBadDayatWork_0.png" />

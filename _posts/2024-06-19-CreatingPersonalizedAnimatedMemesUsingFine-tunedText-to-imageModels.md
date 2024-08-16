@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Personalized Animated Memes Using Fine-tuned Text-to-image Models"
 link: "https://medium.com/better-programming/creating-personalized-animated-memes-using-fine-tuned-text-to-image-models-37a45de4c7c3"
+isUpdated: true
 ---
+
+
+
 
 
 ## Stable Diffusion과 Deforum을 사용한 개인 맞춤형 미미 생성

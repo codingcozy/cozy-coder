@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Interrupts"
 link: "https://medium.com/@pranaylunavat/interrupts-0c9ee1235d2d"
+isUpdated: true
 ---
+
+
+
 
 
 테일러 씨, 죄송한데, 네 이야기를 잠깐 멈춥니다. 비욘세가 역사상 최고의 레코드 중 하나를 가졌다구요. 사사건건.

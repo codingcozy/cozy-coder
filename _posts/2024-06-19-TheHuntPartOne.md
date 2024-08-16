@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Hunt : Part One"
 link: "https://medium.com/@chotinaakwali/the-hunt-part-one-a499df8b8a1f"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-TheHuntPartOne_0.png" />

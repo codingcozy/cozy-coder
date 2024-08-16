@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-Step Guide: How to Turn On Solar Lights? Automatic or Manual Control"
 link: "https://medium.com/@eneradar2022/step-by-step-guide-how-to-turn-on-solar-lights-automatic-or-manual-control-92e3865fbf1c"
+isUpdated: true
 ---
+
+
+
 
 
 태양 광 셀 라이트는 친환경적이면서 비용 효율적인 방식으로 실왈 야외 공간을 밝히는 좋은 방법입니다. 이들은 낮에 태양의 힘을 활용하여 배터리를 충전한 후 자동으로 밤에 켜집니다.

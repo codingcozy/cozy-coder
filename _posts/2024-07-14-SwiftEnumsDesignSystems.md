@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Swift Enums 🤝 Design Systems"
 link: "https://medium.com/better-programming/swift-enums-design-systems-51d488e26d31"
+isUpdated: true
 ---
+
+
+
 
 
 만약 대규모 개발 프로젝트에 참여한 적이 있다면, 디자인 시스템을 마주한 적이 있을 것입니다. 디자인 시스템은 브랜딩을 재사용 가능한 구성 요소, 색상, 글꼴, 아이콘 및 모티프로 캡슐화하는 라이브러리로, 제품 전반에 걸쳐 일관된 스타일을 유지하는 데 도움이 됩니다.

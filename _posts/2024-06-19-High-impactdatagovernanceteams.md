@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "High-impact data governance teams"
 link: "https://medium.com/@mikldd/high-impact-data-governance-teams-0a90a3deefd1"
+isUpdated: true
 ---
+
+
+
 
 
 ## 영향을 주는 방법, 초점을 맞출 곳, 최고의 데이터 관리 팀에서 성공하기 위해 필요한 기술

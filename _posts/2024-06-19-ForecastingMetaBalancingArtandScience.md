@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Forecasting@Meta: Balancing Art and Science"
 link: "https://medium.com/@AnalyticsAtMeta/forecasting-meta-balancing-art-and-science-92526e1ae36c"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-19-ForecastingMetaBalancingArtandScience_0.png) 

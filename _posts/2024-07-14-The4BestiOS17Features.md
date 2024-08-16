@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The 4 Best iOS 17 Features"
 link: "https://medium.com/macoclock/the-4-best-ios-17-features-f5b1362a204e"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-07-14-The4BestiOS17Features_0.png)

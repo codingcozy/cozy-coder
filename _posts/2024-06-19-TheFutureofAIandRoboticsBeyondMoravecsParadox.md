@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Future of AI and Robotics: Beyond Moravec’s Paradox"
 link: "https://medium.com/@flyingmum/the-future-of-ai-and-robotics-beyond-moravecs-paradox-3cc8157e39c4"
+isUpdated: true
 ---
+
+
+
 
 
 ## AI | 로봇 공학 | 모라벡의 역설 | 파트 8 | FLYINGMUM

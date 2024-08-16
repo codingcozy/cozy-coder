@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "i know you’re not okay, and it hurts me to see you act like you are"
 link: "https://medium.com/@andengxzs_/i-know-youre-not-okay-and-it-hurts-me-to-see-you-act-like-you-are-38080c9b9e77"
+isUpdated: true
 ---
+
+
+
 
 
 ![Click here to view the post](/assets/img/2024-07-09-iknowyourenotokayandithurtsmetoseeyouactlikeyouare_0.png)

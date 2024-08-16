@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Fine Tuning Gemma-2b-it on Anime Dataset"
 link: "https://medium.com/@sauravpattnaik2011/fine-tuning-gemma-2b-it-on-anime-dataset-a767e1bcdb96"
+isUpdated: true
 ---
+
+
+
 
 
 ![FineTuningGemma-2b-itonAnimeDataset](/assets/img/2024-06-22-FineTuningGemma-2b-itonAnimeDataset_0.png)

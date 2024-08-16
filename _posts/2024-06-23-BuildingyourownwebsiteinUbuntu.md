@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building your own website in Ubuntu"
 link: "https://medium.com/@timothy.halim/setting-up-web-server-in-ubuntu-8ac1a3b36a7d"
+isUpdated: true
 ---
+
+
+
 
 
 요즘 오렌지 파이를 샀는데 취미로 웹 서버를 만들어보기로 결정했어요. 만약 당신의 ISP가 공인 IP를 허용한다면, 온라인으로 접속할 수도 있을 거에요.

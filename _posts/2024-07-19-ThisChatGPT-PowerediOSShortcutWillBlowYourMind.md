@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "This ChatGPT-Powered iOS Shortcut Will Blow Your Mind"
 link: "https://medium.com/macoclock/heres-a-chatgpt-powered-shortcut-for-ios-that-will-blow-your-mind-c6aeebb77e00"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-19-ThisChatGPT-PowerediOSShortcutWillBlowYourMind_0.png" />

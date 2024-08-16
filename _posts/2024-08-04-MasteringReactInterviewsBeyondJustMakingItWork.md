@@ -1,5 +1,5 @@
 ---
-title: "React 면접 마스터하기 단순히 작동하는 것 이상의 것"
+title: "프론트엔드 기술 면접에서 반드시 알아야하는 React관련 질문"
 description: ""
 coverImage: "/assets/img/2024-08-04-MasteringReactInterviewsBeyondJustMakingItWork_0.png"
 date: 2024-08-04 18:39
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Interviews Beyond Just Making It Work"
 link: "https://medium.com/the-javascript/mastering-react-interviews-beyond-just-making-it-work-3b5ee98debd6"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-08-04-MasteringReactInterviewsBeyondJustMakingItWork_0.png" />

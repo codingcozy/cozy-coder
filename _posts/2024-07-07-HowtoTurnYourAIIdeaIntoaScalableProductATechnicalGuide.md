@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Turn Your AI Idea Into a Scalable Product: A Technical Guide"
 link: "https://medium.com/towards-data-science/how-to-turn-your-ai-idea-into-a-scalable-product-a-technical-guide-aec143668a8b"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 타로 전문가 여러분! 

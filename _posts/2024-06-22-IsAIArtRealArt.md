@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Is AI Art Real Art?"
 link: "https://medium.com/one-zero/is-ai-art-real-art-92ab815b73d6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 코드로 생성된 수백만 장의 이미지가 새로운 경제 엔진을 가속화시켰습니다. 그러나 현대 예술은 여러 해 동안 여러 물꼬를 일으켜 온 것으로 알려져 있습니다. AI 예술은 새 시대의 도래일까요, 아니면 예술 세계의 최신 장난일까요?

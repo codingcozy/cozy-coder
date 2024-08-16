@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "PTPL 110: How to Easily Type  macOS ⌘ Modifier Keys"
 link: "https://medium.com/produclivity/ptpl-110-how-to-easily-type-macos-modifier-keys-1356e753a8c6"
+isUpdated: true
 ---
+
+
+
 
 
 ## 일반 텍스트; 적은 종이 — 생산성 다이제스트

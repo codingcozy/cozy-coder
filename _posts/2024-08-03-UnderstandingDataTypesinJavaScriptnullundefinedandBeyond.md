@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Data Types in JavaScript null, undefined, and Beyond"
 link: "https://medium.com/@maciejpoppek/understanding-data-types-in-javascript-null-undefined-and-beyond-f3674995c9f8"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-08-03-UnderstandingDataTypesinJavaScriptnullundefinedandBeyond_0.png)

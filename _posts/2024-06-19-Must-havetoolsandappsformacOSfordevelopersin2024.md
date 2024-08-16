@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Must-have tools and apps for macOS for developers in 2024"
 link: "https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc"
+isUpdated: true
 ---
+
+
+
 
 
 

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Most Common Linux Commands in Data Engineering"
 link: "https://medium.com/gitconnected/most-common-linux-commands-in-data-engineering-7cea3e60ec4f"
+isUpdated: true
 ---
+
+
+
 
 
 데이터 엔지니어링 과정을 시작하기 전에 이 내용을 꼭 알아야 해요

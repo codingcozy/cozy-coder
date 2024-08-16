@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock Faster App Loads: Mastering Deferrable Views in Angular"
 link: "https://medium.com/@hmidihamdi7/unlock-faster-app-loads-mastering-deferrable-views-in-angular-dc693c8653f5"
+isUpdated: true
 ---
+
+
+
 
 
 

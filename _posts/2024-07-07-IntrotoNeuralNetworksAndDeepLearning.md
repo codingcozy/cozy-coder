@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intro to Neural Networks And Deep Learning"
 link: "https://medium.com/@likhitha-guggilla/intro-to-neural-networks-and-deep-learning-2ee896db06ea"
+isUpdated: true
 ---
+
+
+
 
 
 **인공 신경망의 기본 개념을 일부간추려 보세요!**

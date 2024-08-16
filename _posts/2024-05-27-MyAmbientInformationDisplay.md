@@ -3,12 +3,16 @@ title: "내 앰비언트 정보 디스플레이"
 description: ""
 coverImage: "/assets/img/2024-05-27-MyAmbientInformationDisplay_0.png"
 date: 2024-05-27 13:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MyAmbientInformationDisplay_0.png
 tag: Tech
 originalTitle: "My Ambient Information Display"
 link: "https://medium.com/@nextjeff/my-ambient-information-display-e3c026a2d325"
+isUpdated: true
 ---
+
+
+
 
 유용한 정보에 몰두하는 것을 좋아하고 종종 상상하여 새롭고 흥미로운 것을 보고 싶을 때 상층에 떠다니는 정보를 바라보고 싶다고 꿈꿔 왔어요.
 

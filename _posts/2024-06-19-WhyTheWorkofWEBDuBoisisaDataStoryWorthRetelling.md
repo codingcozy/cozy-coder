@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why The Work of W.E.B. Du Bois is a Data Story Worth Retelling"
 link: "https://medium.com/data-storytelling-corner/why-the-work-of-w-e-b-du-bois-is-a-data-story-worth-retelling-9009f51a0f25"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-19-WhyTheWorkofWEBDuBoisisaDataStoryWorthRetelling_0.png)

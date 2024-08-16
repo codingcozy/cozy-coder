@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Ultimate Guide to Making a 3D Printer Keychain"
 link: "https://medium.com/@alexispriddy/ultimate-guide-to-making-a-3d-printer-keychain-2463dea9b60a"
+isUpdated: true
 ---
+
+
+
 
 
 내 아이들은 열쇠고리에 정말 중독되어 있어요. 그들의 배낭엔 아마도 추가로 5 파운드의 열쇠고리가 달려 있을 거에요. 우리가 ToyBox 3D 프린터를 구매한 후 가장 먼저 시도해본 것 중 하나는 우리만의 것을 만들어보는 거였어요. 일부 디자인은 작동했고, 일부는 작동하지 않았는데 제가 제일 좋아하는 몇 가지를 소개할게요.

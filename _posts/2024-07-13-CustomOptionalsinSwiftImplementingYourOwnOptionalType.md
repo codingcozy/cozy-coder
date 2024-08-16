@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Custom Optionals in Swift: Implementing Your Own Optional Type"
 link: "https://medium.com/@duruldalkanat/custom-optionals-in-swift-implementing-your-own-optional-type-7b44468deca4"
+isUpdated: true
 ---
+
+
+
 
 
 스위프트의 Optional 타입은 값의 존재 여부를 명시적으로 처리하여 더 안전한 코드를 작성하도록 도와주는 강력한 기능입니다. 스위프트는 Optionals에 대한 내장 지원을 제공합니다. 하지만 라이브러리나 프레임워크가 옵셔널에 대한 구문적 설탕(?)을 지원하지 않는 경우는 어떻게 해야 할까요?

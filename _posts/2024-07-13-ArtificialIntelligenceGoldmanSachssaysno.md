@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Artificial Intelligence: Goldman Sachs says no"
 link: "https://medium.com/datadriveninvestor/artificial-intelligence-goldman-says-no-65dae6cd9353"
+isUpdated: true
 ---
+
+
+
 
 
 the hype is fading

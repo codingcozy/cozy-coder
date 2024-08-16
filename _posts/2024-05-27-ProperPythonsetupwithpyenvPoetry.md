@@ -3,12 +3,16 @@ title: "적절한 Python 설정 pyenv와 Poetry"
 description: ""
 coverImage: "/assets/img/2024-05-27-ProperPythonsetupwithpyenvPoetry_0.png"
 date: 2024-05-27 13:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ProperPythonsetupwithpyenvPoetry_0.png
 tag: Tech
 originalTitle: "Proper Python setup with pyenv , Poetry"
 link: "https://medium.com/@douwevandermeij/proper-python-setup-with-pyenv-poetry-4d8baea329a8"
+isUpdated: true
 ---
+
+
+
 
 많은 경우, 사람들이 Python의 로컬(개발) 환경 설정에서 고민하는 것을 자주 볼 수 있어요. 솔직히 말하자면, 쉽지 않아요. 그러나 동시에 안정성과 문제 해결 능력을 위해 중요하답니다.
 

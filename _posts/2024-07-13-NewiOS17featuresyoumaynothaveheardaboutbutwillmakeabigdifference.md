@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "New iOS17 features you may not have heard about but will make a big difference"
 link: "https://medium.com/macoclock/new-ios17-features-you-may-not-have-heard-about-but-will-make-a-big-difference-da890c899a9d"
+isUpdated: true
 ---
+
+
+
 
 
 iOS 17이 드디어 나왔어요! 인터랙티브 위젯과 새로운 스탠바이 모드와 같은 주요 기능에 대한 큰 환호가 일어나고 있어요.

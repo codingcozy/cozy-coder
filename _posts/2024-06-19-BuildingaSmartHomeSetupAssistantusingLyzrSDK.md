@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Smart Home Setup Assistant using Lyzr SDK"
 link: "https://medium.com/@akshaykeerthi007/building-a-smart-home-setup-assistant-using-lyzr-sdk-fb6a7ec657ab"
+isUpdated: true
 ---
+
+
+
 
 
 가정 자동화의 미래에 오신 것을 환영합니다! 최첨단 AI 기술과 실용적인 가정 기술이 교차하는 곳에서 저희 Smart Home Setup Assistant가 여러분이 스마트 디바이스를 가정에 통합하는 방식을 혁신하려고 합니다. 기술 애호가든 스마트 홈 세계에 처음 발을 딛은 분이든, 우리 어시스턴트는 여러분의 경험을 쉽고, 원활하고, 즐겁게 만들도록 설계되었습니다.

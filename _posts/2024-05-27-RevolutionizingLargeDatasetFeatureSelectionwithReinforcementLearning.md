@@ -3,12 +3,16 @@ title: "대용량 데이터셋 특성 선택을 혁신하는 강화 학습"
 description: ""
 coverImage: "/assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_0.png"
 date: 2024-05-27 15:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-RevolutionizingLargeDatasetFeatureSelectionwithReinforcementLearning_0.png
 tag: Tech
 originalTitle: "Revolutionizing Large Dataset Feature Selection with Reinforcement Learning"
 link: "https://medium.com/towards-data-science/reinforcement-learning-for-feature-selection-be1e7eeb0acc"
+isUpdated: true
 ---
+
+
+
 
 ## 아주 큰 데이터셋을 다룰 때 특성 선택에 강화 학습의 힘을 활용해 보세요
 

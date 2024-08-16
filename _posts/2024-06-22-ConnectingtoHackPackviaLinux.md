@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Connecting to HackPack via Linux"
 link: "https://medium.com/@pappin/connecting-to-hackpack-via-linux-2a2d39c159e3"
+isUpdated: true
 ---
+
+
+
 
 
 해프팩은 이번 주에 출시된 크런치랩스의 정말 멋진 엔지니어링 상자에요. 조금 놀다가 흥미로운 것을 발견하면 글을 올릴 거예요.

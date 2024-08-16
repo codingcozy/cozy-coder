@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Build your own Large Language Model (LLM) From Scratch Using PyTorch"
 link: "https://medium.com/towards-artificial-intelligence/build-your-own-large-language-model-llm-from-scratch-using-pytorch-9e9945c24858"
+isUpdated: true
 ---
+
+
+
 
 
 ## LLM 만들고 트레이닝하는 단계별 가이드입니다. 이 모델의 목표는 영어를 말레이어로 번역하는 것입니다.

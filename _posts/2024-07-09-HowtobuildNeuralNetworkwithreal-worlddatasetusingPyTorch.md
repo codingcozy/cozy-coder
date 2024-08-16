@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to build Neural Network with real-world dataset using PyTorch"
 link: "https://medium.com/gopenai/how-to-build-neural-network-with-real-world-dataset-using-pytorch-45b34b4e9876"
+isUpdated: true
 ---
+
+
+
 
 
 ### 신경망을 구축하고 훈련하는 단계별 가이드: FitBit Fitness Tracker Dataset 활용

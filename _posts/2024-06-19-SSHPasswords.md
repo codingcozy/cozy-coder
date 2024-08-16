@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "SSH > Passwords"
 link: "https://medium.com/@mitchkodes/ssh-passwords-f43b9d027008"
+isUpdated: true
 ---
+
+
+
 
 
 아주 많은 사람들이 비밀번호와 그 작동 방식에 익숙합니다. 그래서 이 글에서는 SSH 키에 조금 더 초점을 맞추어 어떻게 작동하는지 살펴보겠습니다.

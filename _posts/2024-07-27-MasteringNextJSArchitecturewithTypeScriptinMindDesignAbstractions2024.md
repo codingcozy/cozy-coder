@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 아키텍처 완벽 가이드 TypeScript와 함께하는 디자인 추상화 2024"
+title: "Nextjs와 TypeScript로 저장소 셋팅하는 방법 (2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-07-27-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png"
 date: 2024-07-27 14:05
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering NextJS Architecture with TypeScript in Mind  Design Abstractions 2024"
 link: "https://medium.com/@sviat-kuzhelev/mastering-nextjs-architecture-with-typescript-in-mind-design-abstractions-2024-a6f9612300d1"
+isUpdated: true
 ---
+
+
+
 
 
 Markdown으로 변경

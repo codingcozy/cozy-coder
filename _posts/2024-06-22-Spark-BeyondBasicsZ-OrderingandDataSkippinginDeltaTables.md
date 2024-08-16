@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Spark-Beyond Basics: Z-Ordering and Data Skipping in Delta Tables"
 link: "https://medium.com/@kohaleavin/spark-beyond-basics-z-ordering-and-data-skipping-in-delta-tables-44102282585c"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-Spark-BeyondBasicsZ-OrderingandDataSkippinginDeltaTables_0.png" />

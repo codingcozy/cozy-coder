@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPhone 16 Unveils Ancient Technology,Apple Fast Charging Accelerates"
 link: "https://medium.com/macoclock/iphone-16-unveils-ancient-technology-apple-fast-charging-accelerates-bd5c5c565eef"
+isUpdated: true
 ---
+
+
+
 
 
 애플의 최신 iPhone 16이 안드로이드의 고속 충전 및 기타 혁신적인 기능과 경쟁하도록 설정되었습니다.

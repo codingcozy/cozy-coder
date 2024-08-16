@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Modularity, Structure, and Agency in Retrieval-Augmented Generation: A Powerful Synergy"
 link: "https://medium.com/@alcarazanthony1/modularity-and-structure-in-retrieval-augmented-generation-6584e42c41ff"
+isUpdated: true
 ---
+
+
+
 
 
 인공지능 세계에서 혁명이 준비되고 있습니다. 우리는 대규모 언어 모델이 방대한 정보 풀을 기반으로 추론하는 방식에서 패러다임 전환을 목격하고 있습니다.

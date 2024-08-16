@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Setup the Coral Dual Edge TPU for Frigate"
 link: "https://medium.com/@timothydmoody/how-to-setup-the-coral-dual-edge-tpu-for-frigate-9a7f645dc915"
+isUpdated: true
 ---
+
+
+
 
 
 

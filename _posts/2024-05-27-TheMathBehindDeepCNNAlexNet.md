@@ -3,12 +3,16 @@ title: "깊은 CNN 뒤의 수학  AlexNet"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheMathBehindDeepCNNAlexNet_0.png"
 date: 2024-05-27 14:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TheMathBehindDeepCNNAlexNet_0.png
 tag: Tech
 originalTitle: "The Math Behind Deep CNN — AlexNet"
 link: "https://medium.com/towards-data-science/the-math-behind-deep-cnn-alexnet-738d858e5a2f"
+isUpdated: true
 ---
+
+
+
 
 `<img src="/assets/img/2024-05-27-TheMathBehindDeepCNNAlexNet_0.png" />`
 

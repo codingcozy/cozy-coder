@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Your Input Matters"
 link: "https://medium.com/@mohitdodeja513/embarking-on-my-cybersecurity-journey-day-0-8fc41d536970"
+isUpdated: true
 ---
+
+
+
 
 
 나의 사이버보안 여정을 시작하며: Day 0

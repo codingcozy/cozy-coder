@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Evaluate the Reasoning Abilities of Large Language Models ?"
 link: "https://medium.com/@alcarazanthony1/how-to-evaluate-the-reasoning-abilities-of-large-language-models-02401f637f60"
+isUpdated: true
 ---
+
+
+
 
 
 AI가 급속하게 진화하고 있습니다. 이 과정에서 중요한 질문이 제기됩니다: 그 능력을 어떻게 진정으로 판단할 수 있을까요? 특히 추론과 같은 고차원 기술에 대해 매우 중요합니다. 대형 언어 모델(Large language models, LLMs)은 놀라운 능력을 보여주고 있습니다. 

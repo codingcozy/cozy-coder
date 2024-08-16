@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Installing Pyspark on Windows"
 link: "https://medium.com/@deepaksrawat1906/a-step-by-step-guide-to-installing-pyspark-on-windows-3589f0139a30"
+isUpdated: true
 ---
+
+
+
 
 
 ## 소개

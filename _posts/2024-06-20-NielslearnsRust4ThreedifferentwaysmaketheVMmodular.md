@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Niels learns Rust 4 — Three different ways make the VM modular"
 link: "https://medium.com/@nielsreijers/niels-learns-rust-4-three-different-ways-make-the-vm-modular-e2dd6216d204"
+isUpdated: true
 ---
+
+
+
 
 
 이 문서는 '루스트(Rust)'를 배우면서 내장형 자바 가상 머신을 이식하는 과정의 네 번째 단골입니다. 전체 시리즈를 보려면 여기를 클릭하세요.

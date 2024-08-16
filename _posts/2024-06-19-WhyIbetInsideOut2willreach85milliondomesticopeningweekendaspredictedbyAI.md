@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Why I bet Inside Out 2 will reach $85 million domestic opening weekend, as predicted by AI"
 link: "https://medium.com/generative-ai/why-i-wager-inside-out-2-will-reach-85-million-domestic-opening-weekend-as-predicted-by-ai-c7f51e4ddf2a"
+isUpdated: true
 ---
+
+
+
 
 
 ## 인공지능, 영화 및 예측 AI

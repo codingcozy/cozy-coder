@@ -3,12 +3,16 @@ title: "Windows 터미널을 더욱 향상시켜보세요 Oh My Posh와 함께�
 description: ""
 coverImage: "/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png"
 date: 2024-06-20 14:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png
 tag: Tech
 originalTitle: "Improve Your Windows Terminal with Oh My Posh: A Step-by-Step Installation Guide(vscode setup included)"
 link: "https://medium.com/@pooya-ghorbani-hafez/improve-your-windows-terminal-with-oh-my-posh-a-step-by-s-ep-installation-guide-vscode-setup-92252a279477"
+isUpdated: true
 ---
+
+
+
 
 <img src="/assets/img/2024-06-20-ImproveYourWindowsTerminalwithOhMyPoshAStep-by-StepInstallationGuidevscodesetupincluded_0.png" />
 

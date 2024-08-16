@@ -3,12 +3,16 @@ title: "아두이노 우노와 초음파 센서를 연결하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-InterfacingUltrasonicSensorwithArduinoUno_0.png"
 date: 2024-05-27 13:36
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-InterfacingUltrasonicSensorwithArduinoUno_0.png
 tag: Tech
 originalTitle: "Interfacing Ultrasonic Sensor with Arduino Uno"
 link: "https://medium.com/@nprajwal40/interfacing-ultrasonic-sensor-with-arduino-uno-522eccc3c930"
+isUpdated: true
 ---
+
+
+
 
 # 소개
 

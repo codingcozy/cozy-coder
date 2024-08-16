@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "On the problem of alignment🤖"
 link: "https://medium.com/ai-advances/on-the-problem-of-alignment-44977beb1791"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-22-Ontheproblemofalignment_0.png" />

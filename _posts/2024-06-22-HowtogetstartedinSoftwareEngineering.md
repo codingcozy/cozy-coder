@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to get started in Software Engineering"
 link: "https://medium.com/@kfcdev12345/how-to-get-started-in-software-engineering-53134573901e"
+isUpdated: true
 ---
+
+
+
 
 
 2022년 말, 다양한 개인적, 전문적 변화로 인해 나는 경력 교체를 결정했습니다. 목적지? 컴퓨터 과학, 드디어 모든 컴퓨팅에 대한 사랑을 실현하고 싶었습니다. 또한 앱을 만들고 마이크로전자 및 싱글 보드 컴퓨터와 놀고 싶었습니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Investigation of a Cross-regional Network Performance Issue"
 link: "https://medium.com/@netflixtechblog/investigation-of-a-cross-regional-network-performance-issue-422d6218fdf1"
+isUpdated: true
 ---
+
+
+
 
 
 Hechao Li, Roger Cruz

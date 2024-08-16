@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Hello Zigbee World, Part 25 — OTA Firmware Updates"
 link: "https://medium.com/@omaslyuchenko/hello-zigbee-world-part-25-ota-firmware-updates-20b154b4a23b"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-HelloZigbeeWorldPart25OTAFirmwareUpdates_0.png" />

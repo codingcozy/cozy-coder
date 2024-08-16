@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Dive into the bold and innovative world of Stefan Sagmeister with #Artvy.ai! 🎨"
 link: "https://medium.com/@artvy/stefan-sagmeister-celebrated-designer-and-visual-storyteller-54c7677f17ca"
+isUpdated: true
 ---
+
+
+
 
 
 당신의 창의력을 발휘하고 AI 아트 세계를 탐험할 준비가 되셨나요? Artvy.ai가 모든 해결책을 제공합니다! 이 플랫폼을 통해 Stefan Sagmeister의 고민을 불러일으키는 디자인에서 영감받은 자신만의 AI 아트를 만들어보세요. 일반을 도전하고 타이포그래피, 감정, 연결성의 세계로 파고들어보세요.

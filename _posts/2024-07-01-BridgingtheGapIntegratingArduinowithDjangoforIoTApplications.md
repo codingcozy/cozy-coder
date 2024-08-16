@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Bridging the Gap: Integrating Arduino with Django for IoT Applications"
 link: "https://medium.com/@djangomaster/bridging-the-gap-integrating-arduino-with-django-for-iot-applications-da247c34d034"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-07-01-BridgingtheGapIntegratingArduinowithDjangoforIoTApplications_0.png" />

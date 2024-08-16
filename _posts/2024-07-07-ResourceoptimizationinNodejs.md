@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Resource optimization in Node.js"
 link: "https://medium.com/pipedrive-engineering/resource-optimization-in-node-js-c90c731f9df4"
+isUpdated: true
 ---
+
+
+
 
 
 이 기사에서는 Node.js의 능력을 극대화하고 리소스 공유의 이점을 이해하여 모든 요청을 격리시켜야 한다는 가정을 반박합니다. Node.js의 모든 잠재력을 발견하고 리소스 최적화가 어떻게 애플리케이션의 성능과 효율성을 향상시킬 수 있는지 알아봅시다.

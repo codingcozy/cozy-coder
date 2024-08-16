@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Part 1: Make your filament at home for cheap"
 link: "https://medium.com/endless-filament/make-your-filament-at-home-for-cheap-6c908bb09922"
+isUpdated: true
 ---
+
+
+
 
 
 플라스틱은 어디에나 있고 저렴한데도 우리는 1kg 필라멘트 스풀에 $20을 지불하고 있습니다. 하지만 이 스풀에는 750그램의 필라멘트만 들어있고 나머지는 빈 스풀의 무게입니다. 제 차고에서 싼 필라멘트를 만드는 방법을 찾기 시작했지만 최근 코로나바이러스로 인해 제 도시의 모든 지역 상점이 필라멘트를 다 팔아치웠고, 아마존과 같은 전자 상거래 웹 사이트들은 정부의 제한으로 인해 필라멘트 스풀을 포함하지 않는 중요한 상품만 배송할 수 있어 필라멘트를 배달해주지 않았습니다. 그래서 저는 생각하기 시작했습니다...

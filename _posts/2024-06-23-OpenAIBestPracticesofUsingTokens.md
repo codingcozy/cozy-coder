@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "OpenAI — Best Practices of Using Tokens"
 link: "https://medium.com/@tonylixu/openai-best-practices-of-using-tokens-6709e1df6cc5"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-OpenAIBestPracticesofUsingTokens_0.png" />

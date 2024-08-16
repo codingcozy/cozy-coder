@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Counterpart Passed Away"
 link: "https://medium.com/@yadayinyadayang/my-counterpart-passed-away-d09a32cbaeb1"
+isUpdated: true
 ---
+
+
+
 
 
 ![My Counterpart Passed Away Image](/assets/img/2024-07-13-MyCounterpartPassedAway_0.png )

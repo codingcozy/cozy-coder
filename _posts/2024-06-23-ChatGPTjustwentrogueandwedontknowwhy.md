@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT just went rogue and we don’t know why"
 link: "https://medium.com/@thredmedia/chatgpt-just-went-rogue-and-we-dont-know-why-58ccf1ab43e4"
+isUpdated: true
 ---
+
+
+
 
 
 ![Image](/assets/img/2024-06-23-ChatGPTjustwentrogueandwedontknowwhy_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT Is Not a Doctor"
 link: "https://medium.com/towards-data-science/chatgpt-is-not-a-doctor-5452a5c5784d"
+isUpdated: true
 ---
+
+
+
 
 
 작년에 ChatGPT가 미국 의료면허 시험에 통과하고 실제 의사보다 "더 공감능력이 뛰어나다"고 보도되었습니다. 현재 ChatGPT에는 약 1억 8천만 사용자가 있습니다. 이 중 10%만이 의료 질문을 ChatGPT에게 한다면, 이미 뉴욕시의 두 배 인구가 의사처럼 ChatGPT를 사용 중입니다. 의료 챗봇 스타트업들은 ChatGPT 주변에 얇은 포장을 하여 의료상담을 제공하는 것이 계속해서 확산되고 있습니다. 하지만 ChatGPT는 의사가 아니며, ChatGPT를 의료상담에 사용하는 것은 OpenAI의 사용 정책에 위배되는 것뿐만 아니라 위험할 수 있습니다.

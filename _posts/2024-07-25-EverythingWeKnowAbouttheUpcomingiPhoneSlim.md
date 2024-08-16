@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Everything We Know About the Upcoming iPhone Slim"
 link: "https://medium.com/macoclock/everything-we-know-about-the-upcoming-iphone-slim-c24806ce9476"
+isUpdated: true
 ---
+
+
+
 
 
 

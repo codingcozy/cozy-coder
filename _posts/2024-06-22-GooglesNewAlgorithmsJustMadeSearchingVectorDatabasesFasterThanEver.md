@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Google’s New Algorithms Just Made Searching Vector Databases Faster Than Ever"
 link: "https://medium.com/gitconnected/googles-new-algorithms-just-made-searching-vector-databases-faster-than-ever-36073618d078"
+isUpdated: true
 ---
+
+
+
 
 
 벡터 데이터베이스는 LLM의 인기가 높아지면서 점점 더 인기를 얻고 있어요.

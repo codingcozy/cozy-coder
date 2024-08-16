@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build a Text, Image, and Audio-Capable Multimodal LLM (LLaVA + Whisper)"
 link: "https://medium.com/gitconnected/how-to-build-a-text-image-and-audio-capable-multimodal-llm-llava-whisper-bc88353b3a66"
+isUpdated: true
 ---
+
+
+
 
 
 ![이미지](/assets/img/2024-06-19-HowtoBuildaTextImageandAudio-CapableMultimodalLLMLLaVAWhisper_0.png)

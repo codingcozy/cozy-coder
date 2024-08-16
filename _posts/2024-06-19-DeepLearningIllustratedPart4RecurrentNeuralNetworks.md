@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Learning Illustrated, Part 4: Recurrent Neural Networks"
 link: "https://medium.com/towards-data-science/deep-learning-illustrated-part-4-recurrent-neural-networks-d0121f27bc74"
+isUpdated: true
 ---
+
+
+
 
 
 저희의 그림으로 보여주는 딥러닝 여정 Part 4에 오신 것을 환영합니다! 오늘은 순환 신경망(Recurrent Neural Networks)에 대해 자세히 살펴보겠습니다. 입력, 출력, 활성화 함수 같은 익숙한 개념들에 대해 이야기할 건데, 조금씩 다른 면을 발견할 거에요. 그리고 이번이 여정의 첫 스탑이라면, 특히 Part 1과 Part 2를 읽어보시길 추천드립니다.

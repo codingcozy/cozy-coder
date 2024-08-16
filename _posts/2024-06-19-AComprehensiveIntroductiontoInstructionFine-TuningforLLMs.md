@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Introduction to Instruction Fine-Tuning for LLMs"
 link: "https://medium.com/towards-artificial-intelligence/a-comprehensive-introduction-to-instruction-fine-tuning-for-llms-c9d66e4bae08"
+isUpdated: true
 ---
+
+
+
 
 
 지시 튜닝은 큰 언어 모델(LLM)의 능력을 특정 지시를 따르도록 개선하기 위해 사용되는 과정입니다. InstructGPT의 작업은 먼저 지시 미세 조정에 대한 작업을 소개했습니다.

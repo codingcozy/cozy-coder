@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Set up Splash screen in React Native for iOS and Android | 2024"
 link: "https://medium.com/@svbala99/set-up-splash-screen-in-react-native-for-ios-and-android-2023-dbedb87fe75e"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 여러분, 잘 지내시죠? 오늘은 리액트 네이티브 앱에서 안드로이드와 iOS용 스플래시 화면을 설정하는 경험을 공유하려고 해요. 함께 알아보도록 하죠..

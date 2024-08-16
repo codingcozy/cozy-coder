@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build Your Own LLM Coding Assistant With Code Llama 🤖"
 link: "https://medium.com/towards-artificial-intelligence/how-to-build-your-own-llm-coding-assistant-with-code-llama-04d8340900a3"
+isUpdated: true
 ---
+
+
+
 
 
 이 실습에서는 무료로 사용할 수 있고 로컬 GPU에서 실행되는 AI 코드 어시스턴트를 구현할 예정입니다.

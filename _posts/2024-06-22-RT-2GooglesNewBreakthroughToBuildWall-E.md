@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "RT-2, Google’s New Breakthrough To Build Wall-E"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/rt-2-googles-new-breakthrough-to-build-wall-e-5c27b1fdf754"
+isUpdated: true
 ---
+
+
+
 
 
 안녕하세요! 아래는 Markdown 형식으로 변경된 표입니다.

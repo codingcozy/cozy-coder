@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Its Time to Execute the Inverse-Conway-Maneuver"
 link: "https://medium.com/@drpicox/its-time-to-execute-the-inverse-conway-maneuver-3e132c395de3"
+isUpdated: true
 ---
+
+
+
 
 
 소프트웨어 아키텍처를 수개월에 걸쳐 재설계했지만 진전이 모든 면에서 막혔다는 것을 상상해보세요. 문제가 코드가 아닐 수도 있습니다. 회사의 구조일 수도 있습니다. 이것이 역 콘웨이 기동이 등장하는 곳입니다. 이 기사에서 당신은 조직 구조를 변경하는 것이 소프트웨어 아키텍처의 중요한 개선으로 이어질 수 있다는 이유를 발견할 것입니다. 이를 통해 개발 프로세스를 더 부드럽고 효과적으로 만들 수 있습니다.

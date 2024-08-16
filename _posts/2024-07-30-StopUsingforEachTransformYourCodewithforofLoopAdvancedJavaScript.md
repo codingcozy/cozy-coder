@@ -1,5 +1,5 @@
 ---
-title: "forEach 사용 자제 forof 루프로 코드 변환하기  고급 자바스크립트"
+title: "이제 forEach 대신 for of 루프를 사용해야하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-30-StopUsingforEachTransformYourCodewithforofLoopAdvancedJavaScript_0.png"
 date: 2024-07-30 17:20
@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Stop Using forEach Transform Your Code with forof Loop  Advanced JavaScript"
 link: "https://medium.com/gitconnected/stop-using-foreach-transform-your-code-with-for-of-loop-advanced-javascript-5d9d61a95740"
+isUpdated: true
 ---
+
+
+
 
 
 JavaScript 및 TypeScript의 세계에서 배열을 반복하는 것은 일반적인 작업입니다. 많은 개발자들이 간편함과 익숙함을 이유로 .forEach를 기본으로 선택합니다.

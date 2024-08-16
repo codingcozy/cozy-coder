@@ -3,12 +3,16 @@ title: "사용 기반 API 요금 청구 및 미터링을 위한 실시간 분석
 description: ""
 coverImage: "/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png"
 date: 2024-05-27 12:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png
 tag: Tech
 originalTitle: "Real-Time Analytics Solution for Usage-Based API Billing and Metering"
 link: "https://medium.com/towards-data-science/real-time-analytics-solution-for-usage-based-api-billing-and-metering-f9e7a350f707"
+isUpdated: true
 ---
+
+
+
 
 
 ![Real-Time Analytics Solution](/assets/img/2024-05-27-Real-TimeAnalyticsSolutionforUsage-BasedAPIBillingandMetering_0.png)

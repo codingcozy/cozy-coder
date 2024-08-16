@@ -3,12 +3,16 @@ title: "LLM 애플리케이션 구축 LLM 서빙하기 파트 9"
 description: ""
 coverImage: "/assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_0.png"
 date: 2024-05-27 14:36
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-BuildingLLMApplicationsServingLLMsPart9_0.png
 tag: Tech
 originalTitle: "Building LLM Applications: Serving LLMs (Part 9)"
 link: "https://medium.com/@vipra_singh/building-llm-applications-serving-llms-part-9-68baa19cef79"
+isUpdated: true
 ---
+
+
+
 
 대용량 언어 모델 (LLM)을 검색 보강 생성 (RAG) 애플리케이션을 통해 배워보세요.
 

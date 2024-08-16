@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Get the Original ChatGPT App by OpenAI Working Again on macOS Sequoia Beta Release 1"
 link: "https://medium.com/@kristoffer.sodersten/how-to-get-the-original-chatgpt-app-by-openai-working-again-on-macos-sequoia-beta-release-1-e7b03f5b9257"
+isUpdated: true
 ---
+
+
+
 
 
 소개

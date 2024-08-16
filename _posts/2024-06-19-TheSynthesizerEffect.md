@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Synthesizer Effect"
 link: "https://medium.com/@mikeyd/the-synthesizer-effect-66a4e70a5289"
+isUpdated: true
 ---
+
+
+
 
 
 또는, 왜 생성적 AI가 모두도 일부 시간을 속여 거짓말을 하고, 모두도 아예 거짓말을 하지 않는지입니다.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Social Media is for Losers, Unless.."
 link: "https://medium.com/bouncin-and-behavin-academy/social-media-is-for-losers-unless-a0abe336bdaf"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-06-20-SocialMediaisforLosersUnless_0.png)

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Localisation in Xcode 15"
 link: "https://medium.com/better-programming/localisation-in-xcode-15-5be52e97fff0"
+isUpdated: true
 ---
+
+
+
 
 
 ![Screenshot](/assets/img/2024-07-13-LocalisationinXcode15_0.png)

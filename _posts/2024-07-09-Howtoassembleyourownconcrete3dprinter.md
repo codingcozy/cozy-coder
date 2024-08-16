@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to assemble your own concrete 3d printer."
 link: "https://medium.com/@Nik_chen/how-to-assemble-your-own-concrete-3d-printer-4e6da490b6e6"
+isUpdated: true
 ---
+
+
+
 
 
 자신만의 콘크리트 3D 프린터를 만들기 위해서는, 게시된 가이드를 참고하시거나, 다리, 카테시안 또는 직교 좌표계 시스템을 사용하면 쉽다는 것을 알아두세요. 다리, 카테시안 또는 직교 로봇은 X-Y-Z 카테시안 좌표계에서 작동하는 세 개의 선형 관절으로 설계됩니다. 현재 시장의 콘크리트 3D 프린터 중 95%가 다리, 카테시안 또는 직교 로봇입니다. 그 이유가 있습니다.

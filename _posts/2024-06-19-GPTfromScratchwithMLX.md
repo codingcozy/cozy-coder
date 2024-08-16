@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GPT from Scratch with MLX"
 link: "https://medium.com/towards-data-science/gpt-from-scratch-with-mlx-acf2defda30e"
+isUpdated: true
 ---
+
+
+
 
 
 ## MacBook에서 GPT-2 정의 및 훈련하기

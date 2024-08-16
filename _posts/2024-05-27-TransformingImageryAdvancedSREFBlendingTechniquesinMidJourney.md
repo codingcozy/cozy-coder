@@ -3,12 +3,16 @@ title: "이미지 변환하기 - MidJourney의 고급 SREF 블렌딩 기술"
 description: ""
 coverImage: "/assets/img/2024-05-27-TransformingImageryAdvancedSREFBlendingTechniquesinMidJourney_0.png"
 date: 2024-05-27 15:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TransformingImageryAdvancedSREFBlendingTechniquesinMidJourney_0.png
 tag: Tech
 originalTitle: "Transforming Imagery — Advanced SREF Blending Techniques in MidJourney"
 link: "https://medium.com/@promptdervish/transforming-imagery-advanced-sref-blending-techniques-in-midjourney-d904b3f9dbe7"
+isUpdated: true
 ---
+
+
+
 
 ## MIDJOURNEY EXPLORATIONS SREFS
 

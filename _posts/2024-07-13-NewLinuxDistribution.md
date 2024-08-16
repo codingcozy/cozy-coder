@@ -3,12 +3,16 @@ title: "최신 리눅스 배포판 알아보기 2024년 주목해야 할 새로�
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-13 22:03
-ogImage:
+ogImage: 
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "New Linux Distribution"
 link: "https://medium.com/sourcescribes/new-linux-distribution-63d20de15abd"
+isUpdated: true
 ---
+
+
+
 
 알마리눅스는 장기 안정성과 프로덕션급 플랫폼을 제공하는 오픈 소스 리눅스 운영 체제입니다. 레드햇 엔터프라이즈 리눅스(RHEL)와 이진 호환되도록 설계되어 조직이 신뢰할 수 있는 RHEL 기반 시스템을 찾는 경우 탁월한 선택지입니다.
 

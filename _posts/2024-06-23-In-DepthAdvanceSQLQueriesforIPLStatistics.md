@@ -3,12 +3,16 @@ title: "IPL 통계 분석을 위한 고급 SQL 쿼리 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png"
 date: 2024-06-23 16:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png
 tag: Tech
 originalTitle: "In-Depth Advance SQL Queries for IPL Statistics"
 link: "https://medium.com/@israksamir353/in-depth-advance-sql-queries-for-ipl-statistics-3f8f8af0e24f"
+isUpdated: true
 ---
+
+
+
 
 <img src="/assets/img/2024-06-23-In-DepthAdvanceSQLQueriesforIPLStatistics_0.png" />
 

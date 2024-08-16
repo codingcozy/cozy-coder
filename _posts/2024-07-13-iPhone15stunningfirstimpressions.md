@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iPhone 15 — stunning first impressions"
 link: "https://medium.com/macoclock/usb-c-makes-its-way-to-iphone-15iphone-15-stunning-first-impressions-d777992d5858"
+isUpdated: true
 ---
+
+
+
 
 
 ![iPhone 15](/assets/img/2024-07-13-iPhone15stunningfirstimpressions_0.png)

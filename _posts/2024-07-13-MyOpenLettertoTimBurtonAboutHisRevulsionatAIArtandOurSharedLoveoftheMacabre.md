@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "My Open Letter to Tim Burton About His Revulsion at AI Art, and Our Shared Love of the Macabre"
 link: "https://medium.com/the-generator/my-open-letter-to-tim-burton-about-his-revulsion-at-ai-art-and-our-shared-love-of-the-macabre-5ded392a51ca"
+isUpdated: true
 ---
+
+
+
 
 
 ## AI ART, CINEMA & POPULAR CULTURE

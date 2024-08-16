@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Highly Scalable Data Ingestion Architecture for Machine Learning and Marketing Intelligence"
 link: "https://medium.com/decodingml/building-highly-scalable-data-ingestion-architecture-for-machine-learning-and-marketing-c65ad39f44fc"
+isUpdated: true
 ---
+
+
+
 
 
 ## 확장 가능하고 적응 가능한 데이터 파이프라인을 위한 AWS 생태계 및 데이터 크롤링 활용

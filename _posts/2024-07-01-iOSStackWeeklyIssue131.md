@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "iOS Stack Weekly — Issue#131"
 link: "https://medium.com/canopas/ios-stack-weekly-issue-131-a5df1381b165"
+isUpdated: true
 ---
+
+
+
 
 
 마크다운 형식으로 이미지를 수정해보겠어요.

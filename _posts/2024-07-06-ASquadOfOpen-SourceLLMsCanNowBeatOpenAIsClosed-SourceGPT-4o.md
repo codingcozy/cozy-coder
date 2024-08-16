@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "A Squad Of Open-Source LLMs Can Now Beat OpenAI’s Closed-Source GPT-4o"
 link: "https://medium.com/gitconnected/a-squad-of-open-source-llms-can-now-beat-the-closed-source-gpt-4o-86ebed788102"
+isUpdated: true
 ---
+
+
+
 
 
 오픈 소스와 프로프리터리 인공지능 사이에서 계속된 전쟁이 벌어지고 있었습니다.

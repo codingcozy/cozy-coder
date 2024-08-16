@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Linux — How to Troubleshoot High CPU Usage"
 link: "https://medium.com/@tonylixu/linux-how-to-troubleshoot-high-cpu-usage-70a441802422"
+isUpdated: true
 ---
+
+
+
 
 
 

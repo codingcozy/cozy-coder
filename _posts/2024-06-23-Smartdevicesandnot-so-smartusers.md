@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Smart devices and not-so-smart users"
 link: "https://medium.com/@01fueledbyramen99/smart-devices-and-not-so-smart-users-1f8413e715aa"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-23-Smartdevicesandnot-so-smartusers_0.png" />

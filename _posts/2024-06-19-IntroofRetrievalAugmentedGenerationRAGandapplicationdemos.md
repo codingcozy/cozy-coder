@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Intro of Retrieval Augmented Generation (RAG) and application demos"
 link: "https://medium.com/@henryhengluo/intro-of-retrieval-augmented-generation-rag-and-application-demos-c1d9239ababf"
+isUpdated: true
 ---
+
+
+
 
 
 # RAG 소개

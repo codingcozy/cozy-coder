@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "The Linux Concept Journey — Block Devices"
 link: "https://medium.com/@boutnaru/the-linux-concept-journey-block-devices-f6f775852091"
+isUpdated: true
 ---
+
+
+
 
 
 블록 디바이스는 고정 크기의 블록으로 구성된 데이터에 무작위 액세스 기능을 제공합니다. 이러한 디바이스의 예는 RAM 디스크, CD-ROM 드라이브 및 하드 드라이브 등이 있습니다. 블록 디바이스의 속도는 일반적으로 캐릭터 디바이스의 속도보다 빠릅니다. 캐릭터 디바이스와의 다른 점 중 하나는 캐릭터 디바이스에는 단일 현재 위치가 있지만, 블록 디바이스의 경우 데이터를 읽고 쓰기 위해 임의의 위치로 이동할 수 있어야 합니다. 캐릭터 디바이스와 블록 디바이스의 비교(예시 포함)를 아래 다이어그램에서 확인할 수 있습니다.

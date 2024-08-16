@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Go packages for Windows on ARM"
 link: "https://medium.com/@x1unix/building-go-packages-for-windows-on-arm-d181fa4e3bfc"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-BuildingGopackagesforWindowsonARM_0.png" />

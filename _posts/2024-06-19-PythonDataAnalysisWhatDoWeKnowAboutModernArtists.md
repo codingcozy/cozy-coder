@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Python Data Analysis: What Do We Know About Modern Artists?"
 link: "https://medium.com/towards-data-science/python-data-analysis-what-do-we-know-about-modern-artists-40f8a66f7235"
+isUpdated: true
 ---
+
+
+
 
 
 <img src="/assets/img/2024-06-19-PythonDataAnalysisWhatDoWeKnowAboutModernArtists_0.png" />

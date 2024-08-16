@@ -3,12 +3,16 @@ title: "성의 기초"
 description: ""
 coverImage: "/assets/img/2024-05-27-TheVeryFoundationofSex_0.png"
 date: 2024-05-27 15:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-TheVeryFoundationofSex_0.png
 tag: Tech
 originalTitle: "The Very Foundation of Sex"
 link: "https://medium.com/@kalidubois/the-very-f-886cfb110e61"
+isUpdated: true
 ---
+
+
+
 
 
 ![image](/assets/img/2024-05-27-TheVeryFoundationofSex_0.png)

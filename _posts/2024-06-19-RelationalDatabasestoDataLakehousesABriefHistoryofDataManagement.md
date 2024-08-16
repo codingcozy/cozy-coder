@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Relational Databases to Data Lakehouses: A Brief History of Data Management"
 link: "https://medium.com/@lukianovihor/a-brief-history-of-data-management-from-relational-databases-to-data-lakehouses-b76edcafe866"
+isUpdated: true
 ---
+
+
+
 
 
 ## 데이터 관리의 진화 및 데이터 엔지니어링을 위한 솔루션

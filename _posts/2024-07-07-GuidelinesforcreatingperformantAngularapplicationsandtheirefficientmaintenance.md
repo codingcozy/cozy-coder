@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Guidelines for creating performant Angular applications and their efficient maintenance"
 link: "https://medium.com/@patrik.horva90/guidelines-for-creating-performant-angular-applications-and-their-efficient-maintenance-6c7537bd56cf"
+isUpdated: true
 ---
+
+
+
 
 
 ## 한 문서에서 모든 정보를 얻어보세요!

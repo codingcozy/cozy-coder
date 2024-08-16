@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Paper Review: Chronos: Learning the Language of Time Series"
 link: "https://medium.com/@artgor/paper-review-chronos-learning-the-language-of-time-series-edd79dd4fc96"
+isUpdated: true
 ---
+
+
+
 
 
 ## 논문 리뷰

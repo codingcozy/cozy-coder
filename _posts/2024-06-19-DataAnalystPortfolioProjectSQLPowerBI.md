@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Data Analyst Portfolio Project(SQL + Power BI)"
 link: "https://medium.com/@shana21619/new-york-city-airbnb-listings-0cd5520596a9"
+isUpdated: true
 ---
+
+
+
 
 
 ## 뉴욕 시티 Airbnb 리스트

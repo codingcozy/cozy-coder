@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Prebuild Component Of Jetpack compose"
 link: "https://medium.com/@adityatheprogrammer/prebuild-component-of-jetpack-compose-4705edfc0aa7"
+isUpdated: true
 ---
+
+
+
 
 
 🌟 안녕하세요! 이쪽은 아디티야입니다.

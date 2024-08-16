@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Airflow and DAGs in 3 minutes"
 link: "https://medium.com/@swathireddythokala16/understanding-airflow-and-dags-in-3-minutes-9a8067b9233d"
+isUpdated: true
 ---
+
+
+
 
 
 ![Understanding Airflow and DAGs in 3 minutes](/assets/img/2024-06-20-UnderstandingAirflowandDAGsin3minutes_0.png)

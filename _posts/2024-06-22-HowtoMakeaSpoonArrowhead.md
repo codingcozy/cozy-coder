@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Make a Spoon Arrowhead"
 link: "https://medium.com/@heningeralexander/how-to-make-a-spoon-arrowhead-7361e1b26a34"
+isUpdated: true
 ---
+
+
+
 
 
 ## 하루 생존 팁

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "GITAI Founding Story"
 link: "https://medium.com/@shonakanose/gitai-founding-story-08c760910a77"
+isUpdated: true
 ---
+
+
+
 
 
 ## 스페이스 로보틱스 스타트업 GITAI의 창업 스토리

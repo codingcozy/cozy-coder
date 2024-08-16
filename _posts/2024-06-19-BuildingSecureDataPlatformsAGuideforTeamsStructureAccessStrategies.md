@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Building Secure Data Platforms: A Guide for Team’s Structure , Access Strategies"
 link: "https://medium.com/data-engineer-things/building-secure-data-platforms-a-guide-for-teams-structure-access-strategies-d25fd54eac16"
+isUpdated: true
 ---
+
+
+
 
 
 몇 달 동안 데이터 솔루션을 개발하며, 엔지니어와 데이터 소유자들은 증가된 데이터 액세스 요청으로 인한 병목 현상에 직면할 수 있습니다(전체 테이블, 스키마, 서브셋, 민감한 데이터 등). 응용 프로그램 기술 사용자나 셀프 서비스 이용자와 관련이 있는 이러한 상황을 처리하는 것이 어렵거나 스트레스를 받을 수 있습니다. 

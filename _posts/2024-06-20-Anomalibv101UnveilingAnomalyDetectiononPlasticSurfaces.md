@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Anomalib v1.0.1: Unveiling Anomaly Detection on Plastic Surfaces"
 link: "https://medium.com/ai-advances/anomalib-v1-0-1-unveiling-anomaly-detection-on-plastic-surfaces-c91cd48d8806"
+isUpdated: true
 ---
+
+
+
 
 
 # 소개

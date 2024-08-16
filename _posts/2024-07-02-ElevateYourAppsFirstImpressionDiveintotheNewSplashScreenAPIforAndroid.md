@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Elevate Your App’s First Impression: Dive into the New Splash Screen API for Android"
 link: "https://medium.com/@aadithyabalaji/elevate-your-apps-first-impression-dive-into-the-new-splash-screen-api-for-android-0d63b4667270"
+isUpdated: true
 ---
+
+
+
 
 
 이미지 태그를 Markdown 형식으로 변경해주세요.

@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "How to Set Up a Raspberry Pi 4 with LCD Display Using I2C Backpack"
 link: "https://medium.com/@thedyslexiccoder/how-to-set-up-a-raspberry-pi-4-with-lcd-display-using-i2c-backpack-189a0760ae15"
+isUpdated: true
 ---
+
+
+
 
 
 이 튜토리얼에서는 Raspberry Pi 4에 I2C 백팩을 사용하여 LCD 디스플레이를 설정하는 방법을 배우게 됩니다. 16x2 및 20x4 디스플레이 양쪽을 지원합니다. 초보자이든 경험이 풍부한 메이커이든 이 튜토리얼을 통해 프로젝트를 간소화하고 Raspberry Pi 프로젝트에 사용하기 쉬운 LCD로 빠르게 시작할 수 있습니다!

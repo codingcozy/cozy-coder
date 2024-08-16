@@ -8,7 +8,11 @@ ogImage:
 tag: Tech
 originalTitle: "Programming a Robot with Raspberry Pi 3, GoPiGo3 and Python"
 link: "https://medium.com/@athicharttangpong/programming-a-robot-with-raspberry-pi-3-gopigo3-and-python-592bd8e41530"
+isUpdated: true
 ---
+
+
+
 
 
 대학 시절, 25년 전, 나는 테니스 공을 모으는 간단한 로봇을 제작했었습니다. 그러나 그 지식은 시간이 흘러서 잊혀졌습니다. 2020년의 글로벌 대유행으로 인한 봉쇄와 재택근무의 전환은 내가 잊고 있던 로봇공학에 대한 관심을 다시 일으켰습니다. 즐거워하는 것을 넘어, 이것을 제기회로 나의 기술을 향상시키고 내 아이들에게 영감을 줄 수 있는 좋은 기회라고 생각했습니다. 나는 로봇공학에 대한 나의 이해를 더 깊게 하고 나만의 로봇을 만들기 위한 여정에 나서기로 결정했습니다. 본 기사는 내가 로봇공학에 대해 배운 것을 공유하는 시리즈의 첫 번째 글입니다.
