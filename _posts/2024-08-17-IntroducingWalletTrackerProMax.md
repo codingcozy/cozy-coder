@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Wallet Tracker Pro Max"
 link: "https://medium.com/@nikhilvemu/introducing-wallet-tracker-pro-max-7543cd7249e1"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863735008
 ---
 
 

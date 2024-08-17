@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying Navigation in Flutter with GoRouter"
 link: "https://medium.com/@syedabdulbasit7/simplifying-navigation-in-flutter-with-gorouter-67bd3151ac43"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863789469
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building an effective abstraction layer for UI resources on Android"
 link: "https://medium.com/@michellbak/building-an-effective-abstraction-layer-for-ui-resources-on-android-1806448caf50"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863574662
 ---
 
 

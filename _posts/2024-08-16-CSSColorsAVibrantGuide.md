@@ -1,5 +1,5 @@
 ---
-title: "CSS 색상 생생한 가이드"
+title: "CSS 색상을 제대로 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-16-CSSColorsAVibrantGuide_0.png"
 date: 2024-08-16 23:59
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Colors A Vibrant Guide"
 link: "https://medium.com/stackademic/css-colors-a-vibrant-guide-6c2b44ba135a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863460599
 ---
 
 

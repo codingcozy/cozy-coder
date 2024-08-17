@@ -1,5 +1,5 @@
 ---
-title: "NestJS에 관한 나의 후회와 피할 방법"
+title: "NestJS 개발시 유의해야할 점 5가지"
 description: ""
 coverImage: "/assets/img/2024-08-13-WhatIRegretAboutNestJS_0.png"
 date: 2024-08-13 11:04
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "What I Regret About NestJS"
 link: "https://medium.com/@kalkidant/what-i-regret-about-nestjs-93fb835c19e3"
+isUpdated: true
+updatedAt: 1723863445332
 ---
 
 

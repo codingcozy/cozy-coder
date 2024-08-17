@@ -1,5 +1,5 @@
 ---
-title: "NestJS로 소켓 구현하는 방법"
+title: "NestJS에서 소켓 기능 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-ImplementationofSocketUsingNESTJS_0.png"
 date: 2024-08-13 12:14
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Implementation of Socket Using NEST JS"
 link: "https://medium.com/@stephin0398/implementation-of-socket-using-nest-js-3f16e232f8a6"
+isUpdated: true
+updatedAt: 1723863094661
 ---
 
 

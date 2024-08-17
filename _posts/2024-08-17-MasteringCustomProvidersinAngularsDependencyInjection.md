@@ -1,5 +1,5 @@
 ---
-title: "Angular의 의존성 주입Custom Providers 마스터하기 "
+title: "Angular의 의존성 주입 -Custom Providers 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-MasteringCustomProvidersinAngularsDependencyInjection_0.png"
 date: 2024-08-17 00:55
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Custom Providers in Angulars Dependency Injection "
 link: "https://medium.com/gitconnected/mastering-custom-providers-in-angulars-dependency-injection-8fa7dfa12d4f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863745387
 ---
 
 

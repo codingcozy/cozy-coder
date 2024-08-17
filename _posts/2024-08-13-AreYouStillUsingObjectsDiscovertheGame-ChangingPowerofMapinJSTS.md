@@ -1,5 +1,5 @@
 ---
-title: "아직도 객체를 사용하시나요 JavaScript와 TypeScript에서 Map의 혁신적인 힘을 발견하세요"
+title: "JavaScript와 TypeScript에서 Map 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-AreYouStillUsingObjectsDiscovertheGame-ChangingPowerofMapinJSTS_0.png"
 date: 2024-08-13 11:17
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Are You Still Using Objects Discover the Game-Changing Power of Map in JS TS"
 link: "https://medium.com/javascript-in-plain-english/are-you-still-using-objects-discover-the-game-changing-power-of-map-in-js-ts-3600a6c28b60"
+isUpdated: true
+updatedAt: 1723863049095
 ---
 
 

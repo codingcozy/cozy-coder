@@ -1,5 +1,5 @@
 ---
-title: "requirementstxt가 이제 무쓸모 최신 개발 트렌드 및 대안 소개"
+title: "requirementstxt는 이제 쓰지마세요 최신 개발 트렌드 소개"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-17 00:13
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "requirementstxt Is Obsolete"
 link: "https://medium.com/towards-data-science/ditch-requirements-use-poetry-00a936fe9b6d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863892442
 ---
 
 

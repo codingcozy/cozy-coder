@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Implement a Splash Screen in Jetpack Compose with the SplashScreen API"
 link: "https://medium.com/kotlin-academy/how-to-implement-a-splash-screen-in-jetpack-compose-with-the-splashscreen-api-6f2767ede9d9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863713350
 ---
 
 

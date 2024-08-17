@@ -1,5 +1,5 @@
 ---
-title: "고급 JavaScript 인터뷰 질문 Promise 관련 문제 해결 해보세요"
+title: "JavaScript 기술 면접 단골 질문 - Promise 관련 문제"
 description: ""
 coverImage: "/assets/img/2024-08-17-CanYouAnswerThisSeniorLevelJavaScriptPromiseInterviewQuestion_0.png"
 date: 2024-08-17 00:44
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Can You Answer This Senior Level JavaScript Promise Interview Question"
 link: "https://medium.com/frontend-canteen/can-you-answer-this-senior-level-javascript-promise-interview-question-69f7b6ffc2e7"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863594144
 ---
 
 

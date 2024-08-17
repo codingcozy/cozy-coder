@@ -1,5 +1,5 @@
 ---
-title: "아무도 모르는 15가지 HTML 태그"
+title: "프론트엔드 개발자들도 잘 모르는 15가지 HTML 태그"
 description: ""
 coverImage: "/assets/img/2024-08-16-15HTMLTagsThatNoOneKnows_0.png"
 date: 2024-08-16 23:54
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "15 HTML Tags That No One Knows"
 link: "https://medium.com/write-a-catalyst/15-html-tags-that-no-one-knows-dfe7fa26d3c5"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863453273
 ---
 
 

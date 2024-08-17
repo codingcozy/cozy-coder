@@ -1,5 +1,5 @@
 ---
-title: "SQL에서 GUID UUID 기본 키 사용으로 성능을 두 배로 향상시킨 방법"
+title: "GUID UUID 기본 키 사용으로 SQL 쿼리 성능을 두 배로 향상시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-HowWeDoubledthePerformanceofOurAppWhenUsingGUIDUUIDPrimaryKeysinSQL_0.png"
 date: 2024-08-17 00:37
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How We Doubled the Performance of Our App When Using GUID UUID Primary Keys in SQL"
 link: "https://medium.com/@mattbentley_67939/how-we-doubled-the-performance-of-our-app-when-using-guid-uuid-primary-keys-in-sql-f9e43d228e1e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863689328
 ---
 
 

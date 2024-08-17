@@ -1,5 +1,5 @@
 ---
-title: "마이크로 프론트엔드 Angular로 구현하는 방법"
+title: "Angular로 마이크로 프론트엔드  구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-MicroFrontendsAngular_0.png"
 date: 2024-08-17 00:53
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Micro Frontends Angular"
 link: "https://medium.com/stackademic/micro-frontends-angular-cb0ce751dbdd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863754582
 ---
 
 

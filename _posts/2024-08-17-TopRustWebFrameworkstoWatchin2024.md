@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Top Rust Web Frameworks to Watch in 2024"
 link: "https://medium.com/gitconnected/top-rust-web-frameworks-to-watch-in-2024-45e623f3dfd3"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863828866
 ---
 
 

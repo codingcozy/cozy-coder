@@ -1,5 +1,5 @@
 ---
-title: "2024년에 알아야 할 10가지 API 디자인 패턴"
+title: "프론트엔드 개발자가 알아야 할 10가지 API 디자인 패턴(2024년)"
 description: ""
 coverImage: "/assets/img/2024-08-17-APIDesignPatterns_0.png"
 date: 2024-08-17 01:02
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "API Design Patterns"
 link: "https://medium.com/@vikas.taank_40391/how-api-evolves-using-java-completable-future-a29966d3740b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863555208
 ---
 
 

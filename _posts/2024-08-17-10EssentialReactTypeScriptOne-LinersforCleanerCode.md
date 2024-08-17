@@ -1,5 +1,5 @@
 ---
-title: "코드를 깔끔하게 만드는 필수 React TypeScript 원라이너 10가지"
+title: "코드를 깔끔하게 만드는 필수 React TypeScript 기능 10가지"
 description: ""
 coverImage: "/assets/img/2024-08-17-10EssentialReactTypeScriptOne-LinersforCleanerCode_0.png"
 date: 2024-08-17 00:41
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "10 Essential React TypeScript One-Liners for Cleaner Code"
 link: "https://medium.com/@cu.16bcs5007/10-essential-react-typescript-one-liners-for-cleaner-code-6c25ca3fa96c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863484256
 ---
 
 

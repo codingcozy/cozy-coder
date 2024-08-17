@@ -1,5 +1,5 @@
 ---
-title: "간단한 CSS 한 줄로 웹사이트를 전문가 수준으로 만드는 방법"
+title: " 웹사이트를 전문가 수준으로 보이게 만들어주는 간단한 CSS 한 줄"
 description: ""
 coverImage: "/assets/img/2024-08-17-HowaSimpleCSSOne-linerCanMakeYourWebsiteLookLikeaDesignPros_0.png"
 date: 2024-08-17 00:03
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How a Simple CSS One-liner Can Make Your Website Look Like a Design Pros"
 link: "https://medium.com/gitconnected/how-a-simple-css-one-liner-can-make-your-website-look-like-a-design-pros-64aa870bf4b7"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863710112
 ---
 
 

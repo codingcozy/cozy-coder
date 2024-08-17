@@ -1,5 +1,5 @@
 ---
-title: "Firebase와 Redux를 이용해 Web Socket 무료 호스팅 뚫는 방법 Pusher 미안"
+title: "Firebase와 Redux를 이용해 Web Socket 무료 호스팅 뚫는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-IhackedFirebasewithReduxtogetfreeWebSockethostingsorryPusher_0.png"
 date: 2024-08-17 00:46
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "I hacked Firebase with Redux to get free Web Socket hosting sorry Pusher"
 link: "https://medium.com/coding-beauty/firebase-websocket-hack-e7c60fc5a79c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863731630
 ---
 
 

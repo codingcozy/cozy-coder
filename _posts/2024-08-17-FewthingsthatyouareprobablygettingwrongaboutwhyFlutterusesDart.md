@@ -1,5 +1,5 @@
 ---
-title: "반드시 알고 있어야 하는 왜 Flutter가 Dart를 사용하는 이유들 당신이 잘못 알고 있는 몇 가지"
+title: "Flutter가 Dart를 사용하는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-FewthingsthatyouareprobablygettingwrongaboutwhyFlutterusesDart_0.png"
 date: 2024-08-17 00:19
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Few things that you are probably getting wrong about why Flutter uses Dart"
 link: "https://medium.com/@slavaolenin/few-things-that-you-are-probably-getting-wrong-about-why-flutter-uses-dart-463ae327abbc"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863614493
 ---
 
 

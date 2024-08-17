@@ -1,5 +1,5 @@
 ---
-title: "HTML 팁 23 HTML 엔티티를 사용한 특수 문자와 기호 "
+title: "HTML 엔티티를 사용한 특수 문자 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-HTMLTips23HTMLEntitiesSpecialCharactersandSymbols_0.png"
 date: 2024-08-17 00:09
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "HTML Tips 23 HTML Entities Special Characters and Symbols"
 link: "https://medium.com/dev-genius/html-tips-23-html-entities-special-characters-and-symbols-08e2577a50c3"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863673658
 ---
 
 

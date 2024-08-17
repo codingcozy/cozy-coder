@@ -1,5 +1,5 @@
 ---
-title: "Nodejs 보안 모범 사례 10선"
+title: "Nodejs에서 보안을 지키기 위해 해야하는 10가지 행동"
 description: ""
 coverImage: "/assets/img/2024-08-17-NodejsSecurityBestPractices_0.png"
 date: 2024-08-17 00:59
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Nodejs Security Best Practices"
 link: "https://medium.com/@profoliohub/node-js-security-best-practices-b1cc8858f4a1"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863778548
 ---
 
 

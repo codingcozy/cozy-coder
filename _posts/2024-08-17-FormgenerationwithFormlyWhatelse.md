@@ -1,5 +1,5 @@
 ---
-title: "Formly를 사용하는 폼 생성 방법 그 외에 어떤 옵션들이 있을까"
+title: "Formly를 사용해서 폼 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-FormgenerationwithFormlyWhatelse_0.png"
 date: 2024-08-17 00:54
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Form generation with Formly What else"
 link: "https://medium.com/itnext/form-generation-with-formly-what-else-01f0694f0e86"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863651578
 ---
 
 

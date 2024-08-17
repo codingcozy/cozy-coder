@@ -1,5 +1,5 @@
 ---
-title: "오늘 스탠드업 회의가 나를 울컥하게 만든 이유 "
+title: "오늘 스탠드업 회의가 나를 울컥하게 만든 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-StandupNearlyMadeMeCryToday_0.png"
 date: 2024-08-17 00:39
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Standup Nearly Made Me Cry Today"
 link: "https://medium.com/@tsecretdeveloper/standup-nearly-made-me-cry-today-558f3619d477"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863803672
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "iOS 18 위젯 그 이상  Siri가 더 똑똑해지고 홈 화면이 더 멋져진다"
+title: "iOS 18 위젯 기능 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-iOS18BiggerThanJustWidgetsSiriGetsSmarterHomescreenGetsGroovier_0.png"
 date: 2024-08-17 00:34
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "iOS 18 Bigger Than Just Widgets  Siri Gets Smarter, Homescreen Gets Groovier"
 link: "https://medium.com/@yunusemreadas/ios-18-bigger-than-just-widgets-siri-gets-smarter-homescreen-gets-groovier-4b93e470c745"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863871435
 ---
 
 

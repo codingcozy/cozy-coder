@@ -1,5 +1,5 @@
 ---
-title: "모든 개발자가 마스터해야 할 10가지 고급 CSS 기법"
+title: "마크업을 도와줄 10가지 CSS 기법"
 description: ""
 coverImage: "/assets/img/2024-08-17-10AdvancedCSSTechniquesEveryDeveloperShouldMaster_0.png"
 date: 2024-08-17 00:04
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "10 Advanced CSS Techniques Every Developer Should Master"
 link: "https://medium.com/@asierr/10-advanced-css-techniques-every-developer-should-master-f9423bf0c956"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863476568
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "애플이 몰래 공개한 AI 프롬프트의 Apple Intelligence 활용법"
+title: "애플이 몰래 공개한 AI 프롬프트의 Apple Intelligence 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-AppleJustQuietlyExposedTheAIPromptsPoweringAppleIntelligence_0.png"
 date: 2024-08-17 00:32
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Apple Just Quietly Exposed The AI Prompts Powering Apple Intelligence"
 link: "https://medium.com/macoclock/apple-just-quietly-exposed-the-ai-prompts-powering-apple-intelligence-b4ac3314eb14"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863571187
 ---
 
 

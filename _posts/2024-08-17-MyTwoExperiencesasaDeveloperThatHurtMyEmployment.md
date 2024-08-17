@@ -1,5 +1,5 @@
 ---
-title: "개발자로서 경험했던 두 가지 취업에 해를 끼친 경험"
+title: "시니어 개발자가 알려주는 반드시 하면 안되는 개발 습관"
 description: ""
 coverImage: "/assets/img/2024-08-17-MyTwoExperiencesasaDeveloperThatHurtMyEmployment_0.png"
 date: 2024-08-17 00:47
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "My Two Experiences as a Developer That Hurt My Employment"
 link: "https://medium.com/javascript-in-plain-english/my-two-experiences-as-a-developer-that-hurt-my-employment-652211cbc18f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863765931
 ---
 
 

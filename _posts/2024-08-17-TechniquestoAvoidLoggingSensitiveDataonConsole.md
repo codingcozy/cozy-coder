@@ -1,5 +1,5 @@
 ---
-title: "콘솔에 민감한 데이터를 기록하지 않는 방법 5가지"
+title: "콘솔에 중요한 데이터를 기록하지 않는 방법 5가지"
 description: ""
 coverImage: "/assets/img/2024-08-17-TechniquestoAvoidLoggingSensitiveDataonConsole_0.png"
 date: 2024-08-17 00:50
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Techniques to Avoid Logging Sensitive Data on Console"
 link: "https://medium.com/@cu.16bcs5007/avoid-logging-sensitive-data-in-your-console-4605e3944cf8"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863826965
 ---
 
 

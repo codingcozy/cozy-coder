@@ -1,5 +1,5 @@
 ---
-title: "6년 만에 발견한 놀라운 IntelliJ 기능"
+title: "알면 퇴근시간이 빨라지는 IntelliJ 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-IdiscoveredthisamazingIntelliJfeatureafter6years_0.png"
 date: 2024-08-17 01:01
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "I discovered this amazing IntelliJ feature after 6 years"
 link: "https://medium.com/@mayank.sharma2796/i-discovered-this-amazing-intellij-feature-after-6-years-72eeb58f1349"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863725938
 ---
 
 

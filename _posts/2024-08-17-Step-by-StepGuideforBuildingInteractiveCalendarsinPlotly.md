@@ -1,5 +1,5 @@
 ---
-title: "Plotly로 인터랙티브 캘린더 만드는 방법 단계별 가이드"
+title: "Plotly로 인터랙티브 캘린더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-Step-by-StepGuideforBuildingInteractiveCalendarsinPlotly_0.png"
 date: 2024-08-17 00:16
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-Step Guide for Building Interactive Calendars in Plotly"
 link: "https://medium.com/towards-data-science/step-by-step-guide-for-building-interactive-calendars-in-plotly-277053f6ee7c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863809294
 ---
 
 

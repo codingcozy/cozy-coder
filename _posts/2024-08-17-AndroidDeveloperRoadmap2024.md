@@ -1,5 +1,5 @@
 ---
-title: "2024년 안드로이드 개발자 로드맵"
+title: "2024년 안드로이드 개발자 최신 로드맵"
 description: ""
 coverImage: "/assets/img/2024-08-17-AndroidDeveloperRoadmap2024_0.png"
 date: 2024-08-17 00:28
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Android Developer Roadmap 2024"
 link: "https://medium.com/@daniel.atitienei/android-developer-roadmap-2024-c0f88b8d33cd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863565413
 ---
 
 

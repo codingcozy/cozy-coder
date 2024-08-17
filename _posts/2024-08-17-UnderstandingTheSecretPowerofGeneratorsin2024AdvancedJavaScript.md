@@ -1,5 +1,5 @@
 ---
-title: "2024년 자바스크립트 고급 가이드 제네레이터의 비밀 파워 이해하기"
+title: "자바스크립트 고수가 되고 싶다면 알아야할 제네레이터 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-UnderstandingTheSecretPowerofGeneratorsin2024AdvancedJavaScript_0.png"
 date: 2024-08-17 00:42
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding The Secret Power of Generators in 2024  Advanced JavaScript"
 link: "https://medium.com/javascript-in-plain-english/understanding-the-secret-power-of-generators-in-2024-advanced-javascript-6d191d3961f2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863848135
 ---
 
 

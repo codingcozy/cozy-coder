@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Disable browser back button using JavaScript"
 link: "https://medium.com/@frontendinterviewquestions/disable-browser-back-button-using-javascript-ff6be13b5724"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863598713
 ---
 
 

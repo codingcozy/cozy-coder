@@ -1,5 +1,5 @@
 ---
-title: "TypeScript에서 더 이상 dts 파일을 사용하지 말아야 하는 이유"
+title: "TypeScript에서 더 이상 dts 파일을 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-StopUsingdtsFilesinTypeScript_0.png"
 date: 2024-08-17 00:40
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Stop Using dts Files in TypeScript"
 link: "https://medium.com/gitconnected/stop-using-d-ts-files-in-typescript-da01e4a71b26"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863818247
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "리포지토리 및 어댑터 디자인 패턴으로 더 나은 React 애플리케이션 만들기 "
+title: "React 저장소에 리포지토리 및 어댑터 디자인 패턴 적용하기"
 description: ""
 coverImage: "/assets/img/2024-08-13-BuildingaBetterReactApplicationwithRepositoryandAdapterDesignPatterns_0.png"
 date: 2024-08-13 11:12
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Better React Application with Repository and Adapter Design Patterns "
 link: "https://medium.com/javascript-in-plain-english/building-a-better-react-application-with-repository-and-adapter-design-patterns-3e089f43fbc8"
+isUpdated: true
+updatedAt: 1723863072096
 ---
 
 

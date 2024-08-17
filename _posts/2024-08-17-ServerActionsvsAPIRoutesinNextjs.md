@@ -1,5 +1,5 @@
 ---
-title: "Nextjs에서 Server Actions와 API Routes 비교"
+title: "Nextjs에서 Server Actions와 API Routes 비교 및 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-ServerActionsvsAPIRoutesinNextjs_0.png"
 date: 2024-08-17 00:49
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Server Actions vs API Routes in Nextjs"
 link: "https://medium.com/gitconnected/server-actions-vs-api-routes-in-next-js-b6ac7247a86c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863786082
 ---
 
 

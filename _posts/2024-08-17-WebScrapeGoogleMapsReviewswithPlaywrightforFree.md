@@ -1,5 +1,5 @@
 ---
-title: "Playwright로 Google Maps 리뷰 무료로 스크랩하는 방법"
+title: "Playwright로 Google Maps 리뷰 무료로 크롤링하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-WebScrapeGoogleMapsReviewswithPlaywrightforFree_0.png"
 date: 2024-08-17 00:11
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Web Scrape Google Maps Reviews with Playwright for Free"
 link: "https://medium.com/gitconnected/web-scrape-google-maps-reviews-with-playwright-for-free-7d6f42f1719d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863859643
 ---
 
 

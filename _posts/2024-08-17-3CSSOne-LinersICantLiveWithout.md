@@ -1,5 +1,5 @@
 ---
-title: "놓칠 수 없는 3가지 CSS 원라인 팁"
+title: "반드시 알아야하는 CSS 팁 3가지"
 description: ""
 coverImage: "/assets/img/2024-08-17-3CSSOne-LinersICantLiveWithout_0.png"
 date: 2024-08-17 00:06
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "3 CSS One-Liners I Cant Live Without"
 link: "https://medium.com/gitconnected/3-css-one-liners-i-cant-live-without-8f181f8d2772"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863526842
 ---
 
 

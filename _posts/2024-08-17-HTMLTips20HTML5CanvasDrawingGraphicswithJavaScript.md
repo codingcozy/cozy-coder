@@ -1,5 +1,5 @@
 ---
-title: "간단하고 재미있는 그래픽 그리기 HTML5 Canvas와 JavaScript 활용법 20"
+title: " HTML5 Canvas와 JavaScript 활용해서 그래픽 그리는 20가지 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-HTMLTips20HTML5CanvasDrawingGraphicswithJavaScript_0.png"
 date: 2024-08-17 00:06
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "HTML Tips 20 HTML5 Canvas Drawing Graphics with JavaScript"
 link: "https://medium.com/dev-genius/html-tips-20-html5-canvas-drawing-graphics-with-javascript-0d7b0af6d108"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863664276
 ---
 
 

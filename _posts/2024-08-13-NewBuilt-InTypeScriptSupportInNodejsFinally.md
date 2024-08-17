@@ -1,5 +1,5 @@
 ---
-title: "드디어 내장된 TypeScript 지원 Nodejs의 새로운 기능"
+title: "Nodejs에서 기본적으로 타입스크립트 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-NewBuilt-InTypeScriptSupportInNodejsFinally_0.png"
 date: 2024-08-13 11:14
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "New Built-In TypeScript Support In Nodejs  Finally"
 link: "https://medium.com/coding-beauty/new-node-typescript-support-e0cfcdede6ac"
+isUpdated: true
+updatedAt: 1723863112500
 ---
 
 

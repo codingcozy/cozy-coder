@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot 30분 후 자동 주문 취소 구현 방법"
+title: "Spring Boot 30분 후 자동 주문 취소 기능 구현 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-SpringBootImplementingAutomaticOrderCancellationAfter30Minutes_0.png"
 date: 2024-08-17 00:22
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot Implementing Automatic Order Cancellation After 30 Minutes"
 link: "https://medium.com/stackademic/spring-boot-implementing-automatic-order-cancellation-after-30-minutes-e020292ea6e2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863800995
 ---
 
 

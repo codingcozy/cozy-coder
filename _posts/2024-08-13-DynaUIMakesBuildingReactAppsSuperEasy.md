@@ -1,5 +1,5 @@
 ---
-title: "DynaUI로 React 앱을 쉽게 만드는 방법"
+title: "React 에서 DynaUI 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-DynaUIMakesBuildingReactAppsSuperEasy_0.png"
 date: 2024-08-13 11:15
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "DynaUI Makes Building React Apps Super Easy"
 link: "https://medium.com/gitconnected/dynaui-makes-building-react-apps-super-easy-e49c95d0a2a4"
+isUpdated: true
+updatedAt: 1723863087390
 ---
 
 

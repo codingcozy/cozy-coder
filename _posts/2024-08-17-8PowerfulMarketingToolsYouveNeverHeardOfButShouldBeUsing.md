@@ -1,5 +1,5 @@
 ---
-title: "모두가 모르는 8가지 강력한 마케팅 도구 하지만 꼭 사용해야 할"
+title: "마케팅 종사자라면 알아둬야할  강력한 마케팅 도구  8가지"
 description: ""
 coverImage: "/assets/img/2024-08-17-8PowerfulMarketingToolsYouveNeverHeardOfButShouldBeUsing_0.png"
 date: 2024-08-17 00:23
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "8 Powerful Marketing Tools Youve Never Heard Of But Should Be Using"
 link: "https://medium.com/swlh/8-powerful-marketing-tools-youve-never-heard-of-but-should-be-using-126d1578411e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863929314
 ---
 
 

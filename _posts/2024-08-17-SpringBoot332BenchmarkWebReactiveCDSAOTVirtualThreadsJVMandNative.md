@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot 332 Benchmark Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native"
 link: "https://medium.com/itnext/spring-boot-3-3-2-benchmark-web-reactive-cds-aot-virtual-threads-jvm-and-native-42d3b704e88e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863794066
 ---
 
 

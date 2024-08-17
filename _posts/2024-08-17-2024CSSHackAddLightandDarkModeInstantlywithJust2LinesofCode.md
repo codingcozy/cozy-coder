@@ -1,5 +1,5 @@
 ---
-title: "2024 CSS 해킹 단 두 줄의 코드로 라이트 및 다크 모드 즉시 추가하는 방법"
+title: "CSS 두 줄로 라이트 및 다크 모드 적용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-2024CSSHackAddLightandDarkModeInstantlywithJust2LinesofCode_0.png"
 date: 2024-08-17 00:00
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "2024 CSS Hack Add Light and Dark Mode Instantly with Just 2 Lines of Code"
 link: "https://medium.com/@akashblog/2024-css-hack-add-light-and-dark-mode-instantly-with-just-2-lines-of-code-8f722b56ab45"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863508516
 ---
 
 

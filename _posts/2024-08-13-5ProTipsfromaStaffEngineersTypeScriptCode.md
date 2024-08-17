@@ -1,5 +1,5 @@
 ---
-title: "스타프 엔지니어의 TypeScript 코드에서 얻은 5가지 전문가 꿀팁"
+title: "TypeScript 작성할 때 알아두면 유용한 꿀팁 5가지"
 description: ""
 coverImage: "/assets/img/2024-08-13-5ProTipsfromaStaffEngineersTypeScriptCode_0.png"
 date: 2024-08-13 11:08
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "5 Pro Tips from a Staff Engineers TypeScript Code"
 link: "https://medium.com/gitconnected/5-pro-tips-from-a-staff-engineers-typescript-code-1680adb4eaf8"
+isUpdated: true
+updatedAt: 1723863029963
 ---
 
 

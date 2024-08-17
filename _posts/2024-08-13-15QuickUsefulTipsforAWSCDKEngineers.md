@@ -1,5 +1,5 @@
 ---
-title: "AWS CDK 엔지니어를 위한 15가지 빠르고 유용한 팁"
+title: "AWS CDK 개발자를 위한 15가지 팁"
 description: ""
 coverImage: "/assets/img/2024-08-13-15QuickUsefulTipsforAWSCDKEngineers_0.png"
 date: 2024-08-13 11:05
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "15 Quick Useful Tips for AWS CDK Engineers"
 link: "https://medium.com/@leejamesgilmore/15-quick-useful-tips-for-aws-cdk-engineers-a7675e1557aa"
+isUpdated: true
+updatedAt: 1723863016552
 ---
 
 

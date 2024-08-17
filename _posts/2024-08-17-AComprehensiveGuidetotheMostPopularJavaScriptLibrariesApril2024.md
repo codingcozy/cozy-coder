@@ -1,5 +1,5 @@
 ---
-title: "2024년 4월 최신 인기 자바스크립트 라이브러리 완벽 가이드"
+title: "2024년 8월 최신 인기 자바스크립트 라이브러리 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-AComprehensiveGuidetotheMostPopularJavaScriptLibrariesApril2024_0.png"
 date: 2024-08-17 00:51
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Guide to the Most Popular JavaScript Libraries April 2024"
 link: "https://medium.com/@yunusemreadas/a-comprehensive-guide-to-the-most-popular-javascript-libraries-april-2024-988b03e815ac"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863538138
 ---
 
 

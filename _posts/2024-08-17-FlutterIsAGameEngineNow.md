@@ -1,5 +1,5 @@
 ---
-title: "Flutter가 게임 엔진으로 변신 새로운 기능 및 활용 방법"
+title: "Flutter를 게임 엔진으로 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-FlutterIsAGameEngineNow_0.png"
 date: 2024-08-17 00:18
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Is A Game Engine Now"
 link: "https://medium.com/@impure/flutter-is-a-game-engine-now-db6b1bbce721"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863627535
 ---
 
 

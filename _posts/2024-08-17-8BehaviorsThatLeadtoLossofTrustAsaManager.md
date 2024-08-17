@@ -1,5 +1,5 @@
 ---
-title: "관리자의 신뢰를 잃게 만드는 8가지 행동"
+title: "개발리더의 신뢰를 잃게 만드는 8가지 행동"
 description: ""
 coverImage: "/assets/img/2024-08-17-8BehaviorsThatLeadtoLossofTrustAsaManager_0.png"
 date: 2024-08-17 00:35
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "8 Behaviors That Lead to Loss of Trust As a Manager"
 link: "https://medium.com/code-like-a-girl/8-behaviors-that-lead-to-loss-of-trust-as-a-manager-9e1feccf02ab"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863908777
 ---
 
 

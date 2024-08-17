@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Cookie consent is the Wild West"
 link: "https://medium.com/dev-genius/cookie-consent-is-the-wild-west-06ff229c9900"
+isUpdated: true
+updatedAt: 1723863074726
 ---
 
 

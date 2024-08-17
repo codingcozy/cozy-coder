@@ -1,5 +1,5 @@
 ---
-title: "JSON Web Tokens JWT 완벽 설명"
+title: "JSON Web Tokens JWT 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-JSONWebTokensExplained_0.png"
 date: 2024-08-17 00:56
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "JSON Web Tokens Explained"
 link: "https://medium.com/javascript-in-plain-english/json-web-tokens-explained-f32913d586d2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723863739118
 ---
 
 
